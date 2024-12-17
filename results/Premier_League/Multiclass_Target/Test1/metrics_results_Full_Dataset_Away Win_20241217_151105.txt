@@ -1,0 +1,63 @@
+Results for Full_Dataset - Away Win
+==================================================
+
+
+Model: Random Forest
+------------------------------
+Accuracy: 0.7185
+ROC AUC: 0.6930
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.74      0.91      0.82       611
+           1       0.60      0.29      0.39       277
+
+    accuracy                           0.72       888
+   macro avg       0.67      0.60      0.60       888
+weighted avg       0.70      0.72      0.68       888
+
+Confusion Matrix:
+[[559  52]
+ [198  79]]
+==================================================
+
+Model: Logistic Regression
+------------------------------
+Accuracy: 0.7218
+ROC AUC: 0.7026
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.74      0.93      0.82       611
+           1       0.63      0.26      0.37       277
+
+    accuracy                           0.72       888
+   macro avg       0.68      0.60      0.59       888
+weighted avg       0.70      0.72      0.68       888
+
+Confusion Matrix:
+[[569  42]
+ [205  72]]
+==================================================
+
+Model: SVM
+------------------------------
+Accuracy: 0.7196
+ROC AUC: 0.6723
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.73      0.94      0.82       611
+           1       0.65      0.22      0.33       277
+
+    accuracy                           0.72       888
+   macro avg       0.69      0.58      0.58       888
+weighted avg       0.70      0.72      0.67       888
+
+Confusion Matrix:
+[[577  34]
+ [215  62]]
+==================================================

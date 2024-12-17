@@ -1,0 +1,66 @@
+Results for Full_Dataset
+==================================================
+
+
+Model: Random Forest
+------------------------------
+Accuracy: 0.5079
+
+Classification Report:
+              precision    recall  f1-score   support
+
+     AwayWin       0.48      0.48      0.48       277
+        Draw       0.27      0.08      0.12       210
+     HomeWin       0.55      0.75      0.64       401
+
+    accuracy                           0.51       888
+   macro avg       0.43      0.44      0.41       888
+weighted avg       0.46      0.51      0.47       888
+
+Confusion Matrix:
+[[134  23 120]
+ [ 70  17 123]
+ [ 78  23 300]]
+==================================================
+
+Model: Logistic Regression
+------------------------------
+Accuracy: 0.5304
+
+Classification Report:
+              precision    recall  f1-score   support
+
+     AwayWin       0.50      0.56      0.53       277
+        Draw       0.06      0.00      0.01       210
+     HomeWin       0.56      0.79      0.65       401
+
+    accuracy                           0.53       888
+   macro avg       0.37      0.45      0.40       888
+weighted avg       0.42      0.53      0.46       888
+
+Confusion Matrix:
+[[155   7 115]
+ [ 76   1 133]
+ [ 77   9 315]]
+==================================================
+
+Model: SVM
+------------------------------
+Accuracy: 0.5360
+
+Classification Report:
+              precision    recall  f1-score   support
+
+     AwayWin       0.52      0.52      0.52       277
+        Draw       0.40      0.01      0.02       210
+     HomeWin       0.54      0.82      0.66       401
+
+    accuracy                           0.54       888
+   macro avg       0.49      0.45      0.40       888
+weighted avg       0.50      0.54      0.46       888
+
+Confusion Matrix:
+[[144   0 133]
+ [ 65   2 143]
+ [ 68   3 330]]
+==================================================
