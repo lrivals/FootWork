@@ -1,0 +1,49 @@
+Stacked Model Results
+==================================================
+
+Model Architecture:
+- Binary Models: Random Forest, Logistic Regression, SVM
+- Meta Model: Random Forest
+
+Test Set Accuracy: 0.4842
+
+Cross-validation Results:
+Mean CV Accuracy: 0.4867
+Std CV Accuracy: 0.0142
+Individual fold scores:
+Fold 1: 0.4775
+Fold 2: 0.4944
+Fold 3: 0.4977
+Fold 4: 0.5006
+Fold 5: 0.4634
+
+Classification Report:
+              precision    recall  f1-score   support
+
+     AwayWin       0.51      0.52      0.52       278
+        Draw       0.28      0.26      0.27       216
+     HomeWin       0.57      0.58      0.57       394
+
+    accuracy                           0.48       888
+   macro avg       0.45      0.45      0.45       888
+weighted avg       0.48      0.48      0.48       888
+
+Confusion Matrix:
+[[145  50  83]
+ [ 67  57  92]
+ [ 72  94 228]]
+Class Distribution:
+AwayWin: 284
+Draw: 201
+HomeWin: 403
+
+Prediction Probabilities Summary:
+          AwayWin        Draw     HomeWin
+count  888.000000  888.000000  888.000000
+mean     0.309663    0.263592    0.426745
+std      0.241797    0.192270    0.413504
+min      0.002142    0.004079    0.003926
+25%      0.030927    0.033974    0.043322
+50%      0.392464    0.316728    0.213315
+75%      0.513702    0.420965    0.933992
+max      0.749587    0.588585    0.993779

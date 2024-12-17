@@ -1,0 +1,63 @@
+Results for PCA_Dataset - Home Win
+==================================================
+
+
+Model: Random Forest
+------------------------------
+Accuracy: 0.6227
+ROC AUC: 0.6597
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.64      0.74      0.69       494
+           1       0.59      0.47      0.53       394
+
+    accuracy                           0.62       888
+   macro avg       0.62      0.61      0.61       888
+weighted avg       0.62      0.62      0.62       888
+
+Confusion Matrix:
+[[366 128]
+ [207 187]]
+==================================================
+
+Model: Logistic Regression
+------------------------------
+Accuracy: 0.6239
+ROC AUC: 0.6831
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.65      0.70      0.67       494
+           1       0.58      0.53      0.56       394
+
+    accuracy                           0.62       888
+   macro avg       0.62      0.61      0.61       888
+weighted avg       0.62      0.62      0.62       888
+
+Confusion Matrix:
+[[345 149]
+ [185 209]]
+==================================================
+
+Model: SVM
+------------------------------
+Accuracy: 0.6171
+ROC AUC: 0.6557
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.63      0.74      0.68       494
+           1       0.59      0.46      0.52       394
+
+    accuracy                           0.62       888
+   macro avg       0.61      0.60      0.60       888
+weighted avg       0.61      0.62      0.61       888
+
+Confusion Matrix:
+[[365 129]
+ [211 183]]
+==================================================

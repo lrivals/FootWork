@@ -1,5 +1,7 @@
 # Football Match Prediction Project
 
+Last update 17.12.2024
+
 ## Overview
 This project aims to develop machine learning models for predicting football match outcomes. The approach is incremental, starting with Premier League data and gradually expanding to include other competitions. The final goal is to create a robust model that can make predictions across different leagues and competitions.
 

@@ -15,7 +15,7 @@ import yaml
 from pathlib import Path
 
 class ConfigManager:
-    def __init__(self, config_path='../Config/configBT_1.yaml'):
+    def __init__(self, config_path='src/Config/configBT_1.yaml'):
         with open(config_path, 'r') as file:
             self.config = yaml.safe_load(file)
         
