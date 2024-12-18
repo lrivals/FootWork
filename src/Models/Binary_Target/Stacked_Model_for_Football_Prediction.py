@@ -17,19 +17,31 @@ from pathlib import Path
 from datetime import datetime
 
 # Add the parent directory to the Python path to import the binary prediction module
-sys.path.append(str(Path(__file__).parent.parent))
-from Binary_Target.Football_Match_Binary_Prediction_Pipeline import ConfigManager
+sys.path.append(str(Path(__file__).parent.parent.parent))
+from Config.Config_Manager import ConfigManager
 
 class StackedFootballPredictor(BaseEstimator, ClassifierMixin):
     def __init__(self, meta_model_params):
-        """Initialize stacked predictor"""
-        self.meta_model = RandomForestClassifier(**meta_model_params)
+        """Initialize stacked predictor for binary predictions"""
+        # Create separate meta-models for home and away predictions
+        self.home_meta_model = RandomForestClassifier(**meta_model_params)
+        self.away_meta_model = RandomForestClassifier(**meta_model_params)
         self.binary_models = {}
-        self.le = LabelEncoder()
     
-    def fit(self, X, y, binary_results):
+    def fit(self, X, y_home, y_away, binary_results):
         """
         Fit the stacked model using binary classifiers' predictions
+        
+        Parameters:
+        -----------
+        X : array-like
+            Feature matrix
+        y_home : array-like
+            Binary target for home wins
+        y_away : array-like
+            Binary target for away wins
+        binary_results : dict
+            Dictionary containing trained binary models
         """
         # Store binary models
         self.binary_models = {
@@ -40,10 +52,9 @@ class StackedFootballPredictor(BaseEstimator, ClassifierMixin):
         # Generate meta-features
         meta_features = self._get_meta_features(X)
         
-        # Fit meta-model
-        self.le.fit(y)
-        y_encoded = self.le.transform(y)
-        self.meta_model.fit(meta_features, y_encoded)
+        # Fit meta-models for both targets
+        self.home_meta_model.fit(meta_features, y_home)
+        self.away_meta_model.fit(meta_features, y_away)
         
         return self
     
@@ -55,20 +66,29 @@ class StackedFootballPredictor(BaseEstimator, ClassifierMixin):
         return meta_features
     
     def predict(self, X):
-        """Make predictions using the stacked model"""
+        """
+        Make predictions for both home and away wins
+        Returns tuple of (home_predictions, away_predictions)
+        """
         meta_features = self._get_meta_features(X)
-        predictions = self.meta_model.predict(meta_features)
-        return self.le.inverse_transform(predictions)
+        home_predictions = self.home_meta_model.predict(meta_features)
+        away_predictions = self.away_meta_model.predict(meta_features)
+        return home_predictions, away_predictions
     
     def predict_proba(self, X):
-        """Get probability predictions"""
+        """
+        Get probability predictions for both home and away wins
+        Returns tuple of (home_probabilities, away_probabilities)
+        """
         meta_features = self._get_meta_features(X)
-        return self.meta_model.predict_proba(meta_features)
+        home_probabilities = self.home_meta_model.predict_proba(meta_features)
+        away_probabilities = self.away_meta_model.predict_proba(meta_features)
+        return home_probabilities, away_probabilities
 
 def get_config():
     """Get configuration with validation"""
     current_dir = Path(__file__).parent
-    config_path = current_dir.parent.parent.parent / 'src' / 'Config' / 'configBT_Stacked1.yaml'
+    config_path = current_dir.parent.parent / 'Config' / 'configBT_Stacked1.yaml'
     
     print(f"\nAttempting to load config from: {config_path}")
     
@@ -175,31 +195,20 @@ def train_binary_models(X_train, X_test, y_train, y_test, dataset_name,
     return results
 
 def train_stacked_model(config):
-    """Train and evaluate the stacked model"""
-    print("\nAvailable config sections:")
-    for key in config.config.keys():
-        print(f"- {key}")
-    
+    """Train and evaluate the stacked model for binary predictions"""
     paths = config.get_paths()
     exclude_columns = config.get_excluded_columns()
     split_params = config.get_split_params()
     model_params = config.get_model_params()
-    
-    try:
-        meta_model_params = config.config['meta_classifier']['random_forest']
-        print("\nUsing meta-classifier parameters:", meta_model_params)
-    except KeyError as e:
-        print(f"Error: Could not find meta-classifier parameters in config file. Error: {e}")
-        print("Please ensure your config file has a 'meta_classifier' section with 'random_forest' parameters.")
-        raise
+    meta_model_params = config.config['meta_classifier']['random_forest']
     
     # Prepare the full dataset
     print("\nPreparing full dataset...")
-    X_full, y_full, y_home, y_away = prepare_full_dataset(paths['full_dataset'], exclude_columns)
+    X_full, _, y_home, y_away = prepare_full_dataset(paths['full_dataset'], exclude_columns)
     
     # Split the full dataset
-    X_train, X_test, y_train, y_test, y_home_train, y_home_test, y_away_train, y_away_test = train_test_split(
-        X_full, y_full, y_home, y_away, **split_params
+    X_train, X_test, _, _, y_home_train, y_home_test, y_away_train, y_away_test = train_test_split(
+        X_full, y_home, y_home, y_away, **split_params
     )
     
     # Train binary models and collect results
@@ -226,111 +235,51 @@ def train_stacked_model(config):
     try:
         # Create and train stacked model
         stacked_model = StackedFootballPredictor(meta_model_params)
-        stacked_model.fit(X_train, y_train, binary_results['home_win'])
+        stacked_model.fit(X_train, y_home_train, y_away_train, binary_results['home_win'])
         
         # Make predictions
-        y_pred = stacked_model.predict(X_test)
-        y_prob = stacked_model.predict_proba(X_test)
+        y_home_pred, y_away_pred = stacked_model.predict(X_test)
+        y_home_prob, y_away_prob = stacked_model.predict_proba(X_test)
         
-        # Perform cross-validation on stacked model
-        kf = KFold(n_splits=5, shuffle=True, random_state=42)
-        cv_scores = []
-        
-        print("\nPerforming cross-validation on stacked model...")
-        for fold, (train_idx, val_idx) in enumerate(kf.split(X_full)):
-            # Split data for this fold
-            X_fold_train, X_fold_val = X_full[train_idx], X_full[val_idx]
-            y_fold_train, y_fold_val = y_full.iloc[train_idx], y_full.iloc[val_idx]
-            
-            # Train binary models for this fold
-            fold_binary_results = {}
-            for target_type, y_binary in [('home_win', y_home), ('away_win', y_away)]:
-                y_binary_fold_train = y_binary.iloc[train_idx]
-                fold_results = {}
-                for name, params in model_params.items():
-                    if name == 'random_forest':
-                        model = RandomForestClassifier(**params)
-                    elif name == 'logistic_regression':
-                        model = LogisticRegression(**params)
-                    else:
-                        model = SVC(**params)
-                    model.fit(X_fold_train, y_binary_fold_train)
-                    fold_results[name] = {'model': model}
-                fold_binary_results[target_type] = fold_results
-            
-            # Train and evaluate stacked model for this fold
-            fold_stacked = StackedFootballPredictor(meta_model_params)
-            fold_stacked.fit(X_fold_train, y_fold_train, fold_binary_results['home_win'])
-            fold_pred = fold_stacked.predict(X_fold_val)
-            cv_scores.append(accuracy_score(y_fold_val, fold_pred))
-            
-            print(f"Fold {fold + 1} accuracy: {cv_scores[-1]:.4f}")
-        
-        # Calculate and save metrics
-        accuracy = accuracy_score(y_test, y_pred)
-        conf_matrix = confusion_matrix(y_test, y_pred)
-        class_report = classification_report(y_test, y_pred)
-        
-        # Save results
-        results_file = os.path.join(paths['output_dir'], "stacked_model_results.txt")
+        # Calculate and save metrics for both targets
+        results_file = os.path.join(paths['output_dir'], "stacked_model_binary_results.txt")
         with open(results_file, 'w') as f:
-            f.write("Stacked Model Results\n")
+            f.write("Stacked Model Binary Prediction Results\n")
             f.write("=" * 50 + "\n\n")
             
-            f.write("Model Architecture:\n")
-            f.write("- Binary Models: Random Forest, Logistic Regression, SVM\n")
-            f.write("- Meta Model: Random Forest\n\n")
-            
-            f.write(f"Test Set Accuracy: {accuracy:.4f}\n\n")
-            f.write("Cross-validation Results:\n")
-            f.write(f"Mean CV Accuracy: {np.mean(cv_scores):.4f}\n")
-            f.write(f"Std CV Accuracy: {np.std(cv_scores):.4f}\n")
-            f.write("Individual fold scores:\n")
-            for i, score in enumerate(cv_scores):
-                f.write(f"Fold {i+1}: {score:.4f}\n")
-            
+            # Home wins results
+            f.write("\nHome Win Predictions:\n")
+            f.write("-" * 30 + "\n")
+            f.write(f"Accuracy: {accuracy_score(y_home_test, y_home_pred):.4f}\n")
             f.write("\nClassification Report:\n")
-            f.write(class_report)
+            f.write(classification_report(y_home_test, y_home_pred))
             
-            f.write("\nConfusion Matrix:\n")
-            f.write(str(conf_matrix))
-            
-            f.write("\nClass Distribution:\n")
-            for label, count in zip(*np.unique(y_pred, return_counts=True)):
-                f.write(f"{label}: {count}\n")
-            
-            f.write("\nPrediction Probabilities Summary:\n")
-            prob_summary = pd.DataFrame(y_prob, columns=stacked_model.le.classes_).describe()
-            f.write(str(prob_summary))
+            # Away wins results
+            f.write("\nAway Win Predictions:\n")
+            f.write("-" * 30 + "\n")
+            f.write(f"Accuracy: {accuracy_score(y_away_test, y_away_pred):.4f}\n")
+            f.write("\nClassification Report:\n")
+            f.write(classification_report(y_away_test, y_away_pred))
         
-        # Plot confusion matrix
-        plt.figure(figsize=(8, 6))
-        sns.heatmap(conf_matrix, annot=True, fmt='d', cmap='Blues',
-                    xticklabels=np.unique(y_full),
-                    yticklabels=np.unique(y_full))
-        plt.title('Confusion Matrix - Stacked Model')
-        plt.ylabel('True Label')
-        plt.xlabel('Predicted Label')
-        plt.savefig(os.path.join(paths['output_dir'], "stacked_model_confusion_matrix.png"))
-        plt.close()
+        # Plot confusion matrices
+        fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(15, 6))
         
-        # Plot cross-validation results
-        plt.figure(figsize=(8, 6))
-        plt.boxplot(cv_scores)
-        plt.title('Cross-validation Scores - Stacked Model')
-        plt.ylabel('Accuracy')
-        plt.savefig(os.path.join(paths['output_dir'], "stacked_model_cv_scores.png"))
-        plt.close()
+        # Home wins confusion matrix
+        sns.heatmap(confusion_matrix(y_home_test, y_home_pred), 
+                   annot=True, fmt='d', cmap='Blues', ax=ax1)
+        ax1.set_title('Home Win Predictions')
+        ax1.set_ylabel('True Label')
+        ax1.set_xlabel('Predicted Label')
         
-        # Plot probability distributions
-        plt.figure(figsize=(10, 6))
-        for i, class_name in enumerate(stacked_model.le.classes_):
-            sns.kdeplot(y_prob[:, i], label=class_name)
-        plt.title("Prediction Probability Distributions")
-        plt.xlabel("Probability")
-        plt.ylabel("Density")
-        plt.legend()
-        plt.savefig(os.path.join(paths['output_dir'], "stacked_model_probability_distributions.png"))
+        # Away wins confusion matrix
+        sns.heatmap(confusion_matrix(y_away_test, y_away_pred),
+                   annot=True, fmt='d', cmap='Blues', ax=ax2)
+        ax2.set_title('Away Win Predictions')
+        ax2.set_ylabel('True Label')
+        ax2.set_xlabel('Predicted Label')
+        
+        plt.tight_layout()
+        plt.savefig(os.path.join(paths['output_dir'], "stacked_model_binary_confusion_matrices.png"))
         plt.close()
         
         return stacked_model
@@ -338,7 +287,6 @@ def train_stacked_model(config):
     except Exception as e:
         print(f"Error in stacked model training: {str(e)}")
         raise
-
 def main():
     try:
         # Load configuration

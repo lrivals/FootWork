@@ -13,52 +13,11 @@ from datetime import datetime
 import os
 import yaml
 from pathlib import Path
+import sys
 
-class ConfigManager:
-    def __init__(self, config_path='src/Config/configBT_1.yaml'):
-        with open(config_path, 'r') as file:
-            self.config = yaml.safe_load(file)
-        
-        # Create timestamp for output directory
-        self.timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        
-        # Setup output directory
-        self.setup_directories()
-    
-    def setup_directories(self):
-        """Create necessary directories for output"""
-        base_path = self.config['output_settings']['base_path']
-        self.output_dir = os.path.join(base_path, self.timestamp)
-        os.makedirs(self.output_dir, exist_ok=True)
-        
-        # Save config file copy in output directory
-        self.save_config_copy()
-    
-    def save_config_copy(self):
-        """Save a copy of the configuration in the output directory"""
-        config_copy_path = os.path.join(self.output_dir, 'config_used.yaml')
-        with open(config_copy_path, 'w') as file:
-            yaml.dump(self.config, file, default_flow_style=False)
-    
-    def get_paths(self):
-        """Get input and output paths"""
-        return {
-            'full_dataset': self.config['data_paths']['full_dataset'],
-            'pca_dataset': self.config['data_paths']['pca_dataset'],
-            'output_dir': self.output_dir
-        }
-    
-    def get_excluded_columns(self):
-        """Get list of columns to exclude"""
-        return self.config['excluded_columns']
-    
-    def get_model_params(self):
-        """Get model parameters"""
-        return self.config['model_parameters']
-    
-    def get_split_params(self):
-        """Get data split parameters"""
-        return self.config['data_split']
+# Add the parent directory to the Python path to import the binary prediction module
+sys.path.append(str(Path(__file__).parent.parent.parent))
+from Config.Config_Manager import ConfigManager
 
 def load_and_prepare_binary_data(input_path, exclude_columns, target_type='home', split_params=None):
     """
