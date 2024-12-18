@@ -1,6 +1,6 @@
 # Football Match Prediction Project
 
-Last update 17.12.2024
+Last update 18.12.2024
 
 ## Overview
 This project aims to develop machine learning models for predicting football match outcomes. The approach is incremental, starting with Premier League data and gradually expanding to include other competitions. The final goal is to create a robust model that can make predictions across different leagues and competitions.
@@ -27,30 +27,39 @@ FootWork/
 │       └── Multiclass_Target/  # Multiple class outcome prediction models
 ```
 
-## Project Phases
+## Configuration Management
 
-### 1. Data Processing
-- Data cleaning and standardization
-- Feature engineering
-- Statistical analysis
-- Data validation
+### Overview
+The project uses a YAML-based configuration system through `ConfigManager` class, ensuring consistent settings across components and providing centralized parameter management.
 
-### 2. Model Development
-#### Phase 1: Premier League
-- Initial model development using Premier League data
-- Binary classification (Win/Loss)
-- Multiclass classification (Win/Draw/Loss)
-- Model evaluation and optimization
+### Configuration Structure
+```yaml
+data_paths:
+  full_dataset: "path/to/dataset.csv"
+model_parameters:
+  random_forest:
+    n_estimators: 100
+cross_validation:
+  n_splits: 5
+```
 
-#### Phase 2: Other Competitions
-- Extend models to other leagues
-- Analyze performance across different competitions
-- Identify league-specific patterns
+### Implementation Examples
 
-#### Phase 3: Combined Model
-- Merge data from all competitions
-- Develop unified prediction model
-- Cross-competition validation
+1. Basic Configuration Loading:
+```python
+from src.Config.Config_Manager import ConfigManager
+
+def get_config():
+    config_path = 'src/Config/configBT_1.yaml'
+    return ConfigManager(config_path)
+```
+
+2. Accessing Configuration Values:
+```python
+# Get paths and parameters
+paths = config.get_paths()
+n_splits = config.get_config_value('cross_validation', 'n_splits', default=5)
+```
 
 ## Setup Instructions
 
@@ -79,9 +88,28 @@ venv\Scripts\activate     # On Windows
 pip install -r requirements.txt
 ```
 
+## Usage
+
+### Configuration Setup
+1. Copy appropriate configuration template from `src/Config/`
+2. Modify parameters as needed
+3. Specify the config file path when running scripts
+
+### Data Processing
+```bash
+# Run data processing scripts with config
+python src/Data_Processing/process_premier_league.py --config src/Config/configBT_1.yaml
+```
+
+### Training Models
+```bash
+# Run model training with config
+python src/Models/Binary_Target/train_model.py --config src/Config/configBT_1.yaml
+```
+
 ## Data Sources
 - Premier League historical matches (2007-2023)
-- [Add other data sources as they are incorporated]
+- Source: https://footystats.org/
 
 ## Model Evaluation
 Models are evaluated using:
@@ -92,24 +120,6 @@ Models are evaluated using:
 - ROC-AUC
 - Cross-validation scores
 
-## Usage
-[To be completed as project develops]
-
-### Data Processing
-```bash
-# Run data processing scripts
-python src/Data_Processing/process_premier_league.py
-```
-
-### Training Models
-```bash
-# Run model training
-python src/Models/Binary_Target/train_model.py
-```
-
-### Making Predictions
-[To be added]
-
 ## Contributing
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/amazing-feature`)
@@ -117,15 +127,12 @@ python src/Models/Binary_Target/train_model.py
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## License
-[Choose and add appropriate license]
-
 ## Contact
 Rivals Leonard - leonardrivals@gmail.com
 Project Link: https://github.com/lrivals/FootWork
 
 ## Acknowledgments
-- Data sources : https://footystats.org/
-- Contributors :
-	Leonard Rivals
-- Thanks to Claude.ia
+- Data sources: https://footystats.org/
+- Contributors:
+  - Leonard Rivals
+- Thanks to Claude.ai

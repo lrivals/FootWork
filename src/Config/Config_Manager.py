@@ -16,7 +16,7 @@ class ConfigManager:
         self.load_config()
         
         # Create timestamp for output directory
-        self.timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        self.timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
         
         # Setup output directory if requested
         if create_output_dir and 'output_settings' in self.config:
