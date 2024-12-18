@@ -8,23 +8,30 @@ This project aims to develop machine learning models for predicting football mat
 ## Project Structure
 ```
 FootWork/
-├── data/                          # Data storage directory
-│   └── Premier_League/           # Premier League specific data
-│       ├── clean_premiere_league_data/    # Processed and cleaned data
-│       ├── premier-league-matches-2007-2023/  # Raw historical data
-│       └── Stat_Test/            # Statistical test results and analysis
-├── results/                      # Model outputs and analysis results
+├── data/                          # Data storage
+│   └── Premier_League/           
+│       ├── clean_premiere_league_data/    
+│       ├── premier-league-matches-2007-2023/
+│       └── Stat_Test/            
+├── log/                          # Logging directory
+│   └── Models/
+│       ├── Binary_Target/
+│       └── Multiclass_Target/
+├── results/                      # Model outputs Not yet published
 │   └── Premier_League/
-│       ├── Analysis/            # Data analysis results
-│       ├── Binary_Target/       # Binary prediction results (Win/Loss)
-│       └── Multiclass_Target/   # Multiple class prediction results
+│       ├── Analysis/            
+│       ├── Binary_Target/       
+│       │   ├── Multiple_Model*/  # Individual model results
+│       │   └── Stacked_Model*/   # Stacked model results
+│       └── Multiclass_Target/
+│           └── multiclass_prediction*/
 ├── src/                         # Source code
-│   ├── Analysis/               # Scripts for data analysis
-│   ├── Config/                 # Configuration files
-│   ├── Data_Processing/        # Data cleaning and preparation scripts
-│   └── Models/                 # Prediction models
-│       ├── Binary_Target/      # Binary outcome prediction models
-│       └── Multiclass_Target/  # Multiple class outcome prediction models
+    ├── Analysis/               
+    ├── Config/                 
+    ├── Data_Processing/        
+    └── Models/                 
+        ├── Binary_Target/      
+        └── Multiclass_Target/
 ```
 
 
