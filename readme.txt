@@ -27,6 +27,29 @@ FootWork/
 │       └── Multiclass_Target/  # Multiple class outcome prediction models
 ```
 
+
+## Model Performance Comparison
+
+### Binary Prediction
+Best performers:
+- Away Win: Random Forest/AdaBoost (72.52% accuracy)
+- Home Win: SVM (64.30% accuracy)
+
+### Multiclass Prediction (HomeWin/AwayWin/Draw)
+- Top accuracy: Logistic Regression & AdaBoost (52.48%)
+- Major challenge: Poor Draw prediction (best recall 36% with SVM)
+- Home/Away predictions significantly weaker than binary approach
+
+### Recommendation
+Use binary approach with specialized models:
+- SVM for Home Win prediction
+- Random Forest for Away Win prediction
+- Skip Draw prediction due to low accuracy and class imbalance
+
+Reasoning: Binary models show ~20% better accuracy than multiclass approach and provide more reliable predictions for practical use.
+
+
+
 ## Configuration Management
 
 ### Overview

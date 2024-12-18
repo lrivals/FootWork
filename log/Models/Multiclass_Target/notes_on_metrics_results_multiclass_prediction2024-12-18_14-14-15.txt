@@ -1,0 +1,32 @@
+Analysis by model performance:
+Top performers:
+
+Logistic Regression & AdaBoost: 52.48% accuracy
+CatBoost: 52.25%
+Gradient Boosting: 51.35%
+
+Class-specific performance:
+
+HomeWin:
+
+
+Best recall: CatBoost (80%) and AdaBoost (81%)
+Precision: 51-61% across models
+Most consistent predictions
+
+
+AwayWin:
+
+
+Best recall: Logistic Regression (54%)
+Precision: 41-52% across models
+Moderate performance
+
+
+Draw:
+
+
+Best recall: SVM (36%)
+Most models < 10% recall
+Precision: 22-39%
+Systematically misclassified as wins
