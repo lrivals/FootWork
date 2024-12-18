@@ -7,6 +7,13 @@ from sklearn.metrics import confusion_matrix, classification_report, accuracy_sc
 from sklearn.metrics import roc_curve, auc
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
+from sklearn.ensemble import (RandomForestClassifier, GradientBoostingClassifier, 
+                            AdaBoostClassifier, ExtraTreesClassifier)
+from sklearn.neural_network import MLPClassifier
+from sklearn.neighbors import KNeighborsClassifier
+from xgboost import XGBClassifier
+from lightgbm import LGBMClassifier
+from catboost import CatBoostClassifier
 from sklearn.svm import SVC
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -95,57 +102,74 @@ def prepare_full_dataset(config):
     return X_scaled, y, df['home_win'], df['away_win']
 
 def cross_validate_models(X, y, config):
-    model_params = config.get_config_value('model_parameters', default={})
-    models = {
-        'Random Forest': RandomForestClassifier(**model_params.get('random_forest', {})),
-        'Logistic Regression': LogisticRegression(**model_params.get('logistic_regression', {})),
-        'SVM': SVC(**model_params.get('svm', {}))
-    }
-    
+    models = get_models(config)
     n_splits = config.get_config_value('cross_validation', 'n_splits', default=5)
     cv_results = {}
     kf = KFold(n_splits=n_splits, shuffle=True, random_state=42)
     
     for name, model in models.items():
-        scores = cross_val_score(model, X, y, cv=kf, scoring='accuracy')
-        cv_results[name] = {
-            'mean_accuracy': scores.mean(),
-            'std_accuracy': scores.std(),
-            'all_scores': scores
-        }
+        try:
+            print(f"\nCross-validating {name}...")
+            scores = cross_val_score(model, X, y, cv=kf, scoring='accuracy')
+            cv_results[name] = {
+                'mean_accuracy': scores.mean(),
+                'std_accuracy': scores.std(),
+                'all_scores': scores
+            }
+        except Exception as e:
+            print(f"Error in cross-validation for {name}: {str(e)}")
+            cv_results[name] = {
+                'mean_accuracy': 0,
+                'std_accuracy': 0,
+                'all_scores': np.array([])
+            }
     
     return cv_results
 
-def train_binary_models(X_train, X_test, y_train, y_test, dataset_name, 
-                       target_type, config):
+def get_models(config):
+    """Initialize all models with parameters from config"""
     model_params = config.get_config_value('model_parameters', default={})
-    output_dir = config.get_paths()['output_dir']
     
-    models = {
+    return {
         'Random Forest': RandomForestClassifier(**model_params.get('random_forest', {})),
         'Logistic Regression': LogisticRegression(**model_params.get('logistic_regression', {})),
-        'SVM': SVC(**model_params.get('svm', {}))
+        'SVM': SVC(**model_params.get('svm', {})),
+        'Gradient Boosting': GradientBoostingClassifier(**model_params.get('gradient_boosting', {})),
+        'XGBoost': XGBClassifier(**model_params.get('xgboost', {})),
+        'LightGBM': LGBMClassifier(**model_params.get('lightgbm', {})),
+        'CatBoost': CatBoostClassifier(**model_params.get('catboost', {})),
+        'Neural Network': MLPClassifier(**model_params.get('neural_network', {})),
+        'KNN': KNeighborsClassifier(**model_params.get('knn', {})),
+        'AdaBoost': AdaBoostClassifier(**model_params.get('adaboost', {})),
+        'Extra Trees': ExtraTreesClassifier(**model_params.get('extra_trees', {}))
     }
     
+def train_binary_models(X_train, X_test, y_train, y_test, dataset_name, 
+                       target_type, config):
+    output_dir = config.get_paths()['output_dir']
+    models = get_models(config)
     results = {}
-    class_labels = ['Not ' + target_type, target_type]
     
     cv_results = cross_validate_models(X_train, y_train, config)
     
     for name, model in models.items():
         print(f"\nTraining {name} for {target_type}...")
-        model.fit(X_train, y_train)
-        y_pred = model.predict(X_test)
-        
-        results[name] = {
-            'model': model,
-            'accuracy': accuracy_score(y_test, y_pred),
-            'confusion_matrix': confusion_matrix(y_test, y_pred),
-            'classification_report': classification_report(y_test, y_pred),
-            'cv_results': cv_results[name]
-        }
-        
-        save_plots(results[name], name, dataset_name, target_type, output_dir)
+        try:
+            model.fit(X_train, y_train)
+            y_pred = model.predict(X_test)
+            
+            results[name] = {
+                'model': model,
+                'accuracy': accuracy_score(y_test, y_pred),
+                'confusion_matrix': confusion_matrix(y_test, y_pred),
+                'classification_report': classification_report(y_test, y_pred),
+                'cv_results': cv_results.get(name, {})
+            }
+            
+            save_plots(results[name], name, dataset_name, target_type, output_dir)
+        except Exception as e:
+            print(f"Error training {name}: {str(e)}")
+            continue
     
     return results
 
@@ -165,14 +189,15 @@ def save_plots(results, model_name, dataset_name, target_type, output_dir):
         f"confusion_matrix_{dataset_name}_{target_type}_{model_name.replace(' ', '_')}.png"))
     plt.close()
     
-    # Cross-validation results
-    plt.figure(figsize=(8, 6))
-    plt.boxplot(results['cv_results']['all_scores'])
-    plt.title(f'Cross-validation Scores - {model_name} ({target_type})')
-    plt.ylabel('Accuracy')
-    plt.savefig(os.path.join(output_dir,
-        f"cv_scores_{dataset_name}_{target_type}_{model_name.replace(' ', '_')}.png"))
-    plt.close()
+    # Cross-validation results if available
+    if results['cv_results'].get('all_scores') is not None and len(results['cv_results'].get('all_scores')) > 0:
+        plt.figure(figsize=(8, 6))
+        plt.boxplot(results['cv_results']['all_scores'])
+        plt.title(f'Cross-validation Scores - {model_name} ({target_type})')
+        plt.ylabel('Accuracy')
+        plt.savefig(os.path.join(output_dir,
+            f"cv_scores_{dataset_name}_{target_type}_{model_name.replace(' ', '_')}.png"))
+        plt.close()
 
 def train_stacked_model(config):
     X_full, _, y_home, y_away = prepare_full_dataset(config)

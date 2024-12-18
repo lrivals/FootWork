@@ -1,0 +1,18 @@
+Based on the results analysis:
+
+For Away Win prediction:
+- Best performers: Random Forest and AdaBoost (tied at 72.52% accuracy)
+- Logistic Regression close behind (72.30%)
+- Best ROC AUC: Logistic Regression (0.705)
+
+For Home Win prediction:
+- Best performer: SVM (64.30% accuracy)
+- Logistic Regression and Extra Trees tied for second (62.84%)
+- Best ROC AUC: Logistic Regression (0.683)
+
+Overall recommendation:
+1. Logistic Regression shows consistent strong performance across both targets with best ROC AUC scores
+2. Random Forest/AdaBoost excel at Away Win prediction
+3. SVM performs best for Home Win prediction
+
+Key observation: Models generally perform better at predicting Away Wins (≈72% accuracy) than Home Wins (≈63% accuracy), suggesting Away Wins might have more predictable patterns in the features.

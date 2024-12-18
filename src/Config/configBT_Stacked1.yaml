@@ -19,20 +19,66 @@ model_parameters:
   random_forest:
     n_estimators: 100
     random_state: 42
+    class_weight: balanced
   
   logistic_regression:
     max_iter: 1000
     random_state: 42
+    multi_class: multinomial
+    class_weight: balanced
     
   svm:
     probability: true
     random_state: 42
+    class_weight: balanced
 
-meta_classifier:  # Changed from meta_model_parameters
+  gradient_boosting:
+    n_estimators: 100
+    learning_rate: 0.1
+    random_state: 42
+
+  xgboost:
+    n_estimators: 100
+    learning_rate: 0.1
+    random_state: 42
+    use_label_encoder: false
+    eval_metric: mlogloss
+
+  lightgbm:
+    n_estimators: 100
+    learning_rate: 0.1
+    random_state: 42
+
+  catboost:
+    iterations: 100
+    learning_rate: 0.1
+    random_seed: 42
+    verbose: false
+
+  neural_network:
+    hidden_layer_sizes: [100, 50]
+    max_iter: 1000
+    random_state: 42
+
+  knn:
+    n_neighbors: 5
+    weights: distance
+
+  adaboost:
+    n_estimators: 100
+    random_state: 42
+
+  extra_trees:
+    n_estimators: 100
+    random_state: 42
+    class_weight: balanced
+
+meta_classifier:
   random_forest:
     n_estimators: 100
     random_state: 42
     max_depth: 5
+    class_weight: balanced
 
 data_split:
   test_size: 0.2

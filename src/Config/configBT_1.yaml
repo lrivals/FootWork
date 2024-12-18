@@ -4,6 +4,7 @@ data_paths:
 
 output_settings:
   base_path: "results/Premier_League/Binary_Target"
+  model_type: "Multiple_Model"
   
 excluded_columns:
   - date

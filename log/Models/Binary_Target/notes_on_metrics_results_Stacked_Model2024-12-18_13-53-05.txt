@@ -1,0 +1,7 @@
+Based on the results, the stacked model shows underwhelming performance compared to individual models:
+
+1. Home Win prediction accuracy (60.70%) is lower than the best individual models (SVM at 64.30%)
+2. Away Win prediction accuracy (69.14%) underperforms the best individual models (Random Forest/AdaBoost at 72.52%)
+3. The model particularly struggles with predicting positive cases, showing low recall for both Home Wins (0.48) and Away Wins (0.28)
+
+Recommendation: Use individual specialized models rather than the stacked approach, specifically SVM for Home Wins and Random Forest for Away Wins.
