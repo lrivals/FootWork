@@ -1,95 +1,63 @@
 # Football Match Prediction Project
 
-Last update 18.12.2024
+Last update 19.12.2024
 
 ## Overview
-This project aims to develop machine learning models for predicting football match outcomes. The approach is incremental, starting with Premier League data and gradually expanding to include other competitions. The final goal is to create a robust model that can make predictions across different leagues and competitions.
+This project aims to develop machine learning models for predicting football match outcomes across multiple European leagues. The development follows a systematic approach:
+
+1. Initial Development (Premier League)
+   - Data processing and feature engineering ( more info in `docs/Data_processing.md` )
+   - Binary prediction models for Home/Away wins
+   - Multiclass prediction including Draw outcomes
+   - Model evaluation and optimization
+
+2. Multi-League Integration
+   - Extension to other major European leagues (Ligue 1, Bundesliga, Serie A, La Liga)
+   - Standardized data processing across leagues
+   - League-specific model performance analysis
+
+3. Cross-League Development
+   - Combined dataset creation
+   - Universal prediction model development
+   - League-specific adjustments and calibration
 
 ## Project Structure
 ```
 FootWork/
-├── data/                          # Data storage
-│   └── Premier_League/           
-│       ├── clean_premiere_league_data/    
-│       ├── premier-league-matches-2007-2023/
-│       └── Stat_Test/            
-├── log/                          # Logging directory
+├── data/                          # League-specific data
+│   ├── Premier_League/           
+│   │   ├── clean_premiere_league_data/    
+│   │   └── premier-league-matches-2007-2023/
+│   ├── France/
+│   │   ├── clean_league_1_data/
+│   │   └── league-1-matches-2009-2023/
+│   ├── Germany/
+│   │   └── bundesliga-matches-2006-to-2023/
+│   ├── Italy/
+│   │   └── serie-a-matches-2008-to-2023/
+│   └── Spain/
+│       └── la-liga-matches-2008-to-2023/
+├── docs/                          # Logging directory & documentation
 │   └── Models/
-│       ├── Binary_Target/
-│       └── Multiclass_Target/
-├── results/                      # Model outputs Not yet published
-│   └── Premier_League/
-│       ├── Analysis/            
-│       ├── Binary_Target/       
-│       │   ├── Multiple_Model*/  # Individual model results
-│       │   └── Stacked_Model*/   # Stacked model results
-│       └── Multiclass_Target/
-│           └── multiclass_prediction*/
+├── results/                      # Analysis outputs
+│   └── [League_Name]/
 ├── src/                         # Source code
     ├── Analysis/               
     ├── Config/                 
     ├── Data_Processing/        
     └── Models/                 
-        ├── Binary_Target/      
-        └── Multiclass_Target/
-```
+``
+
+## Model Evaluation
+Models are evaluated using:
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+- ROC-AUC
+- Cross-validation scores
 
 
-## Model Performance Comparison
-
-### Binary Prediction
-Best performers:
-- Away Win: Random Forest/AdaBoost (72.52% accuracy)
-- Home Win: SVM (64.30% accuracy)
-
-### Multiclass Prediction (HomeWin/AwayWin/Draw)
-- Top accuracy: Logistic Regression & AdaBoost (52.48%)
-- Major challenge: Poor Draw prediction (best recall 36% with SVM)
-- Home/Away predictions significantly weaker than binary approach
-
-### Recommendation
-Use binary approach with specialized models:
-- SVM for Home Win prediction
-- Random Forest for Away Win prediction
-- Skip Draw prediction due to low accuracy and class imbalance
-
-Reasoning: Binary models show ~20% better accuracy than multiclass approach and provide more reliable predictions for practical use.
-
-
-
-## Configuration Management
-
-### Overview
-The project uses a YAML-based configuration system through `ConfigManager` class, ensuring consistent settings across components and providing centralized parameter management.
-
-### Configuration Structure
-```yaml
-data_paths:
-  full_dataset: "path/to/dataset.csv"
-model_parameters:
-  random_forest:
-    n_estimators: 100
-cross_validation:
-  n_splits: 5
-```
-
-### Implementation Examples
-
-1. Basic Configuration Loading:
-```python
-from src.Config.Config_Manager import ConfigManager
-
-def get_config():
-    config_path = 'src/Config/configBT_1.yaml'
-    return ConfigManager(config_path)
-```
-
-2. Accessing Configuration Values:
-```python
-# Get paths and parameters
-paths = config.get_paths()
-n_splits = config.get_config_value('cross_validation', 'n_splits', default=5)
-```
 
 ## Setup Instructions
 
@@ -118,37 +86,27 @@ venv\Scripts\activate     # On Windows
 pip install -r requirements.txt
 ```
 
+
 ## Usage
 
 ### Configuration Setup
 1. Copy appropriate configuration template from `src/Config/`
-2. Modify parameters as needed
-3. Specify the config file path when running scripts
+2. Modify parameters as needed for your specific use case
+3. Ensure correct data paths and processing parameters
 
 ### Data Processing
 ```bash
-# Run data processing scripts with config
-python src/Data_Processing/process_premier_league.py --config src/Config/configBT_1.yaml
-```
-
-### Training Models
-```bash
-# Run model training with config
-python src/Models/Binary_Target/train_model.py --config src/Config/configBT_1.yaml
+# Process league data
+python src/Data_Processing/Multi-Season_Match_Data_Processor.py --config src/Config/data_processing_config.yaml
 ```
 
 ## Data Sources
-- Premier League historical matches (2007-2023)
-- Source: https://footystats.org/
-
-## Model Evaluation
-Models are evaluated using:
-- Accuracy
-- Precision
-- Recall
-- F1 Score
-- ROC-AUC
-- Cross-validation scores
+- Premier League (2012-2024)
+- Ligue 1 (2009-2024)
+- Bundesliga (2006-2024)
+- Serie A (2008-2024)
+- La Liga (2008-2024)
+Source: https://footystats.org/
 
 ## Contributing
 1. Fork the repository
@@ -165,4 +123,9 @@ Project Link: https://github.com/lrivals/FootWork
 - Data sources: https://footystats.org/
 - Contributors:
   - Leonard Rivals
+  - ?
 - Thanks to Claude.ai
+Note: For detailed information about model performance and configuration management, please refer to the documentation in `docs/model_performance.md` and `docs/configuration.md` respectively.
+
+
+
