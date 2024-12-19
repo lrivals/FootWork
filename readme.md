@@ -124,7 +124,8 @@ Project Link: https://github.com/lrivals/FootWork
 
 - Contributors:
   - Leonard Rivals
-  - ?
+  - Maksym Lytvynenko
+  
 - Thanks to Claude.ai
 
 
