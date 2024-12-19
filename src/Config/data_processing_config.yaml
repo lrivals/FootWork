@@ -1,0 +1,21 @@
+# src/Config/data_processing_config.yaml
+data_paths:
+  base_path: "data"
+  leagues:
+    Premier_League:
+      raw_data: "data/Premier_League/premier-league-matches-2007-2023"
+      processed_data: "data/Premier_League/clean_premiere_league_data"
+      start_year: 2012
+      end_year: 2024
+    France:
+      raw_data: "data/France/league-1-matches-2009-2023"
+      processed_data: "data/France/clean_league_1_data"
+      start_year: 2010
+      end_year: 2024
+
+league_patterns:
+  Premier_League: "england-premier-league-matches-*-stats.csv"
+  France: "france-ligue-1-matches-*-stats.csv"
+
+processing_params:
+  last_n_matches: 5

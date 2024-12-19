@@ -1,33 +1,77 @@
 data_paths:
-  full_dataset: "data/Premier_League/clean_premiere_league_data/all_seasons_combined.csv"
-  pca_dataset: "data/Premier_League/clean_premiere_league_data/pca_results.csv"
+ full_dataset: "data/Premier_League/clean_premiere_league_data/all_seasons_combined.csv"
+ pca_dataset: "data/Premier_League/clean_premiere_league_data/pca_results.csv"
 
 output_settings:
-  base_path: "results/Premier_League/Binary_Target"
-  model_type: "Multiple_Model"
-  
+ base_path: "results/Premier_League/Binary_Target"
+ model_type: "Multiple_Model"
+
 excluded_columns:
-  - date
-  - season
-  - home_team
-  - away_team
-  - target_result
-  - target_home_goals
-  - target_away_goals
+ - date
+ - season
+ - home_team
+ - away_team
+ - target_result
+ - target_home_goals
+ - target_away_goals
 
 model_parameters:
-  random_forest:
-    n_estimators: 100
-    random_state: 42
-  
-  logistic_regression:
-    max_iter: 1000
-    random_state: 42
-    
-  svm:
-    probability: true
-    random_state: 42
+ random_forest:
+   n_estimators: 100
+   random_state: 42
+   class_weight: balanced
+ 
+ logistic_regression:
+   max_iter: 1000
+   random_state: 42
+   class_weight: balanced
+   
+ svm:
+   probability: true
+   random_state: 42
+   class_weight: balanced
+
+ gradient_boosting:
+   n_estimators: 100
+   learning_rate: 0.1
+   random_state: 42
+
+ xgboost:
+   n_estimators: 100
+   learning_rate: 0.1
+   random_state: 42
+   use_label_encoder: false
+   eval_metric: mlogloss
+
+ lightgbm:
+   n_estimators: 100
+   learning_rate: 0.1
+   random_state: 42
+
+ catboost:
+   iterations: 100
+   learning_rate: 0.1
+   random_seed: 42
+   verbose: false
+
+ neural_network:
+   hidden_layer_sizes: [100, 50]
+   max_iter: 1000
+   random_state: 42
+
+ knn:
+   n_neighbors: 5
+   weights: distance
+
+ adaboost:
+   n_estimators: 100
+   random_state: 42
+
+ extra_trees:
+   n_estimators: 100
+   random_state: 42
+   class_weight: balanced
 
 data_split:
-  test_size: 0.2
-  random_state: 42
+ test_size: 0.2
+ random_state: 42

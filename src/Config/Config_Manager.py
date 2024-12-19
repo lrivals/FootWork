@@ -38,7 +38,7 @@ class ConfigManager:
             raise KeyError("Output settings not found in configuration")
             
         base_path = self.config['output_settings'].get('base_path')
-        model_type = self.config['output_settings'].get('model_type', 'model_')
+        model_type = self.config['output_settings'].get('model_type')
         
         if not base_path:
             raise KeyError("Base path not specified in output settings")

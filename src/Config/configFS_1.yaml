@@ -1,0 +1,38 @@
+data_paths:
+  full_dataset: "data/Premier_League/clean_premiere_league_data/all_seasons_combined.csv"
+  base_path: "data/Premier_League/clean_premiere_league_data"
+
+output_settings:
+  base_path: "results/Premier_League/Multiclass_Target"
+  model_type: "feature_selection"
+
+excluded_columns:
+  - date
+  - season
+  - home_team
+  - away_team
+  - target_result
+  - target_home_goals
+  - target_away_goals
+
+model_parameters:
+  logistic_regression:
+    max_iter: 1000
+    random_state: 42
+    multi_class: multinomial
+    class_weight: balanced
+    
+  adaboost:
+    n_estimators: 100
+    random_state: 42
+    learning_rate: 0.1
+
+feature_selection:
+  cv_folds: 5
+  scoring: accuracy
+  step: 1
+  min_features_to_select: 1
+
+data_split:
+  test_size: 0.2
+  random_state: 42
