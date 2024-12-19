@@ -1,0 +1,28 @@
+Combined statistics for all leagues:
+
+Premier_League:
+Matches: 4282
+Seasons: 12
+
+France:
+Matches: 3864
+Seasons: 11
+
+Brazil:
+Matches: 3926
+Seasons: 11
+
+Italy:
+Matches: 5011
+Seasons: 14
+
+Germany:
+Matches: 3170
+Seasons: 11
+
+Spain:
+Matches: 4270
+Seasons: 12
+
+All leagues combined data saved to: data/all_leagues_combined.csv
+Total matches across all leagues: 24523

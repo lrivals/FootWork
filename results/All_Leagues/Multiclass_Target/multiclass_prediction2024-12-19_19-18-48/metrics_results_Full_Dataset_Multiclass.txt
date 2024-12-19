@@ -1,0 +1,234 @@
+Results for Full Dataset - Multiclass Prediction
+==================================================
+
+
+Model: Random Forest
+------------------------------
+Accuracy: 0.5131
+
+Classification Report:
+              precision    recall  f1-score   support
+
+     AwayWin       0.48      0.42      0.45      1407
+        Draw       0.37      0.08      0.13      1250
+     HomeWin       0.54      0.81      0.65      2248
+
+    accuracy                           0.51      4905
+   macro avg       0.46      0.44      0.41      4905
+weighted avg       0.48      0.51      0.46      4905
+
+Confusion Matrix:
+[[ 595   69  743]
+ [ 316   99  835]
+ [ 323  102 1823]]
+==================================================
+
+Model: Logistic Regression
+------------------------------
+Accuracy: 0.5215
+
+Classification Report:
+              precision    recall  f1-score   support
+
+     AwayWin       0.48      0.46      0.47      1407
+        Draw       0.38      0.03      0.05      1250
+     HomeWin       0.54      0.83      0.65      2248
+
+    accuracy                           0.52      4905
+   macro avg       0.47      0.44      0.39      4905
+weighted avg       0.48      0.52      0.45      4905
+
+Confusion Matrix:
+[[ 654   25  728]
+ [ 348   32  870]
+ [ 348   28 1872]]
+==================================================
+
+Model: SVM
+------------------------------
+Accuracy: 0.4720
+
+Classification Report:
+              precision    recall  f1-score   support
+
+     AwayWin       0.45      0.50      0.47      1407
+        Draw       0.29      0.35      0.32      1250
+     HomeWin       0.63      0.53      0.57      2248
+
+    accuracy                           0.47      4905
+   macro avg       0.46      0.46      0.45      4905
+weighted avg       0.49      0.47      0.48      4905
+
+Confusion Matrix:
+[[ 700  413  294]
+ [ 404  432  414]
+ [ 438  627 1183]]
+==================================================
+
+Model: Gradient Boosting
+------------------------------
+Accuracy: 0.5252
+
+Classification Report:
+              precision    recall  f1-score   support
+
+     AwayWin       0.50      0.46      0.48      1407
+        Draw       0.42      0.03      0.06      1250
+     HomeWin       0.54      0.84      0.66      2248
+
+    accuracy                           0.53      4905
+   macro avg       0.48      0.44      0.40      4905
+weighted avg       0.50      0.53      0.45      4905
+
+Confusion Matrix:
+[[ 651   24  732]
+ [ 327   40  883]
+ [ 331   32 1885]]
+==================================================
+
+Model: XGBoost
+------------------------------
+Accuracy: 0.5187
+
+Classification Report:
+              precision    recall  f1-score   support
+
+     AwayWin       0.48      0.46      0.47      1407
+        Draw       0.36      0.06      0.11      1250
+     HomeWin       0.54      0.81      0.65      2248
+
+    accuracy                           0.52      4905
+   macro avg       0.46      0.44      0.41      4905
+weighted avg       0.48      0.52      0.46      4905
+
+Confusion Matrix:
+[[ 641   67  699]
+ [ 332   77  841]
+ [ 351   71 1826]]
+==================================================
+
+Model: LightGBM
+------------------------------
+Accuracy: 0.5170
+
+Classification Report:
+              precision    recall  f1-score   support
+
+     AwayWin       0.48      0.45      0.46      1407
+        Draw       0.35      0.07      0.12      1250
+     HomeWin       0.55      0.81      0.65      2248
+
+    accuracy                           0.52      4905
+   macro avg       0.46      0.44      0.41      4905
+weighted avg       0.48      0.52      0.46      4905
+
+Confusion Matrix:
+[[ 627   76  704]
+ [ 347   91  812]
+ [ 340   90 1818]]
+==================================================
+
+Model: CatBoost
+------------------------------
+Accuracy: 0.5244
+
+Classification Report:
+              precision    recall  f1-score   support
+
+     AwayWin       0.49      0.45      0.47      1407
+        Draw       0.58      0.02      0.04      1250
+     HomeWin       0.54      0.85      0.66      2248
+
+    accuracy                           0.52      4905
+   macro avg       0.53      0.44      0.39      4905
+weighted avg       0.53      0.52      0.45      4905
+
+Confusion Matrix:
+[[ 632   10  765]
+ [ 342   26  882]
+ [ 325    9 1914]]
+==================================================
+
+Model: Neural Network
+------------------------------
+Accuracy: 0.4139
+
+Classification Report:
+              precision    recall  f1-score   support
+
+     AwayWin       0.38      0.39      0.38      1407
+        Draw       0.26      0.25      0.26      1250
+     HomeWin       0.52      0.52      0.52      2248
+
+    accuracy                           0.41      4905
+   macro avg       0.39      0.39      0.39      4905
+weighted avg       0.41      0.41      0.41      4905
+
+Confusion Matrix:
+[[ 547  317  543]
+ [ 381  316  553]
+ [ 519  562 1167]]
+==================================================
+
+Model: KNN
+------------------------------
+Accuracy: 0.4532
+
+Classification Report:
+              precision    recall  f1-score   support
+
+     AwayWin       0.40      0.39      0.39      1407
+        Draw       0.28      0.23      0.25      1250
+     HomeWin       0.55      0.62      0.58      2248
+
+    accuracy                           0.45      4905
+   macro avg       0.41      0.41      0.41      4905
+weighted avg       0.44      0.45      0.44      4905
+
+Confusion Matrix:
+[[ 543  325  539]
+ [ 356  287  607]
+ [ 444  411 1393]]
+==================================================
+
+Model: AdaBoost
+------------------------------
+Accuracy: 0.5180
+
+Classification Report:
+              precision    recall  f1-score   support
+
+     AwayWin       0.49      0.40      0.44      1407
+        Draw       1.00      0.01      0.02      1250
+     HomeWin       0.53      0.88      0.66      2248
+
+    accuracy                           0.52      4905
+   macro avg       0.67      0.43      0.37      4905
+weighted avg       0.64      0.52      0.43      4905
+
+Confusion Matrix:
+[[ 561    0  846]
+ [ 309   10  931]
+ [ 278    0 1970]]
+==================================================
+
+Model: Extra Trees
+------------------------------
+Accuracy: 0.5115
+
+Classification Report:
+              precision    recall  f1-score   support
+
+     AwayWin       0.48      0.42      0.45      1407
+        Draw       0.37      0.08      0.13      1250
+     HomeWin       0.53      0.81      0.64      2248
+
+    accuracy                           0.51      4905
+   macro avg       0.46      0.44      0.41      4905
+weighted avg       0.48      0.51      0.46      4905
+
+Confusion Matrix:
+[[ 594   66  747]
+ [ 315   95  840]
+ [ 330   98 1820]]
+==================================================

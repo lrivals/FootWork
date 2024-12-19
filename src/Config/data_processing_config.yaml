@@ -38,8 +38,8 @@ league_patterns:
   France: "france-ligue-1-matches-*-stats.csv"
   Brazil: "brazil-serie-a-matches-*-stats.csv"
   Italy: "italy-serie-a-matches-*-stats.csv"
-  Germany: "germany-bundesliga-matches-*-stats"
-  Spain: "france-ligue-1-matches-*-stats.csv"
+  Germany: "germany-bundesliga-matches-*-stats.csv"
+  Spain: "spain-la-liga-matches-*-stats.csv"
 
 processing_params:
   last_n_matches: 5

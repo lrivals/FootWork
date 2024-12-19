@@ -1,0 +1,65 @@
+data_paths:
+  full_dataset: data/all_leagues_combined.csv
+  pca_dataset: data/Premier_League/clean_premiere_league_data/pca_results.csv
+data_split:
+  random_state: 42
+  test_size: 0.2
+excluded_columns:
+- date
+- season
+- home_team
+- away_team
+- target_result
+- target_home_goals
+- target_away_goals
+model_parameters:
+  adaboost:
+    n_estimators: 100
+    random_state: 42
+  catboost:
+    iterations: 100
+    learning_rate: 0.1
+    random_seed: 42
+    verbose: false
+  extra_trees:
+    class_weight: balanced
+    n_estimators: 100
+    random_state: 42
+  gradient_boosting:
+    learning_rate: 0.1
+    n_estimators: 100
+    random_state: 42
+  knn:
+    n_neighbors: 5
+    weights: distance
+  lightgbm:
+    learning_rate: 0.1
+    n_estimators: 100
+    random_state: 42
+  logistic_regression:
+    max_iter: 1000
+    multi_class: multinomial
+    random_state: 42
+  neural_network:
+    hidden_layer_sizes:
+    - 100
+    - 50
+    max_iter: 1000
+    random_state: 42
+  random_forest:
+    class_weight: balanced
+    n_estimators: 100
+    random_state: 42
+  svm:
+    class_weight: balanced
+    probability: true
+    random_state: 42
+  xgboost:
+    eval_metric: mlogloss
+    learning_rate: 0.1
+    n_estimators: 100
+    random_state: 42
+    use_label_encoder: false
+output_settings:
+  base_path: results/All_Leagues/Multiclass_Target
+  model_type: multiclass_prediction
