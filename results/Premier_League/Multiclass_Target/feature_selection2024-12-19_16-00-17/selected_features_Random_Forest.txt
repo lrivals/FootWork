@@ -1,0 +1,56 @@
+Model: Random Forest
+==================================================
+
+Optimal number of features: 48
+Highest CV accuracy: 0.5182 (with 48 features)
+Lowest CV accuracy: 0.3783 (with 1 features)
+
+Selected features:
+- home_games_played
+- home_points_per_game
+- home_avg_goals_scored
+- home_avg_goals_conceded
+- home_avg_goal_diff
+- home_goals_scored_first_half_ratio
+- home_goals_conceded_first_half_ratio
+- home_shot_conversion_rate
+- home_shots_on_target_ratio
+- home_avg_shots_per_game
+- home_avg_shots_on_target
+- home_avg_possession
+- home_possession_efficiency
+- home_avg_corners_for
+- home_corner_efficiency
+- home_avg_fouls_committed
+- home_avg_yellows
+- home_cards_first_half_ratio
+- home_venue_win_ratio
+- home_venue_goals_avg
+- home_venue_conceded_avg
+- home_clean_sheets_ratio
+- home_scoring_ratio
+- away_games_played
+- away_points_per_game
+- away_avg_goals_scored
+- away_avg_goals_conceded
+- away_avg_goal_diff
+- away_goals_scored_first_half_ratio
+- away_goals_conceded_first_half_ratio
+- away_recent_goals_scored
+- away_recent_goals_conceded
+- away_shot_conversion_rate
+- away_shots_on_target_ratio
+- away_avg_shots_per_game
+- away_avg_shots_on_target
+- away_avg_possession
+- away_possession_efficiency
+- away_avg_corners_for
+- away_corner_efficiency
+- away_avg_fouls_committed
+- away_avg_yellows
+- away_cards_first_half_ratio
+- away_venue_win_ratio
+- away_venue_goals_avg
+- away_venue_conceded_avg
+- away_clean_sheets_ratio
+- away_scoring_ratio

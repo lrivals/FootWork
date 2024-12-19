@@ -1,0 +1,16 @@
+Model: Logistic Regression
+==================================================
+
+Optimal number of features: 8
+Highest CV accuracy: 0.4853 (with 8 features)
+Lowest CV accuracy: 0.3951 (with 1 features)
+
+Selected features:
+- home_games_played
+- home_losses
+- home_avg_goals_scored
+- home_possession_efficiency
+- away_games_played
+- away_points_per_game
+- away_avg_shots_on_target
+- away_venue_games

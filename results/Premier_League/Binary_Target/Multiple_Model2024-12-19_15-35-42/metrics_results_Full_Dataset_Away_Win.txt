@@ -1,0 +1,223 @@
+Results for Full Dataset - Away_Win
+==================================================
+
+
+Model: Random Forest
+------------------------------
+Accuracy: 0.7211
+ROC AUC: 0.6749718523119929
+
+Classification Report:
+              precision    recall  f1-score   support
+
+Not Away Win       0.75      0.91      0.82       599
+    Away Win       0.57      0.28      0.38       258
+
+    accuracy                           0.72       857
+   macro avg       0.66      0.60      0.60       857
+weighted avg       0.69      0.72      0.69       857
+
+Confusion Matrix:
+[[545  54]
+ [185  73]]
+==================================================
+
+Model: Logistic Regression
+------------------------------
+Accuracy: 0.6429
+ROC AUC: 0.6960243817214737
+
+Classification Report:
+              precision    recall  f1-score   support
+
+Not Away Win       0.82      0.62      0.71       599
+    Away Win       0.44      0.69      0.54       258
+
+    accuracy                           0.64       857
+   macro avg       0.63      0.66      0.62       857
+weighted avg       0.71      0.64      0.66       857
+
+Confusion Matrix:
+[[374 225]
+ [ 81 177]]
+==================================================
+
+Model: SVM
+------------------------------
+Accuracy: 0.6394
+ROC AUC: 0.6701155672891512
+
+Classification Report:
+              precision    recall  f1-score   support
+
+Not Away Win       0.79      0.67      0.72       599
+    Away Win       0.43      0.58      0.49       258
+
+    accuracy                           0.64       857
+   macro avg       0.61      0.62      0.61       857
+weighted avg       0.68      0.64      0.65       857
+
+Confusion Matrix:
+[[399 200]
+ [109 149]]
+==================================================
+
+Model: Gradient Boosting
+------------------------------
+Accuracy: 0.7153
+ROC AUC: 0.6803910910949775
+
+Classification Report:
+              precision    recall  f1-score   support
+
+Not Away Win       0.76      0.87      0.81       599
+    Away Win       0.54      0.35      0.43       258
+
+    accuracy                           0.72       857
+   macro avg       0.65      0.61      0.62       857
+weighted avg       0.69      0.72      0.70       857
+
+Confusion Matrix:
+[[522  77]
+ [167  91]]
+==================================================
+
+Model: XGBoost
+------------------------------
+Accuracy: 0.7130
+ROC AUC: 0.6610759534624892
+
+Classification Report:
+              precision    recall  f1-score   support
+
+Not Away Win       0.76      0.86      0.81       599
+    Away Win       0.53      0.37      0.44       258
+
+    accuracy                           0.71       857
+   macro avg       0.65      0.62      0.62       857
+weighted avg       0.69      0.71      0.70       857
+
+Confusion Matrix:
+[[515  84]
+ [162  96]]
+==================================================
+
+Model: LightGBM
+------------------------------
+Accuracy: 0.7083
+ROC AUC: 0.6695784964605092
+
+Classification Report:
+              precision    recall  f1-score   support
+
+Not Away Win       0.75      0.86      0.81       599
+    Away Win       0.52      0.35      0.42       258
+
+    accuracy                           0.71       857
+   macro avg       0.64      0.61      0.61       857
+weighted avg       0.69      0.71      0.69       857
+
+Confusion Matrix:
+[[517  82]
+ [168  90]]
+==================================================
+
+Model: CatBoost
+------------------------------
+Accuracy: 0.7165
+ROC AUC: 0.6751433267331858
+
+Classification Report:
+              precision    recall  f1-score   support
+
+Not Away Win       0.76      0.87      0.81       599
+    Away Win       0.55      0.35      0.43       258
+
+    accuracy                           0.72       857
+   macro avg       0.65      0.61      0.62       857
+weighted avg       0.69      0.72      0.70       857
+
+Confusion Matrix:
+[[524  75]
+ [168  90]]
+==================================================
+
+Model: Neural Network
+------------------------------
+Accuracy: 0.6523
+ROC AUC: 0.6203168070815701
+
+Classification Report:
+              precision    recall  f1-score   support
+
+Not Away Win       0.76      0.74      0.75       599
+    Away Win       0.43      0.44      0.43       258
+
+    accuracy                           0.65       857
+   macro avg       0.59      0.59      0.59       857
+weighted avg       0.66      0.65      0.65       857
+
+Confusion Matrix:
+[[445 154]
+ [144 114]]
+==================================================
+
+Model: KNN
+------------------------------
+Accuracy: 0.6873
+ROC AUC: 0.6306570382161484
+
+Classification Report:
+              precision    recall  f1-score   support
+
+Not Away Win       0.75      0.83      0.79       599
+    Away Win       0.47      0.34      0.40       258
+
+    accuracy                           0.69       857
+   macro avg       0.61      0.59      0.59       857
+weighted avg       0.66      0.69      0.67       857
+
+Confusion Matrix:
+[[500  99]
+ [169  89]]
+==================================================
+
+Model: AdaBoost
+------------------------------
+Accuracy: 0.6896
+ROC AUC: 0.662551280558036
+
+Classification Report:
+              precision    recall  f1-score   support
+
+Not Away Win       0.75      0.84      0.79       599
+    Away Win       0.48      0.33      0.39       258
+
+    accuracy                           0.69       857
+   macro avg       0.61      0.59      0.59       857
+weighted avg       0.66      0.69      0.67       857
+
+Confusion Matrix:
+[[506  93]
+ [173  85]]
+==================================================
+
+Model: Extra Trees
+------------------------------
+Accuracy: 0.7246
+ROC AUC: 0.6849108980083084
+
+Classification Report:
+              precision    recall  f1-score   support
+
+Not Away Win       0.75      0.91      0.82       599
+    Away Win       0.59      0.29      0.39       258
+
+    accuracy                           0.72       857
+   macro avg       0.67      0.60      0.61       857
+weighted avg       0.70      0.72      0.69       857
+
+Confusion Matrix:
+[[546  53]
+ [183  75]]
+==================================================

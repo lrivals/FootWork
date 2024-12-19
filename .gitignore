@@ -1,1 +1,3 @@
-results/Premier_League/*
+results/Premier_League/Multiclass_Target/Previous_Data/*
+results/Premier_League/Binary_Target/Previous_Data/*
+src/Data_Processing/Previous_Scripts/*

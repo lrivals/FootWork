@@ -1,0 +1,54 @@
+Feature Selection and Model Evaluation Results
+==================================================
+
+Summary Table:
+----------------------------------------------------------------------------------------------------
+Model Name           Test Acc   Best CV Acc  #Features  Worst CV Acc #Features 
+----------------------------------------------------------------------------------------------------
+Extra Trees          0.5274     0.5205      68         0.3688      1         
+AdaBoost             0.5169     0.5299      11         0.4645      1         
+
+
+Detailed Results by Model:
+==================================================
+
+Model: Extra Trees
+--------------------------------------------------
+Optimal number of features: 68
+Best CV accuracy: 0.5205 (with 68 features)
+Worst CV accuracy: 0.3688 (with 1 features)
+Test accuracy: 0.5274
+
+Classification Report:
+              precision    recall  f1-score   support
+
+     AwayWin       0.48      0.55      0.51       258
+        Draw       0.33      0.05      0.09       205
+     HomeWin       0.57      0.76      0.65       394
+
+    accuracy                           0.53       857
+   macro avg       0.46      0.45      0.42       857
+weighted avg       0.48      0.53      0.47       857
+
+==================================================
+
+Model: AdaBoost
+--------------------------------------------------
+Optimal number of features: 11
+Best CV accuracy: 0.5299 (with 11 features)
+Worst CV accuracy: 0.4645 (with 1 features)
+Test accuracy: 0.5169
+
+Classification Report:
+              precision    recall  f1-score   support
+
+     AwayWin       0.46      0.51      0.49       258
+        Draw       0.00      0.00      0.00       205
+     HomeWin       0.54      0.79      0.64       394
+
+    accuracy                           0.52       857
+   macro avg       0.34      0.43      0.38       857
+weighted avg       0.39      0.52      0.44       857
+
+==================================================
+

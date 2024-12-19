@@ -1,0 +1,19 @@
+Model: AdaBoost
+==================================================
+
+Optimal number of features: 11
+Highest CV accuracy: 0.5299 (with 11 features)
+Lowest CV accuracy: 0.4645 (with 1 features)
+
+Selected features:
+- home_points_per_game
+- home_avg_goal_diff
+- home_avg_shots_on_target
+- home_avg_possession
+- home_avg_corners_for
+- away_points_per_game
+- away_avg_goals_scored
+- away_avg_goal_diff
+- away_avg_shots_per_game
+- away_avg_possession
+- away_avg_corners_for

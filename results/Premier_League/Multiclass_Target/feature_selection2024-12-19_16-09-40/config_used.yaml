@@ -1,0 +1,75 @@
+data_paths:
+  base_path: data/Premier_League/clean_premiere_league_data
+  full_dataset: data/Premier_League/clean_premiere_league_data/all_seasons_combined.csv
+data_split:
+  random_state: 42
+  test_size: 0.2
+excluded_columns:
+- date
+- season
+- home_team
+- away_team
+- target_result
+- target_home_goals
+- target_away_goals
+feature_selection:
+  cv_folds: 5
+  min_features_to_select: 1
+  scoring: accuracy
+  step: 1
+model_parameters:
+  adaboost:
+    learning_rate: 0.1
+    n_estimators: 100
+    random_state: 42
+  catboost:
+    iterations: 100
+    learning_rate: 0.1
+    random_state: 42
+    verbose: false
+  extra_trees:
+    class_weight: balanced
+    n_estimators: 100
+    n_jobs: -1
+    random_state: 42
+  gradient_boosting:
+    learning_rate: 0.1
+    n_estimators: 100
+    random_state: 42
+  knn:
+    n_jobs: -1
+    n_neighbors: 5
+    weights: uniform
+  lightgbm:
+    learning_rate: 0.1
+    n_estimators: 100
+    objective: multiclass
+    random_state: 42
+  logistic_regression:
+    class_weight: balanced
+    max_iter: 1000
+    random_state: 42
+  neural_network:
+    hidden_layer_sizes:
+    - 100
+    - 50
+    max_iter: 1000
+    random_state: 42
+  random_forest:
+    class_weight: balanced
+    n_estimators: 100
+    n_jobs: -1
+    random_state: 42
+  svm:
+    class_weight: balanced
+    kernel: rbf
+    probability: true
+    random_state: 42
+  xgboost:
+    eval_metric: mlogloss
+    learning_rate: 0.1
+    n_estimators: 100
+    random_state: 42
+output_settings:
+  base_path: results/Premier_League/Multiclass_Target
+  model_type: feature_selection
