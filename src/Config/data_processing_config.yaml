@@ -10,12 +10,36 @@ data_paths:
     France:
       raw_data: "data/France/league-1-matches-2009-2023"
       processed_data: "data/France/clean_league_1_data"
+      start_year: 2013
+      end_year: 2024
+    Brazil:
+      raw_data: "data/Brazil/Brazil"
+      processed_data: "data/Brazil/clean_Brazil_data"
+      start_year: 2013
+      end_year: 2024
+    Italy:
+      raw_data: "data/Italy/serie-a-matches-2008-to-2023"
+      processed_data: "data/Italy/clean_serie-a_data"
       start_year: 2010
+      end_year: 2024
+    Germany:
+      raw_data: "data/Germany/bundesliga-matches-2006-to-2023"
+      processed_data: "data/Germany/clean_bundesliga_data"
+      start_year: 2013
+      end_year: 2024
+    Spain:
+      raw_data: "data/Spain/la-liga-matches-2008-to-2023"
+      processed_data: "data/France/clean_la_liga_data"
+      start_year: 2012
       end_year: 2024
 
 league_patterns:
   Premier_League: "england-premier-league-matches-*-stats.csv"
   France: "france-ligue-1-matches-*-stats.csv"
+  Brazil: "brazil-serie-a-matches-*-stats.csv"
+  Italy: "italy-serie-a-matches-*-stats.csv"
+  Germany: "germany-bundesliga-matches-*-stats"
+  Spain: "france-ligue-1-matches-*-stats.csv"
 
 processing_params:
   last_n_matches: 5
