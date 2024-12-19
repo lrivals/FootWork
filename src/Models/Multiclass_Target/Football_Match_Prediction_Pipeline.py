@@ -33,7 +33,8 @@ def get_models(config):
         'Gradient Boosting': GradientBoostingClassifier(**model_params.get('gradient_boosting', {})),
         'XGBoost': XGBClassifier(**model_params.get('xgboost', {})),
         'LightGBM': LGBMClassifier(**model_params.get('lightgbm', {})),
-        'CatBoost': CatBoostClassifier(**model_params.get('catboost', {})),
+        'CatBoost': CatBoostClassifier(**model_params.get('catboost', {}), 
+                              train_dir='src/Models/Multiclass_Target/catboost_info'),
         'Neural Network': MLPClassifier(**model_params.get('neural_network', {})),
         'KNN': KNeighborsClassifier(**model_params.get('knn', {})),
         'AdaBoost': AdaBoostClassifier(**model_params.get('adaboost', {})),
@@ -134,6 +135,8 @@ def save_results(results, config):
 def main():
     try:
         config = ConfigManager('src/Config/configMC_1.yaml')
+        catboost_dir = Path('src/Models/Multiclass_Target/catboost_info')
+        catboost_dir.mkdir(parents=True, exist_ok=True)
         results = train_all_models(config)
         save_results(results, config)
         print("\nTraining completed. Results saved in output directory.")

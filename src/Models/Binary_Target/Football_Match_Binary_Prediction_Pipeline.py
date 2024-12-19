@@ -29,6 +29,10 @@ def get_models(config):
     """Initialize models with parameters from config"""
     model_params = config.get_config_value('model_parameters', default={})
     
+    # Get CatBoost params and add train_dir
+    catboost_params = model_params.get('catboost', {})
+    catboost_params['train_dir'] = 'src/Models/Binary_Target/catboost_info'
+    
     models = {
         'Random Forest': RandomForestClassifier(**model_params.get('random_forest', {})),
         'Logistic Regression': LogisticRegression(**model_params.get('logistic_regression', {})),
@@ -36,7 +40,7 @@ def get_models(config):
         'Gradient Boosting': GradientBoostingClassifier(**model_params.get('gradient_boosting', {})),
         'XGBoost': XGBClassifier(**model_params.get('xgboost', {})),
         'LightGBM': LGBMClassifier(**model_params.get('lightgbm', {})),
-        'CatBoost': CatBoostClassifier(**model_params.get('catboost', {})),
+        'CatBoost': CatBoostClassifier(**catboost_params),
         'Neural Network': MLPClassifier(**model_params.get('neural_network', {})),
         'KNN': KNeighborsClassifier(**model_params.get('knn', {})),
         'AdaBoost': AdaBoostClassifier(**model_params.get('adaboost', {})),
@@ -202,9 +206,20 @@ def save_all_results(home_results, away_results, config):
                 f.write(str(result['confusion_matrix']))
                 f.write("\n" + "=" * 50 + "\n")
 
+def ensure_directories(config):
+    """Ensure all necessary directories exist"""
+    output_dir = config.get_paths()['output_dir']
+    model_dirs = [
+        Path(output_dir),
+        Path('src/Models/Binary_Target/catboost_info')
+    ]
+    for dir_path in model_dirs:
+        dir_path.mkdir(parents=True, exist_ok=True)
+        
 def main():
     try:
         config = ConfigManager('src/Config/configBT_1.yaml')
+        ensure_directories(config)  # Add this line
         home_results, away_results = train_all_models(config)
         save_all_results(home_results, away_results, config)
         print("\nTraining completed. Results saved in output directory.")

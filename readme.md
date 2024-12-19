@@ -57,6 +57,7 @@ Models are evaluated using:
 - ROC-AUC
 - Cross-validation scores
 
+Note: For detailed information about model performance and configuration management, please refer to the documentation in `docs/model_performance.md` and `docs/configuration.md` respectively.
 
 
 ## Setup Instructions
@@ -120,12 +121,13 @@ Rivals Leonard - leonardrivals@gmail.com
 Project Link: https://github.com/lrivals/FootWork
 
 ## Acknowledgments
-- Data sources: https://footystats.org/
+
 - Contributors:
   - Leonard Rivals
   - ?
 - Thanks to Claude.ai
-Note: For detailed information about model performance and configuration management, please refer to the documentation in `docs/model_performance.md` and `docs/configuration.md` respectively.
+
+
 
 
 
