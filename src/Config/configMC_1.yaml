@@ -1,13 +1,13 @@
 data_paths:
-  full_dataset: "data/all_leagues_combined.csv"
+  full_dataset: "data/all_leagues_deskewed_normalized.csv"
   pca_dataset: "data/Premier_League/clean_premiere_league_data/pca_results.csv"
 
 output_settings:
-  base_path: "results/All_Leagues/Multiclass_Target"
+  base_path: "results/All_Leagues_Norm_Desk/Multiclass_Target"
   model_type: "multiclass_prediction"
   
 excluded_columns:
-  - date
+ 
   - season
   - home_team
   - away_team

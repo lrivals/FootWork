@@ -35,7 +35,7 @@ def get_models(config):
         'LightGBM': LGBMClassifier(**model_params.get('lightgbm', {})),
         'CatBoost': CatBoostClassifier(**model_params.get('catboost', {}), 
                               train_dir='src/Models/Multiclass_Target/catboost_info'),
-        'Neural Network': MLPClassifier(**model_params.get('neural_network', {})),
+        #'Neural Network': MLPClassifier(**model_params.get('neural_network', {})),
         'KNN': KNeighborsClassifier(**model_params.get('knn', {})),
         'AdaBoost': AdaBoostClassifier(**model_params.get('adaboost', {})),
         'Extra Trees': ExtraTreesClassifier(**model_params.get('extra_trees', {}))
