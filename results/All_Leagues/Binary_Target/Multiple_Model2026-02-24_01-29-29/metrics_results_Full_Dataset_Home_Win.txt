@@ -1,0 +1,203 @@
+Results for Full Dataset - Home_Win
+==================================================
+
+
+Model: Random Forest
+------------------------------
+Accuracy: 0.6476
+ROC AUC: 0.6908121413395067
+
+Classification Report:
+              precision    recall  f1-score   support
+
+Not Home Win       0.65      0.78      0.71      2931
+    Home Win       0.63      0.48      0.55      2330
+
+    accuracy                           0.65      5261
+   macro avg       0.64      0.63      0.63      5261
+weighted avg       0.65      0.65      0.64      5261
+
+Confusion Matrix:
+[[2286  645]
+ [1209 1121]]
+==================================================
+
+Model: Logistic Regression
+------------------------------
+Accuracy: 0.6565
+ROC AUC: 0.7130600375152104
+
+Classification Report:
+              precision    recall  f1-score   support
+
+Not Home Win       0.68      0.73      0.70      2931
+    Home Win       0.62      0.57      0.59      2330
+
+    accuracy                           0.66      5261
+   macro avg       0.65      0.65      0.65      5261
+weighted avg       0.65      0.66      0.65      5261
+
+Confusion Matrix:
+[[2132  799]
+ [1008 1322]]
+==================================================
+
+Model: SVM
+------------------------------
+Accuracy: 0.6506
+ROC AUC: 0.6939032658147405
+
+Classification Report:
+              precision    recall  f1-score   support
+
+Not Home Win       0.68      0.71      0.69      2931
+    Home Win       0.61      0.57      0.59      2330
+
+    accuracy                           0.65      5261
+   macro avg       0.65      0.64      0.64      5261
+weighted avg       0.65      0.65      0.65      5261
+
+Confusion Matrix:
+[[2085  846]
+ [ 992 1338]]
+==================================================
+
+Model: Gradient Boosting
+------------------------------
+Accuracy: 0.6523
+ROC AUC: 0.7048010537059082
+
+Classification Report:
+              precision    recall  f1-score   support
+
+Not Home Win       0.66      0.79      0.72      2931
+    Home Win       0.65      0.48      0.55      2330
+
+    accuracy                           0.65      5261
+   macro avg       0.65      0.63      0.63      5261
+weighted avg       0.65      0.65      0.64      5261
+
+Confusion Matrix:
+[[2321  610]
+ [1219 1111]]
+==================================================
+
+Model: XGBoost
+------------------------------
+Accuracy: 0.6518
+ROC AUC: 0.6999074566239532
+
+Classification Report:
+              precision    recall  f1-score   support
+
+Not Home Win       0.67      0.74      0.70      2931
+    Home Win       0.62      0.54      0.58      2330
+
+    accuracy                           0.65      5261
+   macro avg       0.65      0.64      0.64      5261
+weighted avg       0.65      0.65      0.65      5261
+
+Confusion Matrix:
+[[2162  769]
+ [1063 1267]]
+==================================================
+
+Model: LightGBM
+------------------------------
+Accuracy: 0.6508
+ROC AUC: 0.6992104527157527
+
+Classification Report:
+              precision    recall  f1-score   support
+
+Not Home Win       0.66      0.75      0.71      2931
+    Home Win       0.63      0.52      0.57      2330
+
+    accuracy                           0.65      5261
+   macro avg       0.65      0.64      0.64      5261
+weighted avg       0.65      0.65      0.65      5261
+
+Confusion Matrix:
+[[2211  720]
+ [1117 1213]]
+==================================================
+
+Model: CatBoost
+------------------------------
+Accuracy: 0.6658
+ROC AUC: 0.7100551599521467
+
+Classification Report:
+              precision    recall  f1-score   support
+
+Not Home Win       0.67      0.77      0.72      2931
+    Home Win       0.65      0.53      0.58      2330
+
+    accuracy                           0.67      5261
+   macro avg       0.66      0.65      0.65      5261
+weighted avg       0.66      0.67      0.66      5261
+
+Confusion Matrix:
+[[2267  664]
+ [1094 1236]]
+==================================================
+
+Model: KNN
+------------------------------
+Accuracy: 0.5993
+ROC AUC: 0.6207869701269396
+
+Classification Report:
+              precision    recall  f1-score   support
+
+Not Home Win       0.63      0.69      0.66      2931
+    Home Win       0.55      0.48      0.52      2330
+
+    accuracy                           0.60      5261
+   macro avg       0.59      0.59      0.59      5261
+weighted avg       0.60      0.60      0.60      5261
+
+Confusion Matrix:
+[[2025  906]
+ [1202 1128]]
+==================================================
+
+Model: AdaBoost
+------------------------------
+Accuracy: 0.6582
+ROC AUC: 0.7001759349150635
+
+Classification Report:
+              precision    recall  f1-score   support
+
+Not Home Win       0.68      0.72      0.70      2931
+    Home Win       0.62      0.58      0.60      2330
+
+    accuracy                           0.66      5261
+   macro avg       0.65      0.65      0.65      5261
+weighted avg       0.66      0.66      0.66      5261
+
+Confusion Matrix:
+[[2108  823]
+ [ 975 1355]]
+==================================================
+
+Model: Extra Trees
+------------------------------
+Accuracy: 0.6446
+ROC AUC: 0.6966056202529421
+
+Classification Report:
+              precision    recall  f1-score   support
+
+Not Home Win       0.65      0.79      0.71      2931
+    Home Win       0.63      0.47      0.54      2330
+
+    accuracy                           0.64      5261
+   macro avg       0.64      0.63      0.62      5261
+weighted avg       0.64      0.64      0.63      5261
+
+Confusion Matrix:
+[[2303  628]
+ [1242 1088]]
+==================================================

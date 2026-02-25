@@ -1,0 +1,222 @@
+Results for Full Dataset - Away_Win
+======================================================================
+
+=== RANKING TABLE ===
+Model                   Accuracy   Bal.Acc      MCC    Kappa   ROC-AUC
+----------------------------------------------------------------------
+CatBoost                  0.7276    0.6051   0.2720   0.2457    0.7186
+Extra Trees               0.7191    0.5688   0.2188   0.1713    0.6917
+Random Forest             0.7172    0.5502   0.1992   0.1303    0.6835
+LightGBM                  0.7168    0.5948   0.2418   0.2204    0.6990
+AdaBoost                  0.7143    0.6380   0.2920   0.2897    0.7100
+Gradient Boosting         0.7141    0.5839   0.2244   0.1985    0.6992
+KNN                       0.6803    0.5766   0.1738   0.1684    0.6140
+Logistic Regression       0.6565    0.6599   0.2957   0.2822    0.7157
+SVM                       0.6487    0.6451   0.2691   0.2586    0.6907
+
+=== DETAILED RESULTS ===
+
+Model: CatBoost
+------------------------------
+Accuracy:          0.7276
+Balanced Accuracy: 0.6051
+MCC:               0.2720
+Cohen's Kappa:     0.2457
+ROC-AUC:           0.7186
+
+Classification Report:
+              precision    recall  f1-score   support
+
+Not Away Win       0.75      0.92      0.82      3668
+    Away Win       0.60      0.29      0.40      1593
+
+    accuracy                           0.73      5261
+   macro avg       0.68      0.61      0.61      5261
+weighted avg       0.70      0.73      0.69      5261
+
+Confusion Matrix:
+[[3359  309]
+ [1124  469]]
+Training curve: metric=Logloss, best_iter=55, final_train=0.4965, final_val=0.5508
+
+======================================================================
+Model: Extra Trees
+------------------------------
+Accuracy:          0.7191
+Balanced Accuracy: 0.5688
+MCC:               0.2188
+Cohen's Kappa:     0.1713
+ROC-AUC:           0.6917
+
+Classification Report:
+              precision    recall  f1-score   support
+
+Not Away Win       0.73      0.95      0.83      3668
+    Away Win       0.62      0.19      0.29      1593
+
+    accuracy                           0.72      5261
+   macro avg       0.67      0.57      0.56      5261
+weighted avg       0.70      0.72      0.66      5261
+
+Confusion Matrix:
+[[3484  184]
+ [1294  299]]
+======================================================================
+Model: Random Forest
+------------------------------
+Accuracy:          0.7172
+Balanced Accuracy: 0.5502
+MCC:               0.1992
+Cohen's Kappa:     0.1303
+ROC-AUC:           0.6835
+
+Classification Report:
+              precision    recall  f1-score   support
+
+Not Away Win       0.72      0.97      0.83      3668
+    Away Win       0.68      0.13      0.21      1593
+
+    accuracy                           0.72      5261
+   macro avg       0.70      0.55      0.52      5261
+weighted avg       0.71      0.72      0.64      5261
+
+Confusion Matrix:
+[[3571   97]
+ [1391  202]]
+======================================================================
+Model: LightGBM
+------------------------------
+Accuracy:          0.7168
+Balanced Accuracy: 0.5948
+MCC:               0.2418
+Cohen's Kappa:     0.2204
+ROC-AUC:           0.6990
+
+Classification Report:
+              precision    recall  f1-score   support
+
+Not Away Win       0.74      0.90      0.82      3668
+    Away Win       0.56      0.29      0.38      1593
+
+    accuracy                           0.72      5261
+   macro avg       0.65      0.59      0.60      5261
+weighted avg       0.69      0.72      0.68      5261
+
+Confusion Matrix:
+[[3316  352]
+ [1138  455]]
+Training curve: metric=binary_logloss, best_iter=28, final_train=0.4087, final_val=0.5611
+
+======================================================================
+Model: AdaBoost
+------------------------------
+Accuracy:          0.7143
+Balanced Accuracy: 0.6380
+MCC:               0.2920
+Cohen's Kappa:     0.2897
+ROC-AUC:           0.7100
+
+Classification Report:
+              precision    recall  f1-score   support
+
+Not Away Win       0.78      0.83      0.80      3668
+    Away Win       0.53      0.44      0.49      1593
+
+    accuracy                           0.71      5261
+   macro avg       0.65      0.64      0.64      5261
+weighted avg       0.70      0.71      0.71      5261
+
+Confusion Matrix:
+[[3050  618]
+ [ 885  708]]
+======================================================================
+Model: Gradient Boosting
+------------------------------
+Accuracy:          0.7141
+Balanced Accuracy: 0.5839
+MCC:               0.2244
+Cohen's Kappa:     0.1985
+ROC-AUC:           0.6992
+
+Classification Report:
+              precision    recall  f1-score   support
+
+Not Away Win       0.74      0.91      0.82      3668
+    Away Win       0.56      0.25      0.35      1593
+
+    accuracy                           0.71      5261
+   macro avg       0.65      0.58      0.58      5261
+weighted avg       0.68      0.71      0.68      5261
+
+Confusion Matrix:
+[[3353  315]
+ [1189  404]]
+Training curve: metric=accuracy, best_iter=23, final_train=0.7596, final_val=0.7141
+
+======================================================================
+Model: KNN
+------------------------------
+Accuracy:          0.6803
+Balanced Accuracy: 0.5766
+MCC:               0.1738
+Cohen's Kappa:     0.1684
+ROC-AUC:           0.6140
+
+Classification Report:
+              precision    recall  f1-score   support
+
+Not Away Win       0.74      0.84      0.79      3668
+    Away Win       0.46      0.31      0.37      1593
+
+    accuracy                           0.68      5261
+   macro avg       0.60      0.58      0.58      5261
+weighted avg       0.65      0.68      0.66      5261
+
+Confusion Matrix:
+[[3079  589]
+ [1093  500]]
+======================================================================
+Model: Logistic Regression
+------------------------------
+Accuracy:          0.6565
+Balanced Accuracy: 0.6599
+MCC:               0.2957
+Cohen's Kappa:     0.2822
+ROC-AUC:           0.7157
+
+Classification Report:
+              precision    recall  f1-score   support
+
+Not Away Win       0.82      0.65      0.73      3668
+    Away Win       0.45      0.67      0.54      1593
+
+    accuracy                           0.66      5261
+   macro avg       0.64      0.66      0.63      5261
+weighted avg       0.71      0.66      0.67      5261
+
+Confusion Matrix:
+[[2389 1279]
+ [ 528 1065]]
+======================================================================
+Model: SVM
+------------------------------
+Accuracy:          0.6487
+Balanced Accuracy: 0.6451
+MCC:               0.2691
+Cohen's Kappa:     0.2586
+ROC-AUC:           0.6907
+
+Classification Report:
+              precision    recall  f1-score   support
+
+Not Away Win       0.81      0.65      0.72      3668
+    Away Win       0.44      0.64      0.52      1593
+
+    accuracy                           0.65      5261
+   macro avg       0.62      0.65      0.62      5261
+weighted avg       0.70      0.65      0.66      5261
+
+Confusion Matrix:
+[[2400 1268]
+ [ 580 1013]]
+======================================================================

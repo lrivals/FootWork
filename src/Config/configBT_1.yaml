@@ -9,6 +9,7 @@ output_settings:
 excluded_columns:
  - date
  - season
+ - league
  - home_team
  - away_team
  - target_result
@@ -47,6 +48,7 @@ model_parameters:
    n_estimators: 100
    learning_rate: 0.1
    random_state: 42
+   class_weight: balanced
 
  catboost:
    iterations: 100
@@ -73,5 +75,7 @@ model_parameters:
    class_weight: balanced
 
 data_split:
- test_size: 0.2
+ temporal_split_year: 2022   # test >= 2022
+ cal_split_year: 2020        # train < 2020, cal 2020-2021, test >= 2022
+ test_size: 0.2              # fallback if temporal split unavailable
  random_state: 42

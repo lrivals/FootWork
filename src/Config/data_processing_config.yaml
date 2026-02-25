@@ -29,7 +29,7 @@ data_paths:
       end_year: 2024
     Spain:
       raw_data: "data/Spain/la-liga-matches-2008-to-2023"
-      processed_data: "data/France/clean_la_liga_data"
+      processed_data: "data/Spain/clean_la_liga_data"
       start_year: 2012
       end_year: 2024
 
@@ -43,3 +43,15 @@ league_patterns:
 
 processing_params:
   last_n_matches: 5
+  rolling_windows: [3, 5, 10]
+  h2h_window: 5          # number of recent H2H encounters to include
+
+features:
+  elo:
+    enabled: true
+    k_factor: 20
+    initial_rating: 1500
+    home_advantage: 100
+  head_to_head:
+    enabled: true
+    window: 5
