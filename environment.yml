@@ -1,0 +1,36 @@
+name: footwork
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+
+  # Data
+  - numpy>=2.0
+  - pandas>=2.0
+  - scipy>=1.10
+
+  # Machine Learning
+  # scikit-learn >= 1.2 required for FrozenEstimator (calibration API)
+  - scikit-learn>=1.2
+  - xgboost>=2.0
+  - lightgbm>=4.0
+
+  # Visualisation
+  - matplotlib>=3.8
+  - seaborn>=0.13
+  - plotly>=5.0
+
+  # Utilities
+  - tqdm>=4.65
+  - pyyaml>=6.0
+
+  # Notebooks
+  - jupyter
+  - jupyterlab
+  - ipykernel
+
+  - pip:
+    # CatBoost not reliably available on conda-forge
+    - catboost>=1.2
