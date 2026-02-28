@@ -15,6 +15,9 @@ excluded_columns:
   - target_result
   - target_home_goals
   - target_away_goals
+  - raw_odds_home
+  - raw_odds_draw
+  - raw_odds_away
 
 model_parameters:
   random_forest:
@@ -58,8 +61,15 @@ model_parameters:
     class_weights: [1.0, 1.74, 1.0]   # [AwayWin, Draw, HomeWin] — emphasise Draw
 
   neural_network:
-    hidden_layer_sizes: [100, 50]
-    max_iter: 1000
+    hidden_layer_sizes: [256, 128, 64]
+    activation: relu
+    solver: adam
+    alpha: 0.001
+    learning_rate: adaptive
+    max_iter: 500
+    early_stopping: true
+    validation_fraction: 0.1
+    n_iter_no_change: 20
     random_state: 42
 
   knn:
@@ -80,3 +90,14 @@ data_split:
   cal_split_year: 2020        # train < 2020, cal 2020-2021, test >= 2022
   test_size: 0.2              # fallback if temporal split unavailable
   random_state: 42
+
+# ── Phase 5: Optuna hyperparameter search for CatBoost ──────────────────────
+optuna:
+  enabled: false          # set to true to activate tuning
+  n_trials: 50            # number of Optuna trials
+  timeout_seconds: 600    # max tuning time (0 = no limit)
+
+# ── Phase 5: SHAP feature importance (CatBoost only) ────────────────────────
+shap:
+  enabled: false          # set to true to generate SHAP plots
+  n_samples: 500          # number of test samples used for SHAP (speed tradeoff)

@@ -1,0 +1,1855 @@
+date,home_team,away_team,league,bet_on,odds,stake,actual,won,profit,bankroll_after
+2022-01-01 12:30:00,Arsenal,Manchester City,Premier_League,AwayWin,1.47,10.0,AwayWin,True,4.7,1004.7
+2022-01-01 15:00:00,Watford,Tottenham Hotspur,Premier_League,AwayWin,1.57,10.047,AwayWin,True,5.7268,1010.4268
+2022-01-02 13:00:00,Getafe CF,Real Madrid,Spain,AwayWin,1.57,10.1043,HomeWin,False,-10.1043,1000.3225
+2022-01-02 15:15:00,Atlético Madrid,Rayo Vallecano,Spain,HomeWin,1.39,10.0032,HomeWin,True,3.9013,1004.2238
+2022-01-02 17:30:00,Real Betis,Celta de Vigo,Spain,HomeWin,1.78,10.0422,AwayWin,False,-10.0422,994.1815
+2022-01-02 20:00:00,RCD Mallorca,FC Barcelona,Spain,AwayWin,1.6,9.9418,AwayWin,True,5.9651,1000.1466
+2022-01-03 17:30:00,Manchester United,Wolverhampton Wanderers,Premier_League,HomeWin,1.53,10.0015,AwayWin,False,-10.0015,990.1452
+2022-01-03 18:00:00,Villarreal,Levante UD,Spain,HomeWin,1.44,9.9015,HomeWin,True,4.3566,994.5018
+2022-01-06 11:30:00,Sampdoria,Cagliari,Italy,HomeWin,1.65,9.945,AwayWin,False,-9.945,984.5568
+2022-01-06 13:30:00,Lazio,Empoli,Italy,HomeWin,1.63,9.8456,Draw,False,-9.8456,974.7112
+2022-01-07 19:30:00,Bayern München,Borussia M'gladbach,Germany,HomeWin,1.41,9.7471,AwayWin,False,-9.7471,964.9641
+2022-01-08 14:30:00,Hoffenheim,Augsburg,Germany,HomeWin,1.57,9.6496,HomeWin,True,5.5003,970.4644
+2022-01-08 17:30:00,Granada CF,FC Barcelona,Spain,AwayWin,1.72,9.7046,Draw,False,-9.7046,960.7598
+2022-01-08 20:00:00,Real Madrid,Valencia CF,Spain,HomeWin,1.37,9.6076,HomeWin,True,3.5548,964.3146
+2022-01-09 11:30:00,Venezia,AC Milan,Italy,AwayWin,1.57,9.6431,AwayWin,True,5.4966,969.8112
+2022-01-09 15:15:00,Sevilla FC,Getafe CF,Spain,HomeWin,1.52,9.6981,HomeWin,True,5.043,974.8542
+2022-01-09 15:30:00,Udinese,Atalanta,Italy,AwayWin,1.96,9.7485,AwayWin,True,9.3586,984.2128
+2022-01-09 15:30:00,Napoli,Sampdoria,Italy,HomeWin,1.52,9.8421,HomeWin,True,5.1179,989.3307
+2022-01-09 19:45:00,Hellas Verona,Salernitana,Italy,HomeWin,1.45,9.8933,AwayWin,False,-9.8933,979.4374
+2022-01-09 19:45:00,Inter Milan,Lazio,Italy,HomeWin,1.44,9.7944,HomeWin,True,4.3095,983.7469
+2022-01-09 19:45:00,Olympique Lyonnais,PSG,France,AwayWin,1.73,9.8375,Draw,False,-9.8375,973.9094
+2022-01-12 19:45:00,West Ham United,Norwich City,Premier_League,HomeWin,1.38,9.7391,HomeWin,True,3.7009,977.6103
+2022-01-14 19:30:00,Borussia Dortmund,Freiburg,Germany,HomeWin,1.41,9.7761,HomeWin,True,4.0082,981.6185
+2022-01-15 12:30:00,Manchester City,Chelsea,Premier_League,HomeWin,1.57,9.8162,HomeWin,True,5.5952,987.2137
+2022-01-15 14:30:00,Köln,Bayern München,Germany,AwayWin,1.3,9.8721,AwayWin,True,2.9616,990.1754
+2022-01-15 14:30:00,Stuttgart,RB Leipzig,Germany,AwayWin,1.67,9.9018,AwayWin,True,6.6342,996.8095
+2022-01-15 17:00:00,Salernitana,Lazio,Italy,AwayWin,1.5,9.9681,AwayWin,True,4.984,1001.7936
+2022-01-15 19:45:00,Juventus,Udinese,Italy,HomeWin,1.4,10.0179,HomeWin,True,4.0072,1005.8008
+2022-01-15 20:00:00,PSG,Brest,France,HomeWin,1.18,10.058,HomeWin,True,1.8104,1007.6112
+2022-01-16 12:00:00,Rennes,Bordeaux,France,HomeWin,1.4,10.0761,HomeWin,True,4.0304,1011.6416
+2022-01-16 14:00:00,Monaco,Clermont,France,HomeWin,1.45,10.1164,HomeWin,True,4.5524,1016.194
+2022-01-16 14:00:00,Liverpool,Brentford,Premier_League,HomeWin,1.29,10.1619,HomeWin,True,2.947,1019.141
+2022-01-16 16:05:00,Troyes,Olympique Lyonnais,France,AwayWin,1.75,10.1914,AwayWin,True,7.6436,1026.7845
+2022-01-16 17:00:00,Roma,Cagliari,Italy,HomeWin,1.39,10.2678,HomeWin,True,4.0045,1030.789
+2022-01-17 17:30:00,AC Milan,Spezia,Italy,HomeWin,1.29,10.3079,AwayWin,False,-10.3079,1020.4811
+2022-01-17 19:45:00,Fiorentina,Genoa,Italy,HomeWin,1.46,10.2048,HomeWin,True,4.6942,1025.1753
+2022-01-18 19:00:00,Real Betis,Deportivo Alavés,Spain,HomeWin,1.5,10.2518,HomeWin,True,5.1259,1030.3012
+2022-01-18 20:00:00,Brighton & Hove Albion,Chelsea,Premier_League,AwayWin,1.68,10.303,Draw,False,-10.303,1019.9982
+2022-01-19 18:00:00,Lille,Lorient,France,HomeWin,1.57,10.2,HomeWin,True,5.814,1025.8122
+2022-01-19 18:00:00,Montpellier,Troyes,France,HomeWin,1.65,10.2581,AwayWin,False,-10.2581,1015.5541
+2022-01-21 20:00:00,Olympique Lyonnais,Saint-Étienne,France,HomeWin,1.33,10.1555,HomeWin,True,3.3513,1018.9054
+2022-01-22 14:30:00,Greuther Fürth,Mainz 05,Germany,AwayWin,1.78,10.1891,HomeWin,False,-10.1891,1008.7163
+2022-01-22 14:30:00,Bayer Leverkusen,Augsburg,Germany,HomeWin,1.44,10.0872,HomeWin,True,4.4384,1013.1547
+2022-01-22 15:15:00,Villarreal,RCD Mallorca,Spain,HomeWin,1.47,10.1315,HomeWin,True,4.7618,1017.9165
+2022-01-22 17:00:00,Inter Milan,Venezia,Italy,HomeWin,1.14,10.1792,HomeWin,True,1.4251,1019.3416
+2022-01-22 17:30:00,Sevilla FC,Celta de Vigo,Spain,HomeWin,1.61,10.1934,Draw,False,-10.1934,1009.1482
+2022-01-22 17:30:00,Southampton,Manchester City,Premier_League,AwayWin,1.4,10.0915,Draw,False,-10.0915,999.0567
+2022-01-22 20:00:00,Atlético Madrid,Valencia CF,Spain,HomeWin,1.41,9.9906,HomeWin,True,4.0961,1003.1528
+2022-01-23 14:00:00,Napoli,Salernitana,Italy,HomeWin,1.16,10.0315,HomeWin,True,1.605,1004.7579
+2022-01-23 14:00:00,Crystal Palace,Liverpool,Premier_League,AwayWin,1.49,10.0476,AwayWin,True,4.9233,1009.6812
+2022-01-23 14:00:00,Arsenal,Burnley,Premier_League,HomeWin,1.45,10.0968,Draw,False,-10.0968,999.5844
+2022-01-23 14:30:00,RB Leipzig,Wolfsburg,Germany,HomeWin,1.48,9.9958,HomeWin,True,4.798,1004.3824
+2022-01-23 15:15:00,Real Madrid,Elche CF,Spain,HomeWin,1.13,10.0438,Draw,False,-10.0438,994.3386
+2022-01-23 16:30:00,Chelsea,Tottenham Hotspur,Premier_League,HomeWin,1.63,9.9434,HomeWin,True,6.2643,1000.6029
+2022-01-23 16:30:00,Hertha BSC,Bayern München,Germany,AwayWin,1.29,10.006,AwayWin,True,2.9017,1003.5046
+2022-01-23 17:00:00,Empoli,Roma,Italy,AwayWin,1.87,10.035,AwayWin,True,8.7305,1012.2351
+2022-01-23 19:45:00,PSG,Reims,France,HomeWin,1.22,10.1224,HomeWin,True,2.2269,1014.4621
+2022-01-23 20:00:00,Deportivo Alavés,FC Barcelona,Spain,AwayWin,1.63,10.1446,AwayWin,True,6.3911,1020.8532
+2022-02-04 20:00:00,Olympique Marseille,Angers SCO,France,HomeWin,1.66,10.2085,HomeWin,True,6.7376,1027.5908
+2022-02-05 14:00:00,Roma,Genoa,Italy,HomeWin,1.35,10.2759,Draw,False,-10.2759,1017.3149
+2022-02-05 17:00:00,Inter Milan,AC Milan,Italy,HomeWin,1.51,10.1731,AwayWin,False,-10.1731,1007.1417
+2022-02-05 17:30:00,Bayern München,RB Leipzig,Germany,HomeWin,1.44,10.0714,HomeWin,True,4.4314,1011.5732
+2022-02-06 11:30:00,Atalanta,Cagliari,Italy,HomeWin,1.26,10.1157,AwayWin,False,-10.1157,1001.4574
+2022-02-06 14:00:00,Nice,Clermont,France,HomeWin,1.61,10.0146,AwayWin,False,-10.0146,991.4429
+2022-02-06 14:00:00,Venezia,Napoli,Italy,AwayWin,1.51,9.9144,AwayWin,True,5.0564,996.4992
+2022-02-06 16:30:00,Wolfsburg,Greuther Fürth,Germany,HomeWin,1.53,9.965,HomeWin,True,5.2814,1001.7807
+2022-02-06 19:45:00,Lille,PSG,France,AwayWin,1.8,10.0178,AwayWin,True,8.0142,1009.7949
+2022-02-06 19:45:00,Juventus,Hellas Verona,Italy,HomeWin,1.5,10.0979,HomeWin,True,5.049,1014.8439
+2022-02-06 20:00:00,Real Madrid,Granada CF,Spain,HomeWin,1.28,10.1484,HomeWin,True,2.8416,1017.6854
+2022-02-07 20:00:00,Athletic Club Bilbao,RCD Espanyol,Spain,HomeWin,1.76,10.1769,HomeWin,True,7.7344,1025.4199
+2022-02-08 19:45:00,West Ham United,Watford,Premier_League,HomeWin,1.33,10.2542,HomeWin,True,3.3839,1028.8037
+2022-02-08 20:00:00,Burnley,Manchester United,Premier_League,AwayWin,1.5,10.288,Draw,False,-10.288,1018.5157
+2022-02-09 19:45:00,Manchester City,Brentford,Premier_League,HomeWin,1.12,10.1852,HomeWin,True,1.2222,1019.7379
+2022-02-09 19:45:00,Tottenham Hotspur,Southampton,Premier_League,HomeWin,1.6,10.1974,AwayWin,False,-10.1974,1009.5405
+2022-02-10 19:45:00,Liverpool,Leicester City,Premier_League,HomeWin,1.27,10.0954,HomeWin,True,2.7258,1012.2663
+2022-02-11 19:30:00,RB Leipzig,Köln,Germany,HomeWin,1.53,10.1227,HomeWin,True,5.365,1017.6313
+2022-02-11 20:00:00,PSG,Rennes,France,HomeWin,1.44,10.1763,HomeWin,True,4.4776,1022.1089
+2022-02-11 20:00:00,Sevilla FC,Elche CF,Spain,HomeWin,1.36,10.2211,HomeWin,True,3.6796,1025.7885
+2022-02-12 12:30:00,Manchester United,Southampton,Premier_League,HomeWin,1.37,10.2579,Draw,False,-10.2579,1015.5306
+2022-02-12 14:00:00,Lazio,Bologna,Italy,HomeWin,1.75,10.1553,HomeWin,True,7.6165,1023.1471
+2022-02-12 14:30:00,Bochum,Bayern München,Germany,AwayWin,1.22,10.2315,HomeWin,False,-10.2315,1012.9156
+2022-02-12 17:30:00,Bayer Leverkusen,Stuttgart,Germany,HomeWin,1.52,10.1292,HomeWin,True,5.2672,1018.1828
+2022-02-12 17:30:00,Norwich City,Manchester City,Premier_League,AwayWin,1.18,10.1818,AwayWin,True,1.8327,1020.0155
+2022-02-12 19:45:00,Torino,Venezia,Italy,HomeWin,1.49,10.2002,AwayWin,False,-10.2002,1009.8153
+2022-02-12 20:00:00,Atlético Madrid,Getafe CF,Spain,HomeWin,1.44,10.0982,HomeWin,True,4.4432,1014.2585
+2022-02-13 11:30:00,AC Milan,Sampdoria,Italy,HomeWin,1.33,10.1426,HomeWin,True,3.3471,1017.6056
+2022-02-13 12:00:00,Monaco,Lorient,France,HomeWin,1.33,10.1761,Draw,False,-10.1761,1007.4295
+2022-02-13 14:00:00,Burnley,Liverpool,Premier_League,AwayWin,1.33,10.0743,AwayWin,True,3.3245,1010.754
+2022-02-13 14:30:00,Union Berlin,Borussia Dortmund,Germany,AwayWin,1.8,10.1075,AwayWin,True,8.086,1018.8401
+2022-02-13 16:30:00,Hoffenheim,Arminia Bielefeld,Germany,HomeWin,1.56,10.1884,HomeWin,True,5.7055,1024.5456
+2022-02-13 17:30:00,Real Sociedad,Granada CF,Spain,HomeWin,1.48,10.2455,HomeWin,True,4.9178,1029.4634
+2022-02-13 19:45:00,Metz,Olympique Marseille,France,AwayWin,1.72,10.2946,AwayWin,True,7.4121,1036.8755
+2022-02-15 20:15:00,Manchester United,Brighton & Hove Albion,Premier_League,HomeWin,1.49,10.3688,HomeWin,True,5.0807,1041.9562
+2022-02-16 18:00:00,Atlético Madrid,Levante UD,Spain,HomeWin,1.35,10.4196,AwayWin,False,-10.4196,1031.5367
+2022-02-18 19:45:00,Juventus,Torino,Italy,HomeWin,1.68,10.3154,Draw,False,-10.3154,1021.2213
+2022-02-18 20:00:00,Lille,Metz,France,HomeWin,1.51,10.2122,Draw,False,-10.2122,1011.0091
+2022-02-19 15:00:00,Liverpool,Norwich City,Premier_League,HomeWin,1.1,10.1101,HomeWin,True,1.011,1012.0201
+2022-02-19 15:00:00,Crystal Palace,Chelsea,Premier_League,AwayWin,1.62,10.1202,AwayWin,True,6.2745,1018.2946
+2022-02-19 15:00:00,Aston Villa,Watford,Premier_League,HomeWin,1.56,10.1829,AwayWin,False,-10.1829,1008.1117
+2022-02-19 15:00:00,Arsenal,Brentford,Premier_League,HomeWin,1.38,10.0811,HomeWin,True,3.8308,1011.9425
+2022-02-19 17:30:00,Manchester City,Tottenham Hotspur,Premier_League,HomeWin,1.16,10.1194,AwayWin,False,-10.1194,1001.8231
+2022-02-19 19:45:00,Salernitana,AC Milan,Italy,AwayWin,1.33,10.0182,Draw,False,-10.0182,991.8048
+2022-02-19 20:00:00,Nantes,PSG,France,AwayWin,1.5,9.918,HomeWin,False,-9.918,981.8868
+2022-02-19 20:00:00,Real Madrid,Deportivo Alavés,Spain,HomeWin,1.17,9.8189,HomeWin,True,1.6692,983.556
+2022-02-20 14:00:00,Rennes,Troyes,France,HomeWin,1.35,9.8356,HomeWin,True,3.4424,986.9984
+2022-02-20 14:30:00,Bayern München,Greuther Fürth,Germany,HomeWin,1.07,9.87,HomeWin,True,0.6909,987.6893
+2022-02-20 16:30:00,Borussia Dortmund,Borussia M'gladbach,Germany,HomeWin,1.6,9.8769,HomeWin,True,5.9261,993.6155
+2022-02-20 17:00:00,Inter Milan,Sassuolo,Italy,HomeWin,1.25,9.9362,AwayWin,False,-9.9362,983.6793
+2022-02-20 17:30:00,Real Betis,RCD Mallorca,Spain,HomeWin,1.62,9.8368,HomeWin,True,6.0988,989.7781
+2022-02-20 19:45:00,Olympique Marseille,Clermont,France,HomeWin,1.5,9.8978,AwayWin,False,-9.8978,979.8804
+2022-02-21 18:00:00,Cagliari,Napoli,Italy,AwayWin,1.61,9.7988,Draw,False,-9.7988,970.0816
+2022-02-21 20:00:00,Celta de Vigo,Levante UD,Spain,HomeWin,1.71,9.7008,Draw,False,-9.7008,960.3807
+2022-02-23 19:45:00,Liverpool,Leeds United,Premier_League,HomeWin,1.18,9.6038,HomeWin,True,1.7287,962.1094
+2022-02-24 19:45:00,Arsenal,Wolverhampton Wanderers,Premier_League,HomeWin,1.65,9.6211,HomeWin,True,6.2537,968.3631
+2022-02-25 17:50:00,AC Milan,Udinese,Italy,HomeWin,1.5,9.6836,Draw,False,-9.6836,958.6795
+2022-02-25 20:00:00,Southampton,Norwich City,Premier_League,HomeWin,1.55,9.5868,HomeWin,True,5.2727,963.9522
+2022-02-25 20:05:00,Genoa,Inter Milan,Italy,AwayWin,1.3,9.6395,Draw,False,-9.6395,954.3127
+2022-02-26 14:30:00,Freiburg,Hertha BSC,Germany,HomeWin,1.58,9.5431,HomeWin,True,5.535,959.8477
+2022-02-26 14:30:00,Bayer Leverkusen,Arminia Bielefeld,Germany,HomeWin,1.27,9.5985,HomeWin,True,2.5916,962.4393
+2022-02-26 15:00:00,Manchester United,Watford,Premier_League,HomeWin,1.25,9.6244,Draw,False,-9.6244,952.8149
+2022-02-26 17:05:00,Empoli,Juventus,Italy,AwayWin,1.6,9.5281,AwayWin,True,5.7169,958.5318
+2022-02-26 17:30:00,Eintracht Frankfurt,Bayern München,Germany,AwayWin,1.38,9.5853,AwayWin,True,3.6424,962.1742
+2022-02-26 17:30:00,Rayo Vallecano,Real Madrid,Spain,AwayWin,1.71,9.6217,AwayWin,True,6.8314,969.0057
+2022-02-26 17:30:00,Everton,Manchester City,Premier_League,AwayWin,1.28,9.6901,AwayWin,True,2.7132,971.7189
+2022-02-26 20:00:00,Atlético Madrid,Celta de Vigo,Spain,HomeWin,1.6,9.7172,HomeWin,True,5.8303,977.5492
+2022-02-26 20:00:00,PSG,Saint-Étienne,France,HomeWin,1.19,9.7755,HomeWin,True,1.8573,979.4065
+2022-02-27 11:35:00,Torino,Cagliari,Italy,HomeWin,1.44,9.7941,AwayWin,False,-9.7941,969.6125
+2022-02-27 12:00:00,Monaco,Reims,France,HomeWin,1.5,9.6961,AwayWin,False,-9.6961,959.9164
+2022-02-27 13:00:00,Villarreal,RCD Espanyol,Spain,HomeWin,1.42,9.5992,HomeWin,True,4.0316,963.948
+2022-02-27 14:05:00,Hellas Verona,Venezia,Italy,HomeWin,1.46,9.6395,HomeWin,True,4.4342,968.3822
+2022-02-27 14:30:00,Bochum,RB Leipzig,Germany,AwayWin,1.66,9.6838,AwayWin,True,6.3913,974.7735
+2022-02-27 16:05:00,Troyes,Olympique Marseille,France,AwayWin,1.75,9.7477,Draw,False,-9.7477,965.0258
+2022-02-27 16:30:00,Augsburg,Borussia Dortmund,Germany,AwayWin,1.79,9.6503,Draw,False,-9.6503,955.3755
+2022-02-27 17:05:00,Spezia,Roma,Italy,AwayWin,1.72,9.5538,AwayWin,True,6.8787,962.2542
+2022-02-27 19:45:00,Olympique Lyonnais,Lille,France,HomeWin,1.8,9.6225,AwayWin,False,-9.6225,952.6317
+2022-02-27 20:00:00,FC Barcelona,Athletic Club Bilbao,Spain,HomeWin,1.58,9.5263,HomeWin,True,5.5253,958.1569
+2022-02-28 19:50:00,Atalanta,Sampdoria,Italy,HomeWin,1.44,9.5816,HomeWin,True,4.2159,962.3728
+2022-03-04 19:45:00,Inter Milan,Salernitana,Italy,HomeWin,1.17,9.6237,HomeWin,True,1.636,964.0088
+2022-03-05 14:00:00,Udinese,Sampdoria,Italy,HomeWin,1.93,9.6401,HomeWin,True,8.9653,972.9741
+2022-03-05 14:30:00,RB Leipzig,Freiburg,Germany,HomeWin,1.58,9.7297,Draw,False,-9.7297,963.2444
+2022-03-05 14:30:00,Bayern München,Bayer Leverkusen,Germany,HomeWin,1.37,9.6324,Draw,False,-9.6324,953.6119
+2022-03-05 15:00:00,Burnley,Chelsea,Premier_League,AwayWin,1.47,9.5361,AwayWin,True,4.482,958.0939
+2022-03-05 17:30:00,Liverpool,West Ham United,Premier_League,HomeWin,1.28,9.5809,HomeWin,True,2.6827,960.7766
+2022-03-05 20:00:00,Real Madrid,Real Sociedad,Spain,HomeWin,1.57,9.6078,HomeWin,True,5.4764,966.253
+2022-03-06 14:00:00,Watford,Arsenal,Premier_League,AwayWin,1.6,9.6625,AwayWin,True,5.7975,972.0505
+2022-03-06 14:00:00,Rennes,Angers SCO,France,HomeWin,1.43,9.7205,HomeWin,True,4.1798,976.2303
+2022-03-06 15:15:00,Elche CF,FC Barcelona,Spain,AwayWin,1.4,9.7623,AwayWin,True,3.9049,980.1353
+2022-03-06 16:30:00,Manchester City,Manchester United,Premier_League,HomeWin,1.4,9.8014,HomeWin,True,3.9205,984.0558
+2022-03-06 17:00:00,Juventus,Spezia,Italy,HomeWin,1.25,9.8406,HomeWin,True,2.4601,986.5159
+2022-03-07 20:00:00,Athletic Club Bilbao,Levante UD,Spain,HomeWin,1.53,9.8652,HomeWin,True,5.2285,991.7445
+2022-03-07 20:00:00,Tottenham Hotspur,Everton,Premier_League,HomeWin,1.57,9.9174,HomeWin,True,5.6529,997.3974
+2022-03-10 19:30:00,Norwich City,Chelsea,Premier_League,AwayWin,1.31,9.974,AwayWin,True,3.0919,1000.4894
+2022-03-11 20:00:00,Atlético Madrid,Cádiz,Spain,HomeWin,1.28,10.0049,HomeWin,True,2.8014,1003.2907
+2022-03-11 20:00:00,Lille,Saint-Étienne,France,HomeWin,1.65,10.0329,Draw,False,-10.0329,993.2578
+2022-03-12 12:30:00,Brighton & Hove Albion,Liverpool,Premier_League,AwayWin,1.47,9.9326,AwayWin,True,4.6683,997.9261
+2022-03-12 14:30:00,Hoffenheim,Bayern München,Germany,AwayWin,1.52,9.9793,Draw,False,-9.9793,987.9469
+2022-03-12 17:00:00,Sampdoria,Juventus,Italy,AwayWin,1.7,9.8795,AwayWin,True,6.9156,994.8625
+2022-03-12 17:30:00,Villarreal,Celta de Vigo,Spain,HomeWin,1.79,9.9486,HomeWin,True,7.8594,1002.7219
+2022-03-12 19:45:00,AC Milan,Empoli,Italy,HomeWin,1.37,10.0272,HomeWin,True,3.7101,1006.432
+2022-03-13 11:30:00,Fiorentina,Bologna,Italy,HomeWin,1.65,10.0643,HomeWin,True,6.5418,1012.9738
+2022-03-13 12:00:00,PSG,Bordeaux,France,HomeWin,1.12,10.1297,HomeWin,True,1.2156,1014.1894
+2022-03-13 14:00:00,Hellas Verona,Napoli,Italy,AwayWin,1.95,10.1419,AwayWin,True,9.6348,1023.8242
+2022-03-13 14:00:00,Chelsea,Newcastle United,Premier_League,HomeWin,1.25,10.2382,HomeWin,True,2.5596,1026.3837
+2022-03-13 14:30:00,Bayer Leverkusen,Köln,Germany,HomeWin,1.6,10.2638,AwayWin,False,-10.2638,1016.1199
+2022-03-13 16:30:00,Borussia Dortmund,Arminia Bielefeld,Germany,HomeWin,1.22,10.1612,HomeWin,True,2.2355,1018.3553
+2022-03-13 16:30:00,Arsenal,Leicester City,Premier_League,HomeWin,1.62,10.1836,HomeWin,True,6.3138,1024.6691
+2022-03-13 17:00:00,Atalanta,Genoa,Italy,HomeWin,1.35,10.2467,Draw,False,-10.2467,1014.4225
+2022-03-13 17:30:00,Real Sociedad,Deportivo Alavés,Spain,HomeWin,1.4,10.1442,HomeWin,True,4.0577,1018.4801
+2022-03-13 18:30:00,Greuther Fürth,RB Leipzig,Germany,AwayWin,1.39,10.1848,AwayWin,True,3.9721,1022.4522
+2022-03-13 19:45:00,Torino,Inter Milan,Italy,AwayWin,1.74,10.2245,Draw,False,-10.2245,1012.2277
+2022-03-13 20:00:00,FC Barcelona,CA Osasuna,Spain,HomeWin,1.37,10.1223,HomeWin,True,3.7452,1015.9729
+2022-03-14 19:45:00,Lazio,Venezia,Italy,HomeWin,1.38,10.1597,HomeWin,True,3.8607,1019.8336
+2022-03-14 20:00:00,Crystal Palace,Manchester City,Premier_League,AwayWin,1.31,10.1983,Draw,False,-10.1983,1009.6353
+2022-03-14 20:00:00,RCD Mallorca,Real Madrid,Spain,AwayWin,1.59,10.0964,AwayWin,True,5.9568,1015.5921
+2022-03-16 17:30:00,Mainz 05,Borussia Dortmund,Germany,AwayWin,1.93,10.1559,AwayWin,True,9.445,1025.0372
+2022-03-18 17:45:00,Sassuolo,Spezia,Italy,HomeWin,1.55,10.2504,HomeWin,True,5.6377,1030.6749
+2022-03-19 14:00:00,Napoli,Udinese,Italy,HomeWin,1.38,10.3067,HomeWin,True,3.9166,1034.5914
+2022-03-19 17:00:00,Inter Milan,Fiorentina,Italy,HomeWin,1.48,10.3459,Draw,False,-10.3459,1024.2455
+2022-03-19 17:30:00,Bayern München,Union Berlin,Germany,HomeWin,1.18,10.2425,HomeWin,True,1.8436,1026.0891
+2022-03-19 19:45:00,Cagliari,AC Milan,Italy,AwayWin,1.61,10.2609,AwayWin,True,6.2591,1032.3483
+2022-03-20 14:00:00,Rennes,Metz,France,HomeWin,1.2,10.3235,HomeWin,True,2.0647,1034.413
+2022-03-20 14:00:00,Juventus,Salernitana,Italy,HomeWin,1.12,10.3441,HomeWin,True,1.2413,1035.6543
+2022-03-20 14:30:00,RB Leipzig,Eintracht Frankfurt,Germany,HomeWin,1.54,10.3565,Draw,False,-10.3565,1025.2977
+2022-03-20 15:15:00,Cádiz,Villarreal,Spain,AwayWin,1.7,10.253,HomeWin,False,-10.253,1015.0448
+2022-03-20 18:30:00,Köln,Borussia Dortmund,Germany,AwayWin,1.93,10.1504,Draw,False,-10.1504,1004.8943
+2022-03-20 19:45:00,Bologna,Atalanta,Italy,AwayWin,1.63,10.0489,AwayWin,True,6.3308,1011.2252
+2022-04-02 11:30:00,Liverpool,Watford,Premier_League,HomeWin,1.11,10.1123,HomeWin,True,1.1123,1012.3375
+2022-04-02 13:30:00,Eintracht Frankfurt,Greuther Fürth,Germany,HomeWin,1.44,10.1234,Draw,False,-10.1234,1002.2141
+2022-04-02 13:30:00,Bayer Leverkusen,Hertha BSC,Germany,HomeWin,1.4,10.0221,HomeWin,True,4.0089,1006.223
+2022-04-02 13:30:00,Freiburg,Bayern München,Germany,AwayWin,1.4,10.0622,AwayWin,True,4.0249,1010.2479
+2022-04-02 13:30:00,Hoffenheim,Bochum,Germany,HomeWin,1.53,10.1025,AwayWin,False,-10.1025,1000.1454
+2022-04-02 14:00:00,Chelsea,Brentford,Premier_League,HomeWin,1.35,10.0015,AwayWin,False,-10.0015,990.1439
+2022-04-02 14:00:00,Burnley,Manchester City,Premier_League,AwayWin,1.22,9.9014,AwayWin,True,2.1783,992.3223
+2022-04-02 14:00:00,Brighton & Hove Albion,Norwich City,Premier_League,HomeWin,1.44,9.9232,Draw,False,-9.9232,982.399
+2022-04-02 16:00:00,Lazio,Sassuolo,Italy,HomeWin,1.73,9.824,HomeWin,True,7.1715,989.5705
+2022-04-02 16:30:00,Manchester United,Leicester City,Premier_League,HomeWin,1.5,9.8957,Draw,False,-9.8957,979.6748
+2022-04-02 17:00:00,Lille,Bordeaux,France,HomeWin,1.5,9.7967,Draw,False,-9.7967,969.8781
+2022-04-02 19:00:00,Atlético Madrid,Deportivo Alavés,Spain,HomeWin,1.4,9.6988,HomeWin,True,3.8795,973.7576
+2022-04-03 10:30:00,Fiorentina,Empoli,Italy,HomeWin,1.53,9.7376,HomeWin,True,5.1609,978.9185
+2022-04-03 12:00:00,Athletic Club Bilbao,Elche CF,Spain,HomeWin,1.52,9.7892,HomeWin,True,5.0904,984.0089
+2022-04-03 13:00:00,Metz,Monaco,France,AwayWin,1.57,9.8401,AwayWin,True,5.6089,989.6177
+2022-04-03 15:05:00,Olympique Lyonnais,Angers SCO,France,HomeWin,1.4,9.8962,HomeWin,True,3.9585,993.5762
+2022-04-03 15:30:00,Tottenham Hotspur,Newcastle United,Premier_League,HomeWin,1.52,9.9358,HomeWin,True,5.1666,998.7428
+2022-04-03 16:00:00,Sampdoria,Roma,Italy,AwayWin,1.77,9.9874,AwayWin,True,7.6903,1006.4331
+2022-04-03 18:45:00,PSG,Lorient,France,HomeWin,1.16,10.0643,HomeWin,True,1.6103,1008.0434
+2022-04-03 19:00:00,FC Barcelona,Sevilla FC,Spain,HomeWin,1.41,10.0804,HomeWin,True,4.133,1012.1764
+2022-04-04 18:45:00,AC Milan,Bologna,Italy,HomeWin,1.45,10.1218,Draw,False,-10.1218,1002.0546
+2022-04-08 18:30:00,Stuttgart,Borussia Dortmund,Germany,AwayWin,1.91,10.0205,AwayWin,True,9.1187,1011.1733
+2022-04-08 19:00:00,Sevilla FC,Granada CF,Spain,HomeWin,1.4,10.1117,HomeWin,True,4.0447,1015.218
+2022-04-09 11:30:00,Everton,Manchester United,Premier_League,AwayWin,1.78,10.1522,HomeWin,False,-10.1522,1005.0659
+2022-04-09 13:30:00,Bayern München,Augsburg,Germany,HomeWin,1.14,10.0507,HomeWin,True,1.4071,1006.4729
+2022-04-09 13:30:00,Greuther Fürth,Borussia M'gladbach,Germany,AwayWin,1.86,10.0647,AwayWin,True,8.6557,1015.1286
+2022-04-09 14:00:00,Arsenal,Brighton & Hove Albion,Premier_League,HomeWin,1.65,10.1513,AwayWin,False,-10.1513,1004.9773
+2022-04-09 14:00:00,Southampton,Chelsea,Premier_League,AwayWin,1.78,10.0498,AwayWin,True,7.8388,1012.8161
+2022-04-09 16:00:00,Inter Milan,Hellas Verona,Italy,HomeWin,1.41,10.1282,HomeWin,True,4.1525,1016.9687
+2022-04-09 18:45:00,Cagliari,Juventus,Italy,AwayWin,1.78,10.1697,AwayWin,True,7.9324,1024.901
+2022-04-09 19:00:00,Real Madrid,Getafe CF,Spain,HomeWin,1.35,10.249,HomeWin,True,3.5872,1028.4882
+2022-04-09 19:00:00,Clermont,PSG,France,AwayWin,1.41,10.2849,AwayWin,True,4.2168,1032.705
+2022-04-09 22:00:00,Atlético GO,Flamengo,Brazil,AwayWin,1.55,10.3271,Draw,False,-10.3271,1022.378
+2022-04-10 00:00:00,Palmeiras,Ceará,Brazil,HomeWin,1.4,10.2238,AwayWin,False,-10.2238,1012.1542
+2022-04-10 13:00:00,Napoli,Fiorentina,Italy,HomeWin,1.73,10.1215,AwayWin,False,-10.1215,1002.0326
+2022-04-10 13:00:00,Monaco,Troyes,France,HomeWin,1.33,10.0203,HomeWin,True,3.3067,1005.3393
+2022-04-10 13:30:00,Bochum,Bayer Leverkusen,Germany,AwayWin,1.83,10.0534,Draw,False,-10.0534,995.2859
+2022-04-10 16:00:00,Roma,Salernitana,Italy,HomeWin,1.25,9.9529,HomeWin,True,2.4882,997.7742
+2022-04-10 17:30:00,RB Leipzig,Hoffenheim,Germany,HomeWin,1.57,9.9777,HomeWin,True,5.6873,1003.4615
+2022-04-10 19:00:00,Levante UD,FC Barcelona,Spain,AwayWin,1.48,10.0346,AwayWin,True,4.8166,1008.2781
+2022-04-10 19:00:00,Atlético Mineiro,Internacional,Brazil,HomeWin,1.58,10.0828,HomeWin,True,5.848,1014.1261
+2022-04-10 19:00:00,Olympique Marseille,Montpellier,France,HomeWin,1.52,10.1413,HomeWin,True,5.2735,1019.3996
+2022-04-10 21:00:00,Fortaleza,Cuiabá,Brazil,HomeWin,1.5,10.194,AwayWin,False,-10.194,1009.2056
+2022-04-15 17:00:00,Spezia,Inter Milan,Italy,AwayWin,1.39,10.0921,AwayWin,True,3.9359,1013.1415
+2022-04-15 19:00:00,AC Milan,Genoa,Italy,HomeWin,1.33,10.1314,HomeWin,True,3.3434,1016.4848
+2022-04-16 11:30:00,Tottenham Hotspur,Brighton & Hove Albion,Premier_League,HomeWin,1.5,10.1648,AwayWin,False,-10.1648,1006.32
+2022-04-16 13:30:00,Borussia Dortmund,Wolfsburg,Germany,HomeWin,1.36,10.0632,HomeWin,True,3.6228,1009.9427
+2022-04-16 14:00:00,Manchester United,Norwich City,Premier_League,HomeWin,1.24,10.0994,HomeWin,True,2.4239,1012.3666
+2022-04-16 14:30:00,Fiorentina,Venezia,Italy,HomeWin,1.27,10.1237,HomeWin,True,2.7334,1015.1
+2022-04-16 16:30:00,Juventus,Bologna,Italy,HomeWin,1.22,10.151,Draw,False,-10.151,1004.949
+2022-04-16 18:45:00,Lazio,Torino,Italy,HomeWin,1.64,10.0495,Draw,False,-10.0495,994.8995
+2022-04-16 22:00:00,Corinthians,Avaí,Brazil,HomeWin,1.37,9.949,HomeWin,True,3.6811,998.5806
+2022-04-17 11:00:00,Nice,Lorient,France,HomeWin,1.58,9.9858,HomeWin,True,5.7918,1004.3724
+2022-04-17 13:30:00,Arminia Bielefeld,Bayern München,Germany,AwayWin,1.17,10.0437,AwayWin,True,1.7074,1006.0798
+2022-04-17 14:15:00,Atlético Madrid,RCD Espanyol,Spain,HomeWin,1.44,10.0608,HomeWin,True,4.4268,1010.5066
+2022-04-17 15:05:00,Olympique Lyonnais,Bordeaux,France,HomeWin,1.29,10.1051,HomeWin,True,2.9305,1013.437
+2022-04-17 15:30:00,Hoffenheim,Greuther Fürth,Germany,HomeWin,1.29,10.1344,Draw,False,-10.1344,1003.3027
+2022-04-17 18:45:00,PSG,Olympique Marseille,France,HomeWin,1.38,10.033,HomeWin,True,3.8126,1007.1152
+2022-04-17 19:00:00,Flamengo,São Paulo,Brazil,HomeWin,1.71,10.0712,HomeWin,True,7.1505,1014.2657
+2022-04-18 19:00:00,FC Barcelona,Cádiz,Spain,HomeWin,1.23,10.1427,AwayWin,False,-10.1427,1004.1231
+2022-04-19 19:00:00,Real Betis,Elche CF,Spain,HomeWin,1.4,10.0412,AwayWin,False,-10.0412,994.0819
+2022-04-19 19:00:00,Liverpool,Manchester United,Premier_League,HomeWin,1.42,9.9408,HomeWin,True,4.1751,998.257
+2022-04-19 19:30:00,Villarreal,Valencia CF,Spain,HomeWin,1.5,9.9826,HomeWin,True,4.9913,1003.2483
+2022-04-20 16:45:00,Udinese,Salernitana,Italy,HomeWin,1.44,10.0325,AwayWin,False,-10.0325,993.2158
+2022-04-20 17:00:00,Monaco,Nice,France,HomeWin,1.83,9.9322,HomeWin,True,8.2437,1001.4595
+2022-04-20 17:00:00,Atlético Madrid,Granada CF,Spain,HomeWin,1.34,10.0146,Draw,False,-10.0146,991.4449
+2022-04-20 19:00:00,Olympique Marseille,Nantes,France,HomeWin,1.58,9.9144,HomeWin,True,5.7504,997.1953
+2022-04-20 19:00:00,Brest,Olympique Lyonnais,France,AwayWin,1.84,9.972,HomeWin,False,-9.972,987.2233
+2022-04-20 19:00:00,Angers SCO,PSG,France,AwayWin,1.41,9.8722,AwayWin,True,4.0476,991.2709
+2022-04-20 19:00:00,Manchester City,Brighton & Hove Albion,Premier_League,HomeWin,1.21,9.9127,HomeWin,True,2.0817,993.3526
+2022-04-20 19:30:00,CA Osasuna,Real Madrid,Spain,AwayWin,1.74,9.9335,AwayWin,True,7.3508,1000.7034
+2022-04-23 13:00:00,Venezia,Atalanta,Italy,AwayWin,1.48,10.007,AwayWin,True,4.8034,1005.5068
+2022-04-23 13:00:00,Torino,Spezia,Italy,HomeWin,1.65,10.0551,HomeWin,True,6.5358,1012.0426
+2022-04-23 13:30:00,Greuther Fürth,Bayer Leverkusen,Germany,AwayWin,1.4,10.1204,AwayWin,True,4.0482,1016.0908
+2022-04-23 13:30:00,RB Leipzig,Union Berlin,Germany,HomeWin,1.5,10.1609,AwayWin,False,-10.1609,1005.9299
+2022-04-23 14:00:00,Manchester City,Watford,Premier_League,HomeWin,1.11,10.0593,HomeWin,True,1.1065,1007.0364
+2022-04-23 15:00:00,Olympique Lyonnais,Montpellier,France,HomeWin,1.33,10.0704,HomeWin,True,3.3232,1010.3596
+2022-04-23 16:00:00,Inter Milan,Roma,Italy,HomeWin,1.67,10.1036,HomeWin,True,6.7694,1017.129
+2022-04-23 16:30:00,Bayern München,Borussia Dortmund,Germany,HomeWin,1.4,10.1713,HomeWin,True,4.0685,1021.1975
+2022-04-23 19:00:00,PSG,Lens,France,HomeWin,1.3,10.212,Draw,False,-10.212,1010.9855
+2022-04-24 00:00:00,Atlético Mineiro,Coritiba,Brazil,HomeWin,1.33,10.1099,Draw,False,-10.1099,1000.8757
+2022-04-24 10:30:00,Salernitana,Fiorentina,Italy,AwayWin,1.6,10.0088,HomeWin,False,-10.0088,990.8669
+2022-04-24 11:00:00,Rennes,Lorient,France,HomeWin,1.47,9.9087,HomeWin,True,4.6571,995.524
+2022-04-24 13:00:00,Chelsea,West Ham United,Premier_League,HomeWin,1.56,9.9552,HomeWin,True,5.5749,1001.0989
+2022-04-24 13:00:00,Empoli,Napoli,Italy,AwayWin,1.72,10.011,HomeWin,False,-10.011,991.088
+2022-04-24 13:00:00,Nantes,Bordeaux,France,HomeWin,1.75,9.9109,HomeWin,True,7.4332,998.5211
+2022-04-24 13:00:00,Nice,Troyes,France,HomeWin,1.61,9.9852,HomeWin,True,6.091,1004.6121
+2022-04-24 15:30:00,Liverpool,Everton,Premier_League,HomeWin,1.22,10.0461,HomeWin,True,2.2101,1006.8222
+2022-04-24 19:00:00,FC Barcelona,Rayo Vallecano,Spain,HomeWin,1.33,10.0682,AwayWin,False,-10.0682,996.754
+2022-04-25 18:45:00,Sassuolo,Juventus,Italy,AwayWin,1.76,9.9675,AwayWin,True,7.5753,1004.3293
+2022-04-27 16:00:00,Fiorentina,Udinese,Italy,HomeWin,1.68,10.0433,AwayWin,False,-10.0433,994.2861
+2022-04-27 18:15:00,Atalanta,Torino,Italy,HomeWin,1.55,9.9429,Draw,False,-9.9429,984.3432
+2022-04-27 18:15:00,Bologna,Inter Milan,Italy,AwayWin,1.38,9.8434,HomeWin,False,-9.8434,974.4998
+2022-04-29 18:30:00,Union Berlin,Greuther Fürth,Germany,HomeWin,1.44,9.745,Draw,False,-9.745,964.7548
+2022-04-29 19:00:00,Sevilla FC,Cádiz,Spain,HomeWin,1.37,9.6475,Draw,False,-9.6475,955.1072
+2022-04-29 19:00:00,Strasbourg,PSG,France,AwayWin,1.76,9.5511,Draw,False,-9.5511,945.5561
+2022-04-30 11:30:00,Newcastle United,Liverpool,Premier_League,AwayWin,1.43,9.4556,AwayWin,True,4.0659,949.622
+2022-04-30 13:00:00,Napoli,Sassuolo,Italy,HomeWin,1.54,9.4962,HomeWin,True,5.128,954.75
+2022-04-30 13:30:00,Mainz 05,Bayern München,Germany,AwayWin,1.5,9.5475,HomeWin,False,-9.5475,945.2025
+2022-04-30 13:30:00,Borussia Dortmund,Bochum,Germany,HomeWin,1.39,9.452,AwayWin,False,-9.452,935.7505
+2022-04-30 14:00:00,Aston Villa,Norwich City,Premier_League,HomeWin,1.5,9.3575,HomeWin,True,4.6788,940.4292
+2022-04-30 14:15:00,Real Madrid,RCD Espanyol,Spain,HomeWin,1.27,9.4043,HomeWin,True,2.5392,942.9684
+2022-04-30 16:30:00,Leeds United,Manchester City,Premier_League,AwayWin,1.32,9.4297,AwayWin,True,3.0175,945.9859
+2022-04-30 16:30:00,Valencia CF,Levante UD,Spain,HomeWin,1.7,9.4599,Draw,False,-9.4599,936.526
+2022-04-30 19:00:00,Rennes,Saint-Étienne,France,HomeWin,1.33,9.3653,HomeWin,True,3.0905,939.6166
+2022-04-30 21:30:00,Goiás,Atlético Mineiro,Brazil,AwayWin,1.44,9.3962,Draw,False,-9.3962,930.2204
+2022-05-01 10:30:00,Juventus,Venezia,Italy,HomeWin,1.2,9.3022,HomeWin,True,1.8604,932.0808
+2022-05-01 13:00:00,Monaco,Angers SCO,France,HomeWin,1.4,9.3208,HomeWin,True,3.7283,935.8092
+2022-05-01 13:00:00,Tottenham Hotspur,Leicester City,Premier_League,HomeWin,1.44,9.3581,HomeWin,True,4.1176,939.9267
+2022-05-01 13:00:00,Everton,Chelsea,Premier_League,AwayWin,1.6,9.3993,HomeWin,False,-9.3993,930.5274
+2022-05-01 13:00:00,AC Milan,Fiorentina,Italy,HomeWin,1.72,9.3053,HomeWin,True,6.6998,937.2272
+2022-05-01 15:30:00,West Ham United,Arsenal,Premier_League,AwayWin,1.84,9.3723,AwayWin,True,7.8727,945.1
+2022-05-01 16:00:00,Udinese,Inter Milan,Italy,AwayWin,1.64,9.451,AwayWin,True,6.0486,951.1486
+2022-05-01 18:45:00,Roma,Bologna,Italy,HomeWin,1.51,9.5115,Draw,False,-9.5115,941.6371
+2022-05-01 19:00:00,FC Barcelona,RCD Mallorca,Spain,HomeWin,1.33,9.4164,HomeWin,True,3.1074,944.7445
+2022-05-01 22:00:00,Internacional,Avaí,Brazil,HomeWin,1.52,9.4474,Draw,False,-9.4474,935.2971
+2022-05-02 18:45:00,Atalanta,Salernitana,Italy,HomeWin,1.24,9.353,Draw,False,-9.353,925.9441
+2022-05-02 23:00:00,São Paulo,Santos,Brazil,HomeWin,1.6,9.2594,HomeWin,True,5.5557,931.4998
+2022-05-06 16:45:00,Inter Milan,Empoli,Italy,HomeWin,1.18,9.315,HomeWin,True,1.6767,933.1765
+2022-05-06 19:00:00,Genoa,Juventus,Italy,AwayWin,1.61,9.3318,HomeWin,False,-9.3318,923.8447
+2022-05-07 13:30:00,Greuther Fürth,Borussia Dortmund,Germany,AwayWin,1.34,9.2384,AwayWin,True,3.1411,926.9858
+2022-05-07 14:00:00,Chelsea,Wolverhampton Wanderers,Premier_League,HomeWin,1.29,9.2699,Draw,False,-9.2699,917.7159
+2022-05-07 18:45:00,Liverpool,Tottenham Hotspur,Premier_League,HomeWin,1.42,9.1772,Draw,False,-9.1772,908.5388
+2022-05-07 18:45:00,Lazio,Sampdoria,Italy,HomeWin,1.5,9.0854,HomeWin,True,4.5427,913.0814
+2022-05-07 19:30:00,Atlético Mineiro,América Mineiro,Brazil,HomeWin,1.47,9.1308,AwayWin,False,-9.1308,903.9506
+2022-05-08 10:30:00,Spezia,Atalanta,Italy,AwayWin,1.61,9.0395,AwayWin,True,5.5141,909.4647
+2022-05-08 11:00:00,Metz,Olympique Lyonnais,France,AwayWin,1.6,9.0946,HomeWin,False,-9.0946,900.3701
+2022-05-08 13:00:00,Arsenal,Leeds United,Premier_League,HomeWin,1.44,9.0037,HomeWin,True,3.9616,904.3317
+2022-05-08 13:00:00,Norwich City,West Ham United,Premier_League,AwayWin,1.86,9.0433,AwayWin,True,7.7773,912.109
+2022-05-08 14:00:00,Flamengo,Botafogo,Brazil,HomeWin,1.35,9.1211,AwayWin,False,-9.1211,902.9879
+2022-05-08 15:30:00,Manchester City,Newcastle United,Premier_League,HomeWin,1.21,9.0299,HomeWin,True,1.8963,904.8841
+2022-05-08 15:30:00,Bayern München,Stuttgart,Germany,HomeWin,1.21,9.0488,Draw,False,-9.0488,895.8353
+2022-05-08 17:30:00,RB Leipzig,Augsburg,Germany,HomeWin,1.3,8.9584,HomeWin,True,2.6875,898.5228
+2022-05-08 18:45:00,PSG,Troyes,France,HomeWin,1.16,8.9852,Draw,False,-8.9852,889.5376
+2022-05-08 18:45:00,Hellas Verona,AC Milan,Italy,AwayWin,1.8,8.8954,AwayWin,True,7.1163,896.6539
+2022-05-08 19:00:00,Palmeiras,Fluminense,Brazil,HomeWin,1.6,8.9665,Draw,False,-8.9665,887.6873
+2022-05-10 19:00:00,Aston Villa,Liverpool,Premier_League,AwayWin,1.5,8.8769,AwayWin,True,4.4384,892.1258
+2022-05-10 19:30:00,FC Barcelona,Celta de Vigo,Spain,HomeWin,1.39,8.9213,HomeWin,True,3.4793,895.6051
+2022-05-11 17:00:00,Nice,Saint-Étienne,France,HomeWin,1.55,8.9561,HomeWin,True,4.9258,900.5309
+2022-05-11 18:30:00,Sevilla FC,RCD Mallorca,Spain,HomeWin,1.5,9.0053,Draw,False,-9.0053,891.5256
+2022-05-11 18:30:00,Leeds United,Chelsea,Premier_League,AwayWin,1.57,8.9153,AwayWin,True,5.0817,896.6073
+2022-05-11 18:45:00,Leicester City,Norwich City,Premier_League,HomeWin,1.5,8.9661,HomeWin,True,4.483,901.0903
+2022-05-11 19:00:00,Nantes,Rennes,France,AwayWin,1.7,9.0109,HomeWin,False,-9.0109,892.0794
+2022-05-11 19:15:00,Wolverhampton Wanderers,Manchester City,Premier_League,AwayWin,1.22,8.9208,AwayWin,True,1.9626,894.042
+2022-05-11 19:30:00,Elche CF,Atlético Madrid,Spain,AwayWin,1.62,8.9404,AwayWin,True,5.5431,899.5851
+2022-05-12 19:30:00,Real Madrid,Levante UD,Spain,HomeWin,1.2,8.9959,HomeWin,True,1.7992,901.3842
+2022-05-14 13:30:00,Union Berlin,Bochum,Germany,HomeWin,1.37,9.0138,HomeWin,True,3.3351,904.7193
+2022-05-14 13:30:00,Borussia Dortmund,Hertha BSC,Germany,HomeWin,1.42,9.0472,HomeWin,True,3.7998,908.5192
+2022-05-14 13:30:00,Wolfsburg,Bayern München,Germany,AwayWin,1.44,9.0852,Draw,False,-9.0852,899.434
+2022-05-14 13:30:00,Augsburg,Greuther Fürth,Germany,HomeWin,1.53,8.9943,HomeWin,True,4.767,904.201
+2022-05-14 13:30:00,Arminia Bielefeld,RB Leipzig,Germany,AwayWin,1.26,9.042,Draw,False,-9.042,895.159
+2022-05-14 16:00:00,Udinese,Spezia,Italy,HomeWin,1.57,8.9516,AwayWin,False,-8.9516,886.2074
+2022-05-14 18:45:00,Roma,Venezia,Italy,HomeWin,1.25,8.8621,Draw,False,-8.8621,877.3453
+2022-05-14 19:00:00,Olympique Lyonnais,Nantes,France,HomeWin,1.35,8.7735,HomeWin,True,3.0707,880.416
+2022-05-14 19:00:00,Monaco,Brest,France,HomeWin,1.27,8.8042,HomeWin,True,2.3771,882.7931
+2022-05-14 19:00:00,Strasbourg,Clermont,France,HomeWin,1.46,8.8279,HomeWin,True,4.0608,886.854
+2022-05-14 19:00:00,Montpellier,PSG,France,AwayWin,1.36,8.8685,AwayWin,True,3.1927,890.0467
+2022-05-14 19:30:00,Palmeiras,Bragantino,Brazil,HomeWin,1.53,8.9005,HomeWin,True,4.7172,894.7639
+2022-05-14 22:00:00,Atlético Mineiro,Atlético GO,Brazil,HomeWin,1.25,8.9476,HomeWin,True,2.2369,897.0008
+2022-05-15 11:00:00,Tottenham Hotspur,Burnley,Premier_League,HomeWin,1.34,8.97,HomeWin,True,3.0498,900.0506
+2022-05-15 13:00:00,West Ham United,Manchester City,Premier_League,AwayWin,1.38,9.0005,Draw,False,-9.0005,891.0501
+2022-05-15 13:00:00,Wolverhampton Wanderers,Norwich City,Premier_League,HomeWin,1.44,8.9105,Draw,False,-8.9105,882.1396
+2022-05-15 13:00:00,Watford,Leicester City,Premier_League,AwayWin,1.95,8.8214,AwayWin,True,8.3803,890.5199
+2022-05-15 13:00:00,Napoli,Genoa,Italy,HomeWin,1.78,8.9052,HomeWin,True,6.9461,897.466
+2022-05-15 16:00:00,AC Milan,Atalanta,Italy,HomeWin,1.75,8.9747,HomeWin,True,6.731,904.197
+2022-05-15 17:30:00,Athletic Club Bilbao,CA Osasuna,Spain,HomeWin,1.57,9.042,HomeWin,True,5.1539,909.3509
+2022-05-15 17:30:00,Celta de Vigo,Elche CF,Spain,HomeWin,1.67,9.0935,HomeWin,True,6.0927,915.4436
+2022-05-15 17:30:00,Real Betis,Granada CF,Spain,HomeWin,1.53,9.1544,HomeWin,True,4.8519,920.2954
+2022-05-15 17:30:00,RCD Mallorca,Rayo Vallecano,Spain,HomeWin,1.55,9.203,HomeWin,True,5.0616,925.357
+2022-05-15 18:45:00,Cagliari,Inter Milan,Italy,AwayWin,1.4,9.2536,AwayWin,True,3.7014,929.0585
+2022-05-15 19:00:00,São Paulo,Cuiabá,Brazil,HomeWin,1.45,9.2906,HomeWin,True,4.1808,933.2392
+2022-05-16 16:30:00,Sampdoria,Fiorentina,Italy,AwayWin,1.75,9.3324,HomeWin,False,-9.3324,923.9068
+2022-05-16 19:00:00,Newcastle United,Arsenal,Premier_League,AwayWin,1.85,9.2391,HomeWin,False,-9.2391,914.6678
+2022-05-17 18:45:00,Southampton,Liverpool,Premier_League,AwayWin,1.36,9.1467,AwayWin,True,3.2928,917.9606
+2022-05-19 19:00:00,Chelsea,Leicester City,Premier_League,HomeWin,1.36,9.1796,Draw,False,-9.1796,908.781
+2022-05-20 19:00:00,Real Madrid,Real Betis,Spain,HomeWin,1.76,9.0878,Draw,False,-9.0878,899.6932
+2022-05-21 18:45:00,Atalanta,Empoli,Italy,HomeWin,1.33,8.9969,AwayWin,False,-8.9969,890.6962
+2022-05-21 18:45:00,Lazio,Hellas Verona,Italy,HomeWin,1.68,8.907,Draw,False,-8.907,881.7893
+2022-05-21 19:00:00,PSG,Metz,France,HomeWin,1.16,8.8179,HomeWin,True,1.4109,883.2001
+2022-05-21 19:00:00,Lille,Rennes,France,AwayWin,1.82,8.832,Draw,False,-8.832,874.3681
+2022-05-21 19:00:00,Reims,Nice,France,AwayWin,1.87,8.7437,AwayWin,True,7.607,881.9751
+2022-05-21 19:30:00,Flamengo,Goiás,Brazil,HomeWin,1.2,8.8198,HomeWin,True,1.764,883.7391
+2022-05-22 10:30:00,Spezia,Napoli,Italy,AwayWin,1.59,8.8374,AwayWin,True,5.2141,888.9531
+2022-05-22 15:00:00,Manchester City,Aston Villa,Premier_League,HomeWin,1.2,8.8895,HomeWin,True,1.7779,890.731
+2022-05-22 15:00:00,Liverpool,Wolverhampton Wanderers,Premier_League,HomeWin,1.2,8.9073,HomeWin,True,1.7815,892.5125
+2022-05-22 15:00:00,Chelsea,Watford,Premier_League,HomeWin,1.17,8.9251,HomeWin,True,1.5173,894.0298
+2022-05-22 15:00:00,Arsenal,Everton,Premier_League,HomeWin,1.57,8.9403,HomeWin,True,5.096,899.1257
+2022-05-22 15:00:00,Norwich City,Tottenham Hotspur,Premier_League,AwayWin,1.22,8.9913,AwayWin,True,1.9781,901.1038
+2022-05-22 16:00:00,Inter Milan,Sampdoria,Italy,HomeWin,1.2,9.011,HomeWin,True,1.8022,902.906
+2022-05-22 16:00:00,Sassuolo,AC Milan,Italy,AwayWin,1.5,9.0291,AwayWin,True,4.5145,907.4206
+2022-05-22 18:00:00,Granada CF,RCD Espanyol,Spain,HomeWin,1.53,9.0742,Draw,False,-9.0742,898.3464
+2022-05-28 22:00:00,São Paulo,Ceará,Brazil,HomeWin,1.57,8.9835,Draw,False,-8.9835,889.3629
+2022-05-29 21:00:00,Corinthians,América Mineiro,Brazil,HomeWin,1.6,8.8936,Draw,False,-8.8936,880.4693
+2022-05-29 22:00:00,Atlético Mineiro,Avaí,Brazil,HomeWin,1.18,8.8047,HomeWin,True,1.5848,882.0541
+2022-06-05 19:00:00,Flamengo,Fortaleza,Brazil,HomeWin,1.58,8.8205,AwayWin,False,-8.8205,873.2336
+2022-06-09 22:00:00,Palmeiras,Botafogo,Brazil,HomeWin,1.55,8.7323,HomeWin,True,4.8028,878.0364
+2022-06-11 22:00:00,Atlético Mineiro,Santos,Brazil,HomeWin,1.37,8.7804,Draw,False,-8.7804,869.256
+2022-06-12 19:00:00,São Paulo,América Mineiro,Brazil,HomeWin,1.65,8.6926,HomeWin,True,5.6502,874.9062
+2022-06-12 21:00:00,Coritiba,Palmeiras,Brazil,AwayWin,1.81,8.7491,AwayWin,True,7.0867,881.9929
+2022-06-15 23:30:00,Flamengo,Cuiabá,Brazil,HomeWin,1.3,8.8199,HomeWin,True,2.646,884.6389
+2022-06-16 21:00:00,Palmeiras,Atlético GO,Brazil,HomeWin,1.36,8.8464,HomeWin,True,3.1847,887.8236
+2022-06-19 19:00:00,Corinthians,Goiás,Brazil,HomeWin,1.62,8.8782,HomeWin,True,5.5045,893.3281
+2022-06-25 00:30:00,Internacional,Coritiba,Brazil,HomeWin,1.63,8.9333,HomeWin,True,5.628,898.956
+2022-06-25 22:00:00,Flamengo,América Mineiro,Brazil,HomeWin,1.44,8.9896,HomeWin,True,3.9554,902.9114
+2022-06-26 00:00:00,Atlético Mineiro,Fortaleza,Brazil,HomeWin,1.5,9.0291,HomeWin,True,4.5146,907.426
+2022-06-26 19:00:00,Avaí,Palmeiras,Brazil,AwayWin,1.74,9.0743,Draw,False,-9.0743,898.3517
+2022-06-26 21:00:00,São Paulo,Juventude,Brazil,HomeWin,1.52,8.9835,Draw,False,-8.9835,889.3682
+2022-07-03 00:00:00,Palmeiras,Atlético PR,Brazil,HomeWin,1.44,8.8937,AwayWin,False,-8.8937,880.4745
+2022-07-04 23:00:00,Bragantino,Botafogo,Brazil,HomeWin,1.52,8.8047,AwayWin,False,-8.8047,871.6698
+2022-07-10 21:00:00,Atlético Mineiro,São Paulo,Brazil,HomeWin,1.57,8.7167,Draw,False,-8.7167,862.9531
+2022-07-16 22:00:00,Flamengo,Coritiba,Brazil,HomeWin,1.29,8.6295,HomeWin,True,2.5026,865.4557
+2022-07-18 23:00:00,Palmeiras,Cuiabá,Brazil,HomeWin,1.33,8.6546,HomeWin,True,2.856,868.3117
+2022-07-20 23:30:00,Flamengo,Juventude,Brazil,HomeWin,1.37,8.6831,HomeWin,True,3.2128,871.5244
+2022-07-21 00:30:00,Corinthians,Coritiba,Brazil,HomeWin,1.57,8.7152,HomeWin,True,4.9677,876.4921
+2022-07-23 22:00:00,São Paulo,Goiás,Brazil,HomeWin,1.5,8.7649,Draw,False,-8.7649,867.7272
+2022-07-24 14:00:00,Avaí,Flamengo,Brazil,AwayWin,1.66,8.6773,AwayWin,True,5.727,873.4542
+2022-07-24 19:00:00,Palmeiras,Internacional,Brazil,HomeWin,1.49,8.7345,HomeWin,True,4.2799,877.7341
+2022-07-24 21:00:00,Atlético Mineiro,Corinthians,Brazil,HomeWin,1.59,8.7773,AwayWin,False,-8.7773,868.9568
+2022-07-30 23:30:00,Flamengo,Atlético GO,Brazil,HomeWin,1.42,8.6896,HomeWin,True,3.6496,872.6064
+2022-07-31 22:00:00,Bragantino,Juventude,Brazil,HomeWin,1.6,8.7261,HomeWin,True,5.2356,877.842
+2022-08-05 18:30:00,Eintracht Frankfurt,Bayern München,Germany,AwayWin,1.39,8.7784,AwayWin,True,3.4236,881.2656
+2022-08-05 19:00:00,Olympique Lyonnais,Ajaccio,France,HomeWin,1.36,8.8127,HomeWin,True,3.1726,884.4382
+2022-08-06 11:30:00,Fulham,Liverpool,Premier_League,AwayWin,1.34,8.8444,Draw,False,-8.8444,875.5938
+2022-08-06 14:00:00,Tottenham Hotspur,Southampton,Premier_League,HomeWin,1.58,8.7559,HomeWin,True,5.0784,880.6722
+2022-08-06 16:30:00,Everton,Chelsea,Premier_League,AwayWin,1.64,8.8067,AwayWin,True,5.6363,886.3085
+2022-08-06 19:00:00,Clermont,PSG,France,AwayWin,1.25,8.8631,AwayWin,True,2.2158,888.5243
+2022-08-07 13:00:00,Manchester United,Brighton & Hove Albion,Premier_League,HomeWin,1.62,8.8852,AwayWin,False,-8.8852,879.6391
+2022-08-07 15:05:00,Rennes,Lorient,France,HomeWin,1.33,8.7964,AwayWin,False,-8.7964,870.8427
+2022-08-07 15:30:00,West Ham United,Manchester City,Premier_League,AwayWin,1.36,8.7084,AwayWin,True,3.135,873.9777
+2022-08-07 18:45:00,Olympique Marseille,Reims,France,HomeWin,1.55,8.7398,HomeWin,True,4.8069,878.7846
+2022-08-07 19:00:00,Fluminense,Cuiabá,Brazil,HomeWin,1.45,8.7878,HomeWin,True,3.9545,882.7391
+2022-08-07 19:00:00,Palmeiras,Goiás,Brazil,HomeWin,1.29,8.8274,HomeWin,True,2.5599,885.2991
+2022-08-07 22:00:00,Atlético Mineiro,Atlético PR,Brazil,HomeWin,1.5,8.853,AwayWin,False,-8.853,876.4461
+2022-08-12 18:30:00,Freiburg,Borussia Dortmund,Germany,AwayWin,1.66,8.7645,AwayWin,True,5.7845,882.2306
+2022-08-13 13:30:00,RB Leipzig,Köln,Germany,HomeWin,1.44,8.8223,Draw,False,-8.8223,873.4083
+2022-08-13 13:30:00,Bayer Leverkusen,Augsburg,Germany,HomeWin,1.42,8.7341,AwayWin,False,-8.7341,864.6742
+2022-08-13 14:00:00,Manchester City,AFC Bournemouth,Premier_League,HomeWin,1.12,8.6467,HomeWin,True,1.0376,865.7118
+2022-08-13 16:30:00,AC Milan,Udinese,Italy,HomeWin,1.38,8.6571,HomeWin,True,3.2897,869.0015
+2022-08-13 16:30:00,Sampdoria,Atalanta,Italy,AwayWin,1.8,8.69,AwayWin,True,6.952,875.9536
+2022-08-13 18:45:00,Lecce,Inter Milan,Italy,AwayWin,1.29,8.7595,AwayWin,True,2.5403,878.4938
+2022-08-13 19:00:00,FC Barcelona,Rayo Vallecano,Spain,HomeWin,1.2,8.7849,Draw,False,-8.7849,869.7089
+2022-08-13 19:00:00,PSG,Montpellier,France,HomeWin,1.09,8.6971,HomeWin,True,0.7827,870.4916
+2022-08-14 15:30:00,Bayern München,Wolfsburg,Germany,HomeWin,1.21,8.7049,HomeWin,True,1.828,872.3196
+2022-08-14 16:30:00,Lazio,Bologna,Italy,HomeWin,1.65,8.7232,HomeWin,True,5.6701,877.9897
+2022-08-14 18:45:00,Salernitana,Roma,Italy,AwayWin,1.63,8.7799,AwayWin,True,5.5313,883.5211
+2022-08-14 19:00:00,Flamengo,Atlético PR,Brazil,HomeWin,1.41,8.8352,HomeWin,True,3.6224,887.1435
+2022-08-14 20:00:00,Almería,Real Madrid,Spain,AwayWin,1.35,8.8714,AwayWin,True,3.105,890.2485
+2022-08-15 15:30:00,Athletic Club Bilbao,RCD Mallorca,Spain,HomeWin,1.61,8.9025,Draw,False,-8.9025,881.346
+2022-08-15 16:30:00,Hellas Verona,Napoli,Italy,AwayWin,2.1,8.8135,AwayWin,True,9.6948,891.0408
+2022-08-15 18:45:00,Juventus,Sassuolo,Italy,HomeWin,1.44,8.9104,HomeWin,True,3.9206,894.9614
+2022-08-15 19:00:00,Liverpool,Crystal Palace,Premier_League,HomeWin,1.22,8.9496,Draw,False,-8.9496,886.0118
+2022-08-19 19:00:00,Olympique Lyonnais,Troyes,France,HomeWin,1.34,8.8601,HomeWin,True,3.0124,889.0242
+2022-08-19 20:00:00,Sevilla FC,Real Valladolid,Spain,HomeWin,1.56,8.8902,Draw,False,-8.8902,880.134
+2022-08-20 11:30:00,Tottenham Hotspur,Wolverhampton Wanderers,Premier_League,HomeWin,1.42,8.8013,HomeWin,True,3.6966,883.8305
+2022-08-20 13:30:00,Borussia Dortmund,Werder Bremen,Germany,HomeWin,1.38,8.8383,AwayWin,False,-8.8383,874.9922
+2022-08-20 16:30:00,AFC Bournemouth,Arsenal,Premier_League,AwayWin,1.6,8.7499,AwayWin,True,5.25,880.2422
+2022-08-20 18:45:00,Inter Milan,Spezia,Italy,HomeWin,1.16,8.8024,HomeWin,True,1.4084,881.6506
+2022-08-20 19:00:00,Olympique Marseille,Nantes,France,HomeWin,1.57,8.8165,HomeWin,True,5.0254,886.676
+2022-08-20 19:30:00,Atlético Mineiro,Goiás,Brazil,HomeWin,1.25,8.8668,AwayWin,False,-8.8668,877.8092
+2022-08-20 20:00:00,Celta de Vigo,Real Madrid,Spain,AwayWin,1.8,8.7781,AwayWin,True,7.0225,884.8317
+2022-08-21 13:00:00,Leeds United,Chelsea,Premier_League,AwayWin,1.57,8.8483,HomeWin,False,-8.8483,875.9834
+2022-08-21 15:05:00,Rennes,Ajaccio,France,HomeWin,1.33,8.7598,HomeWin,True,2.8907,878.8741
+2022-08-21 15:30:00,Athletic Club Bilbao,Valencia CF,Spain,HomeWin,1.52,8.7887,HomeWin,True,4.5701,883.4443
+2022-08-21 15:30:00,Newcastle United,Manchester City,Premier_League,AwayWin,1.37,8.8344,Draw,False,-8.8344,874.6098
+2022-08-21 15:30:00,Bochum,Bayern München,Germany,AwayWin,1.24,8.7461,AwayWin,True,2.0991,876.7089
+2022-08-21 16:30:00,Napoli,Monza,Italy,HomeWin,1.41,8.7671,HomeWin,True,3.5945,880.3034
+2022-08-21 18:45:00,Lille,PSG,France,AwayWin,1.52,8.803,AwayWin,True,4.5776,884.881
+2022-08-22 16:30:00,Roma,Cremonese,Italy,HomeWin,1.28,8.8488,HomeWin,True,2.4777,887.3587
+2022-08-22 18:45:00,Sampdoria,Juventus,Italy,AwayWin,1.7,8.8736,Draw,False,-8.8736,878.4851
+2022-08-26 18:30:00,Freiburg,Bochum,Germany,HomeWin,1.59,8.7849,HomeWin,True,5.1831,883.6681
+2022-08-27 13:30:00,Hertha BSC,Borussia Dortmund,Germany,AwayWin,1.68,8.8367,AwayWin,True,6.0089,889.6771
+2022-08-27 13:30:00,RB Leipzig,Wolfsburg,Germany,HomeWin,1.46,8.8968,HomeWin,True,4.0925,893.7696
+2022-08-27 14:00:00,Manchester City,Crystal Palace,Premier_League,HomeWin,1.13,8.9377,HomeWin,True,1.1619,894.9315
+2022-08-27 14:00:00,Chelsea,Leicester City,Premier_League,HomeWin,1.39,8.9493,HomeWin,True,3.4902,898.4217
+2022-08-27 14:00:00,Liverpool,AFC Bournemouth,Premier_League,HomeWin,1.11,8.9842,HomeWin,True,0.9883,899.41
+2022-08-27 16:30:00,Bayern München,Borussia M'gladbach,Germany,HomeWin,1.3,8.9941,Draw,False,-8.9941,890.4159
+2022-08-27 16:30:00,Arsenal,Fulham,Premier_League,HomeWin,1.33,8.9042,HomeWin,True,2.9384,893.3543
+2022-08-27 18:45:00,AC Milan,Bologna,Italy,HomeWin,1.37,8.9335,HomeWin,True,3.3054,896.6597
+2022-08-28 15:05:00,Reims,Olympique Lyonnais,France,AwayWin,1.77,8.9666,Draw,False,-8.9666,887.6931
+2022-08-28 15:30:00,Nottingham Forest,Tottenham Hotspur,Premier_League,AwayWin,1.7,8.8769,AwayWin,True,6.2139,893.9069
+2022-08-28 16:30:00,Hellas Verona,Atalanta,Italy,AwayWin,1.85,8.9391,AwayWin,True,7.5982,901.5051
+2022-08-28 17:30:00,FC Barcelona,Real Valladolid,Spain,HomeWin,1.18,9.0151,HomeWin,True,1.6227,903.1278
+2022-08-28 18:45:00,PSG,Monaco,France,HomeWin,1.35,9.0313,Draw,False,-9.0313,894.0966
+2022-08-28 20:00:00,RCD Espanyol,Real Madrid,Spain,AwayWin,1.5,8.941,AwayWin,True,4.4705,898.567
+2022-08-28 21:00:00,Botafogo,Flamengo,Brazil,AwayWin,1.7,8.9857,AwayWin,True,6.29,904.857
+2022-08-29 23:00:00,Internacional,Juventude,Brazil,HomeWin,1.45,9.0486,HomeWin,True,4.0719,908.9289
+2022-08-30 16:30:00,Sassuolo,AC Milan,Italy,AwayWin,1.58,9.0893,Draw,False,-9.0893,899.8396
+2022-08-30 18:45:00,Southampton,Chelsea,Premier_League,AwayWin,1.6,8.9984,HomeWin,False,-8.9984,890.8412
+2022-08-30 18:45:00,Roma,Monza,Italy,HomeWin,1.27,8.9084,HomeWin,True,2.4053,893.2465
+2022-08-30 18:45:00,Inter Milan,Cremonese,Italy,HomeWin,1.22,8.9325,HomeWin,True,1.9651,895.2116
+2022-08-31 17:00:00,Monaco,Troyes,France,HomeWin,1.28,8.9521,AwayWin,False,-8.9521,886.2595
+2022-08-31 17:00:00,Olympique Lyonnais,Auxerre,France,HomeWin,1.28,8.8626,HomeWin,True,2.4815,888.741
+2022-08-31 17:00:00,Strasbourg,Nantes,France,HomeWin,1.53,8.8874,Draw,False,-8.8874,879.8536
+2022-08-31 18:30:00,Arsenal,Aston Villa,Premier_League,HomeWin,1.46,8.7985,HomeWin,True,4.0473,883.9009
+2022-08-31 18:30:00,Manchester City,Nottingham Forest,Premier_League,HomeWin,1.08,8.839,HomeWin,True,0.7071,884.608
+2022-08-31 18:45:00,Juventus,Spezia,Italy,HomeWin,1.3,8.8461,HomeWin,True,2.6538,887.2619
+2022-08-31 18:45:00,Napoli,Lecce,Italy,HomeWin,1.26,8.8726,Draw,False,-8.8726,878.3892
+2022-08-31 19:00:00,Olympique Marseille,Clermont,France,HomeWin,1.44,8.7839,HomeWin,True,3.8649,882.2542
+2022-08-31 19:00:00,Rennes,Brest,France,HomeWin,1.31,8.8225,HomeWin,True,2.735,884.9892
+2022-08-31 19:00:00,Lens,Lorient,France,HomeWin,1.53,8.8499,HomeWin,True,4.6904,889.6796
+2022-08-31 19:00:00,Toulouse,PSG,France,AwayWin,1.17,8.8968,AwayWin,True,1.5125,891.192
+2022-08-31 19:00:00,Liverpool,Newcastle United,Premier_League,HomeWin,1.28,8.9119,HomeWin,True,2.4953,893.6874
+2022-09-01 18:45:00,Atalanta,Torino,Italy,HomeWin,1.53,8.9369,HomeWin,True,4.7365,898.4239
+2022-09-02 18:30:00,Borussia Dortmund,Hoffenheim,Germany,HomeWin,1.62,8.9842,HomeWin,True,5.5702,903.9942
+2022-09-03 11:30:00,Everton,Liverpool,Premier_League,AwayWin,1.37,9.0399,Draw,False,-9.0399,894.9542
+2022-09-03 13:30:00,Union Berlin,Bayern München,Germany,AwayWin,1.33,8.9495,Draw,False,-8.9495,886.0047
+2022-09-03 14:00:00,Tottenham Hotspur,Fulham,Premier_League,HomeWin,1.4,8.86,HomeWin,True,3.544,889.5487
+2022-09-03 14:00:00,Chelsea,West Ham United,Premier_League,HomeWin,1.47,8.8955,HomeWin,True,4.1809,893.7296
+2022-09-03 14:15:00,Real Madrid,Real Betis,Spain,HomeWin,1.43,8.9373,HomeWin,True,3.843,897.5726
+2022-09-03 15:00:00,Auxerre,Olympique Marseille,France,AwayWin,1.75,8.9757,AwayWin,True,6.7318,904.3044
+2022-09-03 16:30:00,Aston Villa,Manchester City,Premier_League,AwayWin,1.4,9.043,Draw,False,-9.043,895.2614
+2022-09-03 17:00:00,Olympique Lyonnais,Angers SCO,France,HomeWin,1.31,8.9526,HomeWin,True,2.7753,898.0367
+2022-09-03 19:00:00,Nantes,PSG,France,AwayWin,1.42,8.9804,AwayWin,True,3.7718,901.8084
+2022-09-04 14:00:00,Flamengo,Ceará,Brazil,HomeWin,1.32,9.0181,Draw,False,-9.0181,892.7903
+2022-09-04 14:15:00,Athletic Club Bilbao,RCD Espanyol,Spain,HomeWin,1.48,8.9279,AwayWin,False,-8.9279,883.8624
+2022-09-04 15:05:00,Troyes,Rennes,France,AwayWin,1.68,8.8386,Draw,False,-8.8386,875.0238
+2022-09-04 16:30:00,Villarreal,Elche CF,Spain,HomeWin,1.4,8.7502,HomeWin,True,3.5001,878.5239
+2022-09-04 18:45:00,Udinese,Roma,Italy,AwayWin,1.75,8.7852,HomeWin,False,-8.7852,869.7387
+2022-09-05 16:30:00,Monza,Atalanta,Italy,AwayWin,1.4,8.6974,AwayWin,True,3.479,873.2176
+2022-09-07 17:00:00,Lorient,Olympique Lyonnais,France,AwayWin,1.74,8.7322,HomeWin,False,-8.7322,864.4854
+2022-09-09 19:00:00,Lens,Troyes,France,HomeWin,1.53,8.6449,HomeWin,True,4.5818,869.0672
+2022-09-10 13:00:00,Napoli,Spezia,Italy,HomeWin,1.22,8.6907,HomeWin,True,1.9119,870.9792
+2022-09-10 13:30:00,Bayern München,Stuttgart,Germany,HomeWin,1.1,8.7098,Draw,False,-8.7098,862.2694
+2022-09-10 15:00:00,PSG,Brest,France,HomeWin,1.05,8.6227,HomeWin,True,0.4311,862.7005
+2022-09-10 16:00:00,Inter Milan,Torino,Italy,HomeWin,1.39,8.627,HomeWin,True,3.3645,866.065
+2022-09-10 16:30:00,Cádiz,FC Barcelona,Spain,AwayWin,1.28,8.6607,AwayWin,True,2.425,868.49
+2022-09-10 18:45:00,Sampdoria,AC Milan,Italy,AwayWin,1.55,8.6849,AwayWin,True,4.7767,873.2667
+2022-09-10 19:00:00,Atlético Madrid,Celta de Vigo,Spain,HomeWin,1.58,8.7327,HomeWin,True,5.0649,878.3317
+2022-09-10 19:30:00,Internacional,Cuiabá,Brazil,HomeWin,1.52,8.7833,HomeWin,True,4.5673,882.899
+2022-09-11 00:00:00,Palmeiras,Juventude,Brazil,HomeWin,1.3,8.829,HomeWin,True,2.6487,885.5477
+2022-09-11 10:30:00,Atalanta,Cremonese,Italy,HomeWin,1.28,8.8555,Draw,False,-8.8555,876.6922
+2022-09-11 11:00:00,Strasbourg,Clermont,France,HomeWin,1.6,8.7669,Draw,False,-8.7669,867.9253
+2022-09-11 12:00:00,Real Madrid,RCD Mallorca,Spain,HomeWin,1.31,8.6793,HomeWin,True,2.6906,870.6159
+2022-09-11 15:05:00,Rennes,Auxerre,France,HomeWin,1.49,8.7062,HomeWin,True,4.266,874.8819
+2022-09-11 16:00:00,Lazio,Hellas Verona,Italy,HomeWin,1.6,8.7488,HomeWin,True,5.2493,880.1312
+2022-09-11 18:45:00,Juventus,Salernitana,Italy,HomeWin,1.43,8.8013,Draw,False,-8.8013,871.3299
+2022-09-11 22:00:00,Goiás,Flamengo,Brazil,AwayWin,1.54,8.7133,Draw,False,-8.7133,862.6166
+2022-09-12 18:45:00,Empoli,Roma,Italy,AwayWin,1.72,8.6262,AwayWin,True,6.2108,868.8274
+2022-09-17 11:30:00,Wolverhampton Wanderers,Manchester City,Premier_League,AwayWin,1.34,8.6883,AwayWin,True,2.954,871.7814
+2022-09-17 13:30:00,Augsburg,Bayern München,Germany,AwayWin,1.18,8.7178,HomeWin,False,-8.7178,863.0636
+2022-09-17 13:30:00,Borussia Dortmund,Schalke 04,Germany,HomeWin,1.3,8.6306,HomeWin,True,2.5892,865.6528
+2022-09-17 14:00:00,Newcastle United,AFC Bournemouth,Premier_League,HomeWin,1.47,8.6565,Draw,False,-8.6565,856.9963
+2022-09-17 14:15:00,FC Barcelona,Elche CF,Spain,HomeWin,1.11,8.57,HomeWin,True,0.9427,857.939
+2022-09-17 16:30:00,Tottenham Hotspur,Leicester City,Premier_League,HomeWin,1.51,8.5794,HomeWin,True,4.3755,862.3144
+2022-09-17 19:00:00,Athletic Club Bilbao,Rayo Vallecano,Spain,HomeWin,1.56,8.6231,HomeWin,True,4.829,867.1434
+2022-09-17 19:00:00,Lille,Toulouse,France,HomeWin,1.82,8.6714,HomeWin,True,7.1106,874.254
+2022-09-17 19:30:00,Avaí,Atlético Mineiro,Brazil,AwayWin,1.62,8.7425,HomeWin,False,-8.7425,865.5114
+2022-09-18 10:30:00,Udinese,Inter Milan,Italy,AwayWin,1.75,8.6551,HomeWin,False,-8.6551,856.8563
+2022-09-18 13:00:00,Monza,Juventus,Italy,AwayWin,1.51,8.5686,HomeWin,False,-8.5686,848.2878
+2022-09-18 13:00:00,Nice,Angers SCO,France,HomeWin,1.5,8.4829,AwayWin,False,-8.4829,839.8049
+2022-09-18 14:00:00,Bragantino,Goiás,Brazil,HomeWin,1.47,8.398,Draw,False,-8.398,831.4068
+2022-09-18 16:30:00,Real Sociedad,RCD Espanyol,Spain,HomeWin,1.55,8.3141,HomeWin,True,4.5727,835.9796
+2022-09-18 18:45:00,Olympique Lyonnais,PSG,France,AwayWin,1.55,8.3598,AwayWin,True,4.5979,840.5775
+2022-09-18 19:00:00,Flamengo,Fluminense,Brazil,HomeWin,1.63,8.4058,AwayWin,False,-8.4058,832.1717
+2022-09-18 21:30:00,Palmeiras,Santos,Brazil,HomeWin,1.37,8.3217,HomeWin,True,3.079,835.2507
+2022-09-25 23:00:00,São Paulo,Avaí,Brazil,HomeWin,1.44,8.3525,HomeWin,True,3.6751,838.9258
+2022-09-28 22:00:00,Fluminense,Juventude,Brazil,HomeWin,1.44,8.3893,HomeWin,True,3.6913,842.6171
+2022-09-30 18:30:00,Bayern München,Bayer Leverkusen,Germany,HomeWin,1.33,8.4262,HomeWin,True,2.7806,845.3977
+2022-09-30 19:00:00,Athletic Club Bilbao,Almería,Spain,HomeWin,1.44,8.454,HomeWin,True,3.7198,849.1175
+2022-10-01 12:00:00,Cádiz,Villarreal,Spain,AwayWin,1.65,8.4912,Draw,False,-8.4912,840.6263
+2022-10-01 13:00:00,Napoli,Torino,Italy,HomeWin,1.57,8.4063,HomeWin,True,4.7916,845.4179
+2022-10-01 13:30:00,RB Leipzig,Bochum,Germany,HomeWin,1.25,8.4542,HomeWin,True,2.1135,847.5314
+2022-10-01 13:30:00,Köln,Borussia Dortmund,Germany,AwayWin,2.05,8.4753,HomeWin,False,-8.4753,839.0561
+2022-10-01 14:00:00,Liverpool,Brighton & Hove Albion,Premier_League,HomeWin,1.33,8.3906,Draw,False,-8.3906,830.6655
+2022-10-01 18:45:00,Empoli,AC Milan,Italy,AwayWin,1.53,8.3067,AwayWin,True,4.4025,835.0681
+2022-10-01 19:00:00,RCD Mallorca,FC Barcelona,Spain,AwayWin,1.4,8.3507,AwayWin,True,3.3403,838.4083
+2022-10-01 19:00:00,PSG,Nice,France,HomeWin,1.18,8.3841,HomeWin,True,1.5091,839.9175
+2022-10-01 22:00:00,Flamengo,Bragantino,Brazil,HomeWin,1.53,8.3992,HomeWin,True,4.4516,844.369
+2022-10-01 22:00:00,Atlético PR,Juventude,Brazil,HomeWin,1.5,8.4437,HomeWin,True,4.2218,848.5909
+2022-10-02 00:00:00,Corinthians,Cuiabá,Brazil,HomeWin,1.57,8.4859,HomeWin,True,4.837,853.4279
+2022-10-02 10:30:00,Lazio,Spezia,Italy,HomeWin,1.38,8.5343,HomeWin,True,3.243,856.6709
+2022-10-02 13:00:00,Manchester City,Manchester United,Premier_League,HomeWin,1.33,8.5667,HomeWin,True,2.827,859.4979
+2022-10-02 15:05:00,Monaco,Nantes,France,HomeWin,1.57,8.595,HomeWin,True,4.8991,864.397
+2022-10-02 18:45:00,Juventus,Bologna,Italy,HomeWin,1.5,8.644,HomeWin,True,4.322,868.719
+2022-10-02 19:00:00,Real Madrid,CA Osasuna,Spain,HomeWin,1.35,8.6872,Draw,False,-8.6872,860.0318
+2022-10-03 19:00:00,Leicester City,Nottingham Forest,Premier_League,HomeWin,1.78,8.6003,HomeWin,True,6.7082,866.7401
+2022-10-05 22:00:00,Bragantino,Cuiabá,Brazil,HomeWin,1.53,8.6674,HomeWin,True,4.5937,871.3338
+2022-10-06 00:30:00,Flamengo,Internacional,Brazil,HomeWin,1.7,8.7133,Draw,False,-8.7133,862.6205
+2022-10-06 22:00:00,Palmeiras,Coritiba,Brazil,HomeWin,1.26,8.6262,HomeWin,True,2.2428,864.8633
+2022-10-07 19:00:00,Olympique Lyonnais,Toulouse,France,HomeWin,1.43,8.6486,Draw,False,-8.6486,856.2146
+2022-10-08 13:00:00,Sassuolo,Inter Milan,Italy,AwayWin,1.74,8.5621,AwayWin,True,6.336,862.5506
+2022-10-08 13:30:00,Bayer Leverkusen,Schalke 04,Germany,HomeWin,1.48,8.6255,HomeWin,True,4.1402,866.6909
+2022-10-08 14:00:00,Chelsea,Wolverhampton Wanderers,Premier_League,HomeWin,1.4,8.6669,HomeWin,True,3.4668,870.1576
+2022-10-08 14:00:00,Manchester City,Southampton,Premier_League,HomeWin,1.13,8.7016,HomeWin,True,1.1312,871.2888
+2022-10-08 14:15:00,Atlético Madrid,Girona FC,Spain,HomeWin,1.51,8.7129,HomeWin,True,4.4436,875.7324
+2022-10-08 15:00:00,Olympique Marseille,Ajaccio,France,HomeWin,1.38,8.7573,AwayWin,False,-8.7573,866.9751
+2022-10-08 19:00:00,Getafe CF,Real Madrid,Spain,AwayWin,1.46,8.6698,AwayWin,True,3.9881,870.9632
+2022-10-08 19:00:00,Reims,PSG,France,AwayWin,1.23,8.7096,Draw,False,-8.7096,862.2535
+2022-10-09 11:00:00,Montpellier,Monaco,France,AwayWin,1.99,8.6225,AwayWin,True,8.5363,870.7899
+2022-10-09 13:00:00,Nice,Troyes,France,HomeWin,1.72,8.7079,HomeWin,True,6.2697,877.0595
+2022-10-09 14:00:00,Internacional,Goiás,Brazil,HomeWin,1.47,8.7706,HomeWin,True,4.1222,881.1817
+2022-10-09 15:05:00,Rennes,Nantes,France,HomeWin,1.6,8.8118,HomeWin,True,5.2871,886.4688
+2022-10-09 16:00:00,Cremonese,Napoli,Italy,AwayWin,1.45,8.8647,AwayWin,True,3.9891,890.4579
+2022-10-09 18:00:00,Everton,Manchester United,Premier_League,AwayWin,1.83,8.9046,AwayWin,True,7.3908,897.8487
+2022-10-09 18:45:00,Roma,Lecce,Italy,HomeWin,1.36,8.9785,HomeWin,True,3.2323,901.081
+2022-10-09 19:00:00,Fortaleza,Avaí,Brazil,HomeWin,1.58,9.0108,HomeWin,True,5.2263,906.3072
+2022-10-09 19:00:00,FC Barcelona,Celta de Vigo,Spain,HomeWin,1.25,9.0631,HomeWin,True,2.2658,908.573
+2022-10-09 21:00:00,Atlético Mineiro,Ceará,Brazil,HomeWin,1.5,9.0857,Draw,False,-9.0857,899.4873
+2022-10-10 23:00:00,Santos,Juventude,Brazil,HomeWin,1.45,8.9949,HomeWin,True,4.0477,903.535
+2022-10-15 13:30:00,Stuttgart,Bochum,Germany,HomeWin,1.5,9.0353,HomeWin,True,4.5177,908.0527
+2022-10-15 14:15:00,Valencia CF,Elche CF,Spain,HomeWin,1.42,9.0805,Draw,False,-9.0805,898.9721
+2022-10-15 16:30:00,RB Leipzig,Hertha BSC,Germany,HomeWin,1.38,8.9897,HomeWin,True,3.4161,902.3882
+2022-10-15 16:30:00,Tottenham Hotspur,Everton,Premier_League,HomeWin,1.28,9.0239,HomeWin,True,2.5267,904.9149
+2022-10-15 18:45:00,Atalanta,Sassuolo,Italy,HomeWin,1.56,9.0491,HomeWin,True,5.0675,909.9824
+2022-10-16 10:30:00,Inter Milan,Salernitana,Italy,HomeWin,1.3,9.0998,HomeWin,True,2.7299,912.7124
+2022-10-16 13:00:00,Leeds United,Arsenal,Premier_League,AwayWin,1.67,9.1271,AwayWin,True,6.1152,918.8276
+2022-10-16 15:05:00,Monaco,Clermont,France,HomeWin,1.33,9.1883,Draw,False,-9.1883,909.6393
+2022-10-16 16:00:00,Napoli,Bologna,Italy,HomeWin,1.18,9.0964,HomeWin,True,1.6374,911.2766
+2022-10-16 17:30:00,Bayern München,Freiburg,Germany,HomeWin,1.25,9.1128,HomeWin,True,2.2782,913.5548
+2022-10-16 18:45:00,Hellas Verona,AC Milan,Italy,AwayWin,1.5,9.1355,AwayWin,True,4.5678,918.1226
+2022-10-16 18:45:00,PSG,Olympique Marseille,France,HomeWin,1.4,9.1812,HomeWin,True,3.6725,921.7951
+2022-10-16 19:00:00,Palmeiras,São Paulo,Brazil,HomeWin,1.55,9.218,Draw,False,-9.218,912.5771
+2022-10-16 19:00:00,Real Betis,Almería,Spain,HomeWin,1.53,9.1258,HomeWin,True,4.8367,917.4138
+2022-10-16 22:00:00,Atlético PR,Coritiba,Brazil,HomeWin,1.65,9.1741,HomeWin,True,5.9632,923.377
+2022-10-17 16:30:00,Sampdoria,Roma,Italy,AwayWin,1.66,9.2338,AwayWin,True,6.0943,929.4713
+2022-10-17 19:00:00,Villarreal,CA Osasuna,Spain,HomeWin,1.49,9.2947,HomeWin,True,4.5544,934.0257
+2022-10-18 18:30:00,Brighton & Hove Albion,Nottingham Forest,Premier_League,HomeWin,1.53,9.3403,Draw,False,-9.3403,924.6854
+2022-10-18 19:00:00,Atlético Madrid,Rayo Vallecano,Spain,HomeWin,1.58,9.2469,Draw,False,-9.2469,915.4386
+2022-10-19 18:00:00,Real Sociedad,RCD Mallorca,Spain,HomeWin,1.5,9.1544,HomeWin,True,4.5772,920.0158
+2022-10-19 18:30:00,Liverpool,West Ham United,Premier_League,HomeWin,1.4,9.2002,HomeWin,True,3.6801,923.6958
+2022-10-19 18:30:00,Newcastle United,Everton,Premier_League,HomeWin,1.6,9.237,HomeWin,True,5.5422,929.238
+2022-10-19 19:00:00,Elche CF,Real Madrid,Spain,AwayWin,1.29,9.2924,AwayWin,True,2.6948,931.9328
+2022-10-20 19:00:00,FC Barcelona,Villarreal,Spain,HomeWin,1.49,9.3193,HomeWin,True,4.5665,936.4993
+2022-10-20 23:00:00,São Paulo,Coritiba,Brazil,HomeWin,1.59,9.365,HomeWin,True,5.5253,942.0246
+2022-10-21 18:45:00,Juventus,Empoli,Italy,HomeWin,1.5,9.4202,HomeWin,True,4.7101,946.7347
+2022-10-21 19:00:00,Ajaccio,PSG,France,AwayWin,1.28,9.4673,AwayWin,True,2.6509,949.3856
+2022-10-22 11:30:00,Nottingham Forest,Liverpool,Premier_League,AwayWin,1.26,9.4939,HomeWin,False,-9.4939,939.8917
+2022-10-22 13:30:00,Augsburg,RB Leipzig,Germany,AwayWin,1.59,9.3989,Draw,False,-9.3989,930.4928
+2022-10-22 13:30:00,Borussia Dortmund,Stuttgart,Germany,HomeWin,1.56,9.3049,HomeWin,True,5.2108,935.7036
+2022-10-22 13:30:00,Bayer Leverkusen,Wolfsburg,Germany,HomeWin,1.64,9.357,Draw,False,-9.357,926.3465
+2022-10-22 13:30:00,Hoffenheim,Bayern München,Germany,AwayWin,1.54,9.2635,AwayWin,True,5.0023,931.3488
+2022-10-22 14:00:00,Manchester City,Brighton & Hove Albion,Premier_League,HomeWin,1.2,9.3135,HomeWin,True,1.8627,933.2115
+2022-10-22 16:00:00,AC Milan,Monza,Italy,HomeWin,1.43,9.3321,HomeWin,True,4.0128,937.2243
+2022-10-22 19:00:00,Real Madrid,Sevilla FC,Spain,HomeWin,1.51,9.3722,HomeWin,True,4.7798,942.0042
+2022-10-23 00:00:00,Palmeiras,Avaí,Brazil,HomeWin,1.21,9.42,HomeWin,True,1.9782,943.9824
+2022-10-23 13:00:00,Southampton,Arsenal,Premier_League,AwayWin,1.58,9.4398,Draw,False,-9.4398,934.5425
+2022-10-23 13:00:00,Reims,Auxerre,France,HomeWin,1.84,9.3454,HomeWin,True,7.8502,942.3927
+2022-10-23 15:30:00,Tottenham Hotspur,Newcastle United,Premier_League,HomeWin,1.87,9.4239,AwayWin,False,-9.4239,932.9688
+2022-10-23 16:30:00,Villarreal,Almería,Spain,HomeWin,1.33,9.3297,HomeWin,True,3.0788,936.0476
+2022-10-23 19:00:00,FC Barcelona,Athletic Club Bilbao,Spain,HomeWin,1.44,9.3605,HomeWin,True,4.1186,940.1662
+2022-10-24 19:00:00,West Ham United,AFC Bournemouth,Premier_League,HomeWin,1.55,9.4017,HomeWin,True,5.1709,945.3371
+2022-10-26 00:45:00,Flamengo,Santos,Brazil,HomeWin,1.58,9.4534,HomeWin,True,5.483,950.8201
+2022-10-26 00:45:00,Atlético PR,Palmeiras,Brazil,AwayWin,1.65,9.5082,AwayWin,True,6.1803,957.0004
+2022-10-27 00:45:00,Internacional,Ceará,Brazil,HomeWin,1.66,9.57,HomeWin,True,6.3162,963.3166
+2022-10-27 22:00:00,São Paulo,Atlético GO,Brazil,HomeWin,1.53,9.6332,HomeWin,True,5.1056,968.4222
+2022-10-27 22:30:00,Atlético Mineiro,Juventude,Brazil,HomeWin,1.22,9.6842,HomeWin,True,2.1305,970.5527
+2022-10-28 19:00:00,Lens,Toulouse,France,HomeWin,1.54,9.7055,HomeWin,True,5.241,975.7937
+2022-10-29 11:30:00,Leicester City,Manchester City,Premier_League,AwayWin,1.25,9.7579,AwayWin,True,2.4395,978.2332
+2022-10-29 13:00:00,Napoli,Sassuolo,Italy,HomeWin,1.35,9.7823,HomeWin,True,3.4238,981.657
+2022-10-29 13:30:00,Bayern München,Mainz 05,Germany,HomeWin,1.25,9.8166,HomeWin,True,2.4541,984.1111
+2022-10-29 14:00:00,AFC Bournemouth,Tottenham Hotspur,Premier_League,AwayWin,1.6,9.8411,AwayWin,True,5.9047,990.0158
+2022-10-29 14:15:00,Cádiz,Atlético Madrid,Spain,AwayWin,1.67,9.9002,HomeWin,False,-9.9002,980.1156
+2022-10-29 15:00:00,PSG,Troyes,France,HomeWin,1.08,9.8012,HomeWin,True,0.7841,980.8997
+2022-10-29 18:45:00,Inter Milan,Sampdoria,Italy,HomeWin,1.19,9.809,HomeWin,True,1.8637,982.7634
+2022-10-29 18:45:00,Liverpool,Leeds United,Premier_League,HomeWin,1.27,9.8276,AwayWin,False,-9.8276,972.9358
+2022-10-29 19:00:00,Valencia CF,FC Barcelona,Spain,AwayWin,1.53,9.7294,AwayWin,True,5.1566,978.0924
+2022-10-30 14:00:00,Arsenal,Nottingham Forest,Premier_League,HomeWin,1.2,9.7809,HomeWin,True,1.9562,980.0485
+2022-10-30 14:00:00,Monaco,Angers SCO,France,HomeWin,1.37,9.8005,HomeWin,True,3.6262,983.6747
+2022-10-30 14:00:00,Rennes,Montpellier,France,HomeWin,1.4,9.8367,HomeWin,True,3.9347,987.6094
+2022-10-30 15:15:00,Real Madrid,Girona FC,Spain,HomeWin,1.25,9.8761,Draw,False,-9.8761,977.7333
+2022-10-30 16:15:00,Manchester United,West Ham United,Premier_League,HomeWin,1.71,9.7773,HomeWin,True,6.9419,984.6752
+2022-10-30 17:00:00,Lazio,Salernitana,Italy,HomeWin,1.5,9.8468,AwayWin,False,-9.8468,974.8285
+2022-10-31 17:30:00,Hellas Verona,Roma,Italy,AwayWin,1.85,9.7483,AwayWin,True,8.286,983.1145
+2022-11-02 19:00:00,Atlético PR,Goiás,Brazil,HomeWin,1.53,9.8311,HomeWin,True,5.2105,988.325
+2022-11-03 00:30:00,Flamengo,Corinthians,Brazil,HomeWin,1.53,9.8833,AwayWin,False,-9.8833,978.4418
+2022-11-03 00:30:00,Palmeiras,Fortaleza,Brazil,HomeWin,1.4,9.7844,HomeWin,True,3.9138,982.3555
+2022-11-04 19:45:00,Udinese,Lecce,Italy,HomeWin,1.53,9.8236,Draw,False,-9.8236,972.532
+2022-11-05 14:30:00,Borussia Dortmund,Bochum,Germany,HomeWin,1.26,9.7253,HomeWin,True,2.5286,975.0606
+2022-11-05 14:30:00,Hertha BSC,Bayern München,Germany,AwayWin,1.31,9.7506,AwayWin,True,3.0227,978.0833
+2022-11-05 15:00:00,Manchester City,Fulham,Premier_League,HomeWin,1.13,9.7808,HomeWin,True,1.2715,979.3548
+2022-11-05 19:30:00,Santos,Avaí,Brazil,HomeWin,1.45,9.7935,Draw,False,-9.7935,969.5612
+2022-11-05 19:45:00,AC Milan,Spezia,Italy,HomeWin,1.2,9.6956,HomeWin,True,1.9391,971.5003
+2022-11-05 20:00:00,Angers SCO,Lens,France,AwayWin,1.77,9.715,AwayWin,True,7.4806,978.9809
+2022-11-05 20:00:00,FC Barcelona,Almería,Spain,HomeWin,1.08,9.7898,HomeWin,True,0.7832,979.7641
+2022-11-06 12:00:00,Lorient,PSG,France,AwayWin,1.3,9.7976,AwayWin,True,2.9393,982.7034
+2022-11-06 13:00:00,Atlético Madrid,RCD Espanyol,Spain,HomeWin,1.5,9.827,Draw,False,-9.827,972.8763
+2022-11-06 14:00:00,Toulouse,Monaco,France,AwayWin,2.01,9.7288,AwayWin,True,9.8261,982.7024
+2022-11-06 17:30:00,Villarreal,RCD Mallorca,Spain,HomeWin,1.53,9.827,AwayWin,False,-9.827,972.8754
+2022-11-07 20:00:00,Rayo Vallecano,Real Madrid,Spain,AwayWin,1.55,9.7288,HomeWin,False,-9.7288,963.1466
+2022-11-07 23:00:00,Atlético Mineiro,Botafogo,Brazil,HomeWin,1.38,9.6315,AwayWin,False,-9.6315,953.5151
+2022-11-08 17:30:00,Napoli,Empoli,Italy,HomeWin,1.26,9.5352,HomeWin,True,2.4791,955.9943
+2022-11-08 19:00:00,Athletic Club Bilbao,Real Valladolid,Spain,HomeWin,1.38,9.5599,HomeWin,True,3.6328,959.6271
+2022-11-08 19:30:00,Bayern München,Werder Bremen,Germany,HomeWin,1.22,9.5963,HomeWin,True,2.1112,961.7382
+2022-11-08 19:45:00,Cremonese,AC Milan,Italy,AwayWin,1.62,9.6174,Draw,False,-9.6174,952.1209
+2022-11-08 20:30:00,CA Osasuna,FC Barcelona,Spain,AwayWin,1.65,9.5212,AwayWin,True,6.1888,958.3096
+2022-11-09 19:30:00,Union Berlin,Augsburg,Germany,HomeWin,1.54,9.5831,Draw,False,-9.5831,948.7265
+2022-11-09 19:45:00,Torino,Sampdoria,Italy,HomeWin,1.61,9.4873,HomeWin,True,5.7872,954.5138
+2022-11-09 19:45:00,Inter Milan,Bologna,Italy,HomeWin,1.29,9.5451,HomeWin,True,2.7681,957.2819
+2022-11-09 19:45:00,Fiorentina,Salernitana,Italy,HomeWin,1.53,9.5728,HomeWin,True,5.0736,962.3555
+2022-11-09 22:00:00,Fluminense,Goiás,Brazil,HomeWin,1.37,9.6236,HomeWin,True,3.5607,965.9162
+2022-11-10 00:30:00,Juventude,Flamengo,Brazil,AwayWin,1.52,9.6592,Draw,False,-9.6592,956.257
+2022-11-10 00:30:00,Palmeiras,América Mineiro,Brazil,HomeWin,1.45,9.5626,HomeWin,True,4.3032,960.5602
+2022-11-10 17:30:00,Hellas Verona,Juventus,Italy,AwayWin,1.08,9.6056,AwayWin,True,0.7684,961.3286
+2022-11-10 19:45:00,Lazio,Monza,Italy,HomeWin,1.7,9.6133,HomeWin,True,6.7293,968.0579
+2022-11-10 20:30:00,Real Madrid,Cádiz,Spain,HomeWin,1.14,9.6806,HomeWin,True,1.3553,969.4132
+2022-11-10 23:00:00,Atlético Mineiro,Cuiabá,Brazil,HomeWin,1.44,9.6941,HomeWin,True,4.2654,973.6786
+2022-11-11 20:00:00,Olympique Lyonnais,Nice,France,HomeWin,1.62,9.7368,Draw,False,-9.7368,963.9418
+2022-11-12 12:30:00,Manchester City,Brentford,Premier_League,HomeWin,1.14,9.6394,AwayWin,False,-9.6394,954.3024
+2022-11-12 14:00:00,Napoli,Udinese,Italy,HomeWin,1.3,9.543,HomeWin,True,2.8629,957.1653
+2022-11-12 15:00:00,Liverpool,Southampton,Premier_League,HomeWin,1.27,9.5717,HomeWin,True,2.5843,959.7497
+2022-11-12 15:00:00,Tottenham Hotspur,Leeds United,Premier_League,HomeWin,1.57,9.5975,HomeWin,True,5.4706,965.2202
+2022-11-12 16:00:00,Lens,Clermont,France,HomeWin,1.5,9.6522,HomeWin,True,4.8261,970.0463
+2022-11-12 17:30:00,Schalke 04,Bayern München,Germany,AwayWin,1.17,9.7005,AwayWin,True,1.6491,971.6954
+2022-11-12 19:00:00,Flamengo,Avaí,Brazil,HomeWin,1.14,9.717,AwayWin,False,-9.717,961.9785
+2022-11-12 19:45:00,Wolverhampton Wanderers,Arsenal,Premier_League,AwayWin,1.55,9.6198,AwayWin,True,5.2909,967.2694
+2022-11-12 20:00:00,Rennes,Toulouse,France,HomeWin,1.53,9.6727,HomeWin,True,5.1265,972.3959
+2022-11-13 12:00:00,PSG,Auxerre,France,HomeWin,1.08,9.724,HomeWin,True,0.7779,973.1738
+2022-11-13 14:00:00,Lille,Angers SCO,France,HomeWin,1.33,9.7317,HomeWin,True,3.2115,976.3853
+2022-11-13 16:30:00,Fulham,Manchester United,Premier_League,AwayWin,1.83,9.7639,AwayWin,True,8.104,984.4893
+2022-11-13 17:00:00,AC Milan,Fiorentina,Italy,HomeWin,1.81,9.8449,HomeWin,True,7.9744,992.4636
+2022-11-13 19:00:00,Ceará,Juventude,Brazil,HomeWin,1.48,9.9246,HomeWin,True,4.7638,997.2275
+2022-11-13 19:45:00,Juventus,Lazio,Italy,HomeWin,2.0,9.9723,HomeWin,True,9.9723,1007.1997
+2022-12-26 17:30:00,Aston Villa,Liverpool,Premier_League,AwayWin,1.7,10.072,AwayWin,True,7.0504,1014.2501
+2022-12-26 20:00:00,Arsenal,West Ham United,Premier_League,HomeWin,1.54,10.1425,HomeWin,True,5.477,1019.7271
+2022-12-27 17:30:00,Chelsea,AFC Bournemouth,Premier_League,HomeWin,1.29,10.1973,HomeWin,True,2.9572,1022.6843
+2022-12-27 20:00:00,Manchester United,Nottingham Forest,Premier_League,HomeWin,1.25,10.2268,HomeWin,True,2.5567,1025.241
+2022-12-28 20:00:00,PSG,Strasbourg,France,HomeWin,1.14,10.2524,HomeWin,True,1.4353,1026.6763
+2022-12-28 20:00:00,Leeds United,Manchester City,Premier_League,AwayWin,1.29,10.2668,AwayWin,True,2.9774,1029.6537
+2022-12-29 20:00:00,Olympique Marseille,Toulouse,France,HomeWin,1.46,10.2965,HomeWin,True,4.7364,1034.3901
+2022-12-29 20:30:00,Atlético Madrid,Elche CF,Spain,HomeWin,1.18,10.3439,HomeWin,True,1.8619,1036.252
+2022-12-30 20:00:00,Liverpool,Leicester City,Premier_League,HomeWin,1.36,10.3625,HomeWin,True,3.7305,1039.9825
+2022-12-30 20:30:00,Real Valladolid,Real Madrid,Spain,AwayWin,1.49,10.3998,AwayWin,True,5.0959,1045.0784
+2022-12-31 13:00:00,FC Barcelona,RCD Espanyol,Spain,HomeWin,1.28,10.4508,Draw,False,-10.4508,1034.6276
+2022-12-31 15:00:00,Manchester City,Everton,Premier_League,HomeWin,1.13,10.3463,Draw,False,-10.3463,1024.2814
+2022-12-31 15:00:00,Newcastle United,Leeds United,Premier_League,HomeWin,1.44,10.2428,Draw,False,-10.2428,1014.0386
+2023-01-01 14:00:00,Tottenham Hotspur,Aston Villa,Premier_League,HomeWin,1.63,10.1404,AwayWin,False,-10.1404,1003.8982
+2023-01-01 14:00:00,Monaco,Brest,France,HomeWin,1.45,10.039,HomeWin,True,4.5175,1008.4157
+2023-01-01 16:00:00,Olympique Lyonnais,Clermont,France,HomeWin,1.4,10.0842,AwayWin,False,-10.0842,998.3316
+2023-01-01 16:30:00,Nottingham Forest,Chelsea,Premier_League,AwayWin,1.7,9.9833,Draw,False,-9.9833,988.3482
+2023-01-01 19:45:00,Lens,PSG,France,AwayWin,1.91,9.8835,HomeWin,False,-9.8835,978.4648
+2023-01-02 16:00:00,Lille,Reims,France,HomeWin,1.76,9.7846,Draw,False,-9.7846,968.6801
+2023-01-02 17:30:00,Brentford,Liverpool,Premier_League,AwayWin,1.52,9.6868,HomeWin,False,-9.6868,958.9933
+2023-01-02 18:00:00,Montpellier,Olympique Marseille,France,AwayWin,1.89,9.5899,AwayWin,True,8.535,967.5283
+2023-01-02 20:00:00,Rennes,Nice,France,HomeWin,1.76,9.6753,HomeWin,True,7.3532,974.8816
+2023-01-03 19:45:00,Arsenal,Newcastle United,Premier_League,HomeWin,1.84,9.7488,Draw,False,-9.7488,965.1327
+2023-01-03 20:00:00,Manchester United,AFC Bournemouth,Premier_League,HomeWin,1.26,9.6513,HomeWin,True,2.5093,967.6421
+2023-01-04 11:30:00,Salernitana,AC Milan,Italy,AwayWin,1.43,9.6764,AwayWin,True,4.1609,971.803
+2023-01-04 11:30:00,Sassuolo,Sampdoria,Italy,HomeWin,1.76,9.718,AwayWin,False,-9.718,962.0849
+2023-01-04 15:30:00,Roma,Bologna,Italy,HomeWin,1.61,9.6208,HomeWin,True,5.8687,967.9536
+2023-01-04 15:30:00,Lecce,Lazio,Italy,AwayWin,1.68,9.6795,HomeWin,False,-9.6795,958.2741
+2023-01-05 20:00:00,Chelsea,Manchester City,Premier_League,AwayWin,1.67,9.5827,AwayWin,True,6.4204,964.6945
+2023-01-06 20:00:00,Valencia CF,Cádiz,Spain,HomeWin,1.62,9.6469,AwayWin,False,-9.6469,955.0476
+2023-01-07 14:00:00,Fiorentina,Sassuolo,Italy,HomeWin,1.8,9.5505,HomeWin,True,7.6404,962.688
+2023-01-07 17:00:00,Juventus,Udinese,Italy,HomeWin,1.75,9.6269,HomeWin,True,7.2202,969.9081
+2023-01-07 19:45:00,Monza,Inter Milan,Italy,AwayWin,1.57,9.6991,Draw,False,-9.6991,960.2091
+2023-01-08 14:00:00,Lazio,Empoli,Italy,HomeWin,1.57,9.6021,Draw,False,-9.6021,950.607
+2023-01-08 17:00:00,Sampdoria,Napoli,Italy,AwayWin,1.26,9.5061,AwayWin,True,2.4716,953.0785
+2023-01-09 20:00:00,Athletic Club Bilbao,CA Osasuna,Spain,HomeWin,1.66,9.5308,Draw,False,-9.5308,943.5478
+2023-01-11 20:00:00,Lorient,Monaco,France,AwayWin,1.98,9.4355,Draw,False,-9.4355,934.1123
+2023-01-11 20:00:00,PSG,Angers SCO,France,HomeWin,1.05,9.3411,HomeWin,True,0.4671,934.5793
+2023-01-12 20:00:00,Fulham,Chelsea,Premier_League,AwayWin,1.94,9.3458,HomeWin,False,-9.3458,925.2335
+2023-01-14 15:00:00,Brighton & Hove Albion,Liverpool,Premier_League,AwayWin,1.82,9.2523,HomeWin,False,-9.2523,915.9812
+2023-01-14 16:00:00,Lens,Auxerre,France,HomeWin,1.39,9.1598,HomeWin,True,3.5723,919.5535
+2023-01-14 17:00:00,Lecce,AC Milan,Italy,AwayWin,1.57,9.1955,Draw,False,-9.1955,910.358
+2023-01-14 18:00:00,Olympique Marseille,Lorient,France,HomeWin,1.34,9.1036,HomeWin,True,3.0952,913.4532
+2023-01-14 19:45:00,Inter Milan,Hellas Verona,Italy,HomeWin,1.23,9.1345,HomeWin,True,2.1009,915.5542
+2023-01-15 12:00:00,Lille,Troyes,France,HomeWin,1.46,9.1555,HomeWin,True,4.2115,919.7657
+2023-01-15 14:00:00,Chelsea,Crystal Palace,Premier_League,HomeWin,1.49,9.1977,HomeWin,True,4.5069,924.2726
+2023-01-15 14:00:00,Torino,Spezia,Italy,HomeWin,1.56,9.2427,AwayWin,False,-9.2427,915.0298
+2023-01-15 14:00:00,Udinese,Bologna,Italy,HomeWin,1.7,9.1503,AwayWin,False,-9.1503,905.8795
+2023-01-15 15:15:00,Almería,Atlético Madrid,Spain,AwayWin,1.75,9.0588,Draw,False,-9.0588,896.8207
+2023-01-15 16:05:00,Monaco,Ajaccio,France,HomeWin,1.47,8.9682,HomeWin,True,4.2151,901.0358
+2023-01-15 17:00:00,Atalanta,Salernitana,Italy,HomeWin,1.4,9.0104,HomeWin,True,3.6041,904.6399
+2023-01-15 19:45:00,Rennes,PSG,France,AwayWin,1.8,9.0464,HomeWin,False,-9.0464,895.5935
+2023-01-19 20:00:00,Manchester City,Tottenham Hotspur,Premier_League,HomeWin,1.31,8.9559,HomeWin,True,2.7763,898.3699
+2023-01-21 14:30:00,Eintracht Frankfurt,Schalke 04,Germany,HomeWin,1.37,8.9837,HomeWin,True,3.324,901.6938
+2023-01-21 17:00:00,Salernitana,Napoli,Italy,AwayWin,1.43,9.0169,AwayWin,True,3.8773,905.5711
+2023-01-21 17:30:00,Atlético Madrid,Real Valladolid,Spain,HomeWin,1.34,9.0557,HomeWin,True,3.0789,908.6501
+2023-01-21 20:00:00,Sevilla FC,Cádiz,Spain,HomeWin,1.65,9.0865,HomeWin,True,5.9062,914.5563
+2023-01-22 14:00:00,Manchester City,Wolverhampton Wanderers,Premier_League,HomeWin,1.11,9.1456,HomeWin,True,1.006,915.5623
+2023-01-22 14:30:00,Borussia Dortmund,Augsburg,Germany,HomeWin,1.38,9.1556,HomeWin,True,3.4791,919.0414
+2023-01-22 17:00:00,Spezia,Roma,Italy,AwayWin,1.72,9.1904,AwayWin,True,6.6171,925.6585
+2023-01-22 17:30:00,FC Barcelona,Getafe CF,Spain,HomeWin,1.17,9.2566,HomeWin,True,1.5736,927.2322
+2023-01-23 19:45:00,Inter Milan,Empoli,Italy,HomeWin,1.22,9.2723,AwayWin,False,-9.2723,917.9598
+2023-01-23 20:00:00,Valencia CF,Almería,Spain,HomeWin,1.6,9.1796,Draw,False,-9.1796,908.7802
+2023-01-24 17:30:00,Schalke 04,RB Leipzig,Germany,AwayWin,1.57,9.0878,AwayWin,True,5.18,913.9603
+2023-01-24 19:30:00,Bayern München,Köln,Germany,HomeWin,1.15,9.1396,Draw,False,-9.1396,904.8207
+2023-01-25 19:30:00,Bayer Leverkusen,Bochum,Germany,HomeWin,1.4,9.0482,HomeWin,True,3.6193,908.44
+2023-01-27 19:30:00,RB Leipzig,Stuttgart,Germany,HomeWin,1.47,9.0844,HomeWin,True,4.2697,912.7096
+2023-01-28 15:15:00,Girona FC,FC Barcelona,Spain,AwayWin,1.51,9.1271,AwayWin,True,4.6548,917.3645
+2023-01-28 17:00:00,Cremonese,Inter Milan,Italy,AwayWin,1.57,9.1736,AwayWin,True,5.229,922.5934
+2023-01-28 17:30:00,Bayern München,Eintracht Frankfurt,Germany,HomeWin,1.36,9.2259,Draw,False,-9.2259,913.3675
+2023-01-28 17:30:00,Sevilla FC,Elche CF,Spain,HomeWin,1.5,9.1337,HomeWin,True,4.5668,917.9343
+2023-01-28 19:45:00,Atalanta,Sampdoria,Italy,HomeWin,1.48,9.1793,HomeWin,True,4.4061,922.3404
+2023-01-29 11:30:00,AC Milan,Sassuolo,Italy,HomeWin,1.49,9.2234,AwayWin,False,-9.2234,913.117
+2023-01-29 14:00:00,Juventus,Monza,Italy,HomeWin,1.55,9.1312,AwayWin,False,-9.1312,903.9859
+2023-01-29 16:05:00,Ajaccio,Olympique Lyonnais,France,AwayWin,1.8,9.0399,AwayWin,True,7.2319,911.2177
+2023-01-29 19:45:00,PSG,Reims,France,HomeWin,1.25,9.1122,Draw,False,-9.1122,902.1056
+2023-01-29 19:45:00,Napoli,Roma,Italy,HomeWin,1.76,9.0211,HomeWin,True,6.856,908.9616
+2023-01-29 20:00:00,Real Madrid,Real Sociedad,Spain,HomeWin,1.78,9.0896,Draw,False,-9.0896,899.8719
+2023-02-01 18:00:00,Lille,Clermont,France,HomeWin,1.19,8.9987,Draw,False,-8.9987,890.8732
+2023-02-01 18:00:00,Nantes,Olympique Marseille,France,AwayWin,1.15,8.9087,AwayWin,True,1.3363,892.2095
+2023-02-01 20:00:00,Real Betis,FC Barcelona,Spain,AwayWin,1.72,8.9221,AwayWin,True,6.4239,898.6334
+2023-02-01 20:00:00,Olympique Lyonnais,Brest,France,HomeWin,1.51,8.9863,Draw,False,-8.9863,889.6471
+2023-02-01 20:00:00,Monaco,Auxerre,France,HomeWin,1.34,8.8965,HomeWin,True,3.0248,892.6719
+2023-02-01 20:00:00,Montpellier,PSG,France,AwayWin,1.31,8.9267,AwayWin,True,2.7673,895.4392
+2023-02-02 20:00:00,Real Madrid,Valencia CF,Spain,HomeWin,1.35,8.9544,HomeWin,True,3.134,898.5732
+2023-02-03 20:00:00,Chelsea,Fulham,Premier_League,HomeWin,1.58,8.9857,Draw,False,-8.9857,889.5875
+2023-02-03 20:00:00,Athletic Club Bilbao,Cádiz,Spain,HomeWin,1.36,8.8959,HomeWin,True,3.2025,892.79
+2023-02-04 12:30:00,Everton,Arsenal,Premier_League,AwayWin,1.4,8.9279,HomeWin,False,-8.9279,883.8621
+2023-02-04 14:30:00,Borussia Dortmund,Freiburg,Germany,HomeWin,1.74,8.8386,HomeWin,True,6.5406,890.4027
+2023-02-04 14:30:00,Köln,RB Leipzig,Germany,AwayWin,1.93,8.904,Draw,False,-8.904,881.4987
+2023-02-04 15:00:00,Brighton & Hove Albion,AFC Bournemouth,Premier_League,HomeWin,1.36,8.815,HomeWin,True,3.1734,884.6721
+2023-02-04 15:00:00,Manchester United,Crystal Palace,Premier_League,HomeWin,1.43,8.8467,HomeWin,True,3.8041,888.4762
+2023-02-04 15:00:00,Wolverhampton Wanderers,Liverpool,Premier_League,AwayWin,1.78,8.8848,HomeWin,False,-8.8848,879.5914
+2023-02-04 15:15:00,Elche CF,Villarreal,Spain,AwayWin,1.74,8.7959,HomeWin,False,-8.7959,870.7955
+2023-02-04 16:00:00,PSG,Toulouse,France,HomeWin,1.17,8.708,HomeWin,True,1.4804,872.2758
+2023-02-04 17:00:00,Roma,Empoli,Italy,HomeWin,1.49,8.7228,HomeWin,True,4.2742,876.55
+2023-02-04 17:30:00,Newcastle United,West Ham United,Premier_League,HomeWin,1.62,8.7655,Draw,False,-8.7655,867.7845
+2023-02-04 17:30:00,Atlético Madrid,Getafe CF,Spain,HomeWin,1.44,8.6778,Draw,False,-8.6778,859.1066
+2023-02-05 11:30:00,Spezia,Napoli,Italy,AwayWin,1.44,8.5911,AwayWin,True,3.7801,862.8867
+2023-02-05 12:00:00,Clermont,Monaco,France,AwayWin,1.73,8.6289,AwayWin,True,6.2991,869.1858
+2023-02-05 13:00:00,RCD Mallorca,Real Madrid,Spain,AwayWin,1.66,8.6919,HomeWin,False,-8.6919,860.4939
+2023-02-05 16:30:00,Wolfsburg,Bayern München,Germany,AwayWin,1.44,8.6049,AwayWin,True,3.7862,864.2801
+2023-02-05 17:30:00,Real Sociedad,Real Valladolid,Spain,HomeWin,1.4,8.6428,AwayWin,False,-8.6428,855.6373
+2023-02-05 19:45:00,Olympique Marseille,Nice,France,HomeWin,1.7,8.5564,AwayWin,False,-8.5564,847.0809
+2023-02-05 20:00:00,FC Barcelona,Sevilla FC,Spain,HomeWin,1.33,8.4708,HomeWin,True,2.7954,849.8763
+2023-02-07 19:45:00,Salernitana,Juventus,Italy,AwayWin,1.54,8.4988,AwayWin,True,4.5893,854.4656
+2023-02-08 20:00:00,Manchester United,Leeds United,Premier_League,HomeWin,1.51,8.5447,Draw,False,-8.5447,845.921
+2023-02-10 19:30:00,Schalke 04,Wolfsburg,Germany,AwayWin,1.74,8.4592,Draw,False,-8.4592,837.4618
+2023-02-10 19:45:00,AC Milan,Torino,Italy,HomeWin,1.62,8.3746,HomeWin,True,5.1923,842.654
+2023-02-10 20:00:00,Nice,Ajaccio,France,HomeWin,1.6,8.4265,HomeWin,True,5.0559,847.7099
+2023-02-11 14:30:00,Bayern München,Bochum,Germany,HomeWin,1.05,8.4771,HomeWin,True,0.4239,848.1338
+2023-02-11 15:00:00,Arsenal,Brentford,Premier_League,HomeWin,1.31,8.4813,Draw,False,-8.4813,839.6525
+2023-02-11 17:30:00,Sevilla FC,RCD Mallorca,Spain,HomeWin,1.95,8.3965,HomeWin,True,7.9767,847.6292
+2023-02-11 17:30:00,AFC Bournemouth,Newcastle United,Premier_League,AwayWin,1.54,8.4763,Draw,False,-8.4763,839.1529
+2023-02-12 14:00:00,Lille,Strasbourg,France,HomeWin,1.49,8.3915,HomeWin,True,4.1118,843.2647
+2023-02-12 16:30:00,Manchester City,Aston Villa,Premier_League,HomeWin,1.18,8.4326,HomeWin,True,1.5179,844.7826
+2023-02-12 17:00:00,Juventus,Fiorentina,Italy,AwayWin,1.58,8.4478,HomeWin,False,-8.4478,836.3348
+2023-02-12 19:45:00,Napoli,Cremonese,Italy,HomeWin,1.22,8.3633,HomeWin,True,1.8399,838.1747
+2023-02-12 20:00:00,Villarreal,FC Barcelona,Spain,AwayWin,1.86,8.3817,AwayWin,True,7.2083,845.383
+2023-02-13 19:45:00,Sampdoria,Inter Milan,Italy,AwayWin,1.44,8.4538,Draw,False,-8.4538,836.9292
+2023-02-13 20:00:00,Liverpool,Everton,Premier_League,HomeWin,1.32,8.3693,HomeWin,True,2.6782,839.6073
+2023-02-15 20:00:00,Real Madrid,Elche CF,Spain,HomeWin,1.18,8.3961,HomeWin,True,1.5113,841.1186
+2023-02-17 19:45:00,Sassuolo,Napoli,Italy,AwayWin,1.58,8.4112,AwayWin,True,4.8785,845.9971
+2023-02-17 20:00:00,Auxerre,Olympique Lyonnais,France,AwayWin,1.82,8.46,HomeWin,False,-8.46,837.5372
+2023-02-17 20:00:00,Girona FC,Almería,Spain,HomeWin,1.85,8.3754,HomeWin,True,7.1191,844.6562
+2023-02-18 12:30:00,Aston Villa,Arsenal,Premier_League,AwayWin,1.67,8.4466,AwayWin,True,5.6592,850.3154
+2023-02-18 14:30:00,Borussia M'gladbach,Bayern München,Germany,AwayWin,1.43,8.5032,HomeWin,False,-8.5032,841.8123
+2023-02-18 15:00:00,Brighton & Hove Albion,Fulham,Premier_League,HomeWin,1.72,8.4181,AwayWin,False,-8.4181,833.3941
+2023-02-18 15:00:00,Nottingham Forest,Manchester City,Premier_League,AwayWin,1.29,8.3339,Draw,False,-8.3339,825.0602
+2023-02-18 15:00:00,Wolverhampton Wanderers,AFC Bournemouth,Premier_League,HomeWin,1.68,8.2506,AwayWin,False,-8.2506,816.8096
+2023-02-18 15:00:00,Chelsea,Southampton,Premier_League,HomeWin,1.47,8.1681,AwayWin,False,-8.1681,808.6415
+2023-02-18 17:30:00,Eintracht Frankfurt,Werder Bremen,Germany,HomeWin,1.66,8.0864,HomeWin,True,5.337,813.9785
+2023-02-18 19:45:00,Inter Milan,Udinese,Italy,HomeWin,1.49,8.1398,HomeWin,True,3.9885,817.967
+2023-02-19 11:30:00,Atalanta,Lecce,Italy,HomeWin,1.48,8.1797,AwayWin,False,-8.1797,809.7874
+2023-02-19 12:00:00,PSG,Lille,France,HomeWin,1.74,8.0979,HomeWin,True,5.9924,815.7798
+2023-02-19 14:00:00,Rennes,Clermont,France,HomeWin,1.65,8.1578,HomeWin,True,5.3026,821.0824
+2023-02-19 14:00:00,Brest,Monaco,France,AwayWin,1.87,8.2108,AwayWin,True,7.1434,828.2258
+2023-02-19 14:00:00,Manchester United,Leicester City,Premier_League,HomeWin,1.61,8.2823,HomeWin,True,5.0522,833.2779
+2023-02-19 14:00:00,Salernitana,Lazio,Italy,AwayWin,1.67,8.3328,AwayWin,True,5.583,838.8609
+2023-02-19 14:30:00,Union Berlin,Schalke 04,Germany,HomeWin,1.58,8.3886,Draw,False,-8.3886,830.4723
+2023-02-19 16:30:00,Borussia Dortmund,Hertha BSC,Germany,HomeWin,1.36,8.3047,HomeWin,True,2.9897,833.462
+2023-02-19 19:45:00,Roma,Hellas Verona,Italy,HomeWin,1.55,8.3346,HomeWin,True,4.584,838.046
+2023-02-19 20:00:00,FC Barcelona,Cádiz,Spain,HomeWin,1.16,8.3805,HomeWin,True,1.3409,839.3869
+2023-02-20 19:45:00,Torino,Cremonese,Italy,HomeWin,1.67,8.3939,Draw,False,-8.3939,830.993
+2023-02-24 20:00:00,Lille,Brest,France,HomeWin,1.4,8.3099,HomeWin,True,3.324,834.317
+2023-02-25 15:00:00,Leicester City,Arsenal,Premier_League,AwayWin,1.62,8.3432,AwayWin,True,5.1728,839.4898
+2023-02-25 17:00:00,Empoli,Napoli,Italy,AwayWin,1.41,8.3949,AwayWin,True,3.4419,842.9317
+2023-02-25 17:30:00,AFC Bournemouth,Manchester City,Premier_League,AwayWin,1.25,8.4293,AwayWin,True,2.1073,845.039
+2023-02-25 19:45:00,Crystal Palace,Liverpool,Premier_League,AwayWin,1.73,8.4504,Draw,False,-8.4504,836.5886
+2023-02-26 11:30:00,Bologna,Inter Milan,Italy,AwayWin,1.65,8.3659,HomeWin,False,-8.3659,828.2227
+2023-02-26 13:00:00,Athletic Club Bilbao,Girona FC,Spain,HomeWin,1.62,8.2822,AwayWin,False,-8.2822,819.9405
+2023-02-26 16:05:00,Monaco,Nice,France,HomeWin,1.75,8.1994,AwayWin,False,-8.1994,811.7411
+2023-02-26 16:30:00,Bayern München,Union Berlin,Germany,HomeWin,1.36,8.1174,HomeWin,True,2.9223,814.6634
+2023-02-26 17:00:00,Udinese,Spezia,Italy,HomeWin,1.72,8.1466,Draw,False,-8.1466,806.5167
+2023-02-26 17:30:00,Almería,FC Barcelona,Spain,AwayWin,1.4,8.0652,HomeWin,False,-8.0652,798.4516
+2023-02-27 19:45:00,Lazio,Sampdoria,Italy,HomeWin,1.4,7.9845,HomeWin,True,3.1938,801.6454
+2023-02-28 19:45:00,Juventus,Torino,Italy,HomeWin,1.75,8.0165,HomeWin,True,6.0123,807.6577
+2023-03-01 19:45:00,Arsenal,Everton,Premier_League,HomeWin,1.3,8.0766,HomeWin,True,2.423,810.0807
+2023-03-01 20:00:00,Liverpool,Wolverhampton Wanderers,Premier_League,HomeWin,1.5,8.1008,HomeWin,True,4.0504,814.1311
+2023-03-03 19:45:00,Napoli,Lazio,Italy,HomeWin,1.52,8.1413,AwayWin,False,-8.1413,805.9898
+2023-03-03 20:00:00,Real Sociedad,Cádiz,Spain,HomeWin,1.43,8.0599,Draw,False,-8.0599,797.9299
+2023-03-03 20:00:00,Nice,Auxerre,France,HomeWin,1.64,7.9793,Draw,False,-7.9793,789.9506
+2023-03-04 12:30:00,Manchester City,Newcastle United,Premier_League,HomeWin,1.43,7.8995,HomeWin,True,3.3968,793.3474
+2023-03-04 15:00:00,Arsenal,AFC Bournemouth,Premier_League,HomeWin,1.22,7.9335,HomeWin,True,1.7454,795.0927
+2023-03-04 15:00:00,Chelsea,Leeds United,Premier_League,HomeWin,1.63,7.9509,HomeWin,True,5.0091,800.1018
+2023-03-04 17:00:00,Atalanta,Udinese,Italy,HomeWin,1.65,8.001,Draw,False,-8.001,792.1008
+2023-03-04 17:30:00,Stuttgart,Bayern München,Germany,AwayWin,1.45,7.921,AwayWin,True,3.5645,795.6653
+2023-03-04 20:00:00,Atlético Madrid,Sevilla FC,Spain,HomeWin,1.7,7.9567,HomeWin,True,5.5697,801.2349
+2023-03-04 20:00:00,PSG,Nantes,France,HomeWin,1.33,8.0123,HomeWin,True,2.6441,803.879
+2023-03-05 12:00:00,Troyes,Monaco,France,AwayWin,1.5,8.0388,Draw,False,-8.0388,795.8402
+2023-03-05 14:30:00,Bayer Leverkusen,Hertha BSC,Germany,HomeWin,1.52,7.9584,HomeWin,True,4.1384,799.9786
+2023-03-05 15:15:00,FC Barcelona,Valencia CF,Spain,HomeWin,1.32,7.9998,HomeWin,True,2.5599,802.5385
+2023-03-05 16:05:00,Olympique Lyonnais,Lorient,France,HomeWin,1.53,8.0254,Draw,False,-8.0254,794.5131
+2023-03-05 17:00:00,Inter Milan,Lecce,Italy,HomeWin,1.29,7.9451,HomeWin,True,2.3041,796.8172
+2023-03-06 17:30:00,Sassuolo,Cremonese,Italy,HomeWin,1.81,7.9682,HomeWin,True,6.4542,803.2714
+2023-03-10 19:45:00,Spezia,Inter Milan,Italy,AwayWin,1.4,8.0327,HomeWin,False,-8.0327,795.2387
+2023-03-11 12:30:00,AFC Bournemouth,Liverpool,Premier_League,AwayWin,1.45,7.9524,HomeWin,False,-7.9524,787.2863
+2023-03-11 13:00:00,Real Madrid,RCD Espanyol,Spain,HomeWin,1.25,7.8729,HomeWin,True,1.9682,789.2545
+2023-03-11 14:30:00,RB Leipzig,Borussia M'gladbach,Germany,HomeWin,1.43,7.8925,HomeWin,True,3.3938,792.6483
+2023-03-11 14:30:00,Bayern München,Augsburg,Germany,HomeWin,1.15,7.9265,HomeWin,True,1.189,793.8373
+2023-03-11 15:00:00,Tottenham Hotspur,Nottingham Forest,Premier_League,HomeWin,1.48,7.9384,HomeWin,True,3.8104,797.6477
+2023-03-11 17:00:00,Napoli,Atalanta,Italy,HomeWin,1.68,7.9765,HomeWin,True,5.424,803.0717
+2023-03-11 17:30:00,Crystal Palace,Manchester City,Premier_League,AwayWin,1.45,8.0307,AwayWin,True,3.6138,806.6856
+2023-03-11 17:30:00,Schalke 04,Borussia Dortmund,Germany,AwayWin,1.61,8.0669,Draw,False,-8.0669,798.6187
+2023-03-11 20:00:00,Brest,PSG,France,AwayWin,1.4,7.9862,AwayWin,True,3.1945,801.8132
+2023-03-12 14:00:00,Manchester United,Southampton,Premier_League,HomeWin,1.24,8.0181,Draw,False,-8.0181,793.795
+2023-03-12 14:00:00,Fulham,Arsenal,Premier_League,AwayWin,1.46,7.938,AwayWin,True,3.6515,797.4465
+2023-03-12 15:15:00,Sevilla FC,Almería,Spain,HomeWin,1.55,7.9745,HomeWin,True,4.386,801.8325
+2023-03-12 16:05:00,Monaco,Reims,France,HomeWin,1.69,8.0183,AwayWin,False,-8.0183,793.8141
+2023-03-12 17:00:00,Roma,Sassuolo,Italy,HomeWin,1.61,7.9381,AwayWin,False,-7.9381,785.876
+2023-03-12 19:45:00,Juventus,Sampdoria,Italy,HomeWin,1.28,7.8588,HomeWin,True,2.2005,788.0764
+2023-03-12 19:45:00,Olympique Marseille,Strasbourg,France,HomeWin,1.33,7.8808,Draw,False,-7.8808,780.1957
+2023-03-13 19:45:00,AC Milan,Salernitana,Italy,HomeWin,1.21,7.802,Draw,False,-7.802,772.3937
+2023-03-15 19:30:00,Brighton & Hove Albion,Crystal Palace,Premier_League,HomeWin,1.59,7.7239,HomeWin,True,4.5571,776.9509
+2023-03-17 19:45:00,Atalanta,Empoli,Italy,HomeWin,1.45,7.7695,HomeWin,True,3.4963,780.4471
+2023-03-17 20:00:00,Olympique Lyonnais,Nantes,France,HomeWin,1.65,7.8045,Draw,False,-7.8045,772.6427
+2023-03-17 20:00:00,Nottingham Forest,Newcastle United,Premier_League,AwayWin,1.78,7.7264,AwayWin,True,6.0266,778.6693
+2023-03-18 14:30:00,Bochum,RB Leipzig,Germany,AwayWin,1.55,7.7867,HomeWin,False,-7.7867,770.8826
+2023-03-18 15:00:00,Aston Villa,AFC Bournemouth,Premier_League,HomeWin,1.7,7.7088,HomeWin,True,5.3962,776.2788
+2023-03-18 17:30:00,Borussia Dortmund,Köln,Germany,HomeWin,1.45,7.7628,HomeWin,True,3.4933,779.772
+2023-03-18 17:30:00,Chelsea,Everton,Premier_League,HomeWin,1.47,7.7977,Draw,False,-7.7977,771.9743
+2023-03-18 20:00:00,Lens,Angers SCO,France,HomeWin,1.27,7.7197,HomeWin,True,2.0843,774.0586
+2023-03-18 20:00:00,Atlético Madrid,Valencia CF,Spain,HomeWin,1.6,7.7406,HomeWin,True,4.6444,778.703
+2023-03-19 12:00:00,Ajaccio,Monaco,France,AwayWin,1.62,7.787,AwayWin,True,4.828,783.5309
+2023-03-19 14:00:00,Fiorentina,Lecce,Italy,HomeWin,1.52,7.8353,HomeWin,True,4.0744,787.6053
+2023-03-19 14:00:00,Arsenal,Crystal Palace,Premier_League,HomeWin,1.33,7.8761,HomeWin,True,2.5991,790.2044
+2023-03-19 14:00:00,Nice,Lorient,France,HomeWin,1.58,7.902,Draw,False,-7.902,782.3023
+2023-03-19 15:15:00,Real Sociedad,Elche CF,Spain,HomeWin,1.33,7.823,HomeWin,True,2.5816,784.8839
+2023-03-19 16:05:00,PSG,Rennes,France,HomeWin,1.5,7.8488,AwayWin,False,-7.8488,777.0351
+2023-03-19 16:30:00,Bayer Leverkusen,Bayern München,Germany,AwayWin,1.62,7.7704,HomeWin,False,-7.7704,769.2648
+2023-03-31 19:00:00,Olympique Marseille,Montpellier,France,HomeWin,1.47,7.6926,Draw,False,-7.6926,761.5721
+2023-04-01 11:30:00,Manchester City,Liverpool,Premier_League,HomeWin,1.65,7.6157,HomeWin,True,4.9502,766.5223
+2023-04-01 13:30:00,RB Leipzig,Mainz 05,Germany,HomeWin,1.5,7.6652,AwayWin,False,-7.6652,758.8571
+2023-04-01 13:30:00,Freiburg,Hertha BSC,Germany,HomeWin,1.67,7.5886,Draw,False,-7.5886,751.2685
+2023-04-01 14:00:00,Arsenal,Leeds United,Premier_League,HomeWin,1.33,7.5127,HomeWin,True,2.4792,753.7477
+2023-04-01 14:15:00,Athletic Club Bilbao,Getafe CF,Spain,HomeWin,1.57,7.5375,Draw,False,-7.5375,746.2102
+2023-04-01 16:30:00,Bayern München,Borussia Dortmund,Germany,HomeWin,1.5,7.4621,HomeWin,True,3.7311,749.9413
+2023-04-01 16:30:00,Chelsea,Aston Villa,Premier_League,HomeWin,1.5,7.4994,AwayWin,False,-7.4994,742.4419
+2023-04-01 18:45:00,Juventus,Hellas Verona,Italy,HomeWin,1.44,7.4244,HomeWin,True,3.2667,745.7086
+2023-04-01 19:00:00,Elche CF,FC Barcelona,Spain,AwayWin,1.33,7.4571,AwayWin,True,2.4608,748.1695
+2023-04-02 11:00:00,Lille,Lorient,France,HomeWin,1.36,7.4817,HomeWin,True,2.6934,750.8629
+2023-04-02 12:00:00,Celta de Vigo,Almería,Spain,HomeWin,1.62,7.5086,Draw,False,-7.5086,743.3542
+2023-04-02 13:00:00,Angers SCO,Nice,France,AwayWin,1.57,7.4335,Draw,False,-7.4335,735.9207
+2023-04-02 14:15:00,Real Madrid,Real Valladolid,Spain,HomeWin,1.2,7.3592,HomeWin,True,1.4718,737.3925
+2023-04-02 15:05:00,Monaco,Strasbourg,France,HomeWin,1.44,7.3739,HomeWin,True,3.2445,740.6371
+2023-04-02 16:00:00,Roma,Sampdoria,Italy,HomeWin,1.44,7.4064,HomeWin,True,3.2588,743.8959
+2023-04-02 18:45:00,PSG,Olympique Lyonnais,France,HomeWin,1.4,7.439,AwayWin,False,-7.439,736.4569
+2023-04-02 18:45:00,Napoli,AC Milan,Italy,HomeWin,1.71,7.3646,AwayWin,False,-7.3646,729.0923
+2023-04-02 19:00:00,Atlético Madrid,Real Betis,Spain,HomeWin,1.61,7.2909,HomeWin,True,4.4475,733.5398
+2023-04-07 15:00:00,Salernitana,Inter Milan,Italy,AwayWin,1.47,7.3354,Draw,False,-7.3354,726.2044
+2023-04-07 17:00:00,Lecce,Napoli,Italy,AwayWin,1.37,7.262,AwayWin,True,2.687,728.8914
+2023-04-07 19:00:00,AC Milan,Empoli,Italy,HomeWin,1.38,7.2889,Draw,False,-7.2889,721.6025
+2023-04-07 19:00:00,Lens,Strasbourg,France,HomeWin,1.51,7.216,HomeWin,True,3.6802,725.2826
+2023-04-08 11:30:00,Manchester United,Everton,Premier_League,HomeWin,1.44,7.2528,HomeWin,True,3.1912,728.4739
+2023-04-08 12:30:00,Fiorentina,Spezia,Italy,HomeWin,1.44,7.2847,Draw,False,-7.2847,721.1891
+2023-04-08 13:30:00,Freiburg,Bayern München,Germany,AwayWin,1.5,7.2119,AwayWin,True,3.6059,724.7951
+2023-04-08 14:30:00,Atalanta,Bologna,Italy,HomeWin,1.6,7.248,AwayWin,False,-7.248,717.5471
+2023-04-08 15:00:00,Angers SCO,Lille,France,AwayWin,1.44,7.1755,HomeWin,False,-7.1755,710.3717
+2023-04-08 16:30:00,Real Sociedad,Getafe CF,Spain,HomeWin,1.61,7.1037,HomeWin,True,4.3333,714.7049
+2023-04-08 16:30:00,Southampton,Manchester City,Premier_League,AwayWin,1.28,7.147,AwayWin,True,2.0012,716.7061
+2023-04-08 16:30:00,Hertha BSC,RB Leipzig,Germany,AwayWin,1.6,7.1671,AwayWin,True,4.3002,721.0063
+2023-04-08 19:00:00,Real Madrid,Villarreal,Spain,HomeWin,1.5,7.2101,AwayWin,False,-7.2101,713.7963
+2023-04-09 11:00:00,Olympique Lyonnais,Rennes,France,HomeWin,1.48,7.138,HomeWin,True,3.4262,717.2225
+2023-04-09 13:00:00,Troyes,Clermont,France,AwayWin,1.43,7.1722,AwayWin,True,3.0841,720.3065
+2023-04-09 18:45:00,Lorient,Olympique Marseille,France,AwayWin,1.75,7.2031,Draw,False,-7.2031,713.1035
+2023-04-10 19:00:00,FC Barcelona,Girona FC,Spain,HomeWin,1.3,7.131,Draw,False,-7.131,705.9724
+2023-04-15 12:00:00,Villarreal,Real Valladolid,Spain,HomeWin,1.39,7.0597,AwayWin,False,-7.0597,698.9127
+2023-04-15 13:30:00,Bayern München,Hoffenheim,Germany,HomeWin,1.19,6.9891,Draw,False,-6.9891,691.9236
+2023-04-15 13:30:00,RB Leipzig,Augsburg,Germany,HomeWin,1.26,6.9192,HomeWin,True,1.799,693.7226
+2023-04-15 13:30:00,Stuttgart,Borussia Dortmund,Germany,AwayWin,1.99,6.9372,Draw,False,-6.9372,686.7854
+2023-04-15 14:15:00,Tottenham Hotspur,AFC Bournemouth,Premier_League,HomeWin,1.48,6.8679,AwayWin,False,-6.8679,679.9175
+2023-04-15 16:00:00,Napoli,Hellas Verona,Italy,HomeWin,1.44,6.7992,Draw,False,-6.7992,673.1183
+2023-04-15 16:30:00,Eintracht Frankfurt,Borussia M'gladbach,Germany,HomeWin,1.72,6.7312,Draw,False,-6.7312,666.3872
+2023-04-15 16:30:00,Manchester City,Leicester City,Premier_League,HomeWin,1.17,6.6639,HomeWin,True,1.1329,667.52
+2023-04-15 18:45:00,Inter Milan,Monza,Italy,HomeWin,1.36,6.6752,AwayWin,False,-6.6752,660.8448
+2023-04-15 19:00:00,PSG,Lens,France,HomeWin,1.65,6.6084,HomeWin,True,4.2955,665.1403
+2023-04-15 19:00:00,Cádiz,Real Madrid,Spain,AwayWin,1.45,6.6514,AwayWin,True,2.9931,668.1334
+2023-04-15 19:00:00,Palmeiras,Cuiabá,Brazil,HomeWin,1.29,6.6813,HomeWin,True,1.9376,670.071
+2023-04-15 21:30:00,Atlético PR,Goiás,Brazil,HomeWin,1.5,6.7007,HomeWin,True,3.3504,673.4214
+2023-04-16 00:00:00,Atlético Mineiro,Vasco da Gama,Brazil,HomeWin,1.6,6.7342,AwayWin,False,-6.7342,666.6872
+2023-04-16 11:00:00,Lille,Montpellier,France,HomeWin,1.49,6.6669,HomeWin,True,3.2668,669.9539
+2023-04-16 12:00:00,Girona FC,Elche CF,Spain,HomeWin,1.58,6.6995,HomeWin,True,3.8857,673.8397
+2023-04-16 13:00:00,West Ham United,Arsenal,Premier_League,AwayWin,1.6,6.7384,Draw,False,-6.7384,667.1013
+2023-04-16 14:15:00,Getafe CF,FC Barcelona,Spain,AwayWin,1.55,6.671,Draw,False,-6.671,660.4303
+2023-04-16 15:05:00,Monaco,Lorient,France,HomeWin,1.38,6.6043,HomeWin,True,2.5096,662.9399
+2023-04-16 15:30:00,Nottingham Forest,Manchester United,Premier_League,AwayWin,1.61,6.6294,AwayWin,True,4.0439,666.9838
+2023-04-16 15:30:00,Union Berlin,Bochum,Germany,HomeWin,1.6,6.6698,Draw,False,-6.6698,660.314
+2023-04-16 16:30:00,Atlético Madrid,Almería,Spain,HomeWin,1.3,6.6031,HomeWin,True,1.9809,662.2949
+2023-04-16 18:45:00,Olympique Marseille,Troyes,France,HomeWin,1.22,6.6229,HomeWin,True,1.457,663.752
+2023-04-16 19:00:00,Flamengo,Coritiba,Brazil,HomeWin,1.34,6.6375,HomeWin,True,2.2568,666.0087
+2023-04-16 21:30:00,Grêmio,Santos,Brazil,HomeWin,1.54,6.6601,HomeWin,True,3.5964,669.6052
+2023-04-17 19:00:00,Leeds United,Liverpool,Premier_League,AwayWin,1.75,6.6961,AwayWin,True,5.022,674.6272
+2023-04-21 19:00:00,Arsenal,Southampton,Premier_League,HomeWin,1.2,6.7463,Draw,False,-6.7463,667.8809
+2023-04-21 19:00:00,Angers SCO,PSG,France,AwayWin,1.28,6.6788,AwayWin,True,1.8701,669.751
+2023-04-22 13:30:00,Mainz 05,Bayern München,Germany,AwayWin,1.53,6.6975,HomeWin,False,-6.6975,663.0535
+2023-04-22 14:00:00,Liverpool,Nottingham Forest,Premier_League,HomeWin,1.22,6.6305,HomeWin,True,1.4587,664.5122
+2023-04-22 16:30:00,Borussia Dortmund,Eintracht Frankfurt,Germany,HomeWin,1.61,6.6451,HomeWin,True,4.0535,668.5657
+2023-04-22 19:00:00,Real Madrid,Celta de Vigo,Spain,HomeWin,1.36,6.6857,HomeWin,True,2.4068,670.9726
+2023-04-22 19:00:00,Fluminense,Atlético PR,Brazil,HomeWin,1.62,6.7097,HomeWin,True,4.16,675.1326
+2023-04-23 10:30:00,Empoli,Inter Milan,Italy,AwayWin,1.53,6.7513,AwayWin,True,3.5782,678.7108
+2023-04-23 13:00:00,Udinese,Cremonese,Italy,HomeWin,1.6,6.7871,HomeWin,True,4.0723,682.7831
+2023-04-23 13:00:00,Nantes,Troyes,France,HomeWin,1.65,6.8278,Draw,False,-6.8278,675.9552
+2023-04-23 16:00:00,AC Milan,Lecce,Italy,HomeWin,1.5,6.7596,HomeWin,True,3.3798,679.335
+2023-04-25 17:30:00,Girona FC,Real Madrid,Spain,AwayWin,1.6,6.7934,HomeWin,False,-6.7934,672.5417
+2023-04-26 17:30:00,Atlético Madrid,RCD Mallorca,Spain,HomeWin,1.4,6.7254,HomeWin,True,2.6902,675.2318
+2023-04-26 18:30:00,Nottingham Forest,Brighton & Hove Albion,Premier_League,AwayWin,1.59,6.7523,HomeWin,False,-6.7523,668.4795
+2023-04-26 18:45:00,Chelsea,Brentford,Premier_League,HomeWin,1.71,6.6848,AwayWin,False,-6.6848,661.7947
+2023-04-26 19:00:00,Manchester City,Arsenal,Premier_League,HomeWin,1.59,6.6179,HomeWin,True,3.9046,665.6993
+2023-04-26 20:00:00,Rayo Vallecano,FC Barcelona,Spain,AwayWin,1.78,6.657,HomeWin,False,-6.657,659.0423
+2023-04-26 20:00:00,Celta de Vigo,Elche CF,Spain,HomeWin,1.48,6.5904,HomeWin,True,3.1634,662.2057
+2023-04-27 17:30:00,Villarreal,RCD Espanyol,Spain,HomeWin,1.53,6.6221,HomeWin,True,3.5097,665.7154
+2023-04-28 18:30:00,Bochum,Borussia Dortmund,Germany,AwayWin,1.69,6.6572,Draw,False,-6.6572,659.0583
+2023-04-29 13:30:00,RB Leipzig,Hoffenheim,Germany,HomeWin,1.4,6.5906,HomeWin,True,2.6362,661.6945
+2023-04-29 13:30:00,Eintracht Frankfurt,Augsburg,Germany,HomeWin,1.5,6.6169,Draw,False,-6.6169,655.0776
+2023-04-29 14:00:00,Brentford,Nottingham Forest,Premier_League,HomeWin,1.67,6.5508,HomeWin,True,4.389,659.4666
+2023-04-29 14:00:00,Brighton & Hove Albion,Wolverhampton Wanderers,Premier_League,HomeWin,1.44,6.5947,HomeWin,True,2.9017,662.3682
+2023-04-29 15:00:00,Lille,Ajaccio,France,HomeWin,1.22,6.6237,HomeWin,True,1.4572,663.8254
+2023-04-29 16:30:00,Real Madrid,Almería,Spain,HomeWin,1.14,6.6383,HomeWin,True,0.9294,664.7548
+2023-04-29 19:00:00,FC Barcelona,Real Betis,Spain,HomeWin,1.28,6.6475,HomeWin,True,1.8613,666.6161
+2023-04-29 21:30:00,Palmeiras,Corinthians,Brazil,HomeWin,1.55,6.6662,HomeWin,True,3.6664,670.2825
+2023-04-30 00:00:00,Atlético Mineiro,Atlético PR,Brazil,HomeWin,1.65,6.7028,HomeWin,True,4.3568,674.6393
+2023-04-30 11:00:00,Monaco,Montpellier,France,HomeWin,1.47,6.7464,AwayWin,False,-6.7464,667.8929
+2023-04-30 13:00:00,Troyes,Nice,France,AwayWin,1.71,6.6789,AwayWin,True,4.742,672.635
+2023-04-30 13:00:00,Rennes,Angers SCO,France,HomeWin,1.29,6.7263,HomeWin,True,1.9506,674.5856
+2023-04-30 13:00:00,Manchester United,Aston Villa,Premier_League,HomeWin,1.63,6.7459,HomeWin,True,4.2499,678.8355
+2023-04-30 13:00:00,Newcastle United,Southampton,Premier_League,HomeWin,1.31,6.7884,HomeWin,True,2.1044,680.9399
+2023-04-30 13:00:00,Napoli,Salernitana,Italy,HomeWin,1.18,6.8094,Draw,False,-6.8094,674.1305
+2023-04-30 13:00:00,Fulham,Manchester City,Premier_League,AwayWin,1.22,6.7413,AwayWin,True,1.4831,675.6136
+2023-04-30 13:30:00,Bayern München,Hertha BSC,Germany,HomeWin,1.09,6.7561,HomeWin,True,0.6081,676.2216
+2023-04-30 15:05:00,PSG,Lorient,France,HomeWin,1.16,6.7622,AwayWin,False,-6.7622,669.4594
+2023-04-30 15:30:00,Liverpool,Tottenham Hotspur,Premier_League,HomeWin,1.67,6.6946,HomeWin,True,4.4854,673.9448
+2023-04-30 16:00:00,Fiorentina,Sampdoria,Italy,HomeWin,1.33,6.7394,HomeWin,True,2.224,676.1688
+2023-04-30 18:45:00,Olympique Marseille,Auxerre,France,HomeWin,1.33,6.7617,HomeWin,True,2.2314,678.4002
+2023-04-30 19:00:00,Flamengo,Botafogo,Brazil,HomeWin,1.54,6.784,AwayWin,False,-6.784,671.6162
+2023-04-30 19:00:00,Real Valladolid,Atlético Madrid,Spain,AwayWin,1.67,6.7162,AwayWin,True,4.4998,676.116
+2023-04-30 21:30:00,Internacional,Goiás,Brazil,HomeWin,1.46,6.7612,HomeWin,True,3.1101,679.2261
+2023-05-02 17:30:00,FC Barcelona,CA Osasuna,Spain,HomeWin,1.22,6.7923,HomeWin,True,1.4943,680.7204
+2023-05-03 16:00:00,Atalanta,Spezia,Italy,HomeWin,1.4,6.8072,HomeWin,True,2.7229,683.4433
+2023-05-03 16:00:00,Juventus,Lecce,Italy,HomeWin,1.6,6.8344,HomeWin,True,4.1007,687.544
+2023-05-03 19:00:00,Lazio,Sassuolo,Italy,HomeWin,1.7,6.8754,HomeWin,True,4.8128,692.3568
+2023-05-03 19:00:00,Liverpool,Fulham,Premier_League,HomeWin,1.36,6.9236,HomeWin,True,2.4925,694.8493
+2023-05-03 19:00:00,Manchester City,West Ham United,Premier_League,HomeWin,1.22,6.9485,HomeWin,True,1.5287,696.3779
+2023-05-03 19:00:00,AC Milan,Cremonese,Italy,HomeWin,1.36,6.9638,Draw,False,-6.9638,689.4142
+2023-05-03 20:00:00,Atlético Madrid,Cádiz,Spain,HomeWin,1.3,6.8941,HomeWin,True,2.0682,691.4824
+2023-05-04 17:30:00,Sevilla FC,RCD Espanyol,Spain,HomeWin,1.76,6.9148,HomeWin,True,5.2553,696.7377
+2023-05-04 18:45:00,Udinese,Napoli,Italy,AwayWin,1.65,6.9674,Draw,False,-6.9674,689.7703
+2023-05-04 20:00:00,Athletic Club Bilbao,Real Betis,Spain,HomeWin,1.68,6.8977,AwayWin,False,-6.8977,682.8726
+2023-05-05 18:30:00,Bayer Leverkusen,Köln,Germany,HomeWin,1.67,6.8287,AwayWin,False,-6.8287,676.0439
+2023-05-06 14:00:00,Manchester City,Leeds United,Premier_League,HomeWin,1.17,6.7604,HomeWin,True,1.1493,677.1931
+2023-05-06 14:00:00,AFC Bournemouth,Chelsea,Premier_League,AwayWin,1.59,6.7719,AwayWin,True,3.9954,681.1886
+2023-05-06 14:00:00,Tottenham Hotspur,Crystal Palace,Premier_League,HomeWin,1.51,6.8119,HomeWin,True,3.4741,684.6626
+2023-05-06 16:30:00,Liverpool,Brentford,Premier_League,HomeWin,1.3,6.8466,HomeWin,True,2.054,686.7166
+2023-05-06 16:30:00,Werder Bremen,Bayern München,Germany,AwayWin,1.36,6.8672,AwayWin,True,2.4722,689.1888
+2023-05-07 11:00:00,Angers SCO,Monaco,France,AwayWin,1.4,6.8919,AwayWin,True,2.7568,691.9456
+2023-05-07 15:05:00,Olympique Lyonnais,Montpellier,France,HomeWin,1.65,6.9195,HomeWin,True,4.4976,696.4432
+2023-05-07 15:30:00,Borussia Dortmund,Wolfsburg,Germany,HomeWin,1.52,6.9644,HomeWin,True,3.6215,700.0647
+2023-05-07 16:00:00,Napoli,Fiorentina,Italy,HomeWin,1.68,7.0006,HomeWin,True,4.7604,704.8251
+2023-05-07 18:45:00,Troyes,PSG,France,AwayWin,1.3,7.0483,AwayWin,True,2.1145,706.9396
+2023-05-08 16:30:00,Brighton & Hove Albion,Everton,Premier_League,HomeWin,1.4,7.0694,AwayWin,False,-7.0694,699.8702
+2023-05-08 16:30:00,Udinese,Sampdoria,Italy,HomeWin,1.54,6.9987,HomeWin,True,3.7793,703.6495
+2023-05-10 23:00:00,Flamengo,Goiás,Brazil,HomeWin,1.25,7.0365,HomeWin,True,1.7591,705.4086
+2023-05-11 00:30:00,Palmeiras,Grêmio,Brazil,HomeWin,1.45,7.0541,HomeWin,True,3.1743,708.583
+2023-05-12 18:30:00,Köln,Hertha BSC,Germany,HomeWin,1.82,7.0858,HomeWin,True,5.8104,714.3934
+2023-05-12 18:45:00,Lazio,Lecce,Italy,HomeWin,1.51,7.1439,Draw,False,-7.1439,707.2494
+2023-05-13 13:00:00,Salernitana,Atalanta,Italy,AwayWin,1.6,7.0725,HomeWin,False,-7.0725,700.1769
+2023-05-13 13:30:00,Bayern München,Schalke 04,Germany,HomeWin,1.1,7.0018,HomeWin,True,0.7002,700.8771
+2023-05-13 14:00:00,Manchester United,Wolverhampton Wanderers,Premier_League,HomeWin,1.4,7.0088,HomeWin,True,2.8035,703.6806
+2023-05-13 14:00:00,Chelsea,Nottingham Forest,Premier_League,HomeWin,1.37,7.0368,Draw,False,-7.0368,696.6438
+2023-05-13 16:30:00,Borussia Dortmund,Borussia M'gladbach,Germany,HomeWin,1.22,6.9664,HomeWin,True,1.5326,698.1764
+2023-05-13 18:45:00,Inter Milan,Sassuolo,Italy,HomeWin,1.36,6.9818,HomeWin,True,2.5134,700.6899
+2023-05-13 19:00:00,Real Madrid,Getafe CF,Spain,HomeWin,1.57,7.0069,HomeWin,True,3.9939,704.6838
+2023-05-13 19:00:00,PSG,Ajaccio,France,HomeWin,1.12,7.0468,HomeWin,True,0.8456,705.5294
+2023-05-13 21:30:00,Fluminense,Cuiabá,Brazil,HomeWin,1.39,7.0553,HomeWin,True,2.7516,708.281
+2023-05-13 21:30:00,Palmeiras,Bragantino,Brazil,HomeWin,1.42,7.0828,Draw,False,-7.0828,701.1982
+2023-05-14 00:00:00,Atlético Mineiro,Internacional,Brazil,HomeWin,1.53,7.012,HomeWin,True,3.7164,704.9145
+2023-05-14 13:00:00,Everton,Manchester City,Premier_League,AwayWin,1.36,7.0491,AwayWin,True,2.5377,707.4522
+2023-05-14 13:00:00,Rennes,Troyes,France,HomeWin,1.33,7.0745,HomeWin,True,2.3346,709.7868
+2023-05-14 14:15:00,Elche CF,Atlético Madrid,Spain,AwayWin,1.38,7.0979,HomeWin,False,-7.0979,702.6889
+2023-05-14 15:30:00,RB Leipzig,Werder Bremen,Germany,HomeWin,1.33,7.0269,HomeWin,True,2.3189,705.0078
+2023-05-14 18:45:00,Olympique Marseille,Angers SCO,France,HomeWin,1.14,7.0501,HomeWin,True,0.987,705.9948
+2023-05-14 18:45:00,Juventus,Cremonese,Italy,HomeWin,1.31,7.0599,HomeWin,True,2.1886,708.1834
+2023-05-14 19:00:00,RCD Espanyol,FC Barcelona,Spain,AwayWin,1.63,7.0818,AwayWin,True,4.4616,712.645
+2023-05-14 21:30:00,Atlético PR,Coritiba,Brazil,HomeWin,1.58,7.1264,HomeWin,True,4.1333,716.7783
+2023-05-15 19:00:00,Leicester City,Liverpool,Premier_League,AwayWin,1.5,7.1678,AwayWin,True,3.5839,720.3622
+2023-05-20 14:00:00,Liverpool,Aston Villa,Premier_League,HomeWin,1.5,7.2036,Draw,False,-7.2036,713.1586
+2023-05-20 14:00:00,AFC Bournemouth,Manchester United,Premier_League,AwayWin,1.5,7.1316,AwayWin,True,3.5658,716.7244
+2023-05-20 14:15:00,Athletic Club Bilbao,Celta de Vigo,Spain,HomeWin,1.67,7.1672,HomeWin,True,4.8021,721.5264
+2023-05-20 16:00:00,Atalanta,Hellas Verona,Italy,HomeWin,1.5,7.2153,HomeWin,True,3.6076,725.1341
+2023-05-20 16:30:00,Bayern München,RB Leipzig,Germany,HomeWin,1.5,7.2513,AwayWin,False,-7.2513,717.8827
+2023-05-20 16:30:00,Nottingham Forest,Arsenal,Premier_League,AwayWin,1.4,7.1788,HomeWin,False,-7.1788,710.7039
+2023-05-20 16:30:00,Getafe CF,Elche CF,Spain,HomeWin,1.44,7.107,Draw,False,-7.107,703.5968
+2023-05-20 18:45:00,AC Milan,Sampdoria,Italy,HomeWin,1.17,7.036,HomeWin,True,1.1961,704.793
+2023-05-20 19:00:00,FC Barcelona,Real Sociedad,Spain,HomeWin,1.6,7.0479,AwayWin,False,-7.0479,697.745
+2023-05-21 11:00:00,Ajaccio,Rennes,France,AwayWin,1.45,6.9775,AwayWin,True,3.1399,700.8849
+2023-05-21 13:00:00,Reims,Angers SCO,France,HomeWin,1.4,7.0088,Draw,False,-7.0088,693.876
+2023-05-21 13:00:00,Troyes,Strasbourg,France,AwayWin,1.53,6.9388,Draw,False,-6.9388,686.9373
+2023-05-21 13:00:00,Brighton & Hove Albion,Southampton,Premier_League,HomeWin,1.18,6.8694,HomeWin,True,1.2365,688.1738
+2023-05-21 14:15:00,Atlético Madrid,CA Osasuna,Spain,HomeWin,1.4,6.8817,HomeWin,True,2.7527,690.9265
+2023-05-21 15:00:00,Manchester City,Chelsea,Premier_League,HomeWin,1.26,6.9093,HomeWin,True,1.7964,692.7229
+2023-05-21 15:05:00,Lorient,Lens,France,AwayWin,1.59,6.9272,AwayWin,True,4.0871,696.8099
+2023-05-21 15:30:00,Augsburg,Borussia Dortmund,Germany,AwayWin,1.4,6.9681,AwayWin,True,2.7872,699.5972
+2023-05-21 17:30:00,Bayer Leverkusen,Borussia M'gladbach,Germany,HomeWin,1.47,6.996,Draw,False,-6.996,692.6012
+2023-05-21 18:45:00,Auxerre,PSG,France,AwayWin,1.41,6.926,AwayWin,True,2.8397,695.4409
+2023-05-21 19:00:00,Flamengo,Corinthians,Brazil,HomeWin,1.49,6.9544,HomeWin,True,3.4077,698.8485
+2023-05-22 16:30:00,Roma,Salernitana,Italy,HomeWin,1.41,6.9885,Draw,False,-6.9885,691.86
+2023-05-22 19:00:00,Newcastle United,Leicester City,Premier_League,HomeWin,1.3,6.9186,Draw,False,-6.9186,684.9414
+2023-05-22 23:00:00,Cruzeiro,Cuiabá,Brazil,HomeWin,1.53,6.8494,AwayWin,False,-6.8494,678.092
+2023-05-23 17:30:00,Real Sociedad,Almería,Spain,HomeWin,1.47,6.7809,HomeWin,True,3.187,681.2791
+2023-05-23 20:00:00,Real Valladolid,FC Barcelona,Spain,AwayWin,1.51,6.8128,HomeWin,False,-6.8128,674.4663
+2023-05-24 17:30:00,Villarreal,Cádiz,Spain,HomeWin,1.45,6.7447,HomeWin,True,3.0351,677.5014
+2023-05-24 17:30:00,Real Madrid,Rayo Vallecano,Spain,HomeWin,1.36,6.775,HomeWin,True,2.439,679.9404
+2023-05-24 20:00:00,RCD Espanyol,Atlético Madrid,Spain,AwayWin,1.83,6.7994,Draw,False,-6.7994,673.141
+2023-05-26 18:45:00,Sampdoria,Sassuolo,Italy,AwayWin,1.87,6.7314,Draw,False,-6.7314,666.4096
+2023-05-27 13:30:00,Borussia Dortmund,Mainz 05,Germany,HomeWin,1.26,6.6641,Draw,False,-6.6641,659.7455
+2023-05-27 13:30:00,RB Leipzig,Schalke 04,Germany,HomeWin,1.29,6.5975,HomeWin,True,1.9133,661.6587
+2023-05-27 13:30:00,Köln,Bayern München,Germany,AwayWin,1.33,6.6166,AwayWin,True,2.1835,663.8422
+2023-05-27 13:30:00,Bochum,Bayer Leverkusen,Germany,AwayWin,1.88,6.6384,HomeWin,False,-6.6384,657.2038
+2023-05-27 13:30:00,Wolfsburg,Hertha BSC,Germany,HomeWin,1.45,6.572,AwayWin,False,-6.572,650.6317
+2023-05-27 18:45:00,Inter Milan,Atalanta,Italy,HomeWin,1.84,6.5063,HomeWin,True,5.4653,656.097
+2023-05-27 19:00:00,Lille,Nantes,France,HomeWin,1.4,6.561,HomeWin,True,2.6244,658.7214
+2023-05-27 19:00:00,Olympique Lyonnais,Reims,France,HomeWin,1.67,6.5872,HomeWin,True,4.4134,663.1349
+2023-05-27 19:00:00,Strasbourg,PSG,France,AwayWin,1.6,6.6313,Draw,False,-6.6313,656.5035
+2023-05-27 19:00:00,Lens,Ajaccio,France,HomeWin,1.14,6.565,HomeWin,True,0.9191,657.4226
+2023-05-27 19:00:00,Olympique Marseille,Brest,France,HomeWin,1.36,6.5742,AwayWin,False,-6.5742,650.8484
+2023-05-27 21:30:00,Flamengo,Cruzeiro,Brazil,HomeWin,1.63,6.5085,Draw,False,-6.5085,644.3399
+2023-05-28 00:00:00,São Paulo,Goiás,Brazil,HomeWin,1.57,6.4434,HomeWin,True,3.6727,648.0127
+2023-05-28 15:30:00,Manchester United,Fulham,Premier_League,HomeWin,1.44,6.4801,HomeWin,True,2.8513,650.8639
+2023-05-28 15:30:00,Southampton,Liverpool,Premier_League,AwayWin,1.44,6.5086,Draw,False,-6.5086,644.3553
+2023-05-28 15:30:00,Arsenal,Wolverhampton Wanderers,Premier_League,HomeWin,1.44,6.4436,HomeWin,True,2.8352,647.1904
+2023-05-28 15:30:00,Everton,AFC Bournemouth,Premier_League,HomeWin,1.5,6.4719,HomeWin,True,3.236,650.4264
+2023-05-28 15:30:00,Brentford,Manchester City,Premier_League,AwayWin,1.57,6.5043,HomeWin,False,-6.5043,643.9221
+2023-05-28 16:00:00,Lazio,Cremonese,Italy,HomeWin,1.3,6.4392,HomeWin,True,1.9318,645.8539
+2023-05-28 17:00:00,Athletic Club Bilbao,Elche CF,Spain,HomeWin,1.25,6.4585,AwayWin,False,-6.4585,639.3953
+2023-05-28 17:00:00,FC Barcelona,RCD Mallorca,Spain,HomeWin,1.5,6.394,HomeWin,True,3.197,642.5923
+2023-06-03 19:00:00,Troyes,Lille,France,AwayWin,1.14,6.4259,Draw,False,-6.4259,636.1664
+2023-06-03 19:00:00,Brest,Rennes,France,AwayWin,1.57,6.3617,AwayWin,True,3.6261,639.7925
+2023-06-03 19:00:00,PSG,Clermont,France,HomeWin,1.2,6.3979,AwayWin,False,-6.3979,633.3946
+2023-06-03 19:00:00,Monaco,Toulouse,France,HomeWin,1.4,6.3339,AwayWin,False,-6.3339,627.0607
+2023-06-03 19:00:00,Ajaccio,Olympique Marseille,France,AwayWin,1.33,6.2706,HomeWin,False,-6.2706,620.7901
+2023-06-03 19:00:00,Nantes,Angers SCO,France,HomeWin,1.36,6.2079,HomeWin,True,2.2348,623.0249
+2023-06-04 16:30:00,Real Madrid,Athletic Club Bilbao,Spain,HomeWin,1.95,6.2302,Draw,False,-6.2302,616.7947
+2023-06-04 16:30:00,Napoli,Sampdoria,Italy,HomeWin,1.22,6.1679,HomeWin,True,1.3569,618.1516
+2023-06-04 19:00:00,AC Milan,Hellas Verona,Italy,HomeWin,1.8,6.1815,HomeWin,True,4.9452,623.0968
+2023-06-04 19:00:00,Atalanta,Monza,Italy,HomeWin,1.5,6.231,HomeWin,True,3.1155,626.2123
+2023-06-04 21:30:00,Palmeiras,Coritiba,Brazil,HomeWin,1.23,6.2621,HomeWin,True,1.4403,627.6526
+2023-06-05 23:00:00,Vasco da Gama,Flamengo,Brazil,AwayWin,1.85,6.2765,AwayWin,True,5.335,632.9876
+2023-06-11 21:30:00,Flamengo,Grêmio,Brazil,HomeWin,1.5,6.3299,HomeWin,True,3.1649,636.1526
+2023-06-22 22:00:00,Grêmio,América Mineiro,Brazil,HomeWin,1.65,6.3615,HomeWin,True,4.135,640.2876
+2023-06-24 21:30:00,Fluminense,Bahia,Brazil,HomeWin,1.58,6.4029,HomeWin,True,3.7137,644.0012
+2023-06-25 19:00:00,Palmeiras,Botafogo,Brazil,HomeWin,1.6,6.44,AwayWin,False,-6.44,637.5612
+2023-06-25 19:00:00,Grêmio,Coritiba,Brazil,HomeWin,1.45,6.3756,HomeWin,True,2.869,640.4303
+2023-06-25 21:30:00,Bragantino,Goiás,Brazil,HomeWin,1.45,6.4043,HomeWin,True,2.8819,643.3122
+2023-07-01 21:30:00,Bahia,Grêmio,Brazil,AwayWin,1.37,6.4331,AwayWin,True,2.3803,645.6924
+2023-07-08 21:30:00,Atlético Mineiro,Corinthians,Brazil,HomeWin,1.59,6.4569,AwayWin,False,-6.4569,639.2355
+2023-07-09 19:00:00,Fluminense,Internacional,Brazil,HomeWin,1.58,6.3924,HomeWin,True,3.7076,642.9431
+2023-07-16 14:00:00,Cruzeiro,Coritiba,Brazil,HomeWin,1.59,6.4294,Draw,False,-6.4294,636.5137
+2023-07-16 19:00:00,Fortaleza,Cuiabá,Brazil,HomeWin,1.55,6.3651,AwayWin,False,-6.3651,630.1485
+2023-07-22 19:00:00,Flamengo,América Mineiro,Brazil,HomeWin,1.36,6.3015,Draw,False,-6.3015,623.847
+2023-07-22 19:00:00,Palmeiras,Fortaleza,Brazil,HomeWin,1.4,6.2385,HomeWin,True,2.4954,626.3424
+2023-07-29 19:00:00,Fluminense,Santos,Brazil,HomeWin,1.5,6.2634,HomeWin,True,3.1317,629.4741
+2023-07-30 00:00:00,Atlético Mineiro,Flamengo,Brazil,HomeWin,1.95,6.2947,AwayWin,False,-6.2947,623.1794
+2023-07-30 14:00:00,São Paulo,Bahia,Brazil,HomeWin,1.6,6.2318,Draw,False,-6.2318,616.9476
+2023-07-30 19:00:00,Botafogo,Coritiba,Brazil,HomeWin,1.57,6.1695,HomeWin,True,3.5166,620.4642
+2023-08-11 19:00:00,Burnley,Manchester City,Premier_League,AwayWin,1.28,6.2046,AwayWin,True,1.7373,622.2015
+2023-08-12 12:00:00,Arsenal,Nottingham Forest,Premier_League,HomeWin,1.25,6.222,HomeWin,True,1.5555,623.757
+2023-08-12 15:00:00,Real Sociedad,Girona FC,Spain,HomeWin,1.6,6.2376,Draw,False,-6.2376,617.5194
+2023-08-12 15:00:00,Olympique Marseille,Reims,France,HomeWin,1.56,6.1752,HomeWin,True,3.4581,620.9775
+2023-08-12 19:00:00,PSG,Lorient,France,HomeWin,1.17,6.2098,Draw,False,-6.2098,614.7678
+2023-08-13 14:00:00,Atlético Mineiro,Bahia,Brazil,HomeWin,1.57,6.1477,HomeWin,True,3.5042,618.2719
+2023-08-13 15:05:00,Rennes,Metz,France,HomeWin,1.44,6.1827,HomeWin,True,2.7204,620.9923
+2023-08-13 19:30:00,Getafe CF,FC Barcelona,Spain,AwayWin,1.58,6.2099,Draw,False,-6.2099,614.7824
+2023-08-13 21:30:00,Flamengo,São Paulo,Brazil,HomeWin,1.62,6.1478,Draw,False,-6.1478,608.6346
+2023-08-14 19:00:00,Manchester United,Wolverhampton Wanderers,Premier_League,HomeWin,1.33,6.0863,HomeWin,True,2.0085,610.6431
+2023-08-14 19:30:00,Atlético Madrid,Granada CF,Spain,HomeWin,1.33,6.1064,HomeWin,True,2.0151,612.6582
+2023-08-14 22:00:00,Palmeiras,Cruzeiro,Brazil,HomeWin,1.57,6.1266,HomeWin,True,3.4922,616.1504
+2023-08-18 18:30:00,Werder Bremen,Bayern München,Germany,AwayWin,1.28,6.1615,AwayWin,True,1.7252,617.8756
+2023-08-18 19:00:00,Metz,Olympique Marseille,France,AwayWin,1.7,6.1788,Draw,False,-6.1788,611.6968
+2023-08-19 14:00:00,Wolverhampton Wanderers,Brighton & Hove Albion,Premier_League,AwayWin,1.93,6.117,AwayWin,True,5.6888,617.3856
+2023-08-19 14:00:00,Liverpool,AFC Bournemouth,Premier_League,HomeWin,1.23,6.1739,HomeWin,True,1.42,618.8056
+2023-08-19 16:30:00,Frosinone,Napoli,Italy,AwayWin,1.34,6.1881,AwayWin,True,2.1039,620.9095
+2023-08-19 16:30:00,Borussia Dortmund,Köln,Germany,HomeWin,1.4,6.2091,HomeWin,True,2.4836,623.3932
+2023-08-19 17:30:00,Almería,Real Madrid,Spain,AwayWin,1.4,6.2339,AwayWin,True,2.4936,625.8867
+2023-08-19 18:45:00,Inter Milan,Monza,Italy,HomeWin,1.38,6.2589,HomeWin,True,2.3784,628.2651
+2023-08-19 19:00:00,Toulouse,PSG,France,AwayWin,1.66,6.2827,Draw,False,-6.2827,621.9825
+2023-08-19 19:00:00,Manchester City,Newcastle United,Premier_League,HomeWin,1.66,6.2198,HomeWin,True,4.1051,626.0875
+2023-08-19 21:30:00,Fluminense,América Mineiro,Brazil,HomeWin,1.46,6.2609,HomeWin,True,2.88,628.9676
+2023-08-20 11:00:00,Lille,Nantes,France,HomeWin,1.45,6.2897,HomeWin,True,2.8304,631.7979
+2023-08-20 15:30:00,Eintracht Frankfurt,Darmstadt 98,Germany,HomeWin,1.42,6.318,HomeWin,True,2.6536,634.4515
+2023-08-20 16:30:00,Sassuolo,Atalanta,Italy,AwayWin,1.75,6.3445,AwayWin,True,4.7584,639.2098
+2023-08-20 16:30:00,Roma,Salernitana,Italy,HomeWin,1.47,6.3921,Draw,False,-6.3921,632.8177
+2023-08-20 17:30:00,FC Barcelona,Cádiz,Spain,HomeWin,1.19,6.3282,HomeWin,True,1.2024,634.0201
+2023-08-21 19:00:00,Crystal Palace,Arsenal,Premier_League,AwayWin,1.55,6.3402,AwayWin,True,3.4871,637.5072
+2023-08-25 18:30:00,RB Leipzig,Stuttgart,Germany,HomeWin,1.36,6.3751,HomeWin,True,2.295,639.8022
+2023-08-25 19:00:00,Chelsea,Luton Town,Premier_League,HomeWin,1.21,6.398,HomeWin,True,1.3436,641.1458
+2023-08-25 19:30:00,Celta de Vigo,Real Madrid,Spain,AwayWin,1.93,6.4115,AwayWin,True,5.9627,647.1085
+2023-08-26 13:30:00,Bochum,Borussia Dortmund,Germany,AwayWin,1.36,6.4711,Draw,False,-6.4711,640.6374
+2023-08-26 14:00:00,Manchester United,Nottingham Forest,Premier_League,HomeWin,1.26,6.4064,HomeWin,True,1.6657,642.303
+2023-08-26 14:00:00,Arsenal,Fulham,Premier_League,HomeWin,1.25,6.423,Draw,False,-6.423,635.88
+2023-08-26 16:30:00,Frosinone,Atalanta,Italy,AwayWin,1.73,6.3588,HomeWin,False,-6.3588,629.5212
+2023-08-26 16:30:00,Brighton & Hove Albion,West Ham United,Premier_League,HomeWin,1.53,6.2952,AwayWin,False,-6.2952,623.226
+2023-08-26 16:30:00,Borussia M'gladbach,Bayer Leverkusen,Germany,AwayWin,1.95,6.2323,AwayWin,True,5.9206,629.1467
+2023-08-26 17:00:00,Olympique Marseille,Brest,France,HomeWin,1.53,6.2915,HomeWin,True,3.3345,632.4811
+2023-08-26 18:45:00,AC Milan,Torino,Italy,HomeWin,1.67,6.3248,HomeWin,True,4.2376,636.7188
+2023-08-26 19:00:00,PSG,Lens,France,HomeWin,1.6,6.3672,HomeWin,True,3.8203,640.5391
+2023-08-26 21:30:00,Flamengo,Internacional,Brazil,HomeWin,1.45,6.4054,Draw,False,-6.4054,634.1337
+2023-08-27 11:00:00,Rennes,Le Havre,France,HomeWin,1.4,6.3413,Draw,False,-6.3413,627.7923
+2023-08-27 13:00:00,Sheffield United,Manchester City,Premier_League,AwayWin,1.15,6.2779,AwayWin,True,0.9417,628.734
+2023-08-27 15:30:00,Bayern München,Augsburg,Germany,HomeWin,1.14,6.2873,HomeWin,True,0.8802,629.6143
+2023-08-27 16:30:00,Juventus,Bologna,Italy,HomeWin,1.66,6.2961,Draw,False,-6.2961,623.3181
+2023-08-27 16:30:00,Fiorentina,Lecce,Italy,HomeWin,1.66,6.2332,Draw,False,-6.2332,617.0849
+2023-08-27 18:45:00,Lazio,Genoa,Italy,HomeWin,1.51,6.1708,AwayWin,False,-6.1708,610.9141
+2023-08-27 18:45:00,Napoli,Sassuolo,Italy,HomeWin,1.35,6.1091,HomeWin,True,2.1382,613.0523
+2023-08-27 19:00:00,Atlético Mineiro,Santos,Brazil,HomeWin,1.57,6.1305,HomeWin,True,3.4944,616.5467
+2023-08-27 21:30:00,Palmeiras,Vasco da Gama,Brazil,HomeWin,1.5,6.1655,HomeWin,True,3.0827,619.6294
+2023-08-28 18:45:00,Cagliari,Inter Milan,Italy,AwayWin,1.49,6.1963,AwayWin,True,3.0362,622.6656
+2023-08-28 19:30:00,Rayo Vallecano,Atlético Madrid,Spain,AwayWin,1.88,6.2267,AwayWin,True,5.4795,628.1451
+2023-09-01 18:30:00,Borussia Dortmund,Heidenheim,Germany,HomeWin,1.24,6.2815,Draw,False,-6.2815,621.8636
+2023-09-01 19:00:00,Nantes,Olympique Marseille,France,AwayWin,1.83,6.2186,Draw,False,-6.2186,615.645
+2023-09-02 12:00:00,Real Sociedad,Granada CF,Spain,HomeWin,1.38,6.1564,HomeWin,True,2.3395,617.9844
+2023-09-02 13:30:00,Bayer Leverkusen,Darmstadt 98,Germany,HomeWin,1.38,6.1798,HomeWin,True,2.3483,620.3328
+2023-09-02 14:00:00,Chelsea,Nottingham Forest,Premier_League,HomeWin,1.5,6.2033,AwayWin,False,-6.2033,614.1294
+2023-09-02 14:00:00,Brentford,AFC Bournemouth,Premier_League,HomeWin,1.66,6.1413,Draw,False,-6.1413,607.9881
+2023-09-02 14:00:00,Manchester City,Fulham,Premier_League,HomeWin,1.13,6.0799,HomeWin,True,0.7904,608.7785
+2023-09-02 14:15:00,Real Madrid,Getafe CF,Spain,HomeWin,1.25,6.0878,HomeWin,True,1.5219,610.3005
+2023-09-02 16:30:00,Bologna,Cagliari,Italy,HomeWin,1.72,6.103,HomeWin,True,4.3942,614.6946
+2023-09-02 16:30:00,Borussia M'gladbach,Bayern München,Germany,AwayWin,1.46,6.1469,AwayWin,True,2.8276,617.5222
+2023-09-02 18:45:00,Napoli,Lazio,Italy,HomeWin,1.75,6.1752,AwayWin,False,-6.1752,611.347
+2023-09-03 12:00:00,Girona FC,UD Las Palmas,Spain,HomeWin,1.62,6.1135,HomeWin,True,3.7904,615.1374
+2023-09-03 13:00:00,Liverpool,Aston Villa,Premier_League,HomeWin,1.54,6.1514,HomeWin,True,3.3217,618.4591
+2023-09-03 13:00:00,Lille,Montpellier,France,HomeWin,1.59,6.1846,HomeWin,True,3.6489,622.108
+2023-09-03 15:30:00,Arsenal,Manchester United,Premier_League,HomeWin,1.7,6.2211,HomeWin,True,4.3548,626.4628
+2023-09-03 16:30:00,Inter Milan,Fiorentina,Italy,HomeWin,1.65,6.2646,HomeWin,True,4.072,630.5348
+2023-09-03 18:45:00,Empoli,Juventus,Italy,AwayWin,1.65,6.3053,AwayWin,True,4.0985,634.6332
+2023-09-03 19:00:00,CA Osasuna,FC Barcelona,Spain,AwayWin,1.65,6.3463,AwayWin,True,4.1251,638.7584
+2023-09-14 22:00:00,Fortaleza,Corinthians,Brazil,HomeWin,1.57,6.3876,HomeWin,True,3.6409,642.3993
+2023-09-15 18:30:00,Bayern München,Bayer Leverkusen,Germany,HomeWin,1.5,6.424,Draw,False,-6.424,635.9753
+2023-09-15 19:00:00,PSG,Nice,France,HomeWin,1.44,6.3598,AwayWin,False,-6.3598,629.6155
+2023-09-16 00:30:00,Palmeiras,Goiás,Brazil,HomeWin,1.29,6.2962,HomeWin,True,1.8259,631.4414
+2023-09-16 11:30:00,Wolverhampton Wanderers,Liverpool,Premier_League,AwayWin,1.45,6.3144,AwayWin,True,2.8415,634.2829
+2023-09-16 12:00:00,Athletic Club Bilbao,Cádiz,Spain,HomeWin,1.56,6.3428,HomeWin,True,3.552,637.8349
+2023-09-16 13:00:00,Juventus,Lazio,Italy,HomeWin,1.9,6.3783,HomeWin,True,5.7405,643.5754
+2023-09-16 13:30:00,RB Leipzig,Augsburg,Germany,HomeWin,1.26,6.4358,HomeWin,True,1.6733,645.2487
+2023-09-16 14:00:00,West Ham United,Manchester City,Premier_League,AwayWin,1.48,6.4525,AwayWin,True,3.0972,648.3459
+2023-09-16 14:00:00,Tottenham Hotspur,Sheffield United,Premier_League,HomeWin,1.3,6.4835,HomeWin,True,1.945,650.2909
+2023-09-16 18:45:00,Genoa,Napoli,Italy,AwayWin,1.67,6.5029,Draw,False,-6.5029,643.788
+2023-09-16 19:00:00,Lens,Metz,France,HomeWin,1.5,6.4379,AwayWin,False,-6.4379,637.3501
+2023-09-16 19:00:00,FC Barcelona,Real Betis,Spain,HomeWin,1.37,6.3735,HomeWin,True,2.3582,639.7083
+2023-09-17 11:00:00,Lorient,Monaco,France,AwayWin,1.75,6.3971,Draw,False,-6.3971,633.3113
+2023-09-17 13:00:00,AFC Bournemouth,Chelsea,Premier_League,AwayWin,1.66,6.3331,Draw,False,-6.3331,626.9781
+2023-09-17 14:15:00,Villarreal,Almería,Spain,HomeWin,1.46,6.2698,HomeWin,True,2.8841,629.8622
+2023-09-17 15:05:00,Olympique Marseille,Toulouse,France,HomeWin,1.46,6.2986,Draw,False,-6.2986,623.5636
+2023-09-17 15:30:00,Everton,Arsenal,Premier_League,AwayWin,1.55,6.2356,AwayWin,True,3.4296,626.9932
+2023-09-17 16:30:00,Sevilla FC,UD Las Palmas,Spain,HomeWin,1.61,6.2699,HomeWin,True,3.8247,630.8179
+2023-09-17 18:45:00,Roma,Empoli,Italy,HomeWin,1.45,6.3082,HomeWin,True,2.8387,633.6566
+2023-09-17 19:00:00,Real Madrid,Real Sociedad,Spain,HomeWin,1.65,6.3366,HomeWin,True,4.1188,637.7753
+2023-09-21 00:30:00,Fluminense,Cruzeiro,Brazil,HomeWin,1.7,6.3778,HomeWin,True,4.4644,642.2398
+2023-09-21 22:00:00,Vasco da Gama,Coritiba,Brazil,HomeWin,1.6,6.4224,HomeWin,True,3.8534,646.0932
+2023-09-22 18:30:00,Stuttgart,Darmstadt 98,Germany,HomeWin,1.53,6.4609,HomeWin,True,3.4243,649.5175
+2023-09-22 19:00:00,Monaco,Nice,France,HomeWin,1.87,6.4952,AwayWin,False,-6.4952,643.0223
+2023-09-23 13:00:00,AC Milan,Hellas Verona,Italy,HomeWin,1.33,6.4302,HomeWin,True,2.122,645.1443
+2023-09-23 13:30:00,Borussia Dortmund,Wolfsburg,Germany,HomeWin,1.51,6.4514,HomeWin,True,3.2902,648.4345
+2023-09-23 13:30:00,Bayern München,Bochum,Germany,HomeWin,1.06,6.4843,HomeWin,True,0.3891,648.8236
+2023-09-23 13:30:00,Borussia M'gladbach,RB Leipzig,Germany,AwayWin,1.48,6.4882,AwayWin,True,3.1144,651.9379
+2023-09-23 14:00:00,Manchester City,Nottingham Forest,Premier_League,HomeWin,1.09,6.5194,HomeWin,True,0.5867,652.5247
+2023-09-23 16:00:00,Sassuolo,Juventus,Italy,AwayWin,1.7,6.5252,HomeWin,False,-6.5252,645.9994
+2023-09-23 16:30:00,FC Barcelona,Celta de Vigo,Spain,HomeWin,1.25,6.46,HomeWin,True,1.615,647.6144
+2023-09-23 19:00:00,Burnley,Manchester United,Premier_League,AwayWin,1.7,6.4761,AwayWin,True,4.5333,652.1477
+2023-09-24 00:00:00,Atlético Mineiro,Cuiabá,Brazil,HomeWin,1.65,6.5215,HomeWin,True,4.239,656.3867
+2023-09-24 10:30:00,Empoli,Inter Milan,Italy,AwayWin,1.44,6.5639,AwayWin,True,2.8881,659.2748
+2023-09-24 12:00:00,Real Sociedad,Getafe CF,Spain,HomeWin,1.63,6.5927,HomeWin,True,4.1534,663.4282
+2023-09-24 13:00:00,Atalanta,Cagliari,Italy,HomeWin,1.34,6.6343,HomeWin,True,2.2557,665.6839
+2023-09-24 13:00:00,Liverpool,West Ham United,Premier_League,HomeWin,1.47,6.6568,HomeWin,True,3.1287,668.8126
+2023-09-24 13:00:00,Brighton & Hove Albion,AFC Bournemouth,Premier_League,HomeWin,1.4,6.6881,HomeWin,True,2.6753,671.4878
+2023-09-24 13:00:00,Lens,Toulouse,France,HomeWin,1.65,6.7149,HomeWin,True,4.3647,675.8525
+2023-09-24 13:30:00,Bayer Leverkusen,Heidenheim,Germany,HomeWin,1.29,6.7585,HomeWin,True,1.96,677.8125
+2023-09-24 15:30:00,Sheffield United,Newcastle United,Premier_League,AwayWin,1.45,6.7781,AwayWin,True,3.0502,680.8626
+2023-09-24 16:00:00,Bologna,Napoli,Italy,AwayWin,1.95,6.8086,Draw,False,-6.8086,674.054
+2023-09-24 18:45:00,PSG,Olympique Marseille,France,HomeWin,1.55,6.7405,HomeWin,True,3.7073,677.7613
+2023-09-26 17:00:00,Sevilla FC,Almería,Spain,HomeWin,1.5,6.7776,HomeWin,True,3.3888,681.1501
+2023-09-26 18:45:00,Juventus,Lecce,Italy,HomeWin,1.43,6.8115,HomeWin,True,2.9289,684.0791
+2023-09-26 19:00:00,Lille,Reims,France,HomeWin,1.7,6.8408,AwayWin,False,-6.8408,677.2383
+2023-09-26 19:30:00,RCD Mallorca,FC Barcelona,Spain,AwayWin,1.66,6.7724,Draw,False,-6.7724,670.4659
+2023-09-27 16:30:00,Hellas Verona,Atalanta,Italy,AwayWin,1.67,6.7047,AwayWin,True,4.4921,674.958
+2023-09-27 16:30:00,Cagliari,AC Milan,Italy,AwayWin,1.53,6.7496,AwayWin,True,3.5773,678.5353
+2023-09-27 17:00:00,Real Madrid,UD Las Palmas,Spain,HomeWin,1.29,6.7854,HomeWin,True,1.9678,680.503
+2023-09-27 17:00:00,Athletic Club Bilbao,Getafe CF,Spain,HomeWin,1.67,6.805,Draw,False,-6.805,673.698
+2023-09-27 18:45:00,Napoli,Udinese,Italy,HomeWin,1.33,6.737,HomeWin,True,2.2232,675.9212
+2023-09-27 18:45:00,Inter Milan,Sassuolo,Italy,HomeWin,1.33,6.7592,AwayWin,False,-6.7592,669.162
+2023-09-27 22:00:00,São Paulo,Coritiba,Brazil,HomeWin,1.5,6.6916,HomeWin,True,3.3458,672.5078
+2023-09-28 16:30:00,Frosinone,Fiorentina,Italy,AwayWin,1.94,6.7251,Draw,False,-6.7251,665.7827
+2023-09-29 19:00:00,FC Barcelona,Sevilla FC,Spain,HomeWin,1.39,6.6578,HomeWin,True,2.5966,668.3793
+2023-09-30 13:00:00,Lecce,Napoli,Italy,AwayWin,1.56,6.6838,AwayWin,True,3.7429,672.1222
+2023-09-30 13:30:00,Mainz 05,Bayer Leverkusen,Germany,AwayWin,1.42,6.7212,AwayWin,True,2.8229,674.9451
+2023-09-30 14:00:00,AFC Bournemouth,Arsenal,Premier_League,AwayWin,1.42,6.7495,AwayWin,True,2.8348,677.7799
+2023-09-30 14:00:00,West Ham United,Sheffield United,Premier_League,HomeWin,1.33,6.7778,HomeWin,True,2.2367,680.0166
+2023-09-30 14:00:00,Wolverhampton Wanderers,Manchester City,Premier_League,AwayWin,1.25,6.8002,HomeWin,False,-6.8002,673.2164
+2023-09-30 14:00:00,Everton,Luton Town,Premier_League,HomeWin,1.53,6.7322,AwayWin,False,-6.7322,666.4842
+2023-09-30 14:00:00,Newcastle United,Burnley,Premier_League,HomeWin,1.24,6.6648,HomeWin,True,1.5996,668.0838
+2023-09-30 14:00:00,Manchester United,Crystal Palace,Premier_League,HomeWin,1.44,6.6808,AwayWin,False,-6.6808,661.403
+2023-09-30 15:00:00,Clermont,PSG,France,AwayWin,1.39,6.614,Draw,False,-6.614,654.7889
+2023-09-30 16:00:00,AC Milan,Lazio,Italy,HomeWin,1.75,6.5479,HomeWin,True,4.9109,659.6999
+2023-09-30 18:45:00,Salernitana,Inter Milan,Italy,AwayWin,1.44,6.597,AwayWin,True,2.9027,662.6025
+2023-09-30 19:00:00,Flamengo,Bahia,Brazil,HomeWin,1.55,6.626,HomeWin,True,3.6443,666.2468
+2023-09-30 21:30:00,São Paulo,Corinthians,Brazil,HomeWin,1.59,6.6625,HomeWin,True,3.9309,670.1777
+2023-10-01 10:30:00,Bologna,Empoli,Italy,HomeWin,1.63,6.7018,HomeWin,True,4.2221,674.3998
+2023-10-01 18:45:00,Roma,Frosinone,Italy,HomeWin,1.45,6.744,HomeWin,True,3.0348,677.4346
+2023-10-01 18:45:00,Rennes,Nantes,France,HomeWin,1.5,6.7743,HomeWin,True,3.3872,680.8218
+2023-10-01 19:00:00,Atlético Madrid,Cádiz,Spain,HomeWin,1.38,6.8082,HomeWin,True,2.5871,683.4089
+2023-10-02 18:45:00,Fiorentina,Cagliari,Italy,HomeWin,1.47,6.8341,HomeWin,True,3.212,686.6209
+2023-10-06 19:00:00,Athletic Club Bilbao,Almería,Spain,HomeWin,1.36,6.8662,HomeWin,True,2.4718,689.0928
+2023-10-07 11:30:00,Luton Town,Tottenham Hotspur,Premier_League,AwayWin,1.46,6.8909,AwayWin,True,3.1698,692.2626
+2023-10-07 13:00:00,Inter Milan,Bologna,Italy,HomeWin,1.45,6.9226,Draw,False,-6.9226,685.34
+2023-10-07 13:30:00,Borussia Dortmund,Union Berlin,Germany,HomeWin,1.62,6.8534,HomeWin,True,4.2491,689.5891
+2023-10-07 13:30:00,RB Leipzig,Bochum,Germany,HomeWin,1.27,6.8959,Draw,False,-6.8959,682.6932
+2023-10-07 14:00:00,Burnley,Chelsea,Premier_League,AwayWin,1.81,6.8269,AwayWin,True,5.5298,688.223
+2023-10-07 14:00:00,Fulham,Sheffield United,Premier_League,HomeWin,1.64,6.8822,HomeWin,True,4.4046,692.6276
+2023-10-07 14:15:00,Real Madrid,CA Osasuna,Spain,HomeWin,1.33,6.9263,HomeWin,True,2.2857,694.9133
+2023-10-07 15:00:00,Metz,Nice,France,AwayWin,1.78,6.9491,AwayWin,True,5.4203,700.3336
+2023-10-07 16:00:00,Juventus,Torino,Italy,HomeWin,1.8,7.0033,HomeWin,True,5.6027,705.9363
+2023-10-08 11:00:00,Olympique Marseille,Le Havre,France,HomeWin,1.5,7.0594,HomeWin,True,3.5297,709.466
+2023-10-08 12:00:00,Villarreal,UD Las Palmas,Spain,HomeWin,1.62,7.0947,AwayWin,False,-7.0947,702.3713
+2023-10-08 13:00:00,Olympique Lyonnais,Lorient,France,HomeWin,1.65,7.0237,Draw,False,-7.0237,695.3476
+2023-10-08 13:30:00,Bayer Leverkusen,Köln,Germany,HomeWin,1.29,6.9535,HomeWin,True,2.0165,697.3641
+2023-10-08 15:30:00,Bayern München,Freiburg,Germany,HomeWin,1.15,6.9736,HomeWin,True,1.046,698.4102
+2023-10-08 16:00:00,Cagliari,Roma,Italy,AwayWin,1.84,6.9841,AwayWin,True,5.8666,704.2768
+2023-10-08 18:45:00,Napoli,Fiorentina,Italy,HomeWin,1.58,7.0428,AwayWin,False,-7.0428,697.234
+2023-10-08 19:00:00,Palmeiras,Santos,Brazil,HomeWin,1.45,6.9723,AwayWin,False,-6.9723,690.2617
+2023-10-08 19:00:00,Granada CF,FC Barcelona,Spain,AwayWin,1.39,6.9026,Draw,False,-6.9026,683.3591
+2023-10-08 21:30:00,Fortaleza,América Mineiro,Brazil,HomeWin,1.55,6.8336,HomeWin,True,3.7585,687.1176
+2023-10-08 21:30:00,Atlético Mineiro,Coritiba,Brazil,HomeWin,1.38,6.8712,AwayWin,False,-6.8712,680.2464
+2023-10-20 00:30:00,Fluminense,Corinthians,Brazil,HomeWin,1.61,6.8025,Draw,False,-6.8025,673.4439
+2023-10-20 18:30:00,Borussia Dortmund,Werder Bremen,Germany,HomeWin,1.38,6.7344,HomeWin,True,2.5591,676.003
+2023-10-21 11:30:00,Liverpool,Everton,Premier_League,HomeWin,1.3,6.76,HomeWin,True,2.028,678.031
+2023-10-21 12:00:00,Real Sociedad,RCD Mallorca,Spain,HomeWin,1.5,6.7803,HomeWin,True,3.3902,681.4212
+2023-10-21 13:00:00,Hellas Verona,Napoli,Italy,AwayWin,1.47,6.8142,AwayWin,True,3.2027,684.6239
+2023-10-21 13:30:00,Wolfsburg,Bayer Leverkusen,Germany,AwayWin,1.75,6.8462,AwayWin,True,5.1347,689.7585
+2023-10-21 13:30:00,Darmstadt 98,RB Leipzig,Germany,AwayWin,1.4,6.8976,AwayWin,True,2.759,692.5176
+2023-10-21 14:00:00,Manchester City,Brighton & Hove Albion,Premier_League,HomeWin,1.4,6.9252,HomeWin,True,2.7701,695.2876
+2023-10-21 14:00:00,Newcastle United,Crystal Palace,Premier_League,HomeWin,1.4,6.9529,HomeWin,True,2.7812,698.0688
+2023-10-21 15:00:00,PSG,Strasbourg,France,HomeWin,1.18,6.9807,HomeWin,True,1.2565,699.3253
+2023-10-21 16:30:00,Mainz 05,Bayern München,Germany,AwayWin,1.25,6.9933,AwayWin,True,1.7483,701.0736
+2023-10-21 19:00:00,Sheffield United,Manchester United,Premier_League,AwayWin,1.4,7.0107,AwayWin,True,2.8043,703.8779
+2023-10-22 11:00:00,Lorient,Rennes,France,AwayWin,1.85,7.0388,HomeWin,False,-7.0388,696.8391
+2023-10-22 14:15:00,Girona FC,Almería,Spain,HomeWin,1.47,6.9684,HomeWin,True,3.2751,700.1143
+2023-10-22 15:05:00,Monaco,Metz,France,HomeWin,1.25,7.0011,HomeWin,True,1.7503,701.8646
+2023-10-22 16:00:00,Atalanta,Genoa,Italy,HomeWin,1.48,7.0186,HomeWin,True,3.3689,705.2335
+2023-10-22 16:30:00,Villarreal,Deportivo Alavés,Spain,HomeWin,1.57,7.0523,Draw,False,-7.0523,698.1812
+2023-10-22 19:00:00,Internacional,Santos,Brazil,HomeWin,1.62,6.9818,HomeWin,True,4.3287,702.5099
+2023-10-22 19:00:00,Flamengo,Vasco da Gama,Brazil,HomeWin,1.62,7.0251,HomeWin,True,4.3556,706.8655
+2023-10-22 19:00:00,FC Barcelona,Athletic Club Bilbao,Spain,HomeWin,1.42,7.0687,HomeWin,True,2.9688,709.8343
+2023-10-22 21:30:00,Bragantino,Fluminense,Brazil,HomeWin,1.73,7.0983,HomeWin,True,5.1818,715.0161
+2023-10-23 18:45:00,Fiorentina,Empoli,Italy,HomeWin,1.43,7.1502,AwayWin,False,-7.1502,707.8659
+2023-10-23 19:00:00,Tottenham Hotspur,Fulham,Premier_League,HomeWin,1.46,7.0787,HomeWin,True,3.2562,711.1221
+2023-10-25 22:00:00,Atlético PR,América Mineiro,Brazil,HomeWin,1.5,7.1112,HomeWin,True,3.5556,714.6777
+2023-10-25 22:00:00,Fluminense,Goiás,Brazil,HomeWin,1.6,7.1468,HomeWin,True,4.2881,718.9658
+2023-10-28 13:30:00,Bayern München,Darmstadt 98,Germany,HomeWin,1.1,7.1897,HomeWin,True,0.719,719.6848
+2023-10-28 14:00:00,Arsenal,Sheffield United,Premier_League,HomeWin,1.16,7.1968,HomeWin,True,1.1515,720.8363
+2023-10-28 16:30:00,RB Leipzig,Köln,Germany,HomeWin,1.37,7.2084,HomeWin,True,2.6671,723.5033
+2023-10-28 18:45:00,Juventus,Hellas Verona,Italy,HomeWin,1.42,7.235,HomeWin,True,3.0387,726.5421
+2023-10-28 22:00:00,Palmeiras,Bahia,Brazil,HomeWin,1.33,7.2654,HomeWin,True,2.3976,728.9396
+2023-10-29 01:00:00,Atlético Mineiro,Fluminense,Brazil,HomeWin,1.75,7.2894,HomeWin,True,5.467,734.4067
+2023-10-29 12:00:00,Brest,PSG,France,AwayWin,1.61,7.3441,AwayWin,True,4.4799,738.8866
+2023-10-29 14:00:00,Liverpool,Nottingham Forest,Premier_League,HomeWin,1.27,7.3889,HomeWin,True,1.995,740.8816
+2023-10-29 14:00:00,Montpellier,Toulouse,France,HomeWin,1.66,7.4088,HomeWin,True,4.8898,745.7714
+2023-10-29 14:00:00,Brighton & Hove Albion,Fulham,Premier_League,HomeWin,1.52,7.4577,Draw,False,-7.4577,738.3137
+2023-10-29 14:00:00,Aston Villa,Luton Town,Premier_League,HomeWin,1.33,7.3831,HomeWin,True,2.4364,740.7501
+2023-10-29 15:30:00,Manchester United,Manchester City,Premier_League,AwayWin,1.72,7.4075,AwayWin,True,5.3334,746.0835
+2023-10-29 16:30:00,Bayer Leverkusen,Freiburg,Germany,HomeWin,1.33,7.4608,HomeWin,True,2.4621,748.5456
+2023-10-29 17:00:00,Inter Milan,Roma,Italy,HomeWin,1.62,7.4855,HomeWin,True,4.641,753.1866
+2023-10-29 17:30:00,Athletic Club Bilbao,Valencia CF,Spain,HomeWin,1.67,7.5319,Draw,False,-7.5319,745.6547
+2023-10-29 20:00:00,Atlético Madrid,Deportivo Alavés,Spain,HomeWin,1.3,7.4565,HomeWin,True,2.237,747.8917
+2023-10-29 21:30:00,Internacional,Coritiba,Brazil,HomeWin,1.36,7.4789,AwayWin,False,-7.4789,740.4128
+2023-10-30 17:30:00,Empoli,Atalanta,Italy,AwayWin,1.65,7.4041,AwayWin,True,4.8127,745.2254
+2023-10-31 22:00:00,Bahia,Fluminense,Brazil,HomeWin,1.5,7.4523,HomeWin,True,3.7261,748.9516
+2023-11-01 22:00:00,Internacional,América Mineiro,Brazil,HomeWin,1.55,7.4895,Draw,False,-7.4895,741.462
+2023-11-01 23:00:00,Flamengo,Santos,Brazil,HomeWin,1.53,7.4146,AwayWin,False,-7.4146,734.0474
+2023-11-03 20:00:00,PSG,Montpellier,France,HomeWin,1.26,7.3405,HomeWin,True,1.9085,735.9559
+2023-11-03 20:00:00,UD Las Palmas,Atlético Madrid,Spain,AwayWin,1.67,7.3596,HomeWin,False,-7.3596,728.5964
+2023-11-04 14:00:00,Salernitana,Napoli,Italy,AwayWin,1.55,7.286,AwayWin,True,4.0073,732.6037
+2023-11-04 14:30:00,Mainz 05,RB Leipzig,Germany,AwayWin,1.62,7.326,HomeWin,False,-7.326,725.2776
+2023-11-04 15:00:00,Manchester City,AFC Bournemouth,Premier_League,HomeWin,1.13,7.2528,HomeWin,True,0.9429,726.2205
+2023-11-04 19:45:00,AC Milan,Udinese,Italy,HomeWin,1.49,7.2622,AwayWin,False,-7.2622,718.9583
+2023-11-04 22:30:00,Grêmio,Bahia,Brazil,HomeWin,1.7,7.1896,HomeWin,True,5.0327,723.991
+2023-11-05 00:30:00,Palmeiras,Atlético PR,Brazil,HomeWin,1.65,7.2399,HomeWin,True,4.7059,728.6969
+2023-11-05 12:00:00,Olympique Lyonnais,Metz,France,HomeWin,1.81,7.287,Draw,False,-7.287,721.41
+2023-11-05 15:15:00,Valencia CF,Granada CF,Spain,HomeWin,1.55,7.2141,HomeWin,True,3.9678,725.3777
+2023-11-05 16:05:00,Monaco,Brest,France,HomeWin,1.57,7.2538,HomeWin,True,4.1347,729.5124
+2023-11-05 16:30:00,Luton Town,Liverpool,Premier_League,AwayWin,1.29,7.2951,Draw,False,-7.2951,722.2173
+2023-11-05 17:00:00,Roma,Lecce,Italy,HomeWin,1.53,7.2222,HomeWin,True,3.8278,726.045
+2023-11-05 19:00:00,Bragantino,Corinthians,Brazil,HomeWin,1.62,7.2605,HomeWin,True,4.5015,730.5465
+2023-11-05 20:00:00,Real Madrid,Rayo Vallecano,Spain,HomeWin,1.29,7.3055,Draw,False,-7.3055,723.241
+2023-11-08 22:00:00,América Mineiro,Coritiba,Brazil,HomeWin,1.73,7.2324,AwayWin,False,-7.2324,716.0086
+2023-11-10 20:00:00,Athletic Club Bilbao,Celta de Vigo,Spain,HomeWin,1.55,7.1601,HomeWin,True,3.938,719.9467
+2023-11-11 14:30:00,Bayern München,Heidenheim,Germany,HomeWin,1.03,7.1995,HomeWin,True,0.216,720.1626
+2023-11-11 15:00:00,Arsenal,Burnley,Premier_League,HomeWin,1.09,7.2016,HomeWin,True,0.6481,720.8108
+2023-11-11 15:00:00,Manchester United,Luton Town,Premier_League,HomeWin,1.33,7.2081,HomeWin,True,2.3787,723.1895
+2023-11-11 16:00:00,Reims,PSG,France,AwayWin,1.69,7.2319,AwayWin,True,4.99,728.1795
+2023-11-11 17:00:00,Juventus,Cagliari,Italy,HomeWin,1.33,7.2818,HomeWin,True,2.403,730.5825
+2023-11-11 20:00:00,Real Madrid,Valencia CF,Spain,HomeWin,1.4,7.3058,HomeWin,True,2.9223,733.5048
+2023-11-11 21:30:00,Flamengo,Fluminense,Brazil,HomeWin,1.63,7.335,Draw,False,-7.335,726.1697
+2023-11-12 00:00:00,Palmeiras,Internacional,Brazil,HomeWin,1.67,7.2617,HomeWin,True,4.8653,731.0351
+2023-11-12 11:30:00,Napoli,Empoli,Italy,HomeWin,1.24,7.3104,AwayWin,False,-7.3104,723.7247
+2023-11-12 14:00:00,Lille,Toulouse,France,HomeWin,1.5,7.2372,Draw,False,-7.2372,716.4875
+2023-11-12 14:00:00,Brighton & Hove Albion,Sheffield United,Premier_League,HomeWin,1.25,7.1649,Draw,False,-7.1649,709.3226
+2023-11-12 14:00:00,Liverpool,Brentford,Premier_League,HomeWin,1.46,7.0932,HomeWin,True,3.2629,712.5855
+2023-11-12 14:30:00,Bayer Leverkusen,Union Berlin,Germany,HomeWin,1.32,7.1259,HomeWin,True,2.2803,714.8658
+2023-11-12 15:15:00,FC Barcelona,Deportivo Alavés,Spain,HomeWin,1.15,7.1487,HomeWin,True,1.0723,715.9381
+2023-11-12 16:30:00,Chelsea,Manchester City,Premier_League,AwayWin,1.58,7.1594,Draw,False,-7.1594,708.7787
+2023-11-12 18:30:00,RB Leipzig,Freiburg,Germany,HomeWin,1.38,7.0878,HomeWin,True,2.6934,711.472
+2023-11-12 19:00:00,Bragantino,Botafogo,Brazil,HomeWin,1.73,7.1147,Draw,False,-7.1147,704.3573
+2023-11-12 19:45:00,Inter Milan,Frosinone,Italy,HomeWin,1.14,7.0436,HomeWin,True,0.9861,705.3434
+2023-11-12 19:45:00,Lens,Olympique Marseille,France,AwayWin,1.41,7.0534,HomeWin,False,-7.0534,698.29
+2023-11-12 20:00:00,Atlético Madrid,Villarreal,Spain,HomeWin,1.38,6.9829,HomeWin,True,2.6535,700.9435
+2023-11-12 21:30:00,Atlético Mineiro,Goiás,Brazil,HomeWin,1.55,7.0094,HomeWin,True,3.8552,704.7987
+2023-11-12 21:30:00,Vasco da Gama,América Mineiro,Brazil,HomeWin,1.44,7.048,HomeWin,True,3.1011,707.8998
+2023-11-24 19:30:00,Köln,Bayern München,Germany,AwayWin,1.25,7.079,AwayWin,True,1.7697,709.6695
+2023-11-24 20:00:00,PSG,Monaco,France,HomeWin,1.44,7.0967,HomeWin,True,3.1225,712.7921
+2023-11-25 12:30:00,Manchester City,Liverpool,Premier_League,HomeWin,1.7,7.1279,Draw,False,-7.1279,705.6642
+2023-11-25 13:00:00,Rayo Vallecano,FC Barcelona,Spain,AwayWin,1.68,7.0566,Draw,False,-7.0566,698.6075
+2023-11-25 14:30:00,Werder Bremen,Bayer Leverkusen,Germany,AwayWin,1.42,6.9861,AwayWin,True,2.9342,701.5417
+2023-11-25 14:30:00,Freiburg,Darmstadt 98,Germany,HomeWin,1.5,7.0154,Draw,False,-7.0154,694.5263
+2023-11-25 14:30:00,Borussia Dortmund,Borussia M'gladbach,Germany,HomeWin,1.39,6.9453,HomeWin,True,2.7087,697.2349
+2023-11-25 17:30:00,Brentford,Arsenal,Premier_League,AwayWin,1.68,6.9723,AwayWin,True,4.7412,701.9761
+2023-11-25 19:45:00,AC Milan,Fiorentina,Italy,HomeWin,1.68,7.0198,HomeWin,True,4.7734,706.7495
+2023-11-25 20:00:00,Atlético Madrid,RCD Mallorca,Spain,HomeWin,1.41,7.0675,HomeWin,True,2.8977,709.6472
+2023-11-26 00:00:00,Fluminense,Coritiba,Brazil,HomeWin,1.36,7.0965,HomeWin,True,2.5547,712.202
+2023-11-26 12:00:00,Nice,Toulouse,France,HomeWin,1.56,7.122,HomeWin,True,3.9883,716.1903
+2023-11-26 17:00:00,Roma,Udinese,Italy,HomeWin,1.53,7.1619,HomeWin,True,3.7958,719.9861
+2023-11-26 17:30:00,Cádiz,Real Madrid,Spain,AwayWin,1.47,7.1999,AwayWin,True,3.3839,723.37
+2023-11-26 19:00:00,Botafogo,Santos,Brazil,HomeWin,1.62,7.2337,Draw,False,-7.2337,716.1363
+2023-11-26 20:00:00,Real Betis,UD Las Palmas,Spain,HomeWin,1.76,7.1614,HomeWin,True,5.4426,721.579
+2023-11-26 21:30:00,América Mineiro,Flamengo,Brazil,AwayWin,1.4,7.2158,AwayWin,True,2.8863,724.4653
+2023-11-30 00:30:00,Palmeiras,América Mineiro,Brazil,HomeWin,1.21,7.2447,HomeWin,True,1.5214,725.9867
+2023-11-30 22:00:00,Grêmio,Goiás,Brazil,HomeWin,1.55,7.2599,HomeWin,True,3.9929,729.9796
+2023-11-30 23:30:00,Bragantino,Fortaleza,Brazil,HomeWin,1.7,7.2998,AwayWin,False,-7.2998,722.6798
+2023-12-02 14:30:00,RB Leipzig,Heidenheim,Germany,HomeWin,1.23,7.2268,HomeWin,True,1.6622,724.3419
+2023-12-02 15:00:00,Brentford,Luton Town,Premier_League,HomeWin,1.4,7.2434,HomeWin,True,2.8974,727.2393
+2023-12-02 15:00:00,Arsenal,Wolverhampton Wanderers,Premier_League,HomeWin,1.23,7.2724,HomeWin,True,1.6727,728.912
+2023-12-02 15:15:00,Athletic Club Bilbao,Rayo Vallecano,Spain,HomeWin,1.55,7.2891,HomeWin,True,4.009,732.921
+2023-12-02 16:00:00,Lens,Olympique Lyonnais,France,HomeWin,1.65,7.3292,HomeWin,True,4.764,737.685
+2023-12-02 17:00:00,Lazio,Cagliari,Italy,HomeWin,1.52,7.3768,HomeWin,True,3.836,741.5209
+2023-12-02 17:30:00,Real Madrid,Granada CF,Spain,HomeWin,1.09,7.4152,HomeWin,True,0.6674,742.1883
+2023-12-02 17:30:00,Stuttgart,Werder Bremen,Germany,HomeWin,1.33,7.4219,HomeWin,True,2.4492,744.6375
+2023-12-02 19:45:00,AC Milan,Frosinone,Italy,HomeWin,1.31,7.4464,HomeWin,True,2.3084,746.9459
+2023-12-03 00:00:00,Atlético Mineiro,São Paulo,Brazil,HomeWin,1.65,7.4695,HomeWin,True,4.8551,751.801
+2023-12-03 12:00:00,Le Havre,PSG,France,AwayWin,1.35,7.518,AwayWin,True,2.6313,754.4323
+2023-12-03 14:00:00,Monaco,Montpellier,France,HomeWin,1.65,7.5443,HomeWin,True,4.9038,759.3362
+2023-12-03 14:00:00,Liverpool,Fulham,Premier_League,HomeWin,1.33,7.5934,HomeWin,True,2.5058,761.842
+2023-12-03 14:00:00,Fiorentina,Salernitana,Italy,HomeWin,1.55,7.6184,HomeWin,True,4.1901,766.0321
+2023-12-03 16:05:00,Lille,Metz,France,HomeWin,1.36,7.6603,HomeWin,True,2.7577,768.7898
+2023-12-03 16:30:00,Manchester City,Tottenham Hotspur,Premier_League,HomeWin,1.4,7.6879,Draw,False,-7.6879,761.1019
+2023-12-03 19:00:00,Palmeiras,Fluminense,Brazil,HomeWin,1.3,7.611,HomeWin,True,2.2833,763.3852
+2023-12-03 19:00:00,Flamengo,Cuiabá,Brazil,HomeWin,1.4,7.6339,HomeWin,True,3.0535,766.4388
+2023-12-03 20:00:00,FC Barcelona,Atlético Madrid,Spain,HomeWin,1.87,7.6644,HomeWin,True,6.668,773.1068
+2023-12-03 21:30:00,Bragantino,Coritiba,Brazil,HomeWin,1.25,7.7311,HomeWin,True,1.9328,775.0395
+2023-12-03 21:30:00,Atlético PR,Santos,Brazil,HomeWin,1.95,7.7504,HomeWin,True,7.3629,782.4024
+2023-12-03 21:30:00,Fortaleza,Goiás,Brazil,HomeWin,1.45,7.824,HomeWin,True,3.5208,785.9232
+2023-12-05 20:15:00,Luton Town,Arsenal,Premier_League,AwayWin,1.27,7.8592,AwayWin,True,2.122,788.0452
+2023-12-06 19:30:00,Sheffield United,Liverpool,Premier_League,AwayWin,1.18,7.8805,AwayWin,True,1.4185,789.4637
+2023-12-06 20:15:00,Aston Villa,Manchester City,Premier_League,AwayWin,1.7,7.8946,HomeWin,False,-7.8946,781.5691
+2023-12-07 20:15:00,Tottenham Hotspur,West Ham United,Premier_League,HomeWin,1.56,7.8157,AwayWin,False,-7.8157,773.7534
+2023-12-09 12:30:00,Crystal Palace,Liverpool,Premier_League,AwayWin,1.57,7.7375,AwayWin,True,4.4104,778.1638
+2023-12-09 14:30:00,Eintracht Frankfurt,Bayern München,Germany,AwayWin,1.33,7.7816,HomeWin,False,-7.7816,770.3821
+2023-12-09 15:00:00,Sheffield United,Brentford,Premier_League,AwayWin,1.82,7.7038,HomeWin,False,-7.7038,762.6783
+2023-12-09 15:00:00,Manchester United,AFC Bournemouth,Premier_League,HomeWin,1.67,7.6268,AwayWin,False,-7.6268,755.0515
+2023-12-09 15:00:00,Brighton & Hove Albion,Burnley,Premier_League,HomeWin,1.47,7.5505,Draw,False,-7.5505,747.501
+2023-12-09 15:15:00,Real Betis,Real Madrid,Spain,AwayWin,1.7,7.475,Draw,False,-7.475,740.026
+2023-12-09 19:45:00,Inter Milan,Udinese,Italy,HomeWin,1.26,7.4003,HomeWin,True,1.9241,741.9501
+2023-12-09 20:00:00,PSG,Nantes,France,HomeWin,1.24,7.4195,HomeWin,True,1.7807,743.7308
+2023-12-10 13:00:00,Atlético Madrid,Almería,Spain,HomeWin,1.22,7.4373,HomeWin,True,1.6362,745.367
+2023-12-10 14:00:00,Luton Town,Manchester City,Premier_League,AwayWin,1.16,7.4537,AwayWin,True,1.1926,746.5595
+2023-12-10 16:05:00,Olympique Lyonnais,Toulouse,France,HomeWin,1.83,7.4656,HomeWin,True,6.1964,752.756
+2023-12-10 20:00:00,FC Barcelona,Girona FC,Spain,HomeWin,1.57,7.5276,AwayWin,False,-7.5276,745.2284
+2023-12-11 20:00:00,Granada CF,Athletic Club Bilbao,Spain,AwayWin,1.73,7.4523,Draw,False,-7.4523,737.7761
+2023-12-15 20:00:00,Nottingham Forest,Tottenham Hotspur,Premier_League,AwayWin,1.95,7.3778,AwayWin,True,7.0089,744.785
+2023-12-16 13:00:00,Celta de Vigo,Granada CF,Spain,HomeWin,1.53,7.4479,HomeWin,True,3.9474,748.7324
+2023-12-16 14:30:00,Augsburg,Borussia Dortmund,Germany,AwayWin,1.8,7.4873,Draw,False,-7.4873,741.2451
+2023-12-16 15:00:00,Newcastle United,Fulham,Premier_League,HomeWin,1.5,7.4125,HomeWin,True,3.7062,744.9513
+2023-12-16 15:00:00,Chelsea,Sheffield United,Premier_League,HomeWin,1.15,7.4495,HomeWin,True,1.1174,746.0687
+2023-12-16 15:00:00,Manchester City,Crystal Palace,Premier_League,HomeWin,1.18,7.4607,Draw,False,-7.4607,738.608
+2023-12-16 17:30:00,Napoli,Cagliari,Italy,HomeWin,1.33,7.3861,HomeWin,True,2.4374,741.0454
+2023-12-16 17:30:00,RB Leipzig,Hoffenheim,Germany,HomeWin,1.5,7.4105,HomeWin,True,3.7052,744.7507
+2023-12-16 20:00:00,Valencia CF,FC Barcelona,Spain,AwayWin,1.83,7.4475,Draw,False,-7.4475,737.3032
+2023-12-17 11:30:00,AC Milan,Monza,Italy,HomeWin,1.62,7.373,HomeWin,True,4.5713,741.8744
+2023-12-17 14:00:00,Arsenal,Brighton & Hove Albion,Premier_League,HomeWin,1.53,7.4187,HomeWin,True,3.9319,745.8064
+2023-12-17 14:00:00,Fiorentina,Hellas Verona,Italy,HomeWin,1.42,7.4581,HomeWin,True,3.1324,748.9388
+2023-12-17 14:30:00,Freiburg,Köln,Germany,HomeWin,1.85,7.4894,HomeWin,True,6.366,755.3047
+2023-12-17 15:15:00,Real Sociedad,Real Betis,Spain,HomeWin,1.67,7.553,Draw,False,-7.553,747.7517
+2023-12-17 16:05:00,Olympique Marseille,Clermont,France,HomeWin,1.45,7.4775,HomeWin,True,3.3649,751.1166
+2023-12-17 16:30:00,Bayer Leverkusen,Eintracht Frankfurt,Germany,HomeWin,1.3,7.5112,HomeWin,True,2.2533,753.3699
+2023-12-17 16:30:00,Liverpool,Manchester United,Premier_League,HomeWin,1.3,7.5337,Draw,False,-7.5337,745.8362
+2023-12-17 18:30:00,Bayern München,Stuttgart,Germany,HomeWin,1.36,7.4584,HomeWin,True,2.685,748.5212
+2023-12-17 20:00:00,Real Madrid,Villarreal,Spain,HomeWin,1.22,7.4852,HomeWin,True,1.6467,750.168
+2023-12-18 19:45:00,Atalanta,Salernitana,Italy,HomeWin,1.3,7.5017,HomeWin,True,2.2505,752.4185
+2023-12-19 17:30:00,Werder Bremen,RB Leipzig,Germany,AwayWin,1.57,7.5242,Draw,False,-7.5242,744.8943
+2023-12-19 19:30:00,Borussia Dortmund,Mainz 05,Germany,HomeWin,1.53,7.4489,Draw,False,-7.4489,737.4454
+2023-12-19 19:30:00,Hoffenheim,Darmstadt 98,Germany,HomeWin,1.45,7.3745,Draw,False,-7.3745,730.0709
+2023-12-19 20:30:00,Atlético Madrid,Getafe CF,Spain,HomeWin,1.34,7.3007,Draw,False,-7.3007,722.7702
+2023-12-20 18:00:00,FC Barcelona,Almería,Spain,HomeWin,1.13,7.2277,HomeWin,True,0.9396,723.7098
+2023-12-20 19:30:00,Stuttgart,Augsburg,Germany,HomeWin,1.36,7.2371,HomeWin,True,2.6054,726.3151
+2023-12-20 19:30:00,Wolfsburg,Bayern München,Germany,AwayWin,1.33,7.2632,AwayWin,True,2.3968,728.712
+2023-12-20 19:30:00,Bayer Leverkusen,Bochum,Germany,HomeWin,1.15,7.2871,HomeWin,True,1.0931,729.8051
+2023-12-20 20:00:00,PSG,Metz,France,HomeWin,1.13,7.2981,HomeWin,True,0.9487,730.7538
+2023-12-20 20:00:00,Toulouse,Monaco,France,AwayWin,1.73,7.3075,AwayWin,True,5.3345,736.0883
+2023-12-20 20:00:00,Brest,Lorient,France,HomeWin,1.62,7.3609,HomeWin,True,4.5637,740.652
+2023-12-20 20:30:00,Athletic Club Bilbao,UD Las Palmas,Spain,HomeWin,1.33,7.4065,HomeWin,True,2.4442,743.0962
+2023-12-21 20:30:00,Deportivo Alavés,Real Madrid,Spain,AwayWin,1.62,7.431,AwayWin,True,4.6072,747.7034
+2023-12-22 17:30:00,Empoli,Lazio,Italy,AwayWin,1.33,7.477,AwayWin,True,2.4674,750.1708
+2023-12-22 19:45:00,Salernitana,AC Milan,Italy,AwayWin,1.42,7.5017,Draw,False,-7.5017,742.6691
+2023-12-22 20:00:00,Aston Villa,Sheffield United,Premier_League,HomeWin,1.22,7.4267,Draw,False,-7.4267,735.2424
+2023-12-23 11:30:00,Frosinone,Juventus,Italy,AwayWin,1.48,7.3524,AwayWin,True,3.5292,738.7716
+2023-12-23 14:00:00,Torino,Udinese,Italy,HomeWin,1.78,7.3877,Draw,False,-7.3877,731.3839
+2023-12-23 15:00:00,Luton Town,Newcastle United,Premier_League,AwayWin,1.64,7.3138,HomeWin,False,-7.3138,724.07
+2023-12-23 15:15:00,Atlético Madrid,Sevilla FC,Spain,HomeWin,1.53,7.2407,HomeWin,True,3.8376,727.9076
+2023-12-23 17:00:00,Inter Milan,Lecce,Italy,HomeWin,1.24,7.2791,HomeWin,True,1.747,729.6546
+2023-12-26 17:30:00,Burnley,Liverpool,Premier_League,AwayWin,1.4,7.2965,AwayWin,True,2.9186,732.5732
+2023-12-27 19:30:00,Chelsea,Crystal Palace,Premier_League,HomeWin,1.56,7.3257,HomeWin,True,4.1024,736.6756
+2023-12-27 20:15:00,Everton,Manchester City,Premier_League,AwayWin,1.46,7.3668,AwayWin,True,3.3887,740.0643
+2023-12-28 20:15:00,Arsenal,West Ham United,Premier_League,HomeWin,1.33,7.4006,AwayWin,False,-7.4006,732.6637
+2023-12-29 17:30:00,Napoli,Monza,Italy,HomeWin,1.65,7.3266,Draw,False,-7.3266,725.337
+2023-12-29 19:45:00,Genoa,Inter Milan,Italy,AwayWin,1.53,7.2534,Draw,False,-7.2534,718.0837
+2023-12-29 19:45:00,Lazio,Frosinone,Italy,HomeWin,1.57,7.1808,HomeWin,True,4.0931,722.1767
+2023-12-30 11:30:00,Atalanta,Lecce,Italy,HomeWin,1.43,7.2218,HomeWin,True,3.1054,725.2821
+2023-12-30 12:30:00,Luton Town,Chelsea,Premier_League,AwayWin,1.58,7.2528,AwayWin,True,4.2066,729.4887
+2023-12-30 15:00:00,Manchester City,Sheffield United,Premier_League,HomeWin,1.06,7.2949,HomeWin,True,0.4377,729.9264
+2023-12-30 15:00:00,Aston Villa,Burnley,Premier_League,HomeWin,1.39,7.2993,HomeWin,True,2.8467,732.7731
+2023-12-30 17:00:00,AC Milan,Sassuolo,Italy,HomeWin,1.46,7.3277,HomeWin,True,3.3708,736.1439
+2023-12-31 14:00:00,Tottenham Hotspur,AFC Bournemouth,Premier_League,HomeWin,1.59,7.3614,HomeWin,True,4.3432,740.4871
+2023-12-31 14:00:00,Fulham,Arsenal,Premier_League,AwayWin,1.59,7.4049,HomeWin,False,-7.4049,733.0823
+2024-01-01 20:00:00,Liverpool,Newcastle United,Premier_League,HomeWin,1.48,7.3308,HomeWin,True,3.5188,736.6011
+2024-01-02 18:15:00,Real Sociedad,Deportivo Alavés,Spain,HomeWin,1.54,7.366,Draw,False,-7.366,729.2351
+2024-01-03 18:15:00,Real Madrid,RCD Mallorca,Spain,HomeWin,1.19,7.2924,HomeWin,True,1.3855,730.6206
+2024-01-04 20:30:00,UD Las Palmas,FC Barcelona,Spain,AwayWin,1.57,7.3062,AwayWin,True,4.1645,734.7851
+2024-01-06 11:30:00,Inter Milan,Hellas Verona,Italy,HomeWin,1.14,7.3479,HomeWin,True,1.0287,735.8138
+2024-01-07 11:30:00,Empoli,AC Milan,Italy,AwayWin,1.71,7.3581,AwayWin,True,5.2243,741.0381
+2024-01-07 17:00:00,Salernitana,Juventus,Italy,AwayWin,1.47,7.4104,AwayWin,True,3.4829,744.521
+2024-01-12 19:30:00,Bayern München,Hoffenheim,Germany,HomeWin,1.12,7.4452,HomeWin,True,0.8934,745.4144
+2024-01-13 12:30:00,Chelsea,Fulham,Premier_League,HomeWin,1.48,7.4541,HomeWin,True,3.578,748.9924
+2024-01-13 14:00:00,Napoli,Salernitana,Italy,HomeWin,1.24,7.4899,HomeWin,True,1.7976,750.79
+2024-01-13 14:30:00,Augsburg,Bayer Leverkusen,Germany,AwayWin,1.46,7.5079,AwayWin,True,3.4536,754.2436
+2024-01-13 14:30:00,RB Leipzig,Eintracht Frankfurt,Germany,HomeWin,1.46,7.5424,AwayWin,False,-7.5424,746.7012
+2024-01-13 16:00:00,Monaco,Reims,France,HomeWin,1.74,7.467,AwayWin,False,-7.467,739.2342
+2024-01-13 17:30:00,Darmstadt 98,Borussia Dortmund,Germany,AwayWin,1.58,7.3923,AwayWin,True,4.2876,743.5217
+2024-01-13 17:30:00,Newcastle United,Manchester City,Premier_League,AwayWin,1.66,7.4352,AwayWin,True,4.9072,748.429
+2024-01-13 19:45:00,Monza,Inter Milan,Italy,AwayWin,1.52,7.4843,AwayWin,True,3.8918,752.3208
+2024-01-13 20:00:00,Real Betis,Granada CF,Spain,HomeWin,1.58,7.5232,HomeWin,True,4.3635,756.6843
+2024-01-14 11:30:00,Lazio,Lecce,Italy,HomeWin,1.63,7.5668,HomeWin,True,4.7671,761.4514
+2024-01-14 12:00:00,Lille,Lorient,France,HomeWin,1.39,7.6145,HomeWin,True,2.9697,764.421
+2024-01-14 13:00:00,Almería,Girona FC,Spain,AwayWin,1.67,7.6442,Draw,False,-7.6442,756.7768
+2024-01-14 17:00:00,Fiorentina,Udinese,Italy,HomeWin,1.73,7.5678,Draw,False,-7.5678,749.2091
+2024-01-14 19:45:00,Lens,PSG,France,AwayWin,1.99,7.4921,AwayWin,True,7.4172,756.6262
+2024-01-15 19:45:00,Atalanta,Frosinone,Italy,HomeWin,1.46,7.5663,HomeWin,True,3.4805,760.1067
+2024-01-16 19:45:00,Juventus,Sassuolo,Italy,HomeWin,1.32,7.6011,HomeWin,True,2.4323,762.5391
+2024-01-20 12:30:00,Arsenal,Crystal Palace,Premier_League,HomeWin,1.33,7.6254,HomeWin,True,2.5164,765.0554
+2024-01-20 14:30:00,Köln,Borussia Dortmund,Germany,AwayWin,1.73,7.6506,AwayWin,True,5.5849,770.6403
+2024-01-20 17:00:00,Roma,Hellas Verona,Italy,HomeWin,1.48,7.7064,HomeWin,True,3.6991,774.3394
+2024-01-21 14:00:00,Sheffield United,West Ham United,Premier_League,AwayWin,1.78,7.7434,Draw,False,-7.7434,766.596
+2024-01-21 14:30:00,Bayern München,Werder Bremen,Germany,HomeWin,1.1,7.666,AwayWin,False,-7.666,758.9301
+2024-01-21 15:15:00,Real Madrid,Almería,Spain,HomeWin,1.18,7.5893,HomeWin,True,1.3661,760.2961
+2024-01-21 17:30:00,Real Betis,FC Barcelona,Spain,AwayWin,1.85,7.603,AwayWin,True,6.4625,766.7587
+2024-01-21 19:45:00,Lecce,Juventus,Italy,AwayWin,1.67,7.6676,AwayWin,True,5.1373,771.8959
+2024-01-22 20:00:00,Granada CF,Atlético Madrid,Spain,AwayWin,1.7,7.719,AwayWin,True,5.4033,777.2992
+2024-01-24 19:30:00,Bayern München,Union Berlin,Germany,HomeWin,1.22,7.773,HomeWin,True,1.7101,779.0093
+2024-01-27 13:00:00,Real Sociedad,Rayo Vallecano,Spain,HomeWin,1.65,7.7901,Draw,False,-7.7901,771.2192
+2024-01-27 14:00:00,Atalanta,Udinese,Italy,HomeWin,1.56,7.7122,HomeWin,True,4.3188,775.538
+2024-01-27 14:30:00,Augsburg,Bayern München,Germany,AwayWin,1.34,7.7554,AwayWin,True,2.6368,778.1748
+2024-01-27 15:15:00,UD Las Palmas,Real Madrid,Spain,AwayWin,1.58,7.7817,AwayWin,True,4.5134,782.6882
+2024-01-27 16:00:00,Nice,Metz,France,HomeWin,1.4,7.8269,HomeWin,True,3.1308,785.819
+2024-01-27 17:00:00,Juventus,Empoli,Italy,HomeWin,1.25,7.8582,Draw,False,-7.8582,777.9608
+2024-01-27 17:30:00,Bayer Leverkusen,Borussia M'gladbach,Germany,HomeWin,1.25,7.7796,Draw,False,-7.7796,770.1812
+2024-01-27 17:30:00,FC Barcelona,Villarreal,Spain,HomeWin,1.25,7.7018,AwayWin,False,-7.7018,762.4794
+2024-01-27 19:45:00,AC Milan,Bologna,Italy,HomeWin,1.7,7.6248,Draw,False,-7.6248,754.8546
+2024-01-28 14:30:00,Union Berlin,Darmstadt 98,Germany,HomeWin,1.66,7.5485,HomeWin,True,4.982,759.8366
+2024-01-28 15:15:00,Cádiz,Athletic Club Bilbao,Spain,AwayWin,1.62,7.5984,Draw,False,-7.5984,752.2383
+2024-01-28 16:30:00,Borussia Dortmund,Bochum,Germany,HomeWin,1.36,7.5224,HomeWin,True,2.7081,754.9463
+2024-01-28 19:45:00,PSG,Brest,France,HomeWin,1.33,7.5495,Draw,False,-7.5495,747.3969
+2024-01-28 20:00:00,Atlético Madrid,Valencia CF,Spain,HomeWin,1.5,7.474,HomeWin,True,3.737,751.1338
+2024-01-29 19:45:00,Salernitana,Roma,Italy,AwayWin,1.67,7.5113,AwayWin,True,5.0326,756.1664
+2024-01-30 19:30:00,Nottingham Forest,Arsenal,Premier_League,AwayWin,1.43,7.5617,AwayWin,True,3.2515,759.418
+2024-01-30 19:45:00,Luton Town,Brighton & Hove Albion,Premier_League,AwayWin,1.67,7.5942,HomeWin,False,-7.5942,751.8238
+2024-01-31 18:00:00,FC Barcelona,CA Osasuna,Spain,HomeWin,1.25,7.5182,HomeWin,True,1.8796,753.7033
+2024-01-31 19:30:00,Manchester City,Burnley,Premier_League,HomeWin,1.11,7.537,HomeWin,True,0.8291,754.5324
+2024-01-31 20:00:00,Atlético Madrid,Rayo Vallecano,Spain,HomeWin,1.32,7.5453,HomeWin,True,2.4145,756.9469
+2024-01-31 20:15:00,Liverpool,Chelsea,Premier_League,HomeWin,1.63,7.5695,HomeWin,True,4.7688,761.7157
+2024-02-01 20:00:00,Getafe CF,Real Madrid,Spain,AwayWin,1.58,7.6172,AwayWin,True,4.418,766.1336
+2024-02-02 19:30:00,Heidenheim,Borussia Dortmund,Germany,AwayWin,1.8,7.6613,Draw,False,-7.6613,758.4723
+2024-02-02 20:00:00,Strasbourg,PSG,France,AwayWin,1.5,7.5847,AwayWin,True,3.7924,762.2647
+2024-02-02 20:00:00,Athletic Club Bilbao,RCD Mallorca,Spain,HomeWin,1.5,7.6226,HomeWin,True,3.8113,766.076
+2024-02-03 13:00:00,Valencia CF,Almería,Spain,HomeWin,1.67,7.6608,HomeWin,True,5.1327,771.2087
+2024-02-03 14:30:00,Bayern München,Borussia M'gladbach,Germany,HomeWin,1.17,7.7121,HomeWin,True,1.3111,772.5197
+2024-02-03 14:30:00,Darmstadt 98,Bayer Leverkusen,Germany,AwayWin,1.29,7.7252,AwayWin,True,2.2403,774.7601
+2024-02-03 15:00:00,Newcastle United,Luton Town,Premier_League,HomeWin,1.38,7.7476,Draw,False,-7.7476,767.0125
+2024-02-03 15:00:00,Brighton & Hove Albion,Crystal Palace,Premier_League,HomeWin,1.78,7.6701,HomeWin,True,5.9827,772.9952
+2024-02-03 17:00:00,Frosinone,AC Milan,Italy,AwayWin,1.78,7.73,AwayWin,True,6.0294,779.0245
+2024-02-03 17:30:00,Deportivo Alavés,FC Barcelona,Spain,AwayWin,1.6,7.7902,AwayWin,True,4.6741,783.6987
+2024-02-03 17:30:00,Sheffield United,Aston Villa,Premier_League,AwayWin,1.58,7.837,AwayWin,True,4.5455,788.2441
+2024-02-03 19:45:00,Bologna,Sassuolo,Italy,HomeWin,1.84,7.8824,HomeWin,True,6.6213,794.8654
+2024-02-04 11:30:00,Torino,Salernitana,Italy,HomeWin,1.48,7.9487,Draw,False,-7.9487,786.9167
+2024-02-04 12:00:00,Monaco,Le Havre,France,HomeWin,1.47,7.8692,Draw,False,-7.8692,779.0475
+2024-02-04 14:00:00,Reims,Toulouse,France,HomeWin,1.76,7.7905,AwayWin,False,-7.7905,771.2571
+2024-02-04 14:00:00,Chelsea,Wolverhampton Wanderers,Premier_League,HomeWin,1.46,7.7126,AwayWin,False,-7.7126,763.5445
+2024-02-04 14:00:00,Lille,Clermont,France,HomeWin,1.41,7.6354,HomeWin,True,3.1305,766.675
+2024-02-04 16:30:00,RB Leipzig,Union Berlin,Germany,HomeWin,1.33,7.6668,HomeWin,True,2.53,769.2051
+2024-02-04 20:00:00,Real Madrid,Atlético Madrid,Spain,HomeWin,1.78,7.6921,Draw,False,-7.6921,761.513
+2024-02-05 19:45:00,Roma,Cagliari,Italy,HomeWin,1.47,7.6151,HomeWin,True,3.5791,765.0921
+2024-02-05 20:00:00,Brentford,Manchester City,Premier_League,AwayWin,1.43,7.6509,AwayWin,True,3.2899,768.382
+2024-02-09 19:30:00,Borussia Dortmund,Freiburg,Germany,HomeWin,1.55,7.6838,HomeWin,True,4.2261,772.6081
+2024-02-09 20:00:00,Olympique Marseille,Metz,France,HomeWin,1.33,7.7261,Draw,False,-7.7261,764.882
+2024-02-10 12:30:00,Manchester City,Everton,Premier_League,HomeWin,1.22,7.6488,HomeWin,True,1.6827,766.5648
+2024-02-10 14:30:00,Borussia M'gladbach,Darmstadt 98,Germany,HomeWin,1.62,7.6656,Draw,False,-7.6656,758.8991
+2024-02-10 14:30:00,Augsburg,RB Leipzig,Germany,AwayWin,1.67,7.589,Draw,False,-7.589,751.3101
+2024-02-10 15:00:00,Liverpool,Burnley,Premier_League,HomeWin,1.25,7.5131,HomeWin,True,1.8783,753.1884
+2024-02-10 17:30:00,Real Madrid,Girona FC,Spain,HomeWin,1.4,7.5319,HomeWin,True,3.0128,756.2012
+2024-02-10 20:00:00,PSG,Lille,France,HomeWin,1.73,7.562,HomeWin,True,5.5203,761.7214
+2024-02-11 11:30:00,Fiorentina,Frosinone,Italy,HomeWin,1.52,7.6172,HomeWin,True,3.961,765.6824
+2024-02-11 14:00:00,West Ham United,Arsenal,Premier_League,AwayWin,1.63,7.6568,AwayWin,True,4.8238,770.5062
+2024-02-11 14:30:00,Stuttgart,Mainz 05,Germany,HomeWin,1.44,7.7051,HomeWin,True,3.3902,773.8964
+2024-02-11 20:00:00,FC Barcelona,Granada CF,Spain,HomeWin,1.25,7.739,Draw,False,-7.739,766.1574
+2024-02-12 19:45:00,Juventus,Udinese,Italy,HomeWin,1.38,7.6616,AwayWin,False,-7.6616,758.4959
+2024-02-12 20:00:00,Almería,Athletic Club Bilbao,Spain,AwayWin,1.8,7.585,Draw,False,-7.585,750.9109
+2024-02-12 20:00:00,Crystal Palace,Chelsea,Premier_League,AwayWin,1.81,7.5091,AwayWin,True,6.0824,756.9933
+2024-02-16 20:00:00,Inter Milan,Salernitana,Italy,HomeWin,1.11,7.5699,HomeWin,True,0.8327,757.826
+2024-02-17 13:00:00,Atlético Madrid,UD Las Palmas,Spain,HomeWin,1.5,7.5783,HomeWin,True,3.7891,761.6151
+2024-02-17 14:00:00,Napoli,Genoa,Italy,HomeWin,1.56,7.6162,Draw,False,-7.6162,753.999
+2024-02-17 14:30:00,Heidenheim,Bayer Leverkusen,Germany,AwayWin,1.35,7.54,AwayWin,True,2.639,756.638
+2024-02-17 15:00:00,Tottenham Hotspur,Wolverhampton Wanderers,Premier_League,HomeWin,1.41,7.5664,AwayWin,False,-7.5664,749.0716
+2024-02-17 15:00:00,Burnley,Arsenal,Premier_League,AwayWin,1.32,7.4907,AwayWin,True,2.397,751.4686
+2024-02-17 16:00:00,Lille,Le Havre,France,HomeWin,1.4,7.5147,HomeWin,True,3.0059,754.4745
+2024-02-17 17:00:00,Hellas Verona,Juventus,Italy,AwayWin,1.62,7.5447,Draw,False,-7.5447,746.9297
+2024-02-17 17:30:00,RB Leipzig,Borussia M'gladbach,Germany,HomeWin,1.36,7.4693,HomeWin,True,2.6889,749.6187
+2024-02-17 17:30:00,Manchester City,Chelsea,Premier_League,HomeWin,1.3,7.4962,Draw,False,-7.4962,742.1225
+2024-02-17 17:30:00,Celta de Vigo,FC Barcelona,Spain,AwayWin,1.9,7.4212,AwayWin,True,6.6791,748.8016
+2024-02-17 19:45:00,Atalanta,Sassuolo,Italy,HomeWin,1.3,7.488,HomeWin,True,2.2464,751.048
+2024-02-17 20:00:00,Nantes,PSG,France,AwayWin,1.5,7.5105,AwayWin,True,3.7552,754.8032
+2024-02-18 13:00:00,Rayo Vallecano,Real Madrid,Spain,AwayWin,1.68,7.548,Draw,False,-7.548,747.2552
+2024-02-18 14:00:00,Monaco,Toulouse,France,HomeWin,1.49,7.4726,AwayWin,False,-7.4726,739.7827
+2024-02-18 14:00:00,Rennes,Clermont,France,HomeWin,1.49,7.3978,HomeWin,True,3.6249,743.4076
+2024-02-18 14:00:00,Sheffield United,Brighton & Hove Albion,Premier_League,AwayWin,1.65,7.4341,AwayWin,True,4.8321,748.2397
+2024-02-18 16:30:00,Bochum,Bayern München,Germany,AwayWin,1.19,7.4824,HomeWin,False,-7.4824,740.7573
+2024-02-18 16:30:00,Luton Town,Manchester United,Premier_League,AwayWin,1.8,7.4076,AwayWin,True,5.9261,746.6834
+2024-02-18 17:00:00,Frosinone,Roma,Italy,AwayWin,1.77,7.4668,AwayWin,True,5.7495,752.4329
+2024-02-20 19:30:00,Manchester City,Brentford,Premier_League,HomeWin,1.11,7.5243,HomeWin,True,0.8277,753.2605
+2024-02-21 19:30:00,Liverpool,Luton Town,Premier_League,HomeWin,1.22,7.5326,HomeWin,True,1.6572,754.9177
+2024-02-23 19:30:00,Bayer Leverkusen,Mainz 05,Germany,HomeWin,1.16,7.5492,HomeWin,True,1.2079,756.1256
+2024-02-23 19:45:00,Bologna,Hellas Verona,Italy,HomeWin,1.52,7.5613,HomeWin,True,3.9319,760.0574
+2024-02-24 14:30:00,Werder Bremen,Darmstadt 98,Germany,HomeWin,1.58,7.6006,Draw,False,-7.6006,752.4569
+2024-02-24 14:30:00,Stuttgart,Köln,Germany,HomeWin,1.34,7.5246,Draw,False,-7.5246,744.9323
+2024-02-24 15:00:00,Brighton & Hove Albion,Everton,Premier_League,HomeWin,1.69,7.4493,Draw,False,-7.4493,737.483
+2024-02-24 15:00:00,Manchester United,Fulham,Premier_League,HomeWin,1.58,7.3748,AwayWin,False,-7.3748,730.1081
+2024-02-24 15:15:00,FC Barcelona,Getafe CF,Spain,HomeWin,1.29,7.3011,HomeWin,True,2.1173,732.2255
+2024-02-24 17:30:00,Bayern München,RB Leipzig,Germany,HomeWin,1.58,7.3223,HomeWin,True,4.2469,736.4724
+2024-02-24 17:30:00,AFC Bournemouth,Manchester City,Premier_League,AwayWin,1.44,7.3647,AwayWin,True,3.2405,739.7128
+2024-02-24 20:00:00,Arsenal,Newcastle United,Premier_League,HomeWin,1.38,7.3971,HomeWin,True,2.8109,742.5238
+2024-02-24 20:00:00,Almería,Atlético Madrid,Spain,AwayWin,1.77,7.4252,Draw,False,-7.4252,735.0985
+2024-02-25 11:30:00,Juventus,Frosinone,Italy,HomeWin,1.29,7.351,HomeWin,True,2.1318,737.2303
+2024-02-25 13:30:00,Wolverhampton Wanderers,Sheffield United,Premier_League,HomeWin,1.4,7.3723,HomeWin,True,2.9489,740.1792
+2024-02-25 14:00:00,Nice,Clermont,France,HomeWin,1.4,7.4018,Draw,False,-7.4018,732.7774
+2024-02-25 14:00:00,Cagliari,Napoli,Italy,AwayWin,1.85,7.3278,Draw,False,-7.3278,725.4497
+2024-02-25 14:00:00,Toulouse,Lille,France,AwayWin,1.93,7.2545,HomeWin,False,-7.2545,718.1952
+2024-02-25 16:05:00,PSG,Rennes,France,HomeWin,1.53,7.182,Draw,False,-7.182,711.0132
+2024-02-25 16:30:00,Borussia Dortmund,Hoffenheim,Germany,HomeWin,1.45,7.1101,AwayWin,False,-7.1101,703.9031
+2024-02-25 17:00:00,Lecce,Inter Milan,Italy,AwayWin,1.46,7.039,AwayWin,True,3.238,707.141
+2024-02-25 19:45:00,Olympique Marseille,Montpellier,France,HomeWin,1.63,7.0714,HomeWin,True,4.455,711.596
+2024-02-25 20:00:00,Real Madrid,Sevilla FC,Spain,HomeWin,1.3,7.116,HomeWin,True,2.1348,713.7308
+2024-02-26 20:00:00,Girona FC,Rayo Vallecano,Spain,HomeWin,1.6,7.1373,HomeWin,True,4.2824,718.0132
+2024-02-28 19:45:00,Inter Milan,Atalanta,Italy,HomeWin,1.7,7.1801,HomeWin,True,5.0261,723.0393
+2024-03-01 19:30:00,Freiburg,Bayern München,Germany,AwayWin,1.4,7.2304,Draw,False,-7.2304,715.8089
+2024-03-01 20:00:00,Celta de Vigo,Almería,Spain,HomeWin,1.73,7.1581,HomeWin,True,5.2254,721.0343
+2024-03-02 14:30:00,Bochum,RB Leipzig,Germany,AwayWin,1.61,7.2103,AwayWin,True,4.3983,725.4326
+2024-03-02 15:00:00,Nottingham Forest,Liverpool,Premier_League,AwayWin,1.5,7.2543,AwayWin,True,3.6272,729.0598
+2024-03-02 15:00:00,Tottenham Hotspur,Crystal Palace,Premier_League,HomeWin,1.53,7.2906,HomeWin,True,3.864,732.9238
+2024-03-02 17:30:00,Luton Town,Aston Villa,Premier_League,AwayWin,1.76,7.3292,AwayWin,True,5.5702,738.494
+2024-03-02 20:00:00,Valencia CF,Real Madrid,Spain,AwayWin,1.62,7.3849,Draw,False,-7.3849,731.1091
+2024-03-03 13:00:00,Burnley,AFC Bournemouth,Premier_League,AwayWin,1.93,7.3111,AwayWin,True,6.7993,737.9084
+2024-03-03 14:30:00,Köln,Bayer Leverkusen,Germany,AwayWin,1.32,7.3791,AwayWin,True,2.3613,740.2697
+2024-03-03 15:15:00,Atlético Madrid,Real Betis,Spain,HomeWin,1.57,7.4027,HomeWin,True,4.2195,744.4892
+2024-03-03 15:30:00,Manchester City,Manchester United,Premier_League,HomeWin,1.29,7.4449,HomeWin,True,2.159,746.6482
+2024-03-03 16:05:00,Rennes,Lorient,France,HomeWin,1.43,7.4665,AwayWin,False,-7.4665,739.1818
+2024-03-04 19:45:00,Inter Milan,Genoa,Italy,HomeWin,1.26,7.3918,HomeWin,True,1.9219,741.1036
+2024-03-04 20:00:00,Sheffield United,Arsenal,Premier_League,AwayWin,1.23,7.411,AwayWin,True,1.7045,742.8082
+2024-03-08 19:30:00,Stuttgart,Union Berlin,Germany,HomeWin,1.5,7.4281,HomeWin,True,3.714,746.5222
+2024-03-08 20:00:00,FC Barcelona,RCD Mallorca,Spain,HomeWin,1.33,7.4652,HomeWin,True,2.4635,748.9857
+2024-03-09 14:30:00,Bayern München,Mainz 05,Germany,HomeWin,1.22,7.4899,HomeWin,True,1.6478,750.6335
+2024-03-09 14:30:00,RB Leipzig,Darmstadt 98,Germany,HomeWin,1.13,7.5063,HomeWin,True,0.9758,751.6093
+2024-03-09 15:00:00,Crystal Palace,Luton Town,Premier_League,HomeWin,1.73,7.5161,Draw,False,-7.5161,744.0932
+2024-03-09 15:00:00,AFC Bournemouth,Sheffield United,Premier_League,HomeWin,1.33,7.4409,Draw,False,-7.4409,736.6523
+2024-03-09 15:15:00,Cádiz,Atlético Madrid,Spain,AwayWin,1.73,7.3665,HomeWin,False,-7.3665,729.2858
+2024-03-09 17:30:00,Werder Bremen,Borussia Dortmund,Germany,AwayWin,1.81,7.2929,AwayWin,True,5.9072,735.193
+2024-03-09 17:30:00,Arsenal,Brentford,Premier_League,HomeWin,1.32,7.3519,HomeWin,True,2.3526,737.5456
+2024-03-10 12:00:00,PSG,Reims,France,HomeWin,1.42,7.3755,Draw,False,-7.3755,730.1702
+2024-03-10 14:00:00,AC Milan,Empoli,Italy,HomeWin,1.43,7.3017,HomeWin,True,3.1397,733.3099
+2024-03-10 14:00:00,Strasbourg,Monaco,France,AwayWin,2.06,7.3331,AwayWin,True,7.7731,741.083
+2024-03-10 17:30:00,Real Madrid,Celta de Vigo,Spain,HomeWin,1.28,7.4108,HomeWin,True,2.075,743.158
+2024-03-10 18:30:00,Bayer Leverkusen,Wolfsburg,Germany,HomeWin,1.31,7.4316,HomeWin,True,2.3038,745.4618
+2024-03-10 19:45:00,Olympique Marseille,Nantes,France,HomeWin,1.52,7.4546,HomeWin,True,3.8764,749.3382
+2024-03-11 19:45:00,Lazio,Udinese,Italy,HomeWin,1.59,7.4934,AwayWin,False,-7.4934,741.8448
+2024-03-11 20:00:00,Chelsea,Newcastle United,Premier_League,HomeWin,1.72,7.4184,HomeWin,True,5.3413,747.1861
+2024-03-16 14:30:00,Darmstadt 98,Bayern München,Germany,AwayWin,1.18,7.4719,AwayWin,True,1.3449,748.531
+2024-03-16 15:15:00,CA Osasuna,Real Madrid,Spain,AwayWin,1.5,7.4853,AwayWin,True,3.7427,752.2737
+2024-03-16 20:00:00,Athletic Club Bilbao,Deportivo Alavés,Spain,HomeWin,1.55,7.5227,HomeWin,True,4.1375,756.4112
+2024-03-17 11:30:00,Juventus,Genoa,Italy,HomeWin,1.45,7.5641,Draw,False,-7.5641,748.8471
+2024-03-17 14:00:00,Reims,Metz,France,HomeWin,1.55,7.4885,HomeWin,True,4.1187,752.9657
+2024-03-17 14:00:00,Monaco,Lorient,France,HomeWin,1.3,7.5297,Draw,False,-7.5297,745.4361
+2024-03-17 14:00:00,Hellas Verona,AC Milan,Italy,AwayWin,1.65,7.4544,AwayWin,True,4.8453,750.2814
+2024-03-17 14:30:00,Freiburg,Bayer Leverkusen,Germany,AwayWin,1.53,7.5028,AwayWin,True,3.9765,754.2579
+2024-03-17 15:15:00,UD Las Palmas,Almería,Spain,HomeWin,1.91,7.5426,AwayWin,False,-7.5426,746.7153
+2024-03-17 16:30:00,Borussia Dortmund,Eintracht Frankfurt,Germany,HomeWin,1.55,7.4672,HomeWin,True,4.1069,750.8223
+2024-03-17 17:00:00,Roma,Sassuolo,Italy,HomeWin,1.4,7.5082,HomeWin,True,3.0033,753.8255
+2024-03-17 19:45:00,Montpellier,PSG,France,AwayWin,1.57,7.5383,AwayWin,True,4.2968,758.1224
+2024-03-17 19:45:00,Inter Milan,Napoli,Italy,HomeWin,1.53,7.5812,Draw,False,-7.5812,750.5411
+2024-03-30 14:30:00,RB Leipzig,Mainz 05,Germany,HomeWin,1.43,7.5054,Draw,False,-7.5054,743.0357
+2024-03-30 14:30:00,Bayer Leverkusen,Hoffenheim,Germany,HomeWin,1.25,7.4304,HomeWin,True,1.8576,744.8933
+2024-03-30 15:00:00,Tottenham Hotspur,Luton Town,Premier_League,HomeWin,1.27,7.4489,HomeWin,True,2.0112,746.9045
+2024-03-30 15:00:00,Chelsea,Burnley,Premier_League,HomeWin,1.33,7.469,Draw,False,-7.469,739.4355
+2024-03-30 16:00:00,Metz,Monaco,France,AwayWin,1.57,7.3944,AwayWin,True,4.2148,743.6503
+2024-03-30 17:30:00,Bayern München,Borussia Dortmund,Germany,HomeWin,1.39,7.4365,AwayWin,False,-7.4365,736.2138
+2024-03-30 20:00:00,FC Barcelona,UD Las Palmas,Spain,HomeWin,1.25,7.3621,HomeWin,True,1.8405,738.0543
+2024-03-31 13:00:00,Nice,Nantes,France,HomeWin,1.6,7.3805,AwayWin,False,-7.3805,730.6737
+2024-03-31 13:00:00,Liverpool,Brighton & Hove Albion,Premier_League,HomeWin,1.36,7.3067,HomeWin,True,2.6304,733.3042
+2024-03-31 13:30:00,Augsburg,Köln,Germany,HomeWin,1.73,7.333,Draw,False,-7.333,725.9711
+2024-03-31 15:30:00,Manchester City,Arsenal,Premier_League,HomeWin,1.86,7.2597,Draw,False,-7.2597,718.7114
+2024-03-31 15:30:00,Stuttgart,Heidenheim,Germany,HomeWin,1.32,7.1871,Draw,False,-7.1871,711.5243
+2024-03-31 19:00:00,Real Madrid,Athletic Club Bilbao,Spain,HomeWin,1.6,7.1152,HomeWin,True,4.2691,715.7935
+2024-04-01 10:30:00,Bologna,Salernitana,Italy,HomeWin,1.25,7.1579,HomeWin,True,1.7895,717.5829
+2024-04-01 18:45:00,Inter Milan,Empoli,Italy,HomeWin,1.19,7.1758,HomeWin,True,1.3634,718.9463
+2024-04-03 18:30:00,Arsenal,Luton Town,Premier_League,HomeWin,1.15,7.1895,HomeWin,True,1.0784,720.0248
+2024-04-03 19:15:00,Manchester City,Aston Villa,Premier_League,HomeWin,1.3,7.2002,HomeWin,True,2.1601,722.1848
+2024-04-04 18:30:00,Liverpool,Sheffield United,Premier_League,HomeWin,1.1,7.2218,HomeWin,True,0.7222,722.907
+2024-04-06 11:30:00,Crystal Palace,Manchester City,Premier_League,AwayWin,1.31,7.2291,AwayWin,True,2.241,725.148
+2024-04-06 13:00:00,AC Milan,Lecce,Italy,HomeWin,1.46,7.2515,HomeWin,True,3.3357,728.4837
+2024-04-06 13:30:00,Union Berlin,Bayer Leverkusen,Germany,AwayWin,1.57,7.2848,AwayWin,True,4.1524,732.6361
+2024-04-06 13:30:00,Heidenheim,Bayern München,Germany,AwayWin,1.33,7.3264,HomeWin,False,-7.3264,725.3097
+2024-04-06 13:30:00,Mainz 05,Darmstadt 98,Germany,HomeWin,1.55,7.2531,HomeWin,True,3.9892,729.2989
+2024-04-06 13:30:00,Freiburg,RB Leipzig,Germany,AwayWin,1.7,7.293,AwayWin,True,5.1051,734.404
+2024-04-06 15:00:00,Lens,Le Havre,France,HomeWin,1.51,7.344,Draw,False,-7.344,727.06
+2024-04-06 16:30:00,Brighton & Hove Albion,Arsenal,Premier_League,AwayWin,1.63,7.2706,AwayWin,True,4.5805,731.6404
+2024-04-06 19:00:00,PSG,Clermont,France,HomeWin,1.17,7.3164,Draw,False,-7.3164,724.324
+2024-04-07 11:00:00,Brest,Metz,France,HomeWin,1.5,7.2432,HomeWin,True,3.6216,727.9457
+2024-04-07 14:30:00,Manchester United,Liverpool,Premier_League,AwayWin,1.62,7.2795,Draw,False,-7.2795,720.6662
+2024-04-07 15:05:00,Monaco,Rennes,France,HomeWin,1.83,7.2067,HomeWin,True,5.9815,726.6477
+2024-04-07 16:00:00,Cagliari,Atalanta,Italy,AwayWin,1.75,7.2665,HomeWin,False,-7.2665,719.3813
+2024-04-07 16:30:00,Sheffield United,Chelsea,Premier_League,AwayWin,1.49,7.1938,Draw,False,-7.1938,712.1874
+2024-04-07 17:00:00,Tottenham Hotspur,Nottingham Forest,Premier_League,HomeWin,1.38,7.1219,HomeWin,True,2.7063,714.8938
+2024-04-07 18:45:00,Juventus,Fiorentina,Italy,HomeWin,1.82,7.1489,HomeWin,True,5.8621,720.7559
+2024-04-08 18:45:00,Udinese,Inter Milan,Italy,AwayWin,1.53,7.2076,AwayWin,True,3.82,724.5759
+2024-04-12 18:45:00,Lazio,Salernitana,Italy,HomeWin,1.28,7.2458,HomeWin,True,2.0288,726.6047
+2024-04-13 13:30:00,Bayern München,Köln,Germany,HomeWin,1.09,7.266,HomeWin,True,0.6539,727.2586
+2024-04-13 13:30:00,RB Leipzig,Wolfsburg,Germany,HomeWin,1.43,7.2726,HomeWin,True,3.1272,730.3859
+2024-04-13 14:00:00,Manchester City,Luton Town,Premier_League,HomeWin,1.07,7.3039,HomeWin,True,0.5113,730.8971
+2024-04-13 14:00:00,Brentford,Sheffield United,Premier_League,HomeWin,1.37,7.309,HomeWin,True,2.7043,733.6014
+2024-04-13 16:30:00,Stuttgart,Eintracht Frankfurt,Germany,HomeWin,1.46,7.336,HomeWin,True,3.3746,736.976
+2024-04-13 18:45:00,Bologna,Monza,Italy,HomeWin,1.59,7.3698,Draw,False,-7.3698,729.6063
+2024-04-13 19:00:00,Cádiz,FC Barcelona,Spain,AwayWin,1.58,7.2961,AwayWin,True,4.2317,733.838
+2024-04-14 10:30:00,Napoli,Frosinone,Italy,HomeWin,1.34,7.3384,Draw,False,-7.3384,726.4996
+2024-04-14 13:00:00,Sassuolo,AC Milan,Italy,AwayWin,1.66,7.265,Draw,False,-7.265,719.2346
+2024-04-14 13:00:00,Liverpool,Crystal Palace,Premier_League,HomeWin,1.21,7.1923,AwayWin,False,-7.1923,712.0423
+2024-04-14 13:30:00,Darmstadt 98,Freiburg,Germany,AwayWin,1.87,7.1204,AwayWin,True,6.1948,718.237
+2024-04-14 15:30:00,Arsenal,Aston Villa,Premier_League,HomeWin,1.29,7.1824,AwayWin,False,-7.1824,711.0546
+2024-04-14 15:30:00,Bayer Leverkusen,Werder Bremen,Germany,HomeWin,1.15,7.1105,HomeWin,True,1.0666,712.1212
+2024-04-14 16:30:00,Athletic Club Bilbao,Villarreal,Spain,HomeWin,1.54,7.1212,Draw,False,-7.1212,705.0
+2024-04-14 18:45:00,Inter Milan,Cagliari,Italy,HomeWin,1.14,7.05,Draw,False,-7.05,697.95
+2024-04-14 19:00:00,Real Sociedad,Almería,Spain,HomeWin,1.37,6.9795,Draw,False,-6.9795,690.9705
+2024-04-15 18:45:00,Atalanta,Hellas Verona,Italy,HomeWin,1.4,6.9097,Draw,False,-6.9097,684.0608
+2024-04-15 19:00:00,Chelsea,Everton,Premier_League,HomeWin,1.7,6.8406,HomeWin,True,4.7884,688.8492
+2024-04-19 19:00:00,Nice,Lorient,France,HomeWin,1.5,6.8885,HomeWin,True,3.4442,692.2935
+2024-04-19 19:00:00,Athletic Club Bilbao,Granada CF,Spain,HomeWin,1.28,6.9229,Draw,False,-6.9229,685.3705
+2024-04-20 13:30:00,Köln,Darmstadt 98,Germany,HomeWin,1.54,6.8537,AwayWin,False,-6.8537,678.5168
+2024-04-20 13:30:00,Heidenheim,RB Leipzig,Germany,AwayWin,1.5,6.7852,AwayWin,True,3.3926,681.9094
+2024-04-20 16:00:00,Empoli,Napoli,Italy,AwayWin,1.67,6.8191,HomeWin,False,-6.8191,675.0903
+2024-04-20 16:30:00,Union Berlin,Bayern München,Germany,AwayWin,1.66,6.7509,AwayWin,True,4.4556,679.5459
+2024-04-20 18:30:00,Wolverhampton Wanderers,Arsenal,Premier_League,AwayWin,1.4,6.7955,AwayWin,True,2.7182,682.2641
+2024-04-20 19:00:00,Lens,Clermont,France,HomeWin,1.36,6.8226,HomeWin,True,2.4562,684.7203
+2024-04-20 19:00:00,Girona FC,Cádiz,Spain,HomeWin,1.43,6.8472,HomeWin,True,2.9443,687.6646
+2024-04-21 13:00:00,Lille,Strasbourg,France,HomeWin,1.52,6.8766,HomeWin,True,3.5759,691.2404
+2024-04-21 15:30:00,Fulham,Liverpool,Premier_League,AwayWin,1.54,6.9124,AwayWin,True,3.7327,694.9731
+2024-04-21 16:00:00,Salernitana,Fiorentina,Italy,AwayWin,1.63,6.9497,AwayWin,True,4.3783,699.3514
+2024-04-21 19:00:00,PSG,Olympique Lyonnais,France,HomeWin,1.38,6.9935,HomeWin,True,2.6575,702.009
+2024-04-21 19:00:00,Real Madrid,FC Barcelona,Spain,HomeWin,1.7,7.0201,HomeWin,True,4.9141,706.923
+2024-04-23 19:00:00,Arsenal,Chelsea,Premier_League,HomeWin,1.5,7.0692,HomeWin,True,3.5346,710.4577
+2024-04-24 17:00:00,Lorient,PSG,France,AwayWin,1.4,7.1046,AwayWin,True,2.8418,713.2995
+2024-04-24 19:00:00,Everton,Liverpool,Premier_League,AwayWin,1.61,7.133,HomeWin,False,-7.133,706.1665
+2024-04-24 19:00:00,Manchester United,Sheffield United,Premier_League,HomeWin,1.33,7.0617,HomeWin,True,2.3303,708.4968
+2024-04-25 19:00:00,Brighton & Hove Albion,Manchester City,Premier_League,AwayWin,1.44,7.085,AwayWin,True,3.1174,711.6142
+2024-04-26 18:45:00,Frosinone,Salernitana,Italy,HomeWin,1.48,7.1161,HomeWin,True,3.4157,715.03
+2024-04-27 11:30:00,West Ham United,Liverpool,Premier_League,AwayWin,1.53,7.1503,Draw,False,-7.1503,707.8797
+2024-04-27 13:30:00,Bayern München,Eintracht Frankfurt,Germany,HomeWin,1.29,7.0788,HomeWin,True,2.0529,709.9325
+2024-04-27 14:00:00,Manchester United,Burnley,Premier_League,HomeWin,1.4,7.0993,Draw,False,-7.0993,702.8332
+2024-04-27 14:00:00,Newcastle United,Sheffield United,Premier_League,HomeWin,1.36,7.0283,HomeWin,True,2.5302,705.3634
+2024-04-27 18:45:00,Lazio,Hellas Verona,Italy,HomeWin,1.83,7.0536,HomeWin,True,5.8545,711.2179
+2024-04-27 19:00:00,Atlético Madrid,Athletic Club Bilbao,Spain,HomeWin,1.22,7.1122,HomeWin,True,1.5647,712.7826
+2024-04-27 19:00:00,PSG,Le Havre,France,HomeWin,1.19,7.1278,Draw,False,-7.1278,705.6548
+2024-04-28 10:30:00,Inter Milan,Torino,Italy,HomeWin,1.61,7.0565,HomeWin,True,4.3045,709.9593
+2024-04-28 11:00:00,Metz,Lille,France,AwayWin,1.19,7.0996,AwayWin,True,1.3489,711.3082
+2024-04-28 13:00:00,Bologna,Udinese,Italy,HomeWin,1.64,7.1131,Draw,False,-7.1131,704.1951
+2024-04-28 13:00:00,Strasbourg,Nice,France,AwayWin,1.37,7.042,AwayWin,True,2.6055,706.8006
+2024-04-28 15:30:00,Nottingham Forest,Manchester City,Premier_League,AwayWin,1.32,7.068,AwayWin,True,2.2618,709.0624
+2024-04-28 15:30:00,Mainz 05,Köln,Germany,HomeWin,1.52,7.0906,Draw,False,-7.0906,701.9718
+2024-04-28 16:00:00,Atalanta,Empoli,Italy,HomeWin,1.32,7.0197,HomeWin,True,2.2463,704.2181
+2024-04-28 18:45:00,Fiorentina,Sassuolo,Italy,HomeWin,1.49,7.0422,HomeWin,True,3.4507,707.6687
+2024-04-29 18:45:00,Genoa,Cagliari,Italy,AwayWin,1.32,7.0767,HomeWin,False,-7.0767,700.5921
+2024-04-29 19:00:00,FC Barcelona,Valencia CF,Spain,HomeWin,1.16,7.0059,HomeWin,True,1.1209,701.713
+2024-05-03 18:30:00,Hoffenheim,RB Leipzig,Germany,AwayWin,1.5,7.0171,Draw,False,-7.0171,694.6959
+2024-05-03 19:00:00,Lens,Lorient,France,HomeWin,1.39,6.947,HomeWin,True,2.7093,697.4052
+2024-05-04 11:30:00,Arsenal,AFC Bournemouth,Premier_League,HomeWin,1.22,6.9741,HomeWin,True,1.5343,698.9395
+2024-05-04 12:00:00,Real Sociedad,UD Las Palmas,Spain,HomeWin,1.4,6.9894,HomeWin,True,2.7958,701.7352
+2024-05-04 13:30:00,Borussia Dortmund,Augsburg,Germany,HomeWin,1.61,7.0174,HomeWin,True,4.2806,706.0158
+2024-05-04 13:30:00,Wolfsburg,Darmstadt 98,Germany,HomeWin,1.4,7.0602,HomeWin,True,2.8241,708.8399
+2024-05-04 14:15:00,Real Madrid,Cádiz,Spain,HomeWin,1.3,7.0884,HomeWin,True,2.1265,710.9664
+2024-05-04 15:00:00,Monaco,Clermont,France,HomeWin,1.3,7.1097,HomeWin,True,2.1329,713.0993
+2024-05-04 16:30:00,Manchester City,Wolverhampton Wanderers,Premier_League,HomeWin,1.09,7.131,HomeWin,True,0.6418,713.7411
+2024-05-04 17:00:00,Metz,Rennes,France,AwayWin,1.94,7.1374,AwayWin,True,6.7092,720.4503
+2024-05-04 18:45:00,Sassuolo,Inter Milan,Italy,AwayWin,1.44,7.2045,HomeWin,False,-7.2045,713.2458
+2024-05-05 13:00:00,Chelsea,West Ham United,Premier_League,HomeWin,1.6,7.1325,HomeWin,True,4.2795,717.5252
+2024-05-05 16:00:00,AC Milan,Genoa,Italy,HomeWin,1.41,7.1753,Draw,False,-7.1753,710.35
+2024-05-05 19:00:00,Sevilla FC,Granada CF,Spain,HomeWin,1.52,7.1035,HomeWin,True,3.6938,714.0438
+2024-05-05 19:00:00,Rayo Vallecano,Almería,Spain,HomeWin,1.58,7.1404,AwayWin,False,-7.1404,706.9034
+2024-05-06 16:00:00,Salernitana,Atalanta,Italy,AwayWin,1.36,7.069,AwayWin,True,2.5449,709.4482
+2024-05-10 18:30:00,Augsburg,Stuttgart,Germany,AwayWin,1.85,7.0945,AwayWin,True,6.0303,715.4785
+2024-05-10 18:45:00,Frosinone,Inter Milan,Italy,AwayWin,1.55,7.1548,AwayWin,True,3.9351,719.4137
+2024-05-10 19:00:00,Nice,Le Havre,France,HomeWin,1.5,7.1941,HomeWin,True,3.5971,723.0107
+2024-05-11 11:30:00,Fulham,Manchester City,Premier_League,AwayWin,1.2,7.2301,AwayWin,True,1.446,724.4567
+2024-05-11 12:00:00,RCD Mallorca,UD Las Palmas,Spain,HomeWin,1.62,7.2446,HomeWin,True,4.4916,728.9484
+2024-05-11 13:30:00,RB Leipzig,Werder Bremen,Germany,HomeWin,1.29,7.2895,Draw,False,-7.2895,721.6589
+2024-05-11 14:00:00,Newcastle United,Brighton & Hove Albion,Premier_League,HomeWin,1.56,7.2166,Draw,False,-7.2166,714.4423
+2024-05-11 14:00:00,Everton,Sheffield United,Premier_League,HomeWin,1.33,7.1444,HomeWin,True,2.3577,716.8
+2024-05-11 14:00:00,Tottenham Hotspur,Burnley,Premier_League,HomeWin,1.33,7.168,HomeWin,True,2.3654,719.1654
+2024-05-11 16:30:00,Nottingham Forest,Chelsea,Premier_League,AwayWin,2.01,7.1917,AwayWin,True,7.2636,726.429
+2024-05-11 16:30:00,Granada CF,Real Madrid,Spain,AwayWin,1.41,7.2643,AwayWin,True,2.9784,729.4073
+2024-05-11 18:45:00,AC Milan,Cagliari,Italy,HomeWin,1.37,7.2941,HomeWin,True,2.6988,732.1061
+2024-05-11 19:00:00,Athletic Club Bilbao,CA Osasuna,Spain,HomeWin,1.33,7.3211,Draw,False,-7.3211,724.7851
+2024-05-12 10:30:00,Lazio,Empoli,Italy,HomeWin,1.6,7.2479,HomeWin,True,4.3487,729.1338
+2024-05-12 13:30:00,Darmstadt 98,Hoffenheim,Germany,AwayWin,1.75,7.2913,AwayWin,True,5.4685,734.6023
+2024-05-12 14:15:00,Atlético Madrid,Celta de Vigo,Spain,HomeWin,1.4,7.346,HomeWin,True,2.9384,737.5407
+2024-05-12 15:30:00,Manchester United,Arsenal,Premier_League,AwayWin,1.58,7.3754,AwayWin,True,4.2777,741.8184
+2024-05-12 15:30:00,Bayern München,Wolfsburg,Germany,HomeWin,1.2,7.4182,HomeWin,True,1.4836,743.3021
+2024-05-12 16:00:00,Juventus,Salernitana,Italy,HomeWin,1.14,7.433,Draw,False,-7.433,735.8691
+2024-05-12 17:30:00,Bochum,Bayer Leverkusen,Germany,AwayWin,1.62,7.3587,AwayWin,True,4.5624,740.4314
+2024-05-12 19:00:00,PSG,Toulouse,France,HomeWin,1.34,7.4043,AwayWin,False,-7.4043,733.0271
+2024-05-12 19:00:00,Real Betis,Almería,Spain,HomeWin,1.45,7.3303,HomeWin,True,3.2986,736.3258
+2024-05-12 19:00:00,Olympique Marseille,Lorient,France,HomeWin,1.3,7.3633,HomeWin,True,2.209,738.5347
+2024-05-13 18:45:00,Fiorentina,Monza,Italy,HomeWin,1.54,7.3853,HomeWin,True,3.9881,742.5228
+2024-05-13 19:00:00,FC Barcelona,Real Sociedad,Spain,HomeWin,1.77,7.4252,HomeWin,True,5.7174,748.2402
+2024-05-13 19:00:00,Aston Villa,Liverpool,Premier_League,AwayWin,1.75,7.4824,Draw,False,-7.4824,740.7578
+2024-05-14 19:00:00,Tottenham Hotspur,Manchester City,Premier_League,AwayWin,1.37,7.4076,AwayWin,True,2.7408,743.4986
+2024-05-14 19:30:00,Real Madrid,Deportivo Alavés,Spain,HomeWin,1.14,7.435,HomeWin,True,1.0409,744.5395
+2024-05-15 17:30:00,Rayo Vallecano,Granada CF,Spain,HomeWin,1.72,7.4454,HomeWin,True,5.3607,749.9002
+2024-05-16 19:30:00,Almería,FC Barcelona,Spain,AwayWin,1.5,7.499,AwayWin,True,3.7495,753.6497
+2024-05-16 20:00:00,Real Sociedad,Valencia CF,Spain,HomeWin,1.6,7.5365,HomeWin,True,4.5219,758.1716
+2024-05-18 13:30:00,Borussia Dortmund,Darmstadt 98,Germany,HomeWin,1.08,7.5817,HomeWin,True,0.6065,758.7782
+2024-05-18 13:30:00,Stuttgart,Borussia M'gladbach,Germany,HomeWin,1.16,7.5878,HomeWin,True,1.214,759.9922
+2024-05-18 13:30:00,Bayer Leverkusen,Augsburg,Germany,HomeWin,1.26,7.5999,HomeWin,True,1.976,761.9682
+2024-05-19 15:00:00,Sheffield United,Tottenham Hotspur,Premier_League,AwayWin,1.32,7.6197,AwayWin,True,2.4383,764.4065
+2024-05-19 15:00:00,Liverpool,Wolverhampton Wanderers,Premier_League,HomeWin,1.18,7.6441,HomeWin,True,1.3759,765.7824
+2024-05-19 15:00:00,Chelsea,AFC Bournemouth,Premier_League,HomeWin,1.47,7.6578,HomeWin,True,3.5992,769.3816
+2024-05-19 15:00:00,Manchester City,West Ham United,Premier_League,HomeWin,1.1,7.6938,HomeWin,True,0.7694,770.151
+2024-05-19 15:00:00,Arsenal,Everton,Premier_League,HomeWin,1.16,7.7015,HomeWin,True,1.2322,771.3832
+2024-05-19 16:00:00,Inter Milan,Lazio,Italy,HomeWin,1.57,7.7138,Draw,False,-7.7138,763.6694
+2024-05-19 17:00:00,Villarreal,Real Madrid,Spain,AwayWin,1.91,7.6367,Draw,False,-7.6367,756.0327
+2024-05-19 17:00:00,Athletic Club Bilbao,Sevilla FC,Spain,HomeWin,1.67,7.5603,HomeWin,True,5.0654,761.0981
+2024-05-19 17:00:00,Atlético Madrid,CA Osasuna,Spain,HomeWin,1.29,7.611,AwayWin,False,-7.611,753.4871
+2024-05-19 17:00:00,FC Barcelona,Rayo Vallecano,Spain,HomeWin,1.25,7.5349,HomeWin,True,1.8837,755.3708
+2024-05-19 17:00:00,RCD Mallorca,Almería,Spain,HomeWin,1.65,7.5537,Draw,False,-7.5537,747.8171
+2024-05-19 18:45:00,Roma,Genoa,Italy,HomeWin,1.5,7.4782,HomeWin,True,3.7391,751.5562
+2024-05-19 19:00:00,Monaco,Nantes,France,HomeWin,1.5,7.5156,HomeWin,True,3.7578,755.314
+2024-05-19 19:00:00,Lens,Montpellier,France,HomeWin,1.5,7.5531,Draw,False,-7.5531,747.7609
+2024-05-19 19:00:00,Metz,PSG,France,AwayWin,1.44,7.4776,AwayWin,True,3.2901,751.051
+2024-05-19 19:00:00,Olympique Lyonnais,Strasbourg,France,HomeWin,1.44,7.5105,HomeWin,True,3.3046,754.3556
+2024-05-24 19:00:00,Girona FC,Granada CF,Spain,HomeWin,1.24,7.5436,HomeWin,True,1.8105,756.1661
+2024-05-25 16:00:00,Juventus,Monza,Italy,HomeWin,1.33,7.5617,HomeWin,True,2.4953,758.6614
+2024-05-25 18:45:00,AC Milan,Salernitana,Italy,HomeWin,1.17,7.5866,Draw,False,-7.5866,751.0748
+2024-05-25 19:00:00,Real Madrid,Real Betis,Spain,HomeWin,1.33,7.5107,Draw,False,-7.5107,743.5641
+2024-05-26 16:00:00,Napoli,Lecce,Italy,HomeWin,1.4,7.4356,Draw,False,-7.4356,736.1284
+2024-05-26 18:45:00,Lazio,Sassuolo,Italy,HomeWin,1.33,7.3613,Draw,False,-7.3613,728.7672
+2024-05-26 18:45:00,Hellas Verona,Inter Milan,Italy,AwayWin,1.54,7.2877,Draw,False,-7.2877,721.4795
+2024-05-26 19:00:00,Sevilla FC,FC Barcelona,Spain,AwayWin,1.84,7.2148,AwayWin,True,6.0604,727.5399
+2024-06-02 16:00:00,Atalanta,Fiorentina,Italy,HomeWin,1.5,7.2754,Draw,False,-7.2754,720.2645

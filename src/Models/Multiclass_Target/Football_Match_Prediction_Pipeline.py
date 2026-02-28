@@ -35,6 +35,7 @@ from src.Config.Config_Manager import ConfigManager
 from src.Models.threshold_optimizer import (
     find_optimal_thresholds_multiclass, predict_with_thresholds
 )
+from src.Models.Multiclass_Target.optuna_tuner import run_optuna_study, save_best_params
 
 # ---------------------------------------------------------------------------
 # Calibration split year constants
@@ -55,7 +56,7 @@ def get_models(config):
         'LightGBM': LGBMClassifier(**model_params.get('lightgbm', {})),
         'CatBoost': CatBoostClassifier(**model_params.get('catboost', {}),
                               train_dir='src/Models/Multiclass_Target/catboost_info'),
-        #'Neural Network': MLPClassifier(**model_params.get('neural_network', {})),
+        'Neural Network': MLPClassifier(**model_params.get('neural_network', {})),
         'KNN': KNeighborsClassifier(**model_params.get('knn', {})),
         'AdaBoost': AdaBoostClassifier(**model_params.get('adaboost', {})),
         'Extra Trees': ExtraTreesClassifier(**model_params.get('extra_trees', {}))
@@ -70,6 +71,11 @@ def load_and_prepare_data(config):
         test  : year >= CAL_END_YEAR  (>= 2022)
 
     The calibration set is used for CalibratedClassifierCV and threshold optimisation.
+
+    Returns:
+        X_train_scaled, X_test_scaled, X_cal_scaled,
+        y_train, y_test, y_cal,
+        class_names, le, test_metadata
     """
     input_path = config.get_paths()['full_dataset']
     exclude_columns = config.get_config_value('excluded_columns', default=[])
@@ -97,6 +103,14 @@ def load_and_prepare_data(config):
         y_train_raw = train_df['target_result']
         y_cal_raw   = cal_df['target_result']
         y_test_raw  = test_df['target_result']
+        # --- Preserve test set metadata for prediction CSV export ---
+        meta_cols = [c for c in [
+            'date', 'home_team', 'away_team', 'target_result',
+            'target_home_goals', 'target_away_goals', 'league',
+            'implied_prob_home', 'implied_prob_draw', 'implied_prob_away',
+            'raw_odds_home', 'raw_odds_draw', 'raw_odds_away',
+        ] if c in test_df.columns]
+        test_metadata = test_df[meta_cols].reset_index(drop=True)
     else:
         # Fallback: random split (no calibration set)
         random_params = {k: v for k, v in split_config.items() if k != 'temporal_split_year'}
@@ -105,6 +119,7 @@ def load_and_prepare_data(config):
         y_raw = df['target_result']
         X_train, X_test, y_train_raw, y_test_raw = train_test_split(X, y_raw, **random_params)
         X_cal, y_cal_raw = X_test, y_test_raw  # reuse test as cal in fallback
+        test_metadata = pd.DataFrame()
 
     # Encode target labels
     le = LabelEncoder()
@@ -114,12 +129,14 @@ def load_and_prepare_data(config):
     y_test  = le.transform(y_test_raw)
     class_names = le.classes_
 
+    feature_names = list(X_train.columns)
+
     scaler = StandardScaler()
     X_train_scaled = scaler.fit_transform(X_train)
     X_cal_scaled   = scaler.transform(X_cal)
     X_test_scaled  = scaler.transform(X_test)
 
-    return X_train_scaled, X_test_scaled, X_cal_scaled, y_train, y_test, y_cal, class_names
+    return X_train_scaled, X_test_scaled, X_cal_scaled, y_train, y_test, y_cal, class_names, le, test_metadata, feature_names
 
 
 # ---------------------------------------------------------------------------
@@ -424,10 +441,117 @@ def train_and_evaluate_model(model, X_train, X_test, X_cal, y_train, y_test, y_c
     return results
 
 
+# ---------------------------------------------------------------------------
+# SHAP analysis (CatBoost native — Phase 5)
+# ---------------------------------------------------------------------------
+
+def compute_shap_analysis(catboost_model, X_test, class_names, feature_names,
+                          output_dir, n_samples=500):
+    """
+    Compute per-class SHAP values using CatBoost's native ShapValues.
+
+    Generates:
+      - shap_summary_<Class>.png  : horizontal bar chart of top-20 mean |SHAP|
+      - shap_top_features_by_class.csv : mean |SHAP| per feature per class
+    """
+    try:
+        from catboost import Pool
+    except ImportError:
+        print("  [SHAP] catboost not available — skipping SHAP analysis")
+        return
+
+    n = min(n_samples, len(X_test))
+    X_sub = X_test[:n]
+
+    pool = Pool(X_sub)
+    try:
+        # Returns (n_samples, n_classes, n_features + 1); last column is bias
+        raw_shap = catboost_model.get_feature_importance(type='ShapValues', data=pool)
+    except Exception as e:
+        print(f"  [SHAP] get_feature_importance failed: {e}")
+        return
+
+    if raw_shap.ndim != 3:
+        print(f"  [SHAP] Unexpected ShapValues shape {raw_shap.shape} — expected (N, C, F+1)")
+        return
+
+    n_classes = raw_shap.shape[1]
+    if n_classes != len(class_names):
+        print(f"  [SHAP] n_classes mismatch ({n_classes} vs {len(class_names)}) — skipping")
+        return
+
+    shap_per_class = raw_shap[:, :, :-1]  # drop bias column → (N, C, F)
+
+    top_n = 20
+    summary_data = {}
+    for i, cls in enumerate(class_names):
+        sv = shap_per_class[:, i, :]               # (N, F)
+        mean_abs = np.abs(sv).mean(axis=0)          # (F,)
+        summary_data[cls] = mean_abs
+
+        # Sort by importance
+        order = np.argsort(mean_abs)[::-1][:top_n]
+        feats = [feature_names[j] for j in order]
+        vals  = mean_abs[order]
+
+        fig, ax = plt.subplots(figsize=(10, 8))
+        ax.barh(range(len(feats)), vals[::-1], color='steelblue', alpha=0.85)
+        ax.set_yticks(range(len(feats)))
+        ax.set_yticklabels(feats[::-1], fontsize=9)
+        ax.set_xlabel('Mean |SHAP value|')
+        ax.set_title(f'SHAP Feature Importance — {cls} (top {top_n})')
+        fig.tight_layout()
+        safe_cls = cls.replace(' ', '_')
+        plot_path = os.path.join(output_dir, f'shap_summary_{safe_cls}.png')
+        fig.savefig(plot_path, dpi=150, bbox_inches='tight')
+        plt.close(fig)
+        print(f"  [SHAP] {cls} → {plot_path}")
+
+    # CSV: feature × class → mean |SHAP|
+    shap_df = pd.DataFrame(summary_data, index=feature_names)
+    shap_df.index.name = 'feature'
+    shap_df = shap_df.assign(max_importance=shap_df.max(axis=1)).sort_values(
+        'max_importance', ascending=False
+    ).drop(columns='max_importance')
+    csv_path = os.path.join(output_dir, 'shap_top_features_by_class.csv')
+    shap_df.to_csv(csv_path)
+    print(f"  [SHAP] Summary CSV → {csv_path}")
+
+
 def train_all_models(config):
-    X_train, X_test, X_cal, y_train, y_test, y_cal, class_names = load_and_prepare_data(config)
+    X_train, X_test, X_cal, y_train, y_test, y_cal, class_names, le, test_metadata, feature_names = load_and_prepare_data(config)
     output_dir = config.get_paths()['output_dir']
     models = get_models(config)
+
+    # ── Phase 5: Optuna tuning for CatBoost (optional) ─────────────────────
+    optuna_cfg = config.get_config_value('optuna', default={})
+    if optuna_cfg.get('enabled', False):
+        print("\n[Optuna] Tuning CatBoost hyperparameters + calibration method...")
+        n_trials = int(optuna_cfg.get('n_trials', 50))
+        timeout  = int(optuna_cfg.get('timeout_seconds', 600))
+        optuna_dir = os.path.join(output_dir, 'optuna_trials')
+        best_params = run_optuna_study(
+            X_train, y_train, X_cal, y_cal,
+            n_trials=n_trials, timeout=timeout, output_dir=optuna_dir,
+        )
+        save_best_params(best_params, output_dir)
+
+        # Extract calibration method (not a CatBoost kwarg)
+        cal_method_optuna = best_params.pop('calibration_method', 'isotonic')
+
+        # Replace CatBoost in models dict with Optuna-tuned version
+        cb_base_params = config.get_config_value('model_parameters', {}).get('catboost', {})
+        merged = {**cb_base_params, **best_params}  # Optuna params override defaults
+        merged.pop('calibration_method', None)       # safety — not a CatBoost kwarg
+        models['CatBoost'] = CatBoostClassifier(
+            **merged,
+            random_seed=42,
+            verbose=False,
+            train_dir='src/Models/Multiclass_Target/catboost_info',
+        )
+        # Store chosen calibration method for later use
+        config._optuna_cal_method = cal_method_optuna
+        print(f"[Optuna] CatBoost replaced with tuned params. cal_method={cal_method_optuna}")
 
     max_workers = min(len(models), 5)
     print(f"\nLaunching {max_workers} parallel training workers for {len(models)} models...")
@@ -465,7 +589,11 @@ def train_all_models(config):
         if not hasattr(model, 'predict_proba'):
             continue
         try:
-            calibrated = CalibratedClassifierCV(FrozenEstimator(model), method='isotonic')
+            # Use Optuna-chosen calibration method for CatBoost if available
+            cal_method = 'isotonic'
+            if name == 'CatBoost' and hasattr(config, '_optuna_cal_method'):
+                cal_method = config._optuna_cal_method
+            calibrated = CalibratedClassifierCV(FrozenEstimator(model), method=cal_method)
             calibrated.fit(X_cal, y_cal)
             cal_probs_test = calibrated.predict_proba(X_test)
             _, cal_auc = _plot_roc_multiclass(
@@ -480,6 +608,7 @@ def train_all_models(config):
 
             optimal_thresholds = find_optimal_thresholds_multiclass(calibrated, X_cal, y_cal)
             y_pred_opt = predict_with_thresholds(cal_probs_test, optimal_thresholds)
+            y_pred_default_cal = np.argmax(cal_probs_test, axis=1)
             result['optimal_thresholds']    = optimal_thresholds
             result['accuracy_opt']          = accuracy_score(y_test, y_pred_opt)
             result['balanced_accuracy_opt'] = balanced_accuracy_score(y_test, y_pred_opt)
@@ -487,6 +616,22 @@ def train_all_models(config):
                 y_test, y_pred_opt, target_names=class_names
             )
             print(f"  {name}: cal_auc={cal_auc:.4f}  acc_opt={result['accuracy_opt']:.4f}")
+
+            # --- Phase 4 D1/D2: save per-match predictions with EV ---
+            save_prediction_csv(
+                name, test_metadata, cal_probs_test,
+                y_pred_default_cal, y_pred_opt,
+                class_names, le, output_dir
+            )
+
+            # --- Phase 5: SHAP analysis for CatBoost only ---
+            shap_cfg = config.get_config_value('shap', default={})
+            if name == 'CatBoost' and shap_cfg.get('enabled', False):
+                print(f"\n  [SHAP] Running SHAP analysis for {name}...")
+                compute_shap_analysis(
+                    model, X_test, class_names, feature_names, output_dir,
+                    n_samples=int(shap_cfg.get('n_samples', 500)),
+                )
         except Exception:
             import traceback
             print(f"\n[Calibration FAILED for {name}]:")
@@ -494,6 +639,68 @@ def train_all_models(config):
 
     _plot_summary_charts(results, output_dir)
     return results, class_names
+
+
+# ---------------------------------------------------------------------------
+# Per-match prediction CSV export (Phase 4 — D1/D2)
+# ---------------------------------------------------------------------------
+
+def save_prediction_csv(model_name, test_metadata, cal_probs_test,
+                        y_pred_default, y_pred_opt, class_names, le, output_dir):
+    """
+    Save per-match calibrated predictions with EV and Kelly fractions to CSV.
+
+    Columns: date, teams, actual result, prob_*, pred_default, pred_opt,
+             ev_home/draw/away (requires raw_odds_* in test_metadata),
+             kelly_home/draw/away (quarter Kelly, capped at 10%).
+    """
+    if test_metadata is None or len(test_metadata) == 0:
+        return
+
+    df = test_metadata.copy().reset_index(drop=True)
+
+    # Calibrated probabilities per class (LabelEncoder sorts alphabetically)
+    for i, cls in enumerate(class_names):
+        df[f'prob_{cls.lower()}'] = cal_probs_test[:, i]
+
+    df['pred_default'] = le.inverse_transform(y_pred_default)
+    df['pred_opt']     = le.inverse_transform(y_pred_opt)
+
+    # EV: ev = (model_prob × decimal_odds) − 1
+    has_raw_odds = all(c in df.columns for c in ['raw_odds_home', 'raw_odds_draw', 'raw_odds_away'])
+    if has_raw_odds:
+        class_list = list(class_names)
+        idx_home = class_list.index('HomeWin') if 'HomeWin' in class_list else None
+        idx_draw = class_list.index('Draw')    if 'Draw'    in class_list else None
+        idx_away = class_list.index('AwayWin') if 'AwayWin' in class_list else None
+
+        for idx, ev_col, odds_col in [
+            (idx_home, 'ev_home', 'raw_odds_home'),
+            (idx_draw, 'ev_draw', 'raw_odds_draw'),
+            (idx_away, 'ev_away', 'raw_odds_away'),
+        ]:
+            if idx is not None:
+                df[ev_col] = cal_probs_test[:, idx] * df[odds_col] - 1
+
+        # Quarter Kelly (positive EV only, capped at 10% of bankroll)
+        for ev_col, kelly_col, odds_col in [
+            ('ev_home', 'kelly_home', 'raw_odds_home'),
+            ('ev_draw', 'kelly_draw', 'raw_odds_draw'),
+            ('ev_away', 'kelly_away', 'raw_odds_away'),
+        ]:
+            if ev_col in df.columns:
+                divisor = np.where(df[odds_col] > 1, df[odds_col] - 1, np.nan)
+                kelly = np.where(
+                    pd.notna(divisor) & (df[ev_col] > 0),
+                    (df[ev_col] / divisor) * 0.25,
+                    0.0
+                )
+                df[kelly_col] = np.clip(kelly, 0.0, 0.10)
+
+    safe_name = model_name.replace(' ', '_')
+    output_path = os.path.join(output_dir, f'predictions_{safe_name}.csv')
+    df.to_csv(output_path, index=False)
+    print(f"  Predictions CSV → {output_path}")
 
 
 # ---------------------------------------------------------------------------

@@ -108,6 +108,11 @@ def prepare_match_data_for_prediction(df, league_name=None, team_history=None,
             match_data['implied_prob_away'] = np.nan
             match_data['odds_ratio'] = np.nan
 
+        # Store raw decimal odds for EV calculation in backtesting (excluded from training)
+        match_data['raw_odds_home'] = float(odds_home) if pd.notna(odds_home) and odds_home > 0 else np.nan
+        match_data['raw_odds_draw'] = float(odds_draw) if pd.notna(odds_draw) and odds_draw > 0 else np.nan
+        match_data['raw_odds_away'] = float(odds_away) if pd.notna(odds_away) and odds_away > 0 else np.nan
+
         # --- Team features with home_ / away_ prefix ---
         for key, value in home_features.items():
             match_data[f'home_{key}'] = value
@@ -186,6 +191,27 @@ def prepare_match_data_for_prediction(df, league_name=None, team_history=None,
             match_data['h2h_home_goals_avg'] = np.nan
             match_data['h2h_away_goals_avg'] = np.nan
             match_data['h2h_matches_count']  = 0
+
+        # --- Fatigue / Schedule features (B8) ---
+        current_date = current_match['date']
+        for prefix, team_name in [('home', home_team), ('away', away_team)]:
+            past = team_history.get(team_name, pd.DataFrame())
+            if len(past) > 0 and 'date' in past.columns:
+                past_dates = pd.to_datetime(past['date'])
+                past_dates = past_dates.dropna()
+                if len(past_dates) > 0:
+                    days_rest = int((current_date - past_dates.max()).days)
+                    matches_last7 = int(
+                        (past_dates > current_date - pd.Timedelta(days=7)).sum()
+                    )
+                else:
+                    days_rest, matches_last7 = 14, 0
+            else:
+                days_rest, matches_last7 = 14, 0
+            match_data[f'days_since_last_match_{prefix}'] = days_rest
+            match_data[f'matches_last_7_days_{prefix}'] = matches_last7
+        # Midweek match proxy (Tue/Wed/Thu → likely cup or European game)
+        match_data['is_midweek_match'] = int(current_date.weekday() in [1, 2, 3])
 
         processed_matches.append(match_data)
 
@@ -751,10 +777,12 @@ def main():
         print(f"\nNew feature columns added:")
         new_cols = [c for c in combined_all_leagues.columns
                     if any(c.startswith(p) for p in
-                           ['implied_prob', 'odds_ratio', 'diff_', 'combined_draw',
-                            'match_comp', 'home_avg_xg', 'away_avg_xg',
+                           ['implied_prob', 'odds_ratio', 'raw_odds',
+                            'diff_', 'combined_draw', 'match_comp',
+                            'home_avg_xg', 'away_avg_xg',
                             'home_form_trend', 'away_form_trend',
-                            'home_recent_ppg_last', 'away_recent_ppg_last'])]
+                            'home_recent_ppg_last', 'away_recent_ppg_last',
+                            'days_since_last', 'matches_last_7', 'is_midweek'])]
         for col in new_cols:
             print(f"  {col}")
 

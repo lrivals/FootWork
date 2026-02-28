@@ -1,0 +1,506 @@
+Results for Full Dataset - Multiclass Prediction
+======================================================================
+
+=== RANKING TABLE ===
+Model                   Accuracy   Bal.Acc      MCC    Kappa   MacroAUC
+------------------------------------------------------------------------
+Extra Trees               0.5204    0.4489   0.2288   0.2069     0.6480
+Random Forest             0.5199    0.4445   0.2264   0.2009     0.6359
+Neural Network            0.5012    0.4121   0.1910   0.1453     0.6441
+SVM                       0.4832    0.4617   0.2111   0.2101     0.6476
+CatBoost                  0.4807    0.4648   0.2179   0.2118     0.6669
+Logistic Regression       0.4665    0.4676   0.2126   0.2072     0.6592
+AdaBoost                  0.4640    0.4656   0.2129   0.2053     0.6547
+KNN                       0.4539    0.4117   0.1350   0.1332     0.5868
+Gradient Boosting         0.4516    0.4338   0.1655   0.1649     0.6236
+XGBoost                   0.4497    0.4428   0.1803   0.1760     0.6350
+LightGBM                  0.4478    0.4378   0.1713   0.1688     0.6339
+
+=== PER-CLASS AUC (OvR) ===
+Model                      AwayWin        Draw     HomeWin
+----------------------------------------------------------
+Extra Trees                 0.6985      0.5404      0.7050
+Random Forest               0.6981      0.5116      0.6980
+Neural Network              0.6987      0.5476      0.6856
+SVM                         0.6923      0.5519      0.6981
+CatBoost                    0.7174      0.5692      0.7137
+Logistic Regression         0.7125      0.5543      0.7105
+AdaBoost                    0.7062      0.5504      0.7074
+KNN                         0.6261      0.5095      0.6242
+Gradient Boosting           0.6780      0.5215      0.6709
+XGBoost                     0.6920      0.5319      0.6807
+LightGBM                    0.6850      0.5315      0.6847
+
+=== CALIBRATED vs UNCALIBRATED MACRO AUC ===
+Model                     Raw AUC    Cal AUC    Delta
+------------------------------------------------------
+Extra Trees                0.6480     0.6501  +0.0021
+Random Forest              0.6359     0.6409  +0.0050
+Neural Network             0.6441     0.6438  -0.0003
+SVM                        0.6476     0.6410  -0.0066
+CatBoost                   0.6669     0.6645  -0.0024
+Logistic Regression        0.6592     0.6604  +0.0012
+AdaBoost                   0.6547     0.6580  +0.0033
+KNN                        0.5868     0.5942  +0.0075
+Gradient Boosting          0.6236     0.6287  +0.0051
+XGBoost                    0.6350     0.6409  +0.0058
+LightGBM                   0.6339     0.6375  +0.0036
+
+=== OPTIMISED THRESHOLD METRICS ===
+Model                   Acc(def)  Acc(opt)  BalAcc(def)  BalAcc(opt)
+----------------------------------------------------------------------
+Extra Trees               0.5204    0.5028       0.4489       0.4635
+Random Forest             0.5199    0.5088       0.4445       0.4434
+Neural Network            0.5012    0.4946       0.4121       0.4548
+SVM                       0.4832    0.4917       0.4617       0.4651
+CatBoost                  0.4807    0.5018       0.4648       0.4652
+Logistic Regression       0.4665    0.4912       0.4676       0.4673
+AdaBoost                  0.4640    0.4455       0.4656       0.4526
+KNN                       0.4539    0.4235       0.4117       0.4038
+Gradient Boosting         0.4516    0.4609       0.4338       0.4328
+XGBoost                   0.4497    0.4406       0.4428       0.4469
+LightGBM                  0.4478    0.4647       0.4378       0.4476
+
+=== OPTIMAL THRESHOLDS (OvR, on calibration set) ===
+Model                            AwayWin              Draw           HomeWin
+----------------------------------------------------------------------------
+Extra Trees              0.261 (f1=0.55)   0.222 (f1=0.44)   0.324 (f1=0.63)
+Random Forest            0.293 (f1=0.55)   0.238 (f1=0.43)   0.286 (f1=0.64)
+Neural Network           0.237 (f1=0.55)   0.200 (f1=0.44)   0.318 (f1=0.64)
+SVM                      0.249 (f1=0.55)   0.189 (f1=0.43)   0.290 (f1=0.63)
+CatBoost                 0.294 (f1=0.56)   0.233 (f1=0.45)   0.331 (f1=0.65)
+Logistic Regression      0.287 (f1=0.56)   0.232 (f1=0.44)   0.370 (f1=0.65)
+AdaBoost                 0.306 (f1=0.56)   0.216 (f1=0.44)   0.376 (f1=0.64)
+KNN                      0.290 (f1=0.51)   0.212 (f1=0.43)   0.322 (f1=0.61)
+Gradient Boosting        0.288 (f1=0.56)   0.196 (f1=0.44)   0.310 (f1=0.64)
+XGBoost                  0.309 (f1=0.55)   0.215 (f1=0.44)   0.356 (f1=0.63)
+LightGBM                 0.283 (f1=0.55)   0.232 (f1=0.44)   0.329 (f1=0.63)
+
+=== DETAILED RESULTS ===
+
+Model: Extra Trees
+------------------------------
+Accuracy:          0.5204
+Balanced Accuracy: 0.4489
+MCC:               0.2288
+Cohen's Kappa:     0.2069
+Macro ROC-AUC:     0.6480
+Calibrated AUC:    0.6501
+Accuracy (opt thr): 0.5028
+Bal.Acc (opt thr):  0.4635
+
+Classification Report (default threshold):
+              precision    recall  f1-score   support
+
+     AwayWin       0.51      0.49      0.50      1593
+        Draw       0.28      0.04      0.07      1338
+     HomeWin       0.54      0.82      0.65      2330
+
+    accuracy                           0.52      5261
+   macro avg       0.44      0.45      0.41      5261
+weighted avg       0.46      0.52      0.46      5261
+
+Classification Report (optimised threshold):
+              precision    recall  f1-score   support
+
+     AwayWin       0.49      0.50      0.49      1593
+        Draw       0.30      0.23      0.26      1338
+     HomeWin       0.59      0.66      0.62      2330
+
+    accuracy                           0.50      5261
+   macro avg       0.46      0.46      0.46      5261
+weighted avg       0.49      0.50      0.49      5261
+
+Confusion Matrix:
+[[ 773   85  735]
+ [ 377   57  904]
+ [ 358   64 1908]]
+======================================================================
+Model: Random Forest
+------------------------------
+Accuracy:          0.5199
+Balanced Accuracy: 0.4445
+MCC:               0.2264
+Cohen's Kappa:     0.2009
+Macro ROC-AUC:     0.6359
+Calibrated AUC:    0.6409
+Accuracy (opt thr): 0.5088
+Bal.Acc (opt thr):  0.4434
+
+Classification Report (default threshold):
+              precision    recall  f1-score   support
+
+     AwayWin       0.52      0.45      0.48      1593
+        Draw       0.28      0.04      0.07      1338
+     HomeWin       0.53      0.84      0.65      2330
+
+    accuracy                           0.52      5261
+   macro avg       0.44      0.44      0.40      5261
+weighted avg       0.46      0.52      0.45      5261
+
+Classification Report (optimised threshold):
+              precision    recall  f1-score   support
+
+     AwayWin       0.53      0.41      0.46      1593
+        Draw       0.27      0.12      0.17      1338
+     HomeWin       0.54      0.80      0.65      2330
+
+    accuracy                           0.51      5261
+   macro avg       0.45      0.44      0.43      5261
+weighted avg       0.47      0.51      0.47      5261
+
+Confusion Matrix:
+[[ 713   85  795]
+ [ 353   57  928]
+ [ 303   62 1965]]
+======================================================================
+Model: Neural Network
+------------------------------
+Accuracy:          0.5012
+Balanced Accuracy: 0.4121
+MCC:               0.1910
+Cohen's Kappa:     0.1453
+Macro ROC-AUC:     0.6441
+Calibrated AUC:    0.6438
+Accuracy (opt thr): 0.4946
+Bal.Acc (opt thr):  0.4548
+
+Classification Report (default threshold):
+              precision    recall  f1-score   support
+
+     AwayWin       0.55      0.30      0.39      1593
+        Draw       0.31      0.02      0.04      1338
+     HomeWin       0.49      0.91      0.64      2330
+
+    accuracy                           0.50      5261
+   macro avg       0.45      0.41      0.36      5261
+weighted avg       0.46      0.50      0.41      5261
+
+Classification Report (optimised threshold):
+              precision    recall  f1-score   support
+
+     AwayWin       0.52      0.43      0.47      1593
+        Draw       0.30      0.26      0.28      1338
+     HomeWin       0.57      0.67      0.61      2330
+
+    accuracy                           0.49      5261
+   macro avg       0.46      0.45      0.45      5261
+weighted avg       0.48      0.49      0.49      5261
+
+Confusion Matrix:
+[[ 481   26 1086]
+ [ 224   28 1086]
+ [ 165   37 2128]]
+======================================================================
+Model: SVM
+------------------------------
+Accuracy:          0.4832
+Balanced Accuracy: 0.4617
+MCC:               0.2111
+Cohen's Kappa:     0.2101
+Macro ROC-AUC:     0.6476
+Calibrated AUC:    0.6410
+Accuracy (opt thr): 0.4917
+Bal.Acc (opt thr):  0.4651
+
+Classification Report (default threshold):
+              precision    recall  f1-score   support
+
+     AwayWin       0.47      0.56      0.51      1593
+        Draw       0.28      0.28      0.28      1338
+     HomeWin       0.62      0.55      0.59      2330
+
+    accuracy                           0.48      5261
+   macro avg       0.46      0.46      0.46      5261
+weighted avg       0.49      0.48      0.48      5261
+
+Classification Report (optimised threshold):
+              precision    recall  f1-score   support
+
+     AwayWin       0.49      0.47      0.48      1593
+        Draw       0.30      0.32      0.31      1338
+     HomeWin       0.61      0.61      0.61      2330
+
+    accuracy                           0.49      5261
+   macro avg       0.47      0.47      0.47      5261
+weighted avg       0.50      0.49      0.49      5261
+
+Confusion Matrix:
+[[ 886  370  337]
+ [ 527  371  440]
+ [ 482  563 1285]]
+======================================================================
+Model: CatBoost
+------------------------------
+Accuracy:          0.4807
+Balanced Accuracy: 0.4648
+MCC:               0.2179
+Cohen's Kappa:     0.2118
+Macro ROC-AUC:     0.6669
+Calibrated AUC:    0.6645
+Accuracy (opt thr): 0.5018
+Bal.Acc (opt thr):  0.4652
+
+Classification Report (default threshold):
+              precision    recall  f1-score   support
+
+     AwayWin       0.57      0.35      0.44      1593
+        Draw       0.29      0.46      0.36      1338
+     HomeWin       0.62      0.58      0.60      2330
+
+    accuracy                           0.48      5261
+   macro avg       0.50      0.46      0.46      5261
+weighted avg       0.52      0.48      0.49      5261
+
+Classification Report (optimised threshold):
+              precision    recall  f1-score   support
+
+     AwayWin       0.51      0.50      0.50      1593
+        Draw       0.29      0.24      0.26      1338
+     HomeWin       0.60      0.65      0.62      2330
+
+    accuracy                           0.50      5261
+   macro avg       0.46      0.47      0.46      5261
+weighted avg       0.49      0.50      0.49      5261
+
+Confusion Matrix:
+[[ 559  696  338]
+ [ 230  622  486]
+ [ 185  797 1348]]
+Training curve: metric=MultiClass, best_iter=41, final_train=0.9381, final_val=1.0112
+
+======================================================================
+Model: Logistic Regression
+------------------------------
+Accuracy:          0.4665
+Balanced Accuracy: 0.4676
+MCC:               0.2126
+Cohen's Kappa:     0.2072
+Macro ROC-AUC:     0.6592
+Calibrated AUC:    0.6604
+Accuracy (opt thr): 0.4912
+Bal.Acc (opt thr):  0.4673
+
+Classification Report (default threshold):
+              precision    recall  f1-score   support
+
+     AwayWin       0.49      0.54      0.51      1593
+        Draw       0.29      0.42      0.34      1338
+     HomeWin       0.66      0.44      0.53      2330
+
+    accuracy                           0.47      5261
+   macro avg       0.48      0.47      0.46      5261
+weighted avg       0.51      0.47      0.48      5261
+
+Classification Report (optimised threshold):
+              precision    recall  f1-score   support
+
+     AwayWin       0.51      0.49      0.50      1593
+        Draw       0.29      0.32      0.31      1338
+     HomeWin       0.61      0.59      0.60      2330
+
+    accuracy                           0.49      5261
+   macro avg       0.47      0.47      0.47      5261
+weighted avg       0.50      0.49      0.49      5261
+
+Confusion Matrix:
+[[ 860  516  217]
+ [ 451  562  325]
+ [ 452  846 1032]]
+======================================================================
+Model: AdaBoost
+------------------------------
+Accuracy:          0.4640
+Balanced Accuracy: 0.4656
+MCC:               0.2129
+Cohen's Kappa:     0.2053
+Macro ROC-AUC:     0.6547
+Calibrated AUC:    0.6580
+Accuracy (opt thr): 0.4455
+Bal.Acc (opt thr):  0.4526
+
+Classification Report (default threshold):
+              precision    recall  f1-score   support
+
+     AwayWin       0.53      0.47      0.50      1593
+        Draw       0.28      0.47      0.35      1338
+     HomeWin       0.65      0.46      0.54      2330
+
+    accuracy                           0.46      5261
+   macro avg       0.49      0.47      0.46      5261
+weighted avg       0.52      0.46      0.48      5261
+
+Classification Report (optimised threshold):
+              precision    recall  f1-score   support
+
+     AwayWin       0.60      0.29      0.39      1593
+        Draw       0.29      0.61      0.39      1338
+     HomeWin       0.65      0.46      0.54      2330
+
+    accuracy                           0.45      5261
+   macro avg       0.51      0.45      0.44      5261
+weighted avg       0.54      0.45      0.46      5261
+
+Confusion Matrix:
+[[ 743  629  221]
+ [ 362  634  342]
+ [ 295  971 1064]]
+======================================================================
+Model: KNN
+------------------------------
+Accuracy:          0.4539
+Balanced Accuracy: 0.4117
+MCC:               0.1350
+Cohen's Kappa:     0.1332
+Macro ROC-AUC:     0.5868
+Calibrated AUC:    0.5942
+Accuracy (opt thr): 0.4235
+Bal.Acc (opt thr):  0.4038
+
+Classification Report (default threshold):
+              precision    recall  f1-score   support
+
+     AwayWin       0.43      0.40      0.41      1593
+        Draw       0.28      0.20      0.23      1338
+     HomeWin       0.52      0.64      0.58      2330
+
+    accuracy                           0.45      5261
+   macro avg       0.41      0.41      0.41      5261
+weighted avg       0.43      0.45      0.44      5261
+
+Classification Report (optimised threshold):
+              precision    recall  f1-score   support
+
+     AwayWin       0.45      0.30      0.36      1593
+        Draw       0.26      0.37      0.31      1338
+     HomeWin       0.54      0.53      0.54      2330
+
+    accuracy                           0.42      5261
+   macro avg       0.42      0.40      0.40      5261
+weighted avg       0.44      0.42      0.43      5261
+
+Confusion Matrix:
+[[ 632  300  661]
+ [ 372  266  700]
+ [ 459  381 1490]]
+======================================================================
+Model: Gradient Boosting
+------------------------------
+Accuracy:          0.4516
+Balanced Accuracy: 0.4338
+MCC:               0.1655
+Cohen's Kappa:     0.1649
+Macro ROC-AUC:     0.6236
+Calibrated AUC:    0.6287
+Accuracy (opt thr): 0.4609
+Bal.Acc (opt thr):  0.4328
+
+Classification Report (default threshold):
+              precision    recall  f1-score   support
+
+     AwayWin       0.46      0.48      0.47      1593
+        Draw       0.27      0.30      0.28      1338
+     HomeWin       0.59      0.52      0.55      2330
+
+    accuracy                           0.45      5261
+   macro avg       0.44      0.43      0.43      5261
+weighted avg       0.47      0.45      0.46      5261
+
+Classification Report (optimised threshold):
+              precision    recall  f1-score   support
+
+     AwayWin       0.50      0.35      0.41      1593
+        Draw       0.28      0.35      0.31      1338
+     HomeWin       0.57      0.60      0.58      2330
+
+    accuracy                           0.46      5261
+   macro avg       0.45      0.43      0.43      5261
+weighted avg       0.47      0.46      0.46      5261
+
+Confusion Matrix:
+[[ 766  454  373]
+ [ 454  407  477]
+ [ 456  671 1203]]
+Training curve: metric=accuracy, best_iter=18, final_train=0.5659, final_val=0.4516
+
+======================================================================
+Model: XGBoost
+------------------------------
+Accuracy:          0.4497
+Balanced Accuracy: 0.4428
+MCC:               0.1803
+Cohen's Kappa:     0.1760
+Macro ROC-AUC:     0.6350
+Calibrated AUC:    0.6409
+Accuracy (opt thr): 0.4406
+Bal.Acc (opt thr):  0.4469
+
+Classification Report (default threshold):
+              precision    recall  f1-score   support
+
+     AwayWin       0.43      0.59      0.50      1593
+        Draw       0.27      0.30      0.28      1338
+     HomeWin       0.64      0.44      0.52      2330
+
+    accuracy                           0.45      5261
+   macro avg       0.45      0.44      0.43      5261
+weighted avg       0.48      0.45      0.45      5261
+
+Classification Report (optimised threshold):
+              precision    recall  f1-score   support
+
+     AwayWin       0.50      0.39      0.44      1593
+        Draw       0.28      0.53      0.37      1338
+     HomeWin       0.65      0.43      0.52      2330
+
+    accuracy                           0.44      5261
+   macro avg       0.48      0.45      0.44      5261
+weighted avg       0.51      0.44      0.45      5261
+
+Confusion Matrix:
+[[ 940  430  223]
+ [ 581  397  360]
+ [ 657  644 1029]]
+Training curve: metric=mlogloss, best_iter=26, final_train=0.7163, final_val=1.0666
+
+======================================================================
+Model: LightGBM
+------------------------------
+Accuracy:          0.4478
+Balanced Accuracy: 0.4378
+MCC:               0.1713
+Cohen's Kappa:     0.1688
+Macro ROC-AUC:     0.6339
+Calibrated AUC:    0.6375
+Accuracy (opt thr): 0.4647
+Bal.Acc (opt thr):  0.4476
+
+Classification Report (default threshold):
+              precision    recall  f1-score   support
+
+     AwayWin       0.44      0.55      0.49      1593
+        Draw       0.27      0.30      0.28      1338
+     HomeWin       0.61      0.46      0.53      2330
+
+    accuracy                           0.45      5261
+   macro avg       0.44      0.44      0.43      5261
+weighted avg       0.47      0.45      0.45      5261
+
+Classification Report (optimised threshold):
+              precision    recall  f1-score   support
+
+     AwayWin       0.48      0.50      0.49      1593
+        Draw       0.28      0.32      0.30      1338
+     HomeWin       0.60      0.53      0.56      2330
+
+    accuracy                           0.46      5261
+   macro avg       0.45      0.45      0.45      5261
+weighted avg       0.48      0.46      0.47      5261
+
+Confusion Matrix:
+[[ 876  431  286]
+ [ 543  403  392]
+ [ 584  669 1077]]
+Training curve: metric=multi_logloss, best_iter=15, final_train=0.6825, final_val=1.0558
+
+======================================================================

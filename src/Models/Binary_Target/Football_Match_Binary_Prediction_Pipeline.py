@@ -48,7 +48,7 @@ def get_models(config):
         'XGBoost':             XGBClassifier(**model_params.get('xgboost', {})),
         'LightGBM':            LGBMClassifier(**model_params.get('lightgbm', {})),
         'CatBoost':            CatBoostClassifier(**catboost_params),
-        #'Neural Network':     MLPClassifier(**model_params.get('neural_network', {})),
+        'Neural Network':     MLPClassifier(**model_params.get('neural_network', {})),
         'KNN':                 KNeighborsClassifier(**model_params.get('knn', {})),
         'AdaBoost':            AdaBoostClassifier(**model_params.get('adaboost', {})),
         'Extra Trees':         ExtraTreesClassifier(**model_params.get('extra_trees', {}))

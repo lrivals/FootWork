@@ -1,0 +1,56 @@
+================================================================================
+BETTING BACKTEST REPORT — FootWork
+Generated : 2026-02-27 18:12
+Test set  : 2022-2024  |  Initial bankroll : 1000.0
+Flat stake: 1% per bet
+================================================================================
+
+=== STRATEGY SUMMARY ===
+Strategy                       Bets  WinRate    ROI%       P&L   MaxDD%   Sharpe
+--------------------------------------------------------------------------------
+always_bet_prediction          5261    50.2%    -6.1%      -924    -95.5%    -2.26
+value_bets_ev5                 2514    30.2%    -5.7%      -704    -75.9%    -0.94
+value_bets_ev10                1386    26.3%    -8.3%      -637    -69.9%    -0.81
+kelly_ev5                      2514    30.2%    -1.9%      -495    -81.8%    -0.30
+high_confidence                1854    67.6%    -1.9%      -280    -41.8%    -0.62
+
+=== P&L BY OUTCOME TYPE ===
+
+always_bet_prediction:
+  Outcome             P&L   N bets    Avg/bet
+  AwayWin            -246     1587      -0.16
+  Draw               -371     1133      -0.33
+  HomeWin            -307     2541      -0.12
+
+value_bets_ev5:
+  Outcome             P&L   N bets    Avg/bet
+  AwayWin            -397      572      -0.69
+  Draw               -287     1668      -0.17
+  HomeWin             -19      274      -0.07
+
+value_bets_ev10:
+  Outcome             P&L   N bets    Avg/bet
+  AwayWin            -260      287      -0.90
+  Draw               -351      987      -0.36
+  HomeWin             -26      112      -0.24
+
+kelly_ev5:
+  Outcome             P&L   N bets    Avg/bet
+  AwayWin             +23      572      +0.04
+  Draw               -446     1668      -0.27
+  HomeWin             -73      274      -0.27
+
+high_confidence:
+  Outcome             P&L   N bets    Avg/bet
+  AwayWin             -45      528      -0.08
+  HomeWin            -235     1326      -0.18
+
+=== P&L BY LEAGUE (best strategy: high_confidence) ===
+  League                        P&L   N bets    Avg/bet
+--------------------------------------------------------
+  Spain                         +11      315      +0.03
+  Brazil                        -12      183      -0.07
+  Italy                         -28      387      -0.07
+  Premier_League                -68      402      -0.17
+  France                        -72      300      -0.24
+  Germany                      -109      267      -0.41

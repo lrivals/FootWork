@@ -1,0 +1,19 @@
+Hierarchical Cascade Classifier — Results
+Generated: 2026-02-28 02:12
+============================================================
+
+Accuracy         : 0.4714
+Balanced Accuracy: 0.4062
+MCC              : 0.1554
+Cohen's Kappa    : 0.1359
+
+Classification Report:
+              precision    recall  f1-score   support
+
+     AwayWin       0.82      0.11      0.20      1593
+        Draw       0.27      0.28      0.28      1338
+     HomeWin       0.52      0.83      0.64      2330
+
+    accuracy                           0.47      5261
+   macro avg       0.54      0.41      0.37      5261
+weighted avg       0.55      0.47      0.41      5261

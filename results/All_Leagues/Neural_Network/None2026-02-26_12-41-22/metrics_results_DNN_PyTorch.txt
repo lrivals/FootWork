@@ -1,0 +1,69 @@
+Results — DNN PyTorch (Football Match Prediction)
+======================================================================
+
+=== BASELINE METRICS (default threshold) ===
+Accuracy              : 0.5028
+Balanced Accuracy     : 0.4627
+MCC                   : 0.2195
+Cohen Kappa           : 0.2179
+Macro ROC-AUC         : 0.6576
+
+=== PER-CLASS AUC (OvR) ===
+  AwayWin     : 0.7092
+  Draw        : 0.5538
+  HomeWin     : 0.7092
+
+=== CALIBRATED vs UNCALIBRATED MACRO AUC ===
+  Raw AUC : 0.6576
+  Cal AUC : 0.6576
+  Delta   : +0.0000
+
+=== OPTIMISED THRESHOLD METRICS ===
+  Accuracy (default) : 0.5028
+  Accuracy (opt)     : 0.4896
+  Bal.Acc (default)  : 0.4627
+  Bal.Acc (opt)      : 0.4641
+
+=== OPTIMAL THRESHOLDS (OvR, on calibration set) ===
+  AwayWin     : threshold=0.260  F1=0.561
+  Draw        : threshold=0.254  F1=0.449
+  HomeWin     : threshold=0.376  F1=0.640
+
+=== CLASSIFICATION REPORT (default threshold) ===
+              precision    recall  f1-score   support
+
+     AwayWin       0.53      0.44      0.48      1593
+        Draw       0.30      0.27      0.28      1338
+     HomeWin       0.58      0.68      0.63      2330
+
+    accuracy                           0.50      5261
+   macro avg       0.47      0.46      0.46      5261
+weighted avg       0.49      0.50      0.49      5261
+
+=== CLASSIFICATION REPORT (optimised threshold) ===
+              precision    recall  f1-score   support
+
+     AwayWin       0.45      0.64      0.53      1593
+        Draw       0.28      0.20      0.23      1338
+     HomeWin       0.63      0.55      0.59      2330
+
+    accuracy                           0.49      5261
+   macro avg       0.45      0.46      0.45      5261
+weighted avg       0.49      0.49      0.48      5261
+
+=== CONFUSION MATRIX (default threshold) ===
+[[ 700  400  493]
+ [ 335  358  645]
+ [ 294  449 1587]]
+
+=== CONFUSION MATRIX (optimised threshold) ===
+[[1020  273  300]
+ [ 616  265  457]
+ [ 632  407 1291]]
+
+=== TRAINING CURVE SUMMARY ===
+  Total epochs     : 23
+  Best epoch       : 13
+  Best val_loss    : 1.0019
+  Final train_loss : 0.9663
+  Final val_loss   : 1.0059
