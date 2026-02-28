@@ -1,6 +1,6 @@
 # FootWork — Football Match Prediction
 
-Last update: 2026-02-25
+Last update: 2026-02-28
 
 ## Overview
 
@@ -8,14 +8,14 @@ FootWork is a machine learning project that predicts football match outcomes
 (Home Win / Draw / Away Win) across 6 major leagues. The pipeline covers the
 full data science workflow: raw data ingestion, multi-season feature
 engineering, temporal train/calibration/test splitting, multi-model training,
-probability calibration, and threshold optimisation.
-
-Two prediction tasks are tackled in parallel:
+probability calibration, threshold optimisation, and betting simulation.
 
 | Task | Target | Models |
 | --- | --- | --- |
-| **Multiclass** | HomeWin / Draw / AwayWin (3 classes) | 10 classifiers |
+| **Multiclass** | HomeWin / Draw / AwayWin (3 classes) | 11 classifiers |
 | **Binary** | Home Win vs Not, Away Win vs Not | 9 classifiers × 2 targets |
+| **Hierarchical** | Stage1 (HomeWin/Not) + Stage2 (Draw/Away) | CatBoost cascade |
+| **Neural Network** | HomeWin / Draw / AwayWin (3 classes) | PyTorch DNN |
 
 ---
 
@@ -24,7 +24,7 @@ Two prediction tasks are tackled in parallel:
 ```
 FootWork/
 ├── data/
-│   ├── all_leagues_combined.csv          # Master dataset (24 489 matches, 130 cols)
+│   ├── all_leagues_combined.csv          # Master dataset (~24 500 matches, ~134 cols)
 │   ├── Premier_League/clean_premiere_league_data/
 │   ├── France/clean_league_1_data/
 │   ├── Germany/clean_bundesliga_data/
@@ -37,6 +37,7 @@ FootWork/
 │   │   ├── Config_Manager.py             # YAML config loader
 │   │   ├── configMC_1.yaml               # Multiclass pipeline config
 │   │   ├── configBT_1.yaml               # Binary pipeline config
+│   │   ├── configNN_1.yaml               # Neural Network pipeline config
 │   │   └── data_processing_config.yaml   # Data processor config
 │   │
 │   ├── Data_Processing/
@@ -46,12 +47,20 @@ FootWork/
 │   │   ├── ELO_Rating.py                 # ELO calculator (cross-season)
 │   │   └── __init__.py
 │   │
+│   ├── Analysis/
+│   │   └── Betting_Backtest.py           # Betting simulation (7 strategies)
+│   │
 │   └── Models/
 │       ├── threshold_optimizer.py        # F1-optimal threshold search (binary + multiclass)
 │       ├── Multiclass_Target/
-│       │   └── Football_Match_Prediction_Pipeline.py
-│       └── Binary_Target/
-│           └── Football_Match_Binary_Prediction_Pipeline.py
+│       │   ├── Football_Match_Prediction_Pipeline.py
+│       │   └── optuna_tuner.py           # CatBoost hyperparameter search (Optuna)
+│       ├── Binary_Target/
+│       │   └── Football_Match_Binary_Prediction_Pipeline.py
+│       ├── Hierarchical/
+│       │   └── Football_Match_Hierarchical_Pipeline.py
+│       └── Neural_Network/
+│           └── Football_Match_NN_Pipeline.py
 │
 ├── notebooks/
 │   ├── 01_Data_Processing.ipynb
@@ -62,13 +71,24 @@ FootWork/
 │   └── All_Leagues/
 │       ├── Multiclass_Target/multiclass_prediction<timestamp>/
 │       │   ├── metrics_results_Full_Dataset_Multiclass.txt
+│       │   ├── predictions_<Model>.csv   # per-match predictions with EV & Kelly
 │       │   ├── roc_*.png
 │       │   ├── calibration_*.png
 │       │   └── confusion_matrix_*.png
-│       └── Binary_Target/Multiple_Model<timestamp>/
-│           ├── metrics_results_Full_Dataset_Home_Win.txt
-│           ├── metrics_results_Full_Dataset_Away_Win.txt
-│           └── *.png
+│       ├── Binary_Target/Multiple_Model<timestamp>/
+│       │   ├── metrics_results_Full_Dataset_Home_Win.txt
+│       │   ├── metrics_results_Full_Dataset_Away_Win.txt
+│       │   └── *.png
+│       ├── Hierarchical/hierarchical_<timestamp>/
+│       │   ├── metrics_hierarchical.txt
+│       │   └── predictions_Hierarchical.csv
+│       └── Neural_Network/
+│           └── metrics_results_DNN_PyTorch.txt
+│
+├── results/Backtest/
+│   ├── backtest_report.txt
+│   ├── bankroll_evolution.png
+│   └── pnl_by_outcome.png
 │
 ├── docs/
 ├── requirements.txt
@@ -89,7 +109,7 @@ FootWork/
 | Serie A | Italy | 2010–2024 | ~4 800 |
 | La Liga | Spain | 2012–2024 | ~4 100 |
 | Série A | Brazil | 2013–2024 | ~3 800 |
-| **Total** | | **2012–2024** | **24 489** |
+| **Total** | | **2012–2024** | **~24 500** |
 
 Source: [footystats.org](https://footystats.org/)
 
@@ -113,8 +133,8 @@ Class distribution in the test set: HomeWin 44 % · AwayWin 30 % · Draw 25 %
 
 ## Feature Engineering
 
-130 columns total (after dropping metadata). Built by
-`Multi-Season_Match_Data_Processor.py`, which processes each season
+~134 columns total (including 3 raw odds stored for backtesting, not used in training).
+Built by `Multi-Season_Match_Data_Processor.py`, which processes each season
 sequentially while preserving cross-season state.
 
 ### Per-Team Statistics (×2 teams = 96 features)
@@ -130,14 +150,14 @@ Each of the 48 features below is computed for both the home and away team:
 | **Venue** | venue_games, venue_win_ratio, venue_goals_avg, venue_conceded_avg |
 | **Patterns** | clean_sheets_ratio, scoring_ratio, comeback_ratio, lead_loss_ratio, goals_scored/conceded_first_half_ratio |
 | **Short-term form** | recent_ppg / goals_scored / goals_conceded / clean_sheets / draw_ratio for last **3, 5 and 10** matches |
-| **Form trend** | form_trend (slope of recent points over last 10) |
+| **Form trend** | form_trend (ppg_last3 − ppg_last10) |
 
 ### Odds-Derived Features (4)
 
 | Feature | Description |
 | --- | --- |
 | `implied_prob_home/draw/away` | Bookmaker probabilities from odds (margin-removed) |
-| `odds_ratio` | Home / Away implied probability ratio |
+| `odds_ratio` | Away / Home implied probability ratio |
 
 ### ELO Features (3)
 
@@ -151,8 +171,6 @@ State persists across seasons (no reset at season start).
 | `elo_diff` | `home_elo - away_elo` |
 
 ### Differential Features (8)
-
-Head-to-head comparisons between the two teams:
 
 | Feature | Description |
 | --- | --- |
@@ -173,8 +191,7 @@ Head-to-head comparisons between the two teams:
 
 ### Head-to-Head History Features (6)
 
-Historical H2H stats between the two teams. State persists across seasons
-and across all processed leagues.
+Historical H2H stats between the two teams (last 5 encounters). State persists across seasons.
 
 | Feature | Description |
 | --- | --- |
@@ -185,11 +202,29 @@ and across all processed leagues.
 | `h2h_away_goals_avg` | Average goals scored by the away team in H2H |
 | `h2h_matches_count` | Total H2H matches recorded |
 
+### Fatigue / Calendar Features (5)
+
+Captures physical fatigue and fixture congestion — computed from match dates.
+
+| Feature | Description |
+| --- | --- |
+| `days_since_last_match_home` | Days since the home team's last match |
+| `days_since_last_match_away` | Days since the away team's last match |
+| `matches_last_7_days_home` | Home team matches played in the last 7 days |
+| `matches_last_7_days_away` | Away team matches played in the last 7 days |
+| `is_midweek_match` | Boolean — match played Mon–Thu (proxy for cup/Europa rotations) |
+
+### Raw Odds (3 — stored, not trained)
+
+| Feature | Description |
+| --- | --- |
+| `raw_odds_home/draw/away` | Bookmaker decimal odds — stored in CSV, excluded from training via `excluded_columns` in config, used for EV and Kelly calculation in the backtest module |
+
 ---
 
 ## Models
 
-### Multiclass Pipeline (10 classifiers)
+### Multiclass Pipeline (11 classifiers)
 
 | Model | Class Balancing |
 | --- | --- |
@@ -203,12 +238,47 @@ and across all processed leagues.
 | Logistic Regression | `class_weight='balanced'` |
 | AdaBoost | `sample_weight` (balanced) |
 | KNN | — |
+| Neural Network (sklearn MLP) | `class_weight='balanced'` |
 
 ### Binary Pipeline (9 classifiers × 2 targets)
 
 Same classifiers (excluding XGBoost), trained independently for
-**Home Win** and **Away Win**. CatBoost uses `compute_class_weight`
+**Home Win** and **Away Win**. CatBoost binary uses `compute_class_weight`
 dynamically per target.
+
+### Hierarchical Pipeline
+
+Two-stage CatBoost cascade designed to improve Draw recall:
+
+```text
+Stage 1: HomeWin vs Not-HomeWin  (CatBoost, iterations=200, lr=0.05)
+Stage 2: Draw vs AwayWin         (CatBoost, trained on Not-HomeWin subset only)
+
+Cascade probabilities:
+  P(HomeWin)  = Stage1.P(HomeWin)
+  P(Draw)     = (1 − P(HomeWin)) × Stage2.P(Draw)
+  P(AwayWin)  = (1 − P(HomeWin)) × Stage2.P(AwayWin)
+```
+
+Both stages use isotonic calibration and threshold optimisation on the calibration set.
+Output CSV is compatible with the backtest module.
+
+### Neural Network PyTorch
+
+Custom DNN (`FootballMatchNet`) with sklearn-compatible wrapper:
+
+```text
+Input(n_features)
+  → Linear(128) + BatchNorm + ReLU + Dropout(0.4)
+  → Linear(64)  + BatchNorm + ReLU + Dropout(0.3)
+  → Linear(3)
+```
+
+- **Optimizer**: Adam with weight decay (L2), `ReduceLROnPlateau` scheduler
+- **Loss**: CrossEntropyLoss with class weights (Draw=1.5)
+- **Early stopping**: patience=10 epochs, restores best weights
+- **Calibration**: `_IsotonicCalibratedNN` (custom per-class isotonic — bypasses FrozenEstimator limitation with PyTorch)
+- **Config**: `src/Config/configNN_1.yaml`
 
 ---
 
@@ -297,9 +367,6 @@ Optimal OvR thresholds (CatBoost): AwayWin ~0.28 · Draw ~0.23 · HomeWin ~0.33
 | Gradient Boost | 0.631 | 0.617 | 0.241 | 0.674 | 0.673 | -0.001 |
 | KNN | 0.596 | 0.591 | 0.182 | 0.623 | 0.621 | -0.002 |
 
-Calibration is slightly negative for all Home Win models (−0.001 to −0.003):
-the models were already well-calibrated thanks to `class_weight='balanced'`.
-
 #### Threshold Optimisation — Home Win
 
 | Model | Bal.Acc (default) | Bal.Acc (opt) | Opt. Threshold |
@@ -344,8 +411,42 @@ toward "Not Away Win". The optimised threshold (~0.28) dramatically corrects thi
 | CatBoost | 0.656 | 0.656 | ~0 | 0.29 |
 | AdaBoost | 0.643 | 0.638 | −0.5 pp | 0.30 |
 
-Models already using balanced sampling (CatBoost, LightGBM) gain little from
-threshold optimisation; tree ensembles without it gain the most.
+---
+
+## Betting Backtest
+
+`src/Analysis/Betting_Backtest.py` simulates 7 betting strategies on the test set (2022–2024)
+using the prediction CSVs produced by the multiclass pipeline.
+
+### Expected Value & Kelly
+
+```text
+EV        = model_prob × decimal_odds − 1
+Kelly (¼) = (EV / (odds − 1)) × 0.25   [capped at 10% of bankroll]
+```
+
+### Strategies
+
+| Strategy | Bet on | Stake |
+| --- | --- | --- |
+| `always_bet_prediction` | `pred_opt` outcome | 1% flat |
+| `value_bets_ev5` | Best EV outcome if EV ≥ 5% | 1% flat |
+| `value_bets_ev10` | Best EV outcome if EV ≥ 10% | 1% flat |
+| `kelly_ev5` | Best EV outcome if EV ≥ 5% | Quarter Kelly |
+| `high_confidence` | Best outcome if prob ≥ 55% AND pred_default == pred_opt | 1% flat |
+| `draw_only_ev5` | Draw if ev_draw ≥ 5% | 1% flat |
+| `draw_only_ev10` | Draw if ev_draw ≥ 10% | 1% flat |
+
+### Metrics
+
+ROI · Win rate · Max drawdown · Sharpe (annualised monthly) · P&L by outcome · P&L by league
+
+### Outputs
+
+- `backtest_report.txt` — strategy summary table + P&L breakdown
+- `bankroll_evolution.png` — bankroll curve per strategy over time
+- `pnl_by_outcome.png` — bar chart P&L by HomeWin/Draw/AwayWin per strategy
+- `bets_<best_strategy>.csv` — full bet log for the top strategy
 
 ---
 
@@ -371,7 +472,8 @@ Four axes implemented simultaneously:
 
 Added `class_weight='balanced'` to Logistic Regression, LightGBM, SVM,
 Extra Trees, Random Forest. Added `sample_weight` for XGBoost, Gradient
-Boosting, AdaBoost. CatBoost binary uses `compute_class_weight` dynamically.
+Boosting, AdaBoost. CatBoost binary uses `compute_class_weight`
+dynamically per target.
 CatBoost multiclass uses `class_weights=[1.0, 1.74, 1.0]` to boost Draw.
 
 #### Axe 2 — Threshold Optimisation
@@ -390,9 +492,19 @@ method='isotonic')` and fit on the calibration set. Calibration curves
 #### Axe 4 — H2H Features + ELO
 
 - `ELO_Rating.py`: per-league ELO with cross-season persistence (K=20, home advantage=100). Produces `home_elo`, `away_elo`, `elo_diff`.
-- H2H history: 6 features tracking historical results between teams, persisting across seasons and across league processing runs.
+- H2H history: 6 features tracking historical results between teams, persisting across seasons.
 - 8 differential features comparing the two teams directly.
 - 2 draw propensity features (`combined_draw_tendency`, `match_competitiveness`).
+
+### Phase 4 — Betting Pipeline + Advanced Models
+
+- **Fatigue / calendar features** (5): `days_since_last_match_home/away`, `matches_last_7_days_home/away`, `is_midweek_match`
+- **Raw odds stored** in CSV (`raw_odds_home/draw/away`) — excluded from training, used for EV/Kelly
+- **Prediction CSV export**: per-match predictions with `prob_*`, `pred_default`, `pred_opt`, `ev_*`, `kelly_*`
+- **Betting backtest** (`BettingBacktester`): 7 strategies, chronological simulation, ROI / Sharpe / max drawdown metrics, P&L by outcome and league
+- **Hierarchical cascade**: Stage1 (HomeWin vs Not) + Stage2 (Draw vs Away) — improved Draw recall
+- **Neural Network PyTorch**: custom DNN with BatchNorm, Dropout, isotonic calibration (`_IsotonicCalibratedNN`), early stopping
+- **Optuna hyperparameter search**: automated CatBoost tuning, activate via `optuna.enabled: true` in `configMC_1.yaml`
 
 ### Bug Fixes (post-Phase 3)
 
@@ -410,6 +522,7 @@ method='isotonic')` and fit on the calibration set. Calibration curves
 
 - [Miniconda](https://docs.conda.io/en/latest/miniconda.html) or Anaconda
 - scikit-learn >= 1.2 (handled automatically by `environment.yml`)
+- PyTorch (for Neural Network pipeline — CPU or CUDA)
 
 ### Installation
 
@@ -423,6 +536,9 @@ conda activate footwork
 
 # Update an existing footwork env after changes to environment.yml
 # conda env update -f environment.yml --prune
+
+# Optional: Optuna (for CatBoost hyperparameter search)
+pip install optuna
 ```
 
 ### Running the Pipelines
@@ -431,11 +547,24 @@ conda activate footwork
 # 1. Build the combined dataset (only needed when feature engineering changes)
 python src/Data_Processing/Multi-Season_Match_Data_Processor.py
 
-# 2. Multiclass pipeline (HomeWin / Draw / AwayWin)
+# 2. Multiclass pipeline (HomeWin / Draw / AwayWin) — generates predictions CSV
 python src/Models/Multiclass_Target/Football_Match_Prediction_Pipeline.py
 
 # 3. Binary pipeline (Home Win + Away Win)
 python src/Models/Binary_Target/Football_Match_Binary_Prediction_Pipeline.py
+
+# 4. Neural Network PyTorch pipeline
+python src/Models/Neural_Network/Football_Match_NN_Pipeline.py
+
+# 5. Hierarchical cascade pipeline (improves Draw recall)
+python src/Models/Hierarchical/Football_Match_Hierarchical_Pipeline.py
+
+# 6. Betting backtest (requires predictions CSV from step 2 or 5)
+python src/Analysis/Betting_Backtest.py \
+    --predictions results/All_Leagues/Multiclass_Target/<run>/predictions_CatBoost.csv \
+    --bankroll 1000 \
+    --output results/Backtest/
+    # Optional: --league Spain   (filter to a single league)
 ```
 
 Results are saved in `results/All_Leagues/<task>/<model_type><timestamp>/`.
@@ -460,6 +589,27 @@ jupyter lab
 | Per-league ELO (no cross-league) | ELO ratings are only meaningful within a league |
 | Serial calibration (not parallel) | Exceptions are fully visible; calibration is fast compared to training |
 | FrozenEstimator for calibration | Correct sklearn 1.2+ API; ensures base model weights are not modified |
+| Raw odds stored but not trained | Avoids any lookahead bias; used post-hoc for EV and Kelly criterion in backtest |
+| Hierarchical cascade for Draw | Stage 2 trained only on Draw/Away subset → more specialised classifier for the hardest class |
+| `_IsotonicCalibratedNN` custom class | `CalibratedClassifierCV(FrozenEstimator)` fails for PyTorch wrappers; per-class isotonic regression is equivalent and compatible |
+
+---
+
+## Documentation
+
+Detailed documentation for each module is in [`docs/`](docs/):
+
+| File | Description |
+| --- | --- |
+| [`docs/Data_processing.md`](docs/Data_processing.md) | Feature engineering — all 8 feature categories, anti-leakage guarantees |
+| [`docs/elo_h2h_features.md`](docs/elo_h2h_features.md) | ELO system and H2H features — formulas, cross-season persistence |
+| [`docs/configuration.md`](docs/configuration.md) | All YAML configs documented (MC, BT, NN, data processing) |
+| [`docs/optuna_and_threshold_optimizer.md`](docs/optuna_and_threshold_optimizer.md) | Optuna search space + threshold optimisation (OvR rescaling) |
+| [`docs/hierarchical_pipeline.md`](docs/hierarchical_pipeline.md) | Hierarchical cascade — architecture, probability formulas, outputs |
+| [`docs/neural_network_implementation.md`](docs/neural_network_implementation.md) | PyTorch DNN — architecture, training loop, custom calibration |
+| [`docs/backtest.md`](docs/backtest.md) | Betting backtest — 7 strategies, metrics, CLI usage |
+| [`docs/model-performance.md`](docs/model-performance.md) | Full performance results post-Phase 3 + recommendations |
+| [`docs/analyse_et_axes_amelioration.md`](docs/analyse_et_axes_amelioration.md) | Problem analysis + implementation roadmap (French) |
 
 ---
 
